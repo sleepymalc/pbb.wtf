@@ -1,0 +1,26 @@
+{
+  "name": "tc-imba.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tc-imba/tc-imba.github.io.git"
+  },
+  "author": "tc-imba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tc-imba/tc-imba.github.io/issues"
+  },
+  "homepage": "https://github.com/tc-imba/tc-imba.github.io#readme",
+  "dependencies": {
+    "gatsby": "^3.14.0",
+    "gatsby-theme-academic": "^1.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
