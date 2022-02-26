@@ -1,21 +1,18 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://tc-imba.github.io',
+  siteUrl: 'pbb.wtf',
   title: 'Pingbang Hu',
   description: 'Personal Website of Pingbang Hu',
   author: 'Pingbang Hu',
   authorAlternative: '胡平邦',
   introduction: [
-    'I\'m currently a Ph.D student in Nanyang Technological University (NTU), Singapore. I\'m an graduate researcher in [SCALE](https://www.ntu.edu.sg/scale/about-us) lab, supervised by Prof. Tang Xueyan, currently working on Algorithms in Multi-Agent Systems.',
-    'Despite my current research topic, my research interest spread widely in operating systems, distributed systems, network security and algorithms. "Practice is the sole criterion of truth", I would like to build effective systems and platforms for researchers, developers and the community. I\'m ready to contribute to any small improvement of the infrastructure.',
-    'Besides a researcher, I started my life as a programmer and developer quite early. I learned C/C++ and attended NOIP (National Olympiad in Informatics in Provinces) in China and it becomes my most confident language. I developed my interest in other fields in computer science when I tried to find out what exactly happened behind these code I wrote. I was deeply attracted by the open source community and became an active developer in many projects as well.',
-    'Learning is the passion of my life, learning new knowledge in different fields, learning new programming languages, frameworks and features, and even learning how to play games all inspire me. My passion in learning can be witnessed by my proficiency in various OSs and programming languages. I\'m always curious about the latest language features of C++ and Python; I helped the development of many Java projects, from Swagger API to Minecraft Mods; I developed and maintained web services across many types of Linux distributions during my undergraduate study; I can process data science (my undergraduate minor) tasks in scientific Python, MATLAB, Julia, and Mathematica; I\'m also broadening my language family by learning some new ones such as Go and Rust.',
-    'As a fullstack developer skilled in Python, Javascript (React), SQL, CSS and many others, I built the theme of this website with [Gatsby](https://www.gatsbyjs.com/). The theme is named "gatsby-theme-academic", which is specially designed for academic usage by researchers and students. It is still under development and will be open-sourced soon, please check this [post](/posts/hello-world) for details.'
+    'I\'m currently a Bachelor student major in Computer Science and Mathematics under Honor Mathematics program in University of Michigan (UMich), United States and Electrical Computer Engineering in Shanghai Jiao Tong University (SJTU). My current research is on Graph Neural Network (GNN) advised by [Jiaqi Ma](https://www.jiaqima.com/), under professor [Qiaozhu Mei](http://www-personal.umich.edu/~qmei/)',
+    'Despite my current research topic, my research interest spread widely in Learning Theory, (non) Convex Optimization, Machine Learning Algorithm.',
   ],
   avatar: 'avatar.png',
   professions: [
-    'Bachelor of Science in Computer Science, Mathematics , and Electrical Computer Engineering',
-    'Full Stack Developer',
+    'Bachelor',
+    'Backend Developer',
   ],
   birthday: 'Nov. 10, 2000',
   location: 'United States',
@@ -39,10 +36,10 @@ module.exports = {
       url: '/resume.pdf',
       icon: ['ai', 'cv'],
     }, {
-      url: 'https://github.com/tc-imba',
+      url: 'https://github.com/sleepy_malc',
       icon: ['fab', 'github'],
     }, {
-      url: 'https://twitter.com/liuyh615',
+      url: 'https://twitter.com/PingbangH',
       icon: ['fab', 'twitter'],
     },
   ],
@@ -58,25 +55,25 @@ module.exports = {
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   education: [
     {
-      date: 'Jan 2020 - Present',
-      icon: 'graduation-cap',
-      title: 'Ph.D in Computer Science',
-      location: 'Nanyang Technological University, Singapore',
-    }, {
-      date: 'Sept 2017 - Aug 2021',
+      date: 'Sept 2021 - Present',
       icon: 'university',
-      title: '(Second) B.S. in Applied Mathematics',
+      title: 'Bachelor in Computer Science',
+      location: 'University of Michigan, United States',
+    }, {
+      date: 'Sept 2021 - Present',
+      icon: 'university',
+      title: 'Bachelor in Pure Mathematics (Honors)',
+      location: 'University of Michigan, United States',
+    }, {
+      date: 'Sept 2019 - Present',
+      icon: 'university',
+      title: 'Bachelor in Electrical Computer Engineering',
       location: 'Shanghai Jiao Tong University, China',
     }, {
-      date: 'Sept 2015 - Aug 2019',
-      icon: 'university',
-      title: 'B.S.E. in Electrical and Computer Engineering (with Minor in Data Science)',
-      location: 'Shanghai Jiao Tong University, China',
-    }, {
-      date: 'Sept 2008 - June 2015',
+      date: 'Sept 2016 - June 2019',
       icon: 'school',
-      title: 'Middle School',
-      location: 'Shanghai Southwest Weiyu Middle School, China',
+      title: 'High School',
+      location: 'Wu-Ling Senior High School, Taiwan',
     }],
   interests: [
     {
