@@ -1,5 +1,5 @@
 {
-  "name": "tc-imba.github.io",
+  "name": "pbb.wtf",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tc-imba/tc-imba.github.io.git"
+    "url": "git+https://github.com/sleepymalc/pbb.wtf"
   },
-  "author": "tc-imba",
+  "author": "sleepymalc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tc-imba/tc-imba.github.io/issues"
+    "url": "https://github.com/sleepymalc/pbb.wtf/issues"
   },
-  "homepage": "https://github.com/tc-imba/tc-imba.github.io#readme",
+  "homepage": "https://github.com/sleepymalc/pbb.wtf#readme",
   "dependencies": {
     "gatsby": "^3.14.0",
     "gatsby-theme-academic": "^1.2.2",
