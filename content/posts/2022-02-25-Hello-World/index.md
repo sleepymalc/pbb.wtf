@@ -13,6 +13,6 @@ of problem arises quite often. Besides, my only hobby these days is *photographi
 Apart from all these, since I use $\LaTeX$ a **LOT** (yup, I'm one of those $\LaTeX$ Freaks), and the only way I know how to render $\LaTeX$ formula on GitHub is *ugly*, and it can only render fixed color texts, hence this pushed me to build this website eventually.
 To demonstrate, we can easily print out some beautiful formula like 
 $$
-\lim\limits_{r \to 0} \frac{1}{m(B(x, r))}\int_{B(x, r)}\left\vert f(y) - f(x) \right\vert\,\mathrm{d}y = 0 \text{for a.e. \(x\)}
+\lim\limits_{r \to 0} \frac{1}{m(B(x, r))}\int_{B(x, r)}\left\vert f(y) - f(x) \right\vert\,\mathrm{d}y = 0 \text{ for a.e. \(x\)}
 $$
 for $f\in L^1$, which is the statement of [Lebesgue Differentiation Theorem](https://en.wikipedia.org/wiki/Lebesgue_differentiation_theorem).
