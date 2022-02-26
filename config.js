@@ -13,7 +13,8 @@ module.exports = {
   avatar: 'avatar.png',
   professions: [
     'Bachelor',
-    'Backend Developer',
+    'Mathematician',
+    'Developer',
   ],
   birthday: 'Nov. 10, 2000',
   location: 'United States',
