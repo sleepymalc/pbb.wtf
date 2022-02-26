@@ -36,7 +36,7 @@ module.exports = {
       url: '/resume.pdf',
       icon: ['ai', 'cv'],
     }, {
-      url: 'https://github.com/sleepy_malc',
+      url: 'https://github.com/sleepymalc',
       icon: ['fab', 'github'],
     }, {
       url: 'https://twitter.com/PingbangH',
