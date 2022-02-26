@@ -26,6 +26,6 @@ $$\begin{tikzcd}
 		\end{tikzcd}$$
 which is just a simple [commutative diagram](https://en.wikipedia.org/wiki/Commutative_diagram) for [Seifert–Van Kampen theorem](https://en.wikipedia.org/wiki/Seifert%E2%80%93Van_Kampen_theorem), or like 
 $$
-\lim\limits_{r \to 0} \frac{1}{m(B(x, r))}\int_{B(x, r)}\left\vert f(y) - f(x) \right\vert   \,\mathrm{d}y = 0 \text{for a.e. \(x\)}
+\lim\limits_{r \to 0} \frac{1}{m(B(x, r))}\int_{B(x, r)}\left\vert f(y) - f(x) \right\vert\,\mathrm{d}y = 0 \text{for a.e. \(x\)}
 $$
 for $f\in L^1$, which is the statement of [Lebesgue Differentiation Theorem](https://en.wikipedia.org/wiki/Lebesgue_differentiation_theorem).
