@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'pbb.wtf',
+  siteUrl: 'https://pbb.wtf',
   title: 'Pingbang Hu',
   description: 'Personal Website of Pingbang Hu',
   author: 'Pingbang Hu',
@@ -44,7 +44,7 @@ module.exports = {
     },
   ],
   wakatime: {
-    username: 'tcimba',
+    username: 'sleepymalc',
     activity: '7add4047-08f9-4da8-b649-aa114503678f',
     language: '460a84ab-722a-4b80-b896-cabaa13ad7eb',
     editor: 'd851639a-28d8-4884-949f-d338a858f7e9',
