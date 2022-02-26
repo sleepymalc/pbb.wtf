@@ -1,6 +1,6 @@
 ---
 title: "cout<< pbb.self();"
-tags: ["blog"]
+tags: ["emo"]
 date: 2022-02-26
 path: "posts/Me"
 excerpt: I'm just a regular student who is stressed and can't fall asleep every night. I have lots to say to this world, but no one is listening, not because people intended ignoring me, just because I'm not that important, and we all understand that.
