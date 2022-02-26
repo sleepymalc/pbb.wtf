@@ -106,29 +106,14 @@ module.exports = {
       position: 'right',
       data: [
         {
-          date: 'Summer 2019',
+          date: 'Fall 2020',
           title: 'Teaching Assistant',
-          description: 'VE572 (Methods and Tools for Big Data)',
+          description: 'Vv186 (Honor Mathematics I)',
           location: 'Shanghai Jiao Tong University, China',
         }, {
-          date: 'Fall 2018',
+          date: 'Summer 2021',
           title: 'Teaching Assistant',
-          description: 'VE482 (Introduction to Operating Systems)',
-          location: 'Shanghai Jiao Tong University, China',
-        }, {
-          date: 'Fall 2018',
-          title: 'Teaching Assistant',
-          description: 'VE281 (Data Structures and Algorithms)',
-          location: 'Shanghai Jiao Tong University, China',
-        }, {
-          date: 'Summer 2019',
-          title: 'Teaching Assistant',
-          description: 'VE280 (Programming and Elementary Data Structures)',
-          location: 'Shanghai Jiao Tong University, China',
-        }, {
-          date: 'Summer 2018',
-          title: 'Teaching Assistant',
-          description: 'VG101 (Introduction to Computer and Programming)',
+          description: 'Vv285 (Honor Mathematics II)',
           location: 'Shanghai Jiao Tong University, China',
         },
       ],
@@ -154,12 +139,20 @@ module.exports = {
   ],
   awards: [
     {
-      date: 'Nov 2019',
-      title: 'NTU Research Scholarship',
+      date: 'Oct. 2021',
+      title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship, SJTU',
     },
     {
-      date: 'Feb 2019',
-      title: 'Meritorious Winner in Mathematical Contest In Modeling',
+      date: 'Nov. 2020',
+      title: 'Undergraduate Excellent Scholarship, SJTU',
+    },
+    {
+      date: 'Jun. 2020',
+      title: 'Bao Gang Excellent Scholarship, SJTU',
+    },
+    {
+      date: 'Dec. 2019',
+      title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship, SJTU',
     },
   ],
   tagColors: [
