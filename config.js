@@ -8,7 +8,7 @@ module.exports = {
   introduction: [
     'I\'m currently a Bachelor student major in Computer Science and Mathematics under Honor Mathematics program in University of Michigan (UMich), United States and Electrical Computer Engineering in Shanghai Jiao Tong University (SJTU). My current research is on Graph Neural Network (GNN) advised by [Jiaqi Ma](https://www.jiaqima.com/), under professor [Qiaozhu Mei](http://www-personal.umich.edu/~qmei/)',
     'Despite my current research topic, my research interest spread widely in Learning Theory, (non) Convex Optimization, Machine Learning Algorithm, and provable Machine Learning Theory',
-    'I think I need to explain a little bit about the domain about this webpage, `pbb.wtf`. This is actually a cute joke I heard when I\'m still a young math enthusiast. On day back in my high school in Taiwan, when I first pick up my very first English Math text book, [Calculus](https://www.stewartcalculus.com/), though I can understand most of the content, but those abbreviations bugs me a lot. One day, I can\'t remember why, but I search for the keyword *WTF math abbreviation*, and guess what, it\'s the abbreviation of *write the formula*. I just can\'t believe this is really the case, so at the end of the day, when I\;m searching for my own domain and I found this, I feel like this is it, this is my final answer.',
+    'Let me explain why I use `pbb.wtf`. There is actually a cute joke I heard when I\'m still a young math enthusiast. When I studied in Taiwan, though I can understand most of the content in English math literatures, but those abbreviations bugged me a lot. One day, I can\'t remember why, but I search for the keyword <u>*WTF math abbreviation*</u>, and guess what, it\'s the abbreviation of <u>*write the formula*</u>. I just can\'t believe this is indeed the case, so at the end of the day, I feel like this is it when I first saw `pbb.wtf`.',
   ],
   avatar: 'avatar.png',
   professions: [
@@ -80,7 +80,7 @@ module.exports = {
   interests: [
     {
       icon: 'cubes',
-      title: 'Distributed Systems',
+      title: 'Machine Learning',
     }, {
       icon: ['fab', 'docker'],
       title: 'Containerization',
