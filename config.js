@@ -67,7 +67,7 @@ module.exports = {
     }, {
       date: 'Sept 2021 - Present',
       icon: 'university',
-      title: 'Bachelor in Pure Mathematics (Honors)',
+      title: 'Bachelor in Mathematics (Honors)',
       location: 'University of Michigan, United States',
     }, {
       date: 'Sept 2019 - Present',
@@ -85,32 +85,23 @@ module.exports = {
       icon: 'drum',
       title: 'Drum!',
     }, {
-      icon: 'guitar-electric',
-      title: 'Guitar!',
-    }, {
-      icon: 'keyboard',
-      title: 'HHKB is the best.',
-    }, {
-      icon: 'type-write',
-      title: 'I can type around WPM of 140.',
+      icon: ['far', 'keyboard'],
+      title: 'I can type around WPM of 140. Btw, HHKB is the best, period.',
     }, {
       icon: 'camera-retro',
       title: 'Street Phonography',
     }, {
-      icon: 'theta',
+      icon: 'brain',
       title: 'Algorithm',
     }, {
-      icon: 'function',
+      icon: 'infinity',
       title: 'Math',
     }, {
-      icon: 'chart-network',
-      title: 'Graph Neural Network',
-    }, {
-      icon: 'laptop-code',
-      title: 'Development',
-    }, {
-      icon: 'apple',
+      icon: ['fab', 'apple'],
       title: 'macOS',
+    }, {
+      icon: 'cat',
+      title: 'Who doesn\'t like cats?',
     }],
   experience: [
     {
