@@ -1,2 +1,3 @@
 # pbb.wtf
-My personal webpage.
+
+My personal webpage. The domain name means *write-the-formula*.
