@@ -50,8 +50,8 @@ module.exports = {
   ],
   wakatime: {
     username: 'sleepymalc',
-    activity: 'd9a915d6-8060-4152-b054-0b2a9be1eb1b',
-    language: '2c60d335-1ec4-4c89-a088-87c47b0d1747',
+    activity: 'dffaa52c-7d3e-4bda-99a5-4c9205ff244c',
+    language: 'cccb943f-2bfc-47e5-b218-c56b858c1a90',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT
     || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
