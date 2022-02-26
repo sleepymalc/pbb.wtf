@@ -12,7 +12,7 @@ of problem arises quite often. Besides, my only hobby these days is *photographi
 
 Apart from all these, since I use $\LaTeX$ a **LOT** (yup, I'm one of those $\LaTeX$ Freaks), and the only way I know how to render $\LaTeX$ formula on GitHub is *ugly*, and it can only render fixed color texts, hence this makes me made my mind eventually.
 For example, we can easily print out some beautiful formula like 
-<!-- $$\begin{tikzcd}
+$$\begin{tikzcd}
 			S & {G_\alpha} \\
 			{G_\beta} & {G_\alpha \ast_S G_\beta} \\
 			&& X
@@ -23,9 +23,9 @@ For example, we can easily print out some beautiful formula like
 			\arrow["{\exists !}", dashed, from=2-2, to=3-3]
 			\arrow[curve={height=-12pt}, from=1-2, to=3-3]
 			\arrow[curve={height=12pt}, from=2-1, to=3-3]
-		\end{tikzcd}$$ -->
+		\end{tikzcd}$$
 which is just a simple [commutative diagram](https://en.wikipedia.org/wiki/Commutative_diagram) for [Seifert–Van Kampen theorem](https://en.wikipedia.org/wiki/Seifert%E2%80%93Van_Kampen_theorem), or like 
 $$
-\lim\limits_{r \to 0} \frac{1}{m(B(x, r))}\int_{B(x, r)}\left\vert f(y) - f(x) \right\vert\,\mathrm{d}y = 0 \text{for a.e. \(x\)}
+\lim\limits_{r \to 0} \frac{1}{m(B(x, r))}\int_{B(x, r)}\left\vert f(y) - f(x) \right\vert\,\mathrm{d}y = 0 \text{ for a.e. \(x\)}
 $$
 for $f\in L^1$, which is the statement of [Lebesgue Differentiation Theorem](https://en.wikipedia.org/wiki/Lebesgue_differentiation_theorem).
