@@ -86,7 +86,7 @@ module.exports = {
       title: 'Drum!',
     }, {
       icon: 'keyboard',
-      title: 'My WPM is around 140. Btw, HHKB is the best, period.',
+      title: 'HHKB is the best, period.',
     }, {
       icon: 'camera-retro',
       title: 'Street Phonography',
@@ -94,8 +94,8 @@ module.exports = {
       icon: 'brain',
       title: 'Algorithm',
     }, {
-      icon: 'square-root-variable',
-      title: 'Math',
+      icon: 'shapes',
+      title: 'Topology',
     }, {
       icon: 'cat',
       title: 'Who doesn\'t love cats?',
