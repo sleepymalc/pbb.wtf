@@ -118,20 +118,14 @@ module.exports = {
         },
       ],
     }, {
-      title: 'Open Source Community',
+      title: 'Backend Development',
       position: 'left',
       data: [
         {
-          date: 'Fall 2018 - Present',
-          title: 'Leader and Fullstack Developer',
-          description: '[Joint Online Judge](https://github.com/joint-online-judge): ' +
-            'Open source code judging and evaluation platform powered by async programming, containerization and modern frontend',
-          location: 'on GitHub',
-        }, {
-          date: '2021 - Present',
-          title: 'Researcher and Backend Developer',
-          description: '[Brick Schema Example Server](https://github.com/BrickSchema/brick-example-server): ' +
-            'Open-source ontology for building assets, subsystems and data',
+          date: 'Fall 2020 - Present',
+          title: 'Backend Developer (One man group)',
+          description: '[foodall](https://foodall.com.tw/): ' +
+            'A food delivery service platform for Taiwan',
           location: 'on GitHub',
         },
       ],
