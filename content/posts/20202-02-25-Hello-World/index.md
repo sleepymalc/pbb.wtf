@@ -1,13 +1,10 @@
 ---
-title: "Hello World"
+title: "printf("Hello World\n");"
 tags: ["blog"]
 date: 2022-02-25
-path: "posts/blog"
+path: "posts/Hello-World"
 excerpt: Building my very first personal website.
-output: 
-  pdf_document:
-    extra_dependencies:
-		tikzcd: null
+cover: "./preview.png"
 ---
 
 Though I'm quite satisfied to show my work on [GitHub](https://github.com/sleepymalc), it turns out that I have much more want to show. For example, GitHub is extremely unfriendly to show `.pdf` files since the internal link (we call it *hyperlink* for those $\LaTeX$ geeks) doesn't work. This kind 
