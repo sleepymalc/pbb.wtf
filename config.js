@@ -7,8 +7,8 @@ module.exports = {
   authorAlternative: '胡平邦',
   introduction: [
     'I\'m currently a Bachelor student major in Computer Science and Mathematics under Honor Mathematics program in University of Michigan (UMich), United States and Electrical Computer Engineering in Shanghai Jiao Tong University (SJTU). My current research is on Graph Neural Network (GNN) advised by [Jiaqi Ma](https://www.jiaqima.com/), under professor [Qiaozhu Mei](http://www-personal.umich.edu/~qmei/)',
-    'Despite my current research topic, my research interest spread widely in Learning Theory, (non) Convex Optimization, Machine Learning Algorithm, and provable Machine Learning Theory',
-    'Let me explain why I use `pbb.wtf`. There is actually a cute joke I heard when I\'m still a young math enthusiast. When I studied in Taiwan, though I can understand most of the content in English math literatures, but those abbreviations bugged me a lot. One day, I can\'t remember why, but I google the keyword <u>*WTF math abbreviation*</u>, and guess what, it\'s the abbreviation of <u>*write the formula*</u>. I just can\'t believe this is indeed the case, so at the end of the day, when I first saw `pbb.wtf`, I know this is my final answer.',
+    'Despite my current research topic, my research interest spread widely in Learning Theory, (non) Convex Optimization, Machine Learning Algorithm, and provable Machine Learning Theory. Specifically, I\'m learned Linear Programming follows [Jon Lee](https://sites.google.com/site/jonleewebpage/), and leaned Convex Optimization via that well-known [text book](https://web.stanford.edu/~boyd/cvxbook/), and are planning on taking further optimization courses which is dealing with nonlinear programming and stuff beyond that. Though I care about learning theory, but I also care about the **generalization ability** about a particular machine learning algorithm, hence I\'m now interested in these difficult but astonishing fields.',
+    'Let me explain why I use `pbb.wtf`, it all started when I\'m still a young math enthusiast. When I studied in Taiwan, though I can understand most of the content in English math literatures, but those abbreviations bugged me a lot. One day, I can\'t remember why, but I google the keyword <u>*WTF math abbreviation*</u>, and guess what, it\'s the abbreviation of <u>*write the formula*</u>. I just can\'t believe this is indeed the case, so at the end of the day, when I first saw `pbb.wtf`, I know this is my final answer.',
   ],
   avatar: 'avatar.png',
   professions: [
@@ -82,17 +82,35 @@ module.exports = {
     }],
   interests: [
     {
-      icon: 'cubes',
-      title: 'Machine Learning',
+      icon: 'drum',
+      title: 'Drum!',
     }, {
-      icon: ['fab', 'docker'],
-      title: 'Containerization',
+      icon: 'guitar-electric',
+      title: 'Guitar!',
     }, {
-      icon: 'layer-group',
-      title: 'Full Stack Development',
+      icon: 'keyboard',
+      title: 'HHKB is the best.',
     }, {
-      icon: ['fab', 'linux'],
-      title: 'Open Source Community',
+      icon: 'type-write',
+      title: 'I can type around WPM of 140.',
+    }, {
+      icon: 'camera-retro',
+      title: 'Street Phonography',
+    }, {
+      icon: 'theta',
+      title: 'Algorithm',
+    }, {
+      icon: 'function',
+      title: 'Math',
+    }, {
+      icon: 'chart-network',
+      title: 'Graph Neural Network',
+    }, {
+      icon: 'laptop-code',
+      title: 'Development',
+    }, {
+      icon: 'apple',
+      title: 'macOS',
     }],
   experience: [
     {
