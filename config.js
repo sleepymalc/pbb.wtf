@@ -85,8 +85,8 @@ module.exports = {
       icon: 'drum',
       title: 'Drum!',
     }, {
-      icon: ['far', 'keyboard'],
-      title: 'I can type around WPM of 140. Btw, HHKB is the best, period.',
+      icon: 'keyboard',
+      title: 'My WPM is around 140. Btw, HHKB is the best, period.',
     }, {
       icon: 'camera-retro',
       title: 'Street Phonography',
@@ -94,14 +94,11 @@ module.exports = {
       icon: 'brain',
       title: 'Algorithm',
     }, {
-      icon: 'infinity',
+      icon: 'square-root-variable',
       title: 'Math',
     }, {
-      icon: ['fab', 'apple'],
-      title: 'macOS',
-    }, {
       icon: 'cat',
-      title: 'Who doesn\'t like cats?',
+      title: 'Who doesn\'t love cats?',
     }],
   experience: [
     {
@@ -111,12 +108,12 @@ module.exports = {
         {
           date: 'Fall 2020',
           title: 'Teaching Assistant',
-          description: 'Vv186 (Honor Mathematics I)',
+          description: '[Vv186 (Honor Mathematics I)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)',
           location: 'Shanghai Jiao Tong University, China',
         }, {
           date: 'Summer 2021',
           title: 'Teaching Assistant',
-          description: 'Vv285 (Honor Mathematics II)',
+          description: '[Vv285 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)',
           location: 'Shanghai Jiao Tong University, China',
         },
       ],
