@@ -14,12 +14,12 @@ I asked lots of my macOS friends, and nearly all of them think Finder is fine, "
 Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before. Though I can certainly write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you
 But sadly, Apple already moved to M1 chips, and [Totalfinder](https://totalfinder.binaryage.com/) is just too old to be compatible with this new chip architecture. After some surfing, I found another alternative, [Marta](https://marta.sh/).
 
-<img style="display: block; margin: auto;" src="./icon-hand-draw.png">
+<p align="center">
+	<img src="./icon-hand-draw.png"/>
+</p>
 <p style="text-align: center;">
  	The author of [Marta](https://marta.sh/)m [Yan Zhulanow](https://yanex.org/): "this cute fox stands for quick and smart, just like [Marta](https://marta.sh/)".
 </p>
-
-
 
 # Marta - A Finder Alternative which Leaves Your Mouse Alone 🦊
 As a developer and hardcore mathematician, I barely use pen and paper to write stuff, even if doing math. (Yes, this means I typeset my course note in $\LaTeX$ also, check [here](https://github.com/sleepymalc/Notes)) And 
