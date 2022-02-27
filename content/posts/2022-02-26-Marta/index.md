@@ -1,5 +1,5 @@
 ---
-title: "print(system.config())"
+title: "Finder().replace_by(\"Marta\")"
 tags: ["macOS", "app"]
 date: 2022-02-26
 path: "posts/Marta"
