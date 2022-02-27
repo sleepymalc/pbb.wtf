@@ -3,7 +3,7 @@ title: "Finder().replace_by(\"Marta\")"
 tags: ["macOS", "app"]
 date: 2022-02-26
 path: "posts/Marta"
-excerpt: Marta, a powerful Finder alternatives. It let you control your file flow complete by keyboard. ![](./covering.png)
+excerpt: Marta, a powerful Finder alternatives. It let you control your file flow complete by keyboard. 
 cover: "./preview.png"
 ---
 
@@ -28,6 +28,10 @@ As a developer and hardcore mathematician, I barely use pen and paper to write s
 to be efficient enough, I hate moving my hand off my keyboard, including using a Trackpad or mouse. You may ask, "Ok, so what? You can use arrow keys moving around in Finder too!" Well, this is true, in some sense. If 
 you only use Finder to navigate around your files, then it may be sufficient for your usage. But if you need to open multiple tabs and want to access them quickly, then Finder is **not** the way to go for sure. It's extremely 
 slow to open multiple windows and let it float around your workspace and try to use a mouse/Trackpad to drag files around. Instead, I would like to do all these in a single window in a well-organized manner.
+
+<p align="center">
+	<img src="./demo.png"/>
+</p>
 
 # Configuration
 ## Navigating 
