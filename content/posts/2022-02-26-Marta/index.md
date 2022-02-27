@@ -139,7 +139,7 @@ You might already notice, [Marta](https://marta.sh/) doesn't provide rich suppor
 what this file actually is.
 
 ## Double Panels
-If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, namely when you want to move your file around. This is the most complex section, hence I leave it to the very end. 
+If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, it's extremely useful when you want to ***move your files around***. This is the most complex section, hence I leave it to the very end. 
 Before we start, we introduce one of the essential shortcut to navigate in [Marta](https://marta.sh/), `tab`. It'll send you to another panel, yup, it simply does this only! Now let's start!
 ### Copy
 The default behavior is just like any other file manager you familiar with, you use `Cmd + c` to copy, and go to where you want to past it and use `Cmd + v` to paste. 
@@ -148,8 +148,9 @@ The default behavior is just like any other file manager you familiar with, you 
 In case some of you didn't know, Finder **do** provide the functionality `cut`. This is done by first using `Cmd + c` like `copy`, and instead using `Cmd + v`, you use `Opt + Cmd + v` to cut the selected content and past it to where you're at.
 [Marta](https://marta.sh/), on the other hand, **doesn't** provide such an *action*. It only provides `move`, and the way it's done is like following. 
 1. Select the file you want to `move`.
-2. Press the keybinding you assign to `move` (default is `F6`)
-3. It'll pop up a small window asking you where you want to `move` the selected file. The default path is ***another panel's address***
+2. Press the keybinding you assign to `move` (default is `F6`).
+3. It'll pop up a small window asking you where you want to `move` the selected file. The default path is ***another panel's address***.
+
 For demonstration, say I want to move the created `test.txt` to my `Download` folder. The initial state should look like this:
 <p align="center">
 	<img src="./move.png"/>
