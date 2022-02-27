@@ -14,10 +14,10 @@ I asked lots of my macOS friends, and nearly all of them think Finder is fine, "
 Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before. Though I can certainly write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you
 But sadly, Apple already moved to M1 chips, and [Totalfinder](https://totalfinder.binaryage.com/) is just too old to be compatible with this new chip architecture. After some surfing, I found another alternative, [Marta](https://marta.sh/).
 
-<p style="text-align: center;">
- 	The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "this cute fox stands for quick and smart, just like [Marta](https://marta.sh/)".
+The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "this cute fox stands for quick and smart, just like [Marta](https://marta.sh/)".
+<p align="center">
+	<img src="./icon-hand-draw.png"/>
 </p>
-<figure class="image"><img src="{{ ./icon-hand-draw.png }}" alt="{{ include.description | markdownify }}"><figcaption>{{ The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "this cute fox stands for quick and smart, just like [Marta](https://marta.sh/)" }}</figcaption></figure>
 
 # 🦊 Marta - A Finder 🦊
 As a developer and hardcore mathematician, I barely use pen and paper to write stuff, even if doing math. (Yes, this means I typeset my course note in $\LaTeX$ also, check [here](https://github.com/sleepymalc/Notes)) And 
