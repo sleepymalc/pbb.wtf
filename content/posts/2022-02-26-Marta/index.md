@@ -3,7 +3,7 @@ title: "Finder().replace_by(\"Marta\")"
 tags: ["macOS", "app"]
 date: 2022-02-26
 path: "posts/Marta"
-excerpt: Marta, a powerful Finder alternatives. It let you control your file flow complete by keyboard.
+excerpt: Marta, a powerful Finder alternatives. It let you control your file flow complete by keyboard. ![](./covering.png)
 cover: "./preview.png"
 ---
 
