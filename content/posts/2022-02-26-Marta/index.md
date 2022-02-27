@@ -14,7 +14,7 @@ I asked lots of my macOS friends, and nearly all of them think Finder is fine, "
 Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before. Though I can certainly write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you
 But sadly, Apple already moved to M1 chips, and [Totalfinder](https://totalfinder.binaryage.com/) is just too old to be compatible with this new chip architecture. After some surfing, I found another alternative, [Marta](https://marta.sh/).
 
-![First version of the icon of Marta](./icon-hand-draw.png)
+![](./icon-hand-draw.png)
 
 According to [Yan Zhulanow](https://yanex.org/), the author of [Marta](https://marta.sh/), this cute fox stands for quick and smart, just like [Marta](https://marta.sh/).
 
@@ -51,8 +51,8 @@ slow to open multiple windows and let it float around your workspace and try to 
 
 
 
-## config.json
-Let's first see the configuration file.
+## Personal Configuration
+Let's see the configuration file.
 ```JSON
 behavior {
     theme "Dark"
