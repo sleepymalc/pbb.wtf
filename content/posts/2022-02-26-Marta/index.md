@@ -3,8 +3,8 @@ title: "print(system.config())"
 tags: ["macOS", "app"]
 date: 2022-02-26
 path: "posts/Marta"
-excerpt: 
-cover: "./icon/preview.png"
+excerpt: Marta, a powerful Finder alternatives. It let you control your file flow complete by keyboard.
+cover: "./preview.png"
 ---
 
 # Introduction
