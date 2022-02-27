@@ -64,13 +64,13 @@ which is more natural for me.
 ## Create New Files/Folders
 By default, you can create **any** types of file in [Marta](https://marta.sh/) by the following $\texttt{new.folder}$ and $\texttt{new.file}$ *actions*:
 ```JSON
-	"F7" 		"core.new.folder"
-    "Shift+F7" 	"core.new.file"
+"F7" 		"core.new.folder"
+"Shift+F7" 	"core.new.file"
 ```
 You can bind it to your favorite key-bindings to match your own habits. For me, since [Totalfinder](https://totalfinder.binaryage.com/) follows the same shortcut as Finder, hence I change it to 
 ```JSON
-	"Shift+Cmd+n"   "core.new.folder"
-    "Shift+Cmd+f"   "core.new.file"
+"Shift+Cmd+n"   "core.new.folder"
+"Shift+Cmd+f"   "core.new.file"
 ```
 while `Shift + Cmd + n` is the default shortcut to create a new folder in Finder, but there is no such shortcut, or I should say, there is no easy way to create a new file in Finder, hence you get another 
 useful shortcut!
@@ -95,7 +95,7 @@ As we mentioned before, we can open the file by `→`, but there is some subtly 
 ### Compressed file
 Interestingly, [Marta](https://marta.sh/) let you go *directly in* a `.zip` file and see the content in it. What if you want to do something else about it? Like, open it by other apps to unzip? By default, we have the following.
 ```JSON
-    "Cmd+Return" "core.open.with"
+"Cmd+Return" "core.open.with"
 ```
 This allows you to open a file with different apps. Personally, I use [Keka](https://www.keka.io/en/), which is a portable, powerful but light-weight file archiver. Say I just zipped the newly created `text.txt` file and want to 
 unzip it, I can just simply press `Cmd + Return`, then we will see the following
@@ -118,11 +118,11 @@ See that `text 2.txt`? That is the unzipped file!
 ### Projects
 For those developers, I bet you'll need to open an **entire folder** very often. And as far as I know, there is no easy way to do this in Finder. But in [Marta](https://marta.sh/), you can use the $\texttt{edit}$ *action*:
 ```JSON
-    "F4" "core.edit"
+"F4" "core.edit"
 ```
 As you might already observe, I tend to define my keybinding with the keyword's first alphabet being the same as the first alphabet of the functionality this keybinding stands for. Hence, rather than remember this weird `F4` functional key, I use 
 ```JSON
-    "Cmd+e"	"core.edit"
+"Cmd+e"	"core.edit"
 ```
 
 What this action $\texttt{edit}$ is really doing is that after you specify an **text-editor**, which you can specify in the configuration file, it'll open whatever you're focusing on within that app. For example, I use [Visual Studio Code](https://code.visualstudio.com/) as 
