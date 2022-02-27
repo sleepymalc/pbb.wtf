@@ -23,7 +23,7 @@ The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "th
 	<img src="./icon-hand-draw.png"/>
 </p>
 
-# 🦊 Marta - A Finder 🦊
+# 🦊 Marta - A Finder Alternative 🦊
 As a developer and hardcore mathematician, I barely use pen and paper to write stuff, even if doing math. (Yes, this means I typeset my course note in $\LaTeX$ also, check [here](https://github.com/sleepymalc/Notes)) And 
 to be efficient enough, I hate moving my hand off my keyboard, including using a Trackpad or mouse. You may ask, "Ok, so what? You can use arrow keys moving around in Finder too!" Well, this is true, in some sense. If 
 you only use Finder to navigate around your files, then it may be sufficient for your usage. But if you need to open multiple tabs and want to access them quickly, then Finder is **not** the way to go for sure. It's extremely 
