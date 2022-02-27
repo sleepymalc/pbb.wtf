@@ -139,12 +139,49 @@ You might already notice, [Marta](https://marta.sh/) doesn't provide rich suppor
 what this file actually is.
 
 ## Double Panels
-If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, namely when you want to move your file around. This is the most complex section, hence I leave it to the very end. Let's start!
+If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, namely when you want to move your file around. This is the most complex section, hence I leave it to the very end. 
+Before we start, we introduce one of the essential shortcut to navigate in [Marta](https://marta.sh/), `tab`. It'll send you to another panel, yup, it simply does this only! Now let's start!
 ### Copy
+The default behavior is just like any other file manager you familiar with, you use `Cmd + c` to copy, and go to where you want to past it and use `Cmd + v` to paste. 
 
 ### Move
+In case some of you didn't know, Finder **do** provide the functionality `cut`. This is done by first using `Cmd + c` like `copy`, and instead using `Cmd + v`, you use `Opt + Cmd + v` to cut the selected content and past it to where you're at.
+[Marta](https://marta.sh/), on the other hand, **doesn't** provide such an *action*. It only provides `move`, and the way it's done is like following. 
+1. Select the file you want to `move`.
+2. Press the keybinding you assign to `move` (default is `F6`)
+3. It'll pop up a small window asking you where you want to `move` the selected file. The default path is ***another panel's address***
+For demonstration, say I want to move the created `test.txt` to my `Download` folder. The initial state should look like this:
+<p align="center">
+	<img src="./move.png"/>
+</p>
+
+Then I simply press `Cmd + x`, which is my personal keybinding for `move` to mimic the shortcut `cut` in other operating system. 
+<p align="center">
+	<img src="./move-2.png"/>
+</p>
+
+You can see that the default path is ***another panel's address***, by hitting `enter`, the file is moved.
+<p align="center">
+	<img src="./move-3.png"/>
+</p>
+
+The big question now arises: "How can I do this efficiently? It seems like the functionality is quite limited." Now comes the crucial part, `clone` *action*.
 
 ### Clone Left/Right (folder)
+The clone action is quite interesting, it includes four variations: 
+1. `core.clone.left` (only works when you're at the *right* panel)
+> It'll set the *left* panel to the **folder** you selected. If your current focus is on **file**, it'll simply set the *left* panel as the folder you're currently in of the *right* panel.
+2. `core.clone.right` (only works when you're at the *left* panel)
+> Same as `core.clone.left`, but reversed in an obvious way.
+3. `core.clone.left.folder` (only works when you're at the *right* panel)
+> Almost the same as `core.clone.left`, but it'll ***always*** set the *left* folder as the folder you're currently in of the *right* panel.
+4. `core.clone.right.folder` (only works when you're at the *left* panel)
+> Same as `core.clone.left.folder`, but reversed in an obvious way.
+
+You can now imagine how useful this is, since if you're moving files under some parent folder, then you can simply use `clone` *action* to quickly set another panel to the similar address and `move` files around.
+
+### Demo
+
 
 ## Search Action
 Here comes to an end of this brief introduction for [Marta](https://marta.sh/). Though you might feel overwhelming for now, but there is actually a very nice feature provided natively in [Marta](https://marta.sh/) which helps find all the 
@@ -259,4 +296,4 @@ you can either just work in the configuration file, or to [search the $\texttt{S
 
 # Conclusion
 Overall, I think [Marta](https://marta.sh/) provides excellent customizabilities, while still easy enough for simple use. If you think you need an extra boost of productivity, 
-or even just want to try out new applications, [Marta](https://marta.sh/) is definitely worth giving it a shot!
+or even just want to try out new applications, [Marta](https://marta.sh/) is definitely worth giving a shot!
