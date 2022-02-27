@@ -27,41 +27,144 @@ The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "th
 As a developer and hardcore mathematician, I barely use pen and paper to write stuff, even if doing math. (Yes, this means I typeset my course note in $\LaTeX$ also, check [here](https://github.com/sleepymalc/Notes)) And 
 to be efficient enough, I hate moving my hand off my keyboard, including using a Trackpad or mouse. You may ask, "Ok, so what? You can use arrow keys moving around in Finder too!" Well, this is true, in some sense. If 
 you only use Finder to navigate around your files, then it may be sufficient for your usage. But if you need to open multiple tabs and want to access them quickly, then Finder is **not** the way to go for sure. It's extremely 
-slow to open multiple windows and let it float around your workspace and try to use a mouse/Trackpad to drag files around. Instead, I would like to do all these in a single window in a well-organized manner.
+slow to open multiple windows and let it float around your workspace and try to use a mouse/Trackman to drag files around. Instead, I would like to do all these in a single window in a well-organized manner.
 
 <p align="center">
 	<img src="./demo.png"/>
 </p>
 
-# Configuration
+# Features
+Here, I'm going to briefly introduce some basic, but powerful features which make [Marta](https://marta.sh/) stands out. For the full documentation, please check the official [docs](https://marta.sh/docs/) for reference.
+
+The core functionality in [Marta](https://marta.sh/) is implemented as *action*, which can be realized as a command which will do something, and this can be combined with a shortcut. We'll soon see what this means.
+
 ## Navigating 
+In Finder, you can use arrow keys to navigate through folders, namely 
+*  `←` : Move to parent folder
+*  `→` : Move in the folder if the current focus is on a folder
+* `↑/↓`: Move up and down.
 
+You can do not only the same, but more with [Marta](https://marta.sh/)! The definition of the right key in [Marta](https://marta.sh/) in default is the $\texttt{right}$ *action*
+```json
+	"Right" 	"core.move.right"
+```
+which essentially do the same thing as in Finder. But rather, you can redefine (yes, you can **complete redefine** all the key-bindings) it as 
+```json
+	"Right"		"core.open"
+```
+which can not only open a folder, which will bring you to that folder, but if your current focus is on a file, you can open it by a single `right` key! This makes life much easier, since if you want to 
+open a file in Finder, you'll need to use `Cmd + o` instead.
 
-## Copy/Cut
-
+One thing is worth mentioning is that, [Marta](https://marta.sh/) set `←` as `core.move.left`, which is a bit awkward if you are used to Finder. So instead, I change it to 
+```json
+    "Left"      "core.go.up"
+```
+which is more natural for me. 
 
 ## Create New Files/Folders
+By default, you can create **any** types of file in [Marta](https://marta.sh/) by the following $\texttt{new.folder}$ and $\texttt{new.file}$ *actions*:
+```json
+	"F7" 		"core.new.folder"
+    "Shift+F7" 	"core.new.file"
+```
+You can bind it to your favorite key-bindings to match your own habits. For me, since [Totalfinder](https://totalfinder.binaryage.com/) follows the same shortcut as Finder, hence I change it to 
+```json
+	"Shift+Cmd+n"   "core.new.folder"
+    "Shift+Cmd+f"   "core.new.file"
+```
+while `Shift + Cmd + n` is the default shortcut to create a new folder in Finder, but there is no such shortcut, or I should say, there is no easy way to create a new file in Finder, hence you get another 
+useful shortcut!
+For example, if you want to create a simple `.txt` file, you can just type `Shift + Cmd + f`, then we will see 
+<p align="center">
+	<img src="./create-new-file.png"/>
+</p>
+then you can type the name of the file (with extension name for completeness), then you're good to go!
+<p align="center">
+	<img src="./create-new-file-2.png"/>
+</p>
 
+We see that we're done!
+<p align="center">
+	<img src="./create-new-file-3.png"/>
+</p>
 
+Now, after creating files/folders, the next question is, how to open them?
+
+## Open
+As we mentioned before, we can open file by `→`, but there is some subtly here, let me explain.
+### Compressed file
+Interestingly, [Marta](https://marta.sh/) let you go *directly in* a `.zip` file and see the content in it. What if you want to do something else about it? Like open it by other apps to unzip? In default, we have the following.
+```json
+    "Cmd+Return" "core.open.with"
+```
+This allows you to open a file with different apps. Personally, I use [Keka](https://www.keka.io/en/), which is a portable, powerful but light-weight file archiver. Say I just zipped the newly created `text.txt` file and want to 
+unzipped it, I can just simply press `Cmd + Return`, then we will see the following
+
+<p align="center">
+	<img src="./open.png"/>
+</p>
+
+Then I can just use arrow keys to select [Keka](https://www.keka.io/en/)
+<p align="center">
+	<img src="./open-2.png"/>
+</p>
+Hit the enter, then we have 
+<p align="center">
+	<img src="./open-3.png"/>
+</p>
+
+See that `text 2.txt`? That the unzipped file!
+
+### Projects
+For those developers, I bet you'll need to open an **entire folder** very often. And as far as I know, there is no easy way to do this in Finder. But in [Marta](https://marta.sh/), you can use the $\texttt{edit}$ *action*:
+```json
+    "F4" "core.edit"
+```
+As you might already observe, I tend to define my keybinding with the keyword's first alphabet. Hence, rather than remember this weird `F4` functional key, I use 
+```json
+    "Cmd+e"	"core.edit"
+```
+
+What this action $\texttt{edit}$ is really doing is that after you specify an **textEditor**, which you can specify in the configuration file, it'll open whatever you're focusing on within that app. For example, I use [Visual Studio Code](https://code.visualstudio.com/) as 
+my primarily IDE, so I define 
+```json
+environment {
+    textEditor "Visual Studio Code"
+}
+```
+So, if you now want to open a project, you can simply press `Cmd + e`, then it'll open this folder within your favorite IDE you specified! 
+
+### Preview
+You might already notice, [Marta](https://marta.sh/) doesn't provide a rich support of figures as your visual tool for file organization. But as in Finder, you can always press `Space` to open/close a quick *preview* (it's formally called *quick look*) to see 
+what this file actually is.
 
 ## Double Panels
+If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, namely when you want to move your file around. This is the most complex section, hence I leave it to very end. Let's start!
+### Copy
 
+### Move
 
+### Clone Left/Right (folder)
 
-## Default Editor
+## Search Action
+Here comes to an end of this brief introduction for [Marta](https://marta.sh/). Though you might feel overwhelming for now, but there is actually a very nice feature provided natively in [Marta](https://marta.sh/) which helps find all the 
+*actions* quickly when you forget the keybinding. When you press `Shift + Cmd + P`, a search bar named *Search Action* will pop-up like this: 
+<p align="center">
+	<img src="./search-action.png"/>
+</p>
 
+Then, you can type any action you want. For example, in [Open Compressed file](./posts/Marta#compressed-file), I didn't mention how I zip that `test.txt` right? Actually, there is a built-in *action* in [Marta](https://marta.sh/), but since I didn't compress files 
+that often, hence I didn't assign a keybinding for this. Instead, I can simply leave my focus on the file I want to zip (potentially multiple file, which can be selected by using `Shift + ↑/↓` as you expected) and then press `Shift + Cmd + p`, search for `Compress`:
+<p align="center">
+	<img src="./search-action-2.png"/>
+</p>
 
-
-## Preview
-
-
-
-## Global Hotkey
-
-
+Then you just press enter, it'll zip the file for you automatically! 
 
 ## Personal Configuration
-Let's see the configuration file.
+Let's see the configuration file. To open the configuration file, you can simply press `Cmd + ,` in [Marta](https://marta.sh/). And to apply all my configuration, copy the following codes into the **Right** panel of the configuration file. The left hand 
+side of the configuration file is the default config for referencing.
+
 ```JSON
 behavior {
     theme "Dark"
@@ -126,4 +229,30 @@ etty {
     }
 }
 ```
+### Theme
+One thing I didn't bring up is that, there are actually different themes you can choose from, here is some from the [official document](https://marta.sh/docs/configuration/themes/): 
+1. Kon
+<p align="center">
+	<img src="./kon.png"/>
+</p>
 
+2. Dark
+<p align="center">
+	<img src="./dark.png"/>
+</p>
+
+3. Classic
+<p align="center">
+	<img src="./classic.png"/>
+</p>
+
+4. Sakura 🌸
+<p align="center">
+	<img src="./sakura.png"/>
+</p>
+
+I actually quite like the look of Sakura 🌸, but since I use dark mode throughout all application, hence I just give up on this... Definitely try it out! To change the theme, 
+you can either just work in the configuration file, or to [search the $\texttt{Switch Theme}$ action](./posts/Marta#search-action):
+<p align="center">
+	<img src="./switch-theme.png"/>
+</p>
