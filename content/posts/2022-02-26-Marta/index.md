@@ -11,8 +11,12 @@ cover: "./preview.png"
 I have been using macOS for a straight 4 years now, though most of the design choices made by excellent Apple engineers are easy to use, and even if it's not the case, there are at least some alternatives. But Finder is different.
 I asked lots of my macOS friends, and nearly all of them think Finder is fine, "it's fast and easy to use."
 
-Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before. Though I can certainly write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you
-But sadly, Apple already moved to M1 chips, and [Totalfinder](https://totalfinder.binaryage.com/) is just too old to be compatible with this new chip architecture. After some surfing, I found another alternative, [Marta](https://marta.sh/).
+Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before. Though I can certainly write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you.
+But sadly, while Apple is moving on to M1 chips, [Totalfinder](https://totalfinder.binaryage.com/) is too old to keep up with the pace to be compatible with this new chip architecture. Indeed, it stops updating and is now free to everyone since it's not maintained anymore.
+There are two things [Totalfinder](https://totalfinder.binaryage.com/) done well which outperforms Finder:
+1. Global hotkey support. It can be open *anywhere* by user-defined shortcut. This is useful but can be achieved by other apps, such as [Alfred 4](https://www.alfredapp.com/).
+2. Multiple tabs supports with double panels display. This is especially useful if you need to move things around by keyboard. If you're using Finder, then you'll need to open multiple windows to achieve this, but now you can do the same thing with only one active window.
+After some surfing, I found another alternative, [Marta](https://marta.sh/). It's better in some ways compare to [Totalfinder](https://totalfinder.binaryage.com/), but not that convenient in others. Nevertheless, it's *free*, *natively support*, and most importantly, *it's cute*!
 
 The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "this cute fox stands for quick and smart, just like [Marta](https://marta.sh/)".
 <p align="center">
