@@ -8,6 +8,10 @@ cover: "./preview.png"
 ---
 
 # Introduction
+<p align="center">
+	<img src="./marta.png"/>
+</p>
+
 I have been using macOS for a straight 4 years now, though most of the design choices made by excellent Apple engineers are easy to use, and even if it's not the case, there are at least some alternatives. But Finder is different.
 I asked lots of my macOS friends, and nearly all of them think Finder is fine, "it's fast and easy to use."
 
