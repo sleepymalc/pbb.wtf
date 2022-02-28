@@ -101,7 +101,7 @@ Now, after locating the file/folder, the next question is, how to open them?
 
 ## Open
 As we mentioned before, we can open the file by `→`, but there is some subtly here, let me explain.
-### Compressed file
+### Open With
 Interestingly, as you just saw, [Marta](https://marta.sh/) let you go *directly in* a `.zip` file and see the content in it. What if you want to do something else about it? Like, open it by other apps to unzip? By default, we have the following.
 ```JSON
 "Cmd+Return" "core.open.with"
@@ -110,7 +110,7 @@ This allows you to open a file with different apps. Personally, I use [Keka](htt
 unzip it, I can press `Cmd+Return`, then by selecting what app we want to open this file with. In this case, I want to open `test.txt.zip` with [Keka](https://www.keka.io/en/), then we have the following.
 ![](./open.gif)
 
-### Projects
+### Edit
 For those developers, I bet you'll need to open an **entire folder** very often. And as far as I know, there is no easy way to do this in Finder. But in [Marta](https://marta.sh/), you can use the `core.edit` *action*:
 ```JSON
 "F4" "core.edit"
@@ -258,9 +258,7 @@ One thing I didn't bring up is that there are actually different themes you can 
 
 I actually quite like the look of Sakura 🌸, but since I use dark mode throughout all application, hence I just give up on this... Definitely try it out! To change the theme, 
 you can either just work in the configuration file, or to [search the `Switch Theme` *action*](./posts/Marta#search-action):
-<p align="center">
-	<img src="./switch-theme.png"/>
-</p>
+![](./switch-theme.gif)
 
 # Conclusion
 Overall, I think [Marta](https://marta.sh/) provides excellent customizabilities, while still easy enough for simple use. If you think you need an extra boost of productivity, 
