@@ -43,9 +43,9 @@ slow to open multiple windows and let it float around your workspace and try to 
 </p>
 
 # Features
-Here, I'm going to briefly introduce some basic, but powerful features which make [Marta](https://marta.sh/) standout. For the full documentation, please check the official [docs](https://marta.sh/docs/) for reference.
+I'm going to briefly introduce some basic but powerful features in [Marta](https://marta.sh/). For the full documentation, please check the official [docs](https://marta.sh/docs/) for reference.
 
-The core functionality in [Marta](https://marta.sh/) is implemented as *action*, which can be realized as a command which will do something, and this can be combined with a shortcut. We'll soon see what this means.
+The core functionality in [Marta](https://marta.sh/) is called *action*, which can be realized as commands and can be triggered with shortcuts. We'll soon see what this means.
 
 ## Navigating 
 In Finder, you can use arrow keys to navigate through folders, namely 
