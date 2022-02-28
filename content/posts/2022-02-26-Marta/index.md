@@ -1,5 +1,5 @@
 ---
-title: "Finder().replace_by(\"Marta\")"
+title: "Finder.replace_by(\"Marta\")"
 tags: ["macOS", "app"]
 date: 2022-02-26
 path: "posts/Marta"
@@ -13,6 +13,10 @@ I asked lots of my macOS friends, and nearly all of them think Finder is fine, "
 
 Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before. Although I can write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you,
 but sadly, while Apple is moving on to M1 chips, [Totalfinder](https://totalfinder.binaryage.com/) is too old to keep up with the pace to be compatible with this new chip architecture. Indeed, it stops updating and is now free to everyone since it's not maintained anymore.
+<p align="center">
+	<img src="./totalfinder.png"/>
+</p>
+
 There are two things [Totalfinder](https://totalfinder.binaryage.com/) done well which outperforms Finder:
 1. Global hotkey support. It can be open *anywhere* by a user-defined shortcut. This is useful but can be achieved by other apps, such as [Alfred 4](https://www.alfredapp.com/).
 2. Multiple tabs support with double panels display. This is especially useful if you need to move things around by keyboard. If you're using Finder, then you'll need to open multiple windows to achieve this, but now you can do the same thing with only one active window.
