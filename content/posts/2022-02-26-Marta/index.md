@@ -142,8 +142,8 @@ Before we start, we introduce one of the essential shortcut to navigate in [Mart
 The default behavior is just like any other file manager you familiar with, you use `Cmd+c` to copy, and go to where you want to past it and use `Cmd+v` to paste. 
 
 ### Move
-In case some of you didn't know, Finder **do** provide the functionality `cut`. This is done by first using `Cmd+c` like `copy`, and instead using `Cmd+v`, you use `Opt+Cmd+v` to cut the selected content and past it to where you're at.
-So basically, in Finder, you can first use `Cmd+c` to copy the selected files, and then determine whether you want to past or cut it until the very end. [Marta](https://marta.sh/), on the other hand, **doesn't** provide such an *action*. 
+In case some of you didn't know, Finder **do** provide the functionality `cut`. This is done by first using `Cmd+c` like `copy`, and instead of using `Cmd+v`, you use `Opt+Cmd+v` to cut the selected content and past them to where you want.
+So basically, in Finder, you can first use `Cmd+c` to copy the selected files, and then determine whether you want to past or cut them until the very end. [Marta](https://marta.sh/), on the other hand, **doesn't** provide such an *action*. 
 It only provides `core.move`, and the way it's done is like following. 
 1. Select the file you want to `core.move`.
 2. Press the keybinding you assign to `core.move` (default is `F6`).
