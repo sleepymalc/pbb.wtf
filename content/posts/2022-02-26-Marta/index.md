@@ -44,7 +44,7 @@ In Finder, you can use arrow keys to navigate through folders, namely
 *  `→` : Move in the folder if the current focus is on a folder
 * `↑/↓`: Move up and down.
 
-You can do not only the same, but more with [Marta](https://marta.sh/)! The definition of the right key in [Marta](https://marta.sh/) in default is the $\texttt{right}$ *action*
+You can do not only the same, but more with [Marta](https://marta.sh/)! The definition of the right key in [Marta](https://marta.sh/) in default is the `core.move.right` *action*
 ```JSON
 "Right" "core.move.right"
 ```
@@ -52,8 +52,8 @@ which essentially do the same thing as in Finder. But rather, you can redefine (
 ```JSON
 "Right" "core.open"
 ```
-which can not only open a folder, which will bring you to that folder, but if your current focus is on a file, you can open it by a single `right` key! This makes life much easier, since if you want to 
-open a file in Finder, you'll need to use `Cmd + o` instead.
+which can not only open a folder, which will bring you to that folder, but if your current focus is on a file, you can open it by a single `core.move.right` key! This makes life much easier, since if you want to 
+open a file in Finder, you'll need to use `Cmd+o` instead.
 
 One thing that is worth mentioning is that [Marta](https://marta.sh/) set `←` as `core.move.left`, which is a bit awkward if you are used to Finder. So instead, I change it to 
 ```JSON
@@ -62,7 +62,7 @@ One thing that is worth mentioning is that [Marta](https://marta.sh/) set `←` 
 which is more natural for me. 
 
 ## Create New Files/Folders
-By default, you can create **any** types of file in [Marta](https://marta.sh/) by the following $\texttt{new.folder}$ and $\texttt{new.file}$ *actions*:
+By default, you can create **any** types of file in [Marta](https://marta.sh/) by the following `new.folder` and `new.file` *actions*:
 ```JSON
 "F7" 		"core.new.folder"
 "Shift+F7" 	"core.new.file"
@@ -72,9 +72,9 @@ You can bind it to your favorite key-bindings to match your own habits. For me, 
 "Shift+Cmd+n"   "core.new.folder"
 "Shift+Cmd+f"   "core.new.file"
 ```
-while `Shift + Cmd + n` is the default shortcut to create a new folder in Finder, but there is no such shortcut, or I should say, there is no easy way to create a new file in Finder, hence you get another 
+while `Shift+Cmd+n` is the default shortcut to create a new folder in Finder, but there is no such shortcut, or I should say, there is no easy way to create a new file in Finder, hence you get another 
 useful shortcut!
-For example, if you want to create a simple `.txt` file, you can just type `Shift + Cmd + f`, then we will see 
+For example, if you want to create a simple `.txt` file, you can just type `Shift+Cmd+f`, then we will see 
 <p align="center">
 	<img src="./create-new-file.png"/>
 </p>
@@ -98,7 +98,7 @@ Interestingly, [Marta](https://marta.sh/) let you go *directly in* a `.zip` file
 "Cmd+Return" "core.open.with"
 ```
 This allows you to open a file with different apps. Personally, I use [Keka](https://www.keka.io/en/), which is a portable, powerful but light-weight file archiver. Say I just zipped the newly created `text.txt` file and want to 
-unzip it, I can just simply press `Cmd + Return`, then we will see the following
+unzip it, I can just simply press `Cmd+Return`, then we will see the following
 
 <p align="center">
 	<img src="./open.png"/>
@@ -116,7 +116,7 @@ Hit the enter, then we have
 See that `text 2.txt`? That is the unzipped file!
 
 ### Projects
-For those developers, I bet you'll need to open an **entire folder** very often. And as far as I know, there is no easy way to do this in Finder. But in [Marta](https://marta.sh/), you can use the $\texttt{edit}$ *action*:
+For those developers, I bet you'll need to open an **entire folder** very often. And as far as I know, there is no easy way to do this in Finder. But in [Marta](https://marta.sh/), you can use the `core.edit` *action*:
 ```JSON
 "F4" "core.edit"
 ```
@@ -125,7 +125,7 @@ As you might already observe, I tend to define my keybinding with the keyword's 
 "Cmd+e"	"core.edit"
 ```
 
-What this action $\texttt{edit}$ is really doing is that after you specify an **text-editor**, which you can specify in the configuration file, it'll open whatever you're focusing on within that app. For example, I use [Visual Studio Code](https://code.visualstudio.com/) as 
+What this action `core.edit` is really doing is that after you specify a **text-editor**, which you can specify in the configuration file, it'll open whatever you're focusing on within that app. For example, I use [Visual Studio Code](https://code.visualstudio.com/) as 
 my primarily IDE, so I define 
 ```JSON
 environment {
@@ -142,26 +142,27 @@ what this file actually is.
 If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, it's extremely useful when you want to ***move your files around***. This is the most complex section, hence I leave it to the very end. 
 Before we start, we introduce one of the essential shortcut to navigate in [Marta](https://marta.sh/), `tab`. It'll send you to another panel, yup, it simply does this only! Now let's start!
 ### Copy
-The default behavior is just like any other file manager you familiar with, you use `Cmd + c` to copy, and go to where you want to past it and use `Cmd + v` to paste. 
+The default behavior is just like any other file manager you familiar with, you use `Cmd+c` to copy, and go to where you want to past it and use `Cmd+v` to paste. 
 
 ### Move
-In case some of you didn't know, Finder **do** provide the functionality `cut`. This is done by first using `Cmd + c` like `copy`, and instead using `Cmd + v`, you use `Opt + Cmd + v` to cut the selected content and past it to where you're at.
-[Marta](https://marta.sh/), on the other hand, **doesn't** provide such an *action*. It only provides `move`, and the way it's done is like following. 
-1. Select the file you want to `move`.
-2. Press the keybinding you assign to `move` (default is `F6`).
-3. It'll pop up a small window asking you where you want to `move` the selected file. The default path is ***another panel's address***.
+In case some of you didn't know, Finder **do** provide the functionality `cut`. This is done by first using `Cmd+c` like `copy`, and instead using `Cmd+v`, you use `Opt+Cmd+v` to cut the selected content and past it to where you're at.
+So basically, in Finder, you can first use `Cmd+c` to copy the selected files, and then determine whether you want to past or cut it until the very end. [Marta](https://marta.sh/), on the other hand, **doesn't** provide such an *action*. 
+It only provides `core.move`, and the way it's done is like following. 
+1. Select the file you want to `core.move`.
+2. Press the keybinding you assign to `core.move` (default is `F6`).
+3. It'll pop up a small window asking you where you want to `core.move` the selected file. The default path is ***another panel's address***.
 
 For demonstration, say I want to move the created `test.txt` to my `Download` folder. The initial state should look like this:
 <p align="center">
 	<img src="./move.png"/>
 </p>
 
-Then I simply press `Cmd + x`, which is my personal keybinding for `move` to mimic the shortcut `cut` in other operating system. 
+Then I simply press `Cmd+x`, which is my personal keybinding for `core.move` to mimic the shortcut `cut` in other operating system. 
 <p align="center">
 	<img src="./move-2.png"/>
 </p>
 
-You can see that the default path is ***another panel's address***, by hitting `enter`, the file is moved.
+You can see that the default path is ***another panel's address***, by hitting `Enter`, the file is moved.
 <p align="center">
 	<img src="./move-3.png"/>
 </p>
@@ -179,20 +180,20 @@ The clone action is quite interesting, it includes four variations:
 4. `core.clone.right.folder` (only works when you're at the *left* panel)
 > Same as `core.clone.left.folder`, but reversed in an obvious way.
 
-You can now imagine how useful this is, since if you're moving files under some parent folder, then you can simply use `clone` *action* to quickly set another panel to the similar address and `move` files around.
+You can now imagine how useful this is, since if you're moving files under some parent folder, then you can simply use `core.clone` *action* to quickly set another panel to the similar address and `core.move` files around.
 
 ### Demo
 
 
 ## Search Action
 Here comes to an end of this brief introduction for [Marta](https://marta.sh/). Though you might feel overwhelming for now, but there is actually a very nice feature provided natively in [Marta](https://marta.sh/) which helps find all the 
-*actions* quickly when you forget the keybinding. When you press `Shift + Cmd + P`, a search bar named *Search Action* will pop-up like this: 
+*actions* quickly when you forget the keybinding. When you press `Shift+Cmd+P`, a search bar named *Search Action* will pop-up like this: 
 <p align="center">
 	<img src="./search-action.png"/>
 </p>
 
 Then, you can type any action you want. For example, in [Open Compressed file](./posts/Marta#compressed-file), I didn't mention how I zip that `test.txt`. Indeed, there is a built-in *action* in [Marta](https://marta.sh/), but since I didn't compress files 
-that often, hence I do not assign a keybinding for this. Instead, I can simply leave my focus on the file I want to zip (potentially multiple files, which can be selected by using `Shift + ↑/↓` as you expected) and then press `Shift + Cmd + p`, search for `Compress`:
+that often, hence I do not assign a keybinding for this. Instead, I can simply leave my focus on the file I want to zip (potentially multiple files, which can be selected by using `Shift+↑/↓` as you expected) and then press `Shift+Cmd+p`, search for `Compress`:
 <p align="center">
 	<img src="./search-action-2.png"/>
 </p>
@@ -290,7 +291,7 @@ One thing I didn't bring up is that there are actually different themes you can 
 </p>
 
 I actually quite like the look of Sakura 🌸, but since I use dark mode throughout all application, hence I just give up on this... Definitely try it out! To change the theme, 
-you can either just work in the configuration file, or to [search the $\texttt{Switch Theme}$ action](./posts/Marta#search-action):
+you can either just work in the configuration file, or to [search the `Switch Theme` *action*](./posts/Marta#search-action):
 <p align="center">
 	<img src="./switch-theme.png"/>
 </p>
