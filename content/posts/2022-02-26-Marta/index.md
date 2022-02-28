@@ -241,7 +241,7 @@ etty {
     }
 }
 ```
-### Theme
+# Theme
 One thing I didn't bring up is that there are actually different themes you can choose from, here is some from the [official document](https://marta.sh/docs/configuration/themes/): 
 1. Kon
 <p align="center">
