@@ -137,9 +137,10 @@ what this file is. This works like this.
 
 ## Double Panels
 If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, it's extremely useful when you want to ***move your files around***. This is the most complex section, hence I leave it to the very end. 
-Before we start, we introduce one of the essential shortcut to navigate in [Marta](https://marta.sh/), `tab`. It'll send you to another panel, yup, it simply does this only! Now let's start!
+Before we start, we introduce one of the essential shortcuts to navigate in [Marta](https://marta.sh/), `tab`. It'll send you to another panel, yup, it simply does this only! Now let's start!
+
 ### Copy
-The default behavior is just like any other file manager you familiar with, you use `Cmd+c` to copy, and go to where you want to past it and use `Cmd+v` to paste. 
+The default behavior is just like any other file manager you familiar with, i.e., `Cmd+c` for copying, and `Cmd+v` for pasting.
 
 ### Move
 In case some of you didn't know, Finder **do** provide the functionality `cut`. This is done by first using `Cmd+c` like `copy`, and instead of using `Cmd+v`, you use `Opt+Cmd+v` to cut the selected content and past them to where you want.
