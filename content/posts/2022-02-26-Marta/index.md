@@ -48,7 +48,7 @@ You can do not only the same, but more with [Marta](https://marta.sh/)! The defi
 ```JSON
 "Right" "core.move.right"
 ```
-which essentially do the same thing as in Finder. But rather, you can redefine (yes, you can **complete redefine** all the key-bindings) it as 
+which essentially do the same thing as in Finder. But rather, you can redefine (yes, you can **complete redefine** all the keybindings) it as 
 ```JSON
 "Right" "core.open"
 ```
@@ -67,7 +67,7 @@ By default, you can create **any** types of file in [Marta](https://marta.sh/) b
 "F7" 		"core.new.folder"
 "Shift+F7" 	"core.new.file"
 ```
-You can bind it to your favorite key-bindings to match your own habits. For me, since [Totalfinder](https://totalfinder.binaryage.com/) follows the same shortcut as Finder, hence I change it to 
+You can bind it to your favorite keybindings to match your own habits. For me, since [Totalfinder](https://totalfinder.binaryage.com/) follows the same shortcut as Finder, hence I change it to 
 ```JSON
 "Shift+Cmd+n"   "core.new.folder"
 "Shift+Cmd+f"   "core.new.file"
@@ -85,16 +85,16 @@ If your current folder contains lots of files, you can locate any file you want 
 This is extremely fast and clever!
 
 ### Global Search
-What if you want to go to other directory far from your current one? You can use the function `Look UP`, which is triggered by `Cmd+p`. After you type this keybinding, a search bar will pop up, and you can search for the
-place you want to go to. Notice that it can be either file/directory. Let me show you how it's done.
-![](./global-search.gif")
+What if you want to go to other directories far from your current one? You can use the function `Look UP`, which is triggered by `Cmd+p`. After you type this keybinding, a search bar will pop up, and you can search for the
+place you want to go to. Notice that it can be either a file/directory. Let me show you how it's done.
+![](./global-search.gif)
 
 ## Search Action
-You might feel overwhelming for now since there are lots of *actions* and keybindings going on. But, there is actually a very nice feature provided natively in [Marta](https://marta.sh/) which helps find all the 
+You might feel overwhelmed for now since there are lots of *actions* and keybindings going on. But, there is actually a very nice feature provided natively in [Marta](https://marta.sh/) which helps find all the 
 *actions* quickly when you forget the keybinding. When you press `Shift+Cmd+P`, a search bar named *Search Action* will pop up like this, and you can search for the *action* you want.
 
-For example, there is a built-in `compress` *action* in [Marta](https://marta.sh/), but since I didn't compress files  that often, hence I do not assign a keybinding for this. Instead, I can simply leave my focus on
-the file I want to zip (potentially multiple files, which can be selected by using `Shift+↑/↓` as you expected) and then press `Shift+Cmd+p`, search for `Compress`. Then you just press `Enter`, it'll zip the file for you automatically!
+For example, there is a built-in `compress` *action* in [Marta](https://marta.sh/), but since I didn't compress files that often, hence I do not assign a keybinding for this. Instead, I can leave my focus on
+the file I want to zip (potentially multiple files, which can be selected by using `Shift+↑/↓` as you expected) and then press `Shift+Cmd+p`, search for `Compress`. Then after pressing `Enter`, it'll zip the file for you automatically!
 ![](./search-action.gif)
 
 Now, after locating the file/folder, the next question is, how to open them?
@@ -107,7 +107,7 @@ Interestingly, as you just saw, [Marta](https://marta.sh/) let you go *directly 
 "Cmd+Return" "core.open.with"
 ```
 This allows you to open a file with different apps. Personally, I use [Keka](https://www.keka.io/en/), which is a portable, powerful but light-weight file archiver. Say I just zipped the newly created `text.txt` file and want to 
-unzip it, I can simply press `Cmd+Return`, then we can select what app we want to open this file in. In this case, I want to open `test.txt.zip` with [Keka](https://www.keka.io/en/), then we have the following.
+unzip it, I can press `Cmd+Return`, then by selecting what app we want to open this file with. In this case, I want to open `test.txt.zip` with [Keka](https://www.keka.io/en/), then we have the following.
 ![](./open.gif)
 
 ### Projects
