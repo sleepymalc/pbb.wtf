@@ -132,7 +132,8 @@ So, if you now want to open a project, you can simply press `Cmd+e`, then it'll 
 
 ### Preview
 You might already notice, [Marta](https://marta.sh/) doesn't provide rich support of figures as your visual tool for file organization. But as in Finder, you can always press `Space` to open/close a quick *preview* (it's formally called *quick look*) to see 
-what this file is.
+what this file is. This works like this.
+![](./quick-look.gif)
 
 ## Double Panels
 If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, it's extremely useful when you want to ***move your files around***. This is the most complex section, hence I leave it to the very end. 
