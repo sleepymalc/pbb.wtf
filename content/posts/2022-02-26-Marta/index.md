@@ -1,5 +1,5 @@
 ---
-title: "Finder.replace_by(\"Marta\")"
+=title: "Finder.replace_by(\"Marta\")"
 tags: ["macOS", "app"]
 date: 2022-02-26
 path: "posts/Marta"
@@ -12,7 +12,8 @@ I have been using macOS for a straight 4 years now, though most of the design ch
 I asked lots of my macOS friends, and nearly all of them think Finder is fine, "it's fast and easy to use."
 
 Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before. Although I can write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you,
-but sadly, while Apple is moving on to M1 chips, [Totalfinder](https://totalfinder.binaryage.com/) is too old to keep up with the pace to be compatible with this new chip architecture. Indeed, it stops updating and is now free to everyone since it's not maintained anymore.
+but sadly, while Apple is moving on to M1 chips, [Totalfinder](https://totalfinder.binaryage.com/) is too old to keep up with the pace to be compatible with this new chip architecture. Indeed, it stops updating and is now free to everyone since it's not maintained anymore.(Things may changed!!! See this [post](https://twitter.com/akemin_dayo/status/1467946268181753859) and [this](https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879/12))
+
 <p align="center">
 	<img src="./totalfinder.png"/>
 </p>
