@@ -160,7 +160,7 @@ For demonstration, say I want to move the created `Test/test.txt` to my `Test2` 
 
 The big question now arises: "How can I do this efficiently? It seems like the functionality is quite limited." Now comes the crucial part, `clone` *action*.
 
-### Clone Left/Right (folder)
+### Clone
 The clone action is quite interesting, it includes four variations: 
 1. `core.clone.left` (only works when you're at the *right* panel)
 > It'll set the *left* panel to the **folder** you selected. If your current focus is on **file**, it'll simply set the *left* panel as the folder you're currently in of the *right* panel.
@@ -173,7 +173,7 @@ The clone action is quite interesting, it includes four variations:
 
 You can now imagine how useful this is since if you're moving files under some parent folder, then you can use `core.clone` *action* to quickly set another panel to the similar address and `core.move` files around.
 
-## Personal Configuration
+# Personal Configuration
 Let's see the configuration file. To open the configuration file, you can simply press `Cmd+,` in [Marta](https://marta.sh/). And to apply all my configurations, copy the following codes into the **Right** panel of the configuration file. The left hand 
 side of the configuration file is the default config for reference.
 
