@@ -88,7 +88,26 @@ We see that we're done!
 	<img src="./create-new-file-3.png"/>
 </p>
 
+<p align="center">
+	<img src="./create-new-file.gif"/>
+</p>
 Now, after creating files/folders, the next question is, how to open them?
+
+## Search Action
+Here comes to an end of this brief introduction for [Marta](https://marta.sh/). Though you might feel overwhelming for now, but there is actually a very nice feature provided natively in [Marta](https://marta.sh/) which helps find all the 
+*actions* quickly when you forget the keybinding. When you press `Shift+Cmd+P`, a search bar named *Search Action* will pop-up like this: 
+<p align="center">
+	<img src="./search-action.png"/>
+</p>
+
+Then, you can type any action you want. For example, in [Open Compressed file](./posts/Marta#compressed-file), I didn't mention how I zip that `test.txt`. Indeed, there is a built-in *action* in [Marta](https://marta.sh/), but since I didn't compress files 
+that often, hence I do not assign a keybinding for this. Instead, I can simply leave my focus on the file I want to zip (potentially multiple files, which can be selected by using `Shift+↑/↓` as you expected) and then press `Shift+Cmd+p`, search for `Compress`:
+<p align="center">
+	<img src="./search-action-2.png"/>
+</p>
+
+Then you just press `Enter`, it'll zip the file for you automatically! 
+
 
 ## Open
 As we mentioned before, we can open the file by `→`, but there is some subtly here, let me explain.
@@ -184,21 +203,6 @@ You can now imagine how useful this is, since if you're moving files under some 
 
 ### Demo
 
-
-## Search Action
-Here comes to an end of this brief introduction for [Marta](https://marta.sh/). Though you might feel overwhelming for now, but there is actually a very nice feature provided natively in [Marta](https://marta.sh/) which helps find all the 
-*actions* quickly when you forget the keybinding. When you press `Shift+Cmd+P`, a search bar named *Search Action* will pop-up like this: 
-<p align="center">
-	<img src="./search-action.png"/>
-</p>
-
-Then, you can type any action you want. For example, in [Open Compressed file](./posts/Marta#compressed-file), I didn't mention how I zip that `test.txt`. Indeed, there is a built-in *action* in [Marta](https://marta.sh/), but since I didn't compress files 
-that often, hence I do not assign a keybinding for this. Instead, I can simply leave my focus on the file I want to zip (potentially multiple files, which can be selected by using `Shift+↑/↓` as you expected) and then press `Shift+Cmd+p`, search for `Compress`:
-<p align="center">
-	<img src="./search-action-2.png"/>
-</p>
-
-Then you just press `Enter`, it'll zip the file for you automatically! 
 
 ## Personal Configuration
 Let's see the configuration file. To open the configuration file, you can simply press `Cmd + ,` in [Marta](https://marta.sh/). And to apply all my configurations, copy the following codes into the **Right** panel of the configuration file. The left hand 
