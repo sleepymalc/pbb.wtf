@@ -74,65 +74,41 @@ You can bind it to your favorite key-bindings to match your own habits. For me, 
 ```
 while `Shift+Cmd+n` is the default shortcut to create a new folder in Finder, but there is no such shortcut, or I should say, there is no easy way to create a new file in Finder, hence you get another 
 useful shortcut!
-For example, if you want to create a simple `.txt` file, you can just type `Shift+Cmd+f`, then we will see 
-<p align="center">
-	<img src="./create-new-file.png"/>
-</p>
-then you can type the name of the file (with extension name for completeness), then you're good to go!
-<p align="center">
-	<img src="./create-new-file-2.png"/>
-</p>
+For example, the following demo will show you how to create a simple `.txt` file.
+![](./create-new-file.gif)
 
-We see that we're done!
-<p align="center">
-	<img src="./create-new-file-3.png"/>
-</p>
+## Find
+A very clever move for [Marta](https://marta.sh/) is that they implemented some sort of fast searching. There are two kinds of search you can do in [Marta](https://marta.sh/), one is *local search*, another is *global search*.
+### Local Search
+If your current folder contains lots of files, you can locate any file you want quickly by ***directly typing their name***. Let me show you how to do this. 
+![](./local-search.gif)
+This is extremely fast and clever!
 
-<p align="center">
-	<img src="./create-new-file.gif"/>
-</p>
-Now, after creating files/folders, the next question is, how to open them?
+### Global Search
+What if you want to go to other directory far from your current one? You can use the function `Look UP`, which is triggered by `Cmd+p`. After you type this keybinding, a search bar will pop up, and you can search for the
+place you want to go to. Notice that it can be either file/directory. Let me show you how it's done.
+![](./global-search.gif")
 
 ## Search Action
-Here comes to an end of this brief introduction for [Marta](https://marta.sh/). Though you might feel overwhelming for now, but there is actually a very nice feature provided natively in [Marta](https://marta.sh/) which helps find all the 
-*actions* quickly when you forget the keybinding. When you press `Shift+Cmd+P`, a search bar named *Search Action* will pop-up like this: 
-<p align="center">
-	<img src="./search-action.png"/>
-</p>
+You might feel overwhelming for now since there are lots of *actions* and keybindings going on. But, there is actually a very nice feature provided natively in [Marta](https://marta.sh/) which helps find all the 
+*actions* quickly when you forget the keybinding. When you press `Shift+Cmd+P`, a search bar named *Search Action* will pop up like this, and you can search for the *action* you want.
 
-Then, you can type any action you want. For example, in [Open Compressed file](./posts/Marta#compressed-file), I didn't mention how I zip that `test.txt`. Indeed, there is a built-in *action* in [Marta](https://marta.sh/), but since I didn't compress files 
-that often, hence I do not assign a keybinding for this. Instead, I can simply leave my focus on the file I want to zip (potentially multiple files, which can be selected by using `Shift+↑/↓` as you expected) and then press `Shift+Cmd+p`, search for `Compress`:
-<p align="center">
-	<img src="./search-action-2.png"/>
-</p>
+For example, there is a built-in `compress` *action* in [Marta](https://marta.sh/), but since I didn't compress files  that often, hence I do not assign a keybinding for this. Instead, I can simply leave my focus on
+the file I want to zip (potentially multiple files, which can be selected by using `Shift+↑/↓` as you expected) and then press `Shift+Cmd+p`, search for `Compress`. Then you just press `Enter`, it'll zip the file for you automatically!
+![](./search-action.gif)
 
-Then you just press `Enter`, it'll zip the file for you automatically! 
-
+Now, after locating the file/folder, the next question is, how to open them?
 
 ## Open
 As we mentioned before, we can open the file by `→`, but there is some subtly here, let me explain.
 ### Compressed file
-Interestingly, [Marta](https://marta.sh/) let you go *directly in* a `.zip` file and see the content in it. What if you want to do something else about it? Like, open it by other apps to unzip? By default, we have the following.
+Interestingly, as you just saw, [Marta](https://marta.sh/) let you go *directly in* a `.zip` file and see the content in it. What if you want to do something else about it? Like, open it by other apps to unzip? By default, we have the following.
 ```JSON
 "Cmd+Return" "core.open.with"
 ```
 This allows you to open a file with different apps. Personally, I use [Keka](https://www.keka.io/en/), which is a portable, powerful but light-weight file archiver. Say I just zipped the newly created `text.txt` file and want to 
-unzip it, I can just simply press `Cmd+Return`, then we will see the following
-
-<p align="center">
-	<img src="./open.png"/>
-</p>
-
-Then I can just use arrow keys to select [Keka](https://www.keka.io/en/)
-<p align="center">
-	<img src="./open-2.png"/>
-</p>
-Hit the enter, then we have 
-<p align="center">
-	<img src="./open-3.png"/>
-</p>
-
-See that `text 2.txt`? That is the unzipped file!
+unzip it, I can simply press `Cmd+Return`, then we can select what app we want to open this file in. In this case, I want to open `test.txt.zip` with [Keka](https://www.keka.io/en/), then we have the following.
+![](./open.gif)
 
 ### Projects
 For those developers, I bet you'll need to open an **entire folder** very often. And as far as I know, there is no easy way to do this in Finder. But in [Marta](https://marta.sh/), you can use the `core.edit` *action*:
@@ -151,11 +127,12 @@ environment {
     textEditor "Visual Studio Code"
 }
 ```
-So, if you now want to open a project, you can simply press `Cmd + e`, then it'll open this folder within your favorite IDE you specified! 
+So, if you now want to open a project, you can simply press `Cmd+e`, then it'll open this folder within your favorite IDE you specified! Let's see the demo.
+![](./edit.gif)
 
 ### Preview
 You might already notice, [Marta](https://marta.sh/) doesn't provide rich support of figures as your visual tool for file organization. But as in Finder, you can always press `Space` to open/close a quick *preview* (it's formally called *quick look*) to see 
-what this file actually is.
+what this file is.
 
 ## Double Panels
 If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, it's extremely useful when you want to ***move your files around***. This is the most complex section, hence I leave it to the very end. 
@@ -171,20 +148,8 @@ It only provides `core.move`, and the way it's done is like following.
 2. Press the keybinding you assign to `core.move` (default is `F6`).
 3. It'll pop up a small window asking you where you want to `core.move` the selected file. The default path is ***another panel's address***.
 
-For demonstration, say I want to move the created `test.txt` to my `Download` folder. The initial state should look like this:
-<p align="center">
-	<img src="./move.png"/>
-</p>
-
-Then I simply press `Cmd+x`, which is my personal keybinding for `core.move` to mimic the shortcut `cut` in other operating system. 
-<p align="center">
-	<img src="./move-2.png"/>
-</p>
-
-You can see that the default path is ***another panel's address***, by hitting `Enter`, the file is moved.
-<p align="center">
-	<img src="./move-3.png"/>
-</p>
+For demonstration, say I want to move the created `Test/test.txt` to my `Test2` folder. The workflow should be like this:
+![](./move.gif)
 
 The big question now arises: "How can I do this efficiently? It seems like the functionality is quite limited." Now comes the crucial part, `clone` *action*.
 
@@ -199,13 +164,10 @@ The clone action is quite interesting, it includes four variations:
 4. `core.clone.right.folder` (only works when you're at the *left* panel)
 > Same as `core.clone.left.folder`, but reversed in an obvious way.
 
-You can now imagine how useful this is, since if you're moving files under some parent folder, then you can simply use `core.clone` *action* to quickly set another panel to the similar address and `core.move` files around.
-
-### Demo
-
+You can now imagine how useful this is since if you're moving files under some parent folder, then you can use `core.clone` *action* to quickly set another panel to the similar address and `core.move` files around.
 
 ## Personal Configuration
-Let's see the configuration file. To open the configuration file, you can simply press `Cmd + ,` in [Marta](https://marta.sh/). And to apply all my configurations, copy the following codes into the **Right** panel of the configuration file. The left hand 
+Let's see the configuration file. To open the configuration file, you can simply press `Cmd+,` in [Marta](https://marta.sh/). And to apply all my configurations, copy the following codes into the **Right** panel of the configuration file. The left hand 
 side of the configuration file is the default config for reference.
 
 ```JSON
