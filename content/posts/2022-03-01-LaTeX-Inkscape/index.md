@@ -1,5 +1,5 @@
 ---
-title: "LaTeX.import(\"Inkscape\")"
+title: "VSCode.import([Inkscape, LaTeX])"
 tags: ["LaTeX", "Inkscape"]
 date: 2022-03-01
 path: "posts/LaTeX-Inkscape"
