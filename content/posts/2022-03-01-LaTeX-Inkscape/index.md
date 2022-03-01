@@ -15,13 +15,7 @@ I took quite a few math courses, hence after finding out this workflow, I decide
 If you still don't know what to expect, please check out my [Notes](https://github.com/sleepymalc/Notes) taken in this setup. Deciding to adopt this workflow probably is the best choice I did throughout my education!
 # ***VSCode-LaTeX-Inkscape***
 <p align="center">
-<img src="./figures/inkscape_example5.png"/>
-</p>
-<p align="center">
-<img src="./figures/inkscape_example4.png"/>
-</p>
-<p align="center">
-<img src="./figures/note.png"/>
+	<img src="./figures/note.png"/>
 </p>
 
 ## Disclaimer
@@ -39,43 +33,44 @@ Now, we go through things one by one following Gilles Castel's blog post.
 This is probably the only thing I don't like that much in Gilles Castel's setup. I'm quite comfortable looking at LaTeX source code for formula, and I don't think they look that nice. But if you want to set them up in VSCode, there is an extension [here](https://github.com/Pancaek/vsc-conceal), I have no experience with this particular setup, feel free to try them out though.
 
 ### Snippets
-
 #### What’s a snippet?
 
 A snippet is a short reusable piece of text that can be triggered by some other text. For example, when I type `dm`, the word `dm` will be expanded to a math environment:
-
 <p align="center">
 	<img src="./gifs/dm.gif"/>
 </p>
 
 
-If you are a math guy, you may need to type some inline math like `$$`, which is kind of painful. But with snippet, you can have 
-
+If you are a math guy, you may need to type some inline math like `\(\)`, which is kind of painful. But with snippet, you can have 
 <p align="center">
-	<img src="./gifs/inline.gif"/>
+	<img src="./gifs/fm.gif"/>
 </p>
 
 
-See? You just type `fm`, and then your snippet not only automatically type `$$` for you, but it also sends your cursor between `$$`!
-Note that it's recommended to use `\(\)` rather than `$$`, and I'm using the former now, but this should show the functionality as well.
+See? You just type `fm`, and then your snippet not only automatically type `\(\)` for you, but it also sends your cursor between `\(\)`! With this, you can type something **really** fast:
+<p align="center">
+	<img src="./gifs/fast.gif"/>
+</p>
+
+Note that in the above demo, I use a very common snippet, `qs` for `^{2}`.
 
 As you can imagine, this can be quite complex. For example, you can even have something like this:
-
 <p align="center">
-	<img src="./gifs/table2_5.gif"/>
+	<img src="./gifs/table.gif"/>
 </p>
 
-
 or this:
-
 <p align="center">
 	<img src="./gifs/pmatrix.gif"/>
 </p>
 
+Too fast to keep track of? For the first snippet, I type `table2 5`, and then it generates a table with 2 rows and 5 columns. For the second one, I type `pmat` for matrix, and then type `2 5` to indicate that I want a 2 by 5 matrix, then boom! My snippets do that for me in an instant!
 
-Too fast to keep track of? For the first snippet, I type `table2 5`, and then it generates a table with 2 rows and 5 columns. For the second one, I type `pmat` for matrix, and then type `2 4` to indicate that I want a 2 by 4 matrix, then boom! My snippets do that for me in an instant!
-
-Feeling it? Let's try to set up this step by step. And maybe you can create your snippets also!
+Feeling it? Let's try to set up this step by step. And maybe you can create your snippets also! Here is some useful 
+snippets for you.
+<p align="center">
+	<img src="./gifs/useful.gif"/>
+</p>
 
 ### HyperSnips
 
@@ -97,7 +92,6 @@ Unlike Gilles Castel's approach, there is an available extension out there for y
 	<img src="./gifs/integral.gif"/>
 </p>
 
-
 Magic right? Let's set it up! First, please look at the installation document provided by [Latex Sympy Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). After your installation is done, you can then set up the keybinding for calculating the math expression. I use `shift+e`, where `e` stands for evaluating, to calculate in the way that it will append an equal sign and the answer right after your formula, just like above. And if you don't want to show the intermediate steps of your calculation, you can use `shift+r`, where `r` stands for replacing, to directly replace the whole formula and give me the answer only. See the demo below:
 
 <p align="center">
@@ -105,7 +99,7 @@ Magic right? Let's set it up! First, please look at the installation document pr
 </p>
 
 
-You can find my key-binding setup in this repo. But stay tuned, there is more to come! Let's go to the last thing covered in Gilles Castel's post, correcting spelling mistakes.
+You can find my keybinding setup in this repo. But stay tuned, there is more to come! Let's go to the last thing covered in Gilles Castel's post, correcting spelling mistakes.
 
 ### Correcting spelling mistakes on the fly
 
@@ -126,14 +120,14 @@ If you are bad at grammar like me, you definitely want to install [LTeX](https:/
 Now, it's time to configure all these. Open your Keyboard Shortcuts page in VSCode, which is in the bottom left
 
 <p align="center">
-	<img src="./figures/keyboard.png" alt="drawing" width="400"/>  
+	<img src="./figures/keyboard.png"/>  
 </p>
 
 
 And then go into its `JSON` file, which is at the upper right:
 
 <p align="center">
-	<img src="./figures/keyboard2.png" alt="drawing" width="200"/>
+	<img src="./figures/keyboard2.png"/>
 </p>
 
 
@@ -158,7 +152,6 @@ Now, paste the following code in `keybindings.json`:
     }
 },
 ```
-
 Make sure that the curly braces above have a trailing comma, otherwise, VSCode will complain about it.
 
 Now, as long as you see there is a spelling error, you just type `cmd+l`, the keybinding will do the following things:
@@ -172,7 +165,6 @@ Here is a quick demo for how it works when typing:
 <p align="center">
 	<img src="./gifs/spell.gif"/>
 </p>
-
 
 Additionally, if you also want to correct your grammar error, I use the shortcut `cmd+k` to trigger a quick-fix for a general error. The setting looks like this:
 
@@ -205,22 +197,9 @@ Now, the first part is over. Let's go to the next truly beautiful, elegant, and 
 ## Drawing Like a Pro - With Inkscape
 
 Before we go to any setup detail, let's first look at some figures I draw right after I have set this up:
-
-
 <p align="center">
-	<img src="./figures/inkscape_example1.png"/>
+	<img src="./figures/inkscape_example.png"/>
 </p>
-<p align="center">
-	<img src="./figures/inkscape_example2.png"/>
-</p>
-<p align="center">
-	<img src="./figures/inkscape_example3.png"/>
-</p>
-<p align="center">
-	<img src="./figures/inkscape_example6.png"/>
-</p>
-
-
 
 This is quite eye-pleasing, right? Those are some drawings I made when taking Linear programming lectures. But this is just my naive drawing, compare to Gilles Castel's examples, this is nothing. Check it out for the original blog. Or for more figures I draw, you can check out [Note](https://github.com/sleepymalc/Notes).
 
@@ -228,21 +207,8 @@ One last thing is that I'll assume you have already installed [VSCode Vim](https
 
 ### Inkscape
 
-A big question is, why Inkscape? In Gilles Castel's blog, he had already explained it. One reason is that although TikZ can do the job of drawing vector figures in LaTeX with original support, it's too slow to set all diagrams right. This is so true, since my experience with TikZ is *nice looking, intuitive* but also *slow, bulky*. For example, in one of my assignments for graph theory, I have to do graph partition by running a BFS(bread-first search). This is what's the source code looks like:
-
-<p align="center">
-	<img src="./figures/source-code.png" width="200"/>
-</p>
-
-
-You think this is it? No, this is not even half of them. And yes, I admit that the result is not bad, the initial graph looks like this:
-
-<p align="center">
-	<img src="./figures/tikz.png"/>
-</p>
-
-
-but to let VSCode compile this, this is not fun at all. In this large amount of nested environment, it takes *[latexindent](https://ctan.org/pkg/latexindent)* to auto-indent them for almost five seconds, and then compile them by *pdfLaTeX* takes about 5 more seconds. That's not efficient at all, especially when you want some instant feedback for some small changes. 
+A big question is, why Inkscape? In Gilles Castel's blog, he had already explained it. One reason is that although $\texttt{TikZ}$ can do the job of drawing vector figures in LaTeX with original support, it's too slow to set all diagrams right. This is so true, since my experience with $\texttt{TikZ}$ is *nice looking, intuitive* but also *slow, bulky*. 
+You think this is it? When you need to generate a series of figures, it'll go beyond hundreds of lines of codes easily. And up to this point, to let VSCode compile this, this is not fun at all. In this large amount of nested environment, it takes *[latexindent](https://ctan.org/pkg/latexindent)* to auto-indent them for almost tens of seconds, and then compile them by *pdfLaTeX* takes about another tens more seconds. That's not efficient at all, especially when you want some instant feedback for some small changes. 
 
 However, by using Inkscape, you only need to type (Ok, not quite, you don't need to type them out manually as you'll see) the following:
 
@@ -283,7 +249,6 @@ LaTeX_project
     ├── LaTex.pdf
     │
     ├── Figures
-    │    │
     │    ├── fig1
     │    ├── fig2
     │    .
@@ -483,10 +448,8 @@ which is just the snippet we remove from [Inkscape figure manager](https://githu
 5. Paste the above snippets into that file.
 
 <p align="center">
-	<img src="./gifs/demo-inkscape.gif" width="900"/>
+	<img src="./gifs/demo-create-inkscape.gif"/>
 </p>
-
-
 
 Don't know what happen? Let me break it down for you. Firstly, I change into `insert` mode in VSCode Vim and type my new figure's name `figure-test`. And then, I press `ctrl+f` to trigger a keybinding. Then it will automatically create an Inkscape figure named `figure-test` for me and open it. 
 
@@ -524,7 +487,7 @@ and also in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/
 This is what's you should expect when you want to edit a particular figure:
 
 <p align="center">
-	<img src="./gifs/demo-edit-inkscape.gif" width="900"/>
+	<img src="./gifs/demo-edit-inkscape.gif"/>
 </p>
 
 
@@ -580,6 +543,11 @@ and also, define the command `quiver` as
 ```
 
 Notice that you'll need to build it first if you want to use it offline! Please follow the tutorial [here](https://github.com/varkor/quiver). Otherwise, it's totally fine to use `"quiver": "open -na 'Google Chrome' --args --new-window https://q.uiver.app/"` as your command.
+
+This is how the workflow looks like.
+<p align="center">
+	<img src="./gifs/quiver.gif"/>
+</p>
 
 ### Migrate to HyperSnips (02.18.22)
 
