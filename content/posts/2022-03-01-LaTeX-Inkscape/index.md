@@ -7,13 +7,12 @@ excerpt: A way to integrate LaTeX, VSCode, and Inkscape in macOS
 cover: "./preview.png"
 ---
 
-## Abstract
-I use LaTeX heavily in the past two years for both academic work and professional work, and I think I'm quite proficient in terms of typing things out in LaTeX. But when I see this blog post from **Gilles Castel**-[How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/) and also [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/), I realize that I'm still too naive. 
+# ***VSCode-LaTeX-Inkscape***
+I use $\LaTeX$ heavily in the past two years for both academic work and professional work, and I think I'm quite proficient in terms of typing things out in $\LaTeX$. But when I see this blog post from **Gilles Castel**-[How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/) and also [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/), I realize that I'm still too naive. 
 
 I took quite a few math courses, hence after finding out this workflow, I decided to adapt the whole setup from Linux-Vim to macOS-VSCode. So, if you're interested in this and in the same situation as me, namely if you don't want to jump into Linux and Vim, follow me!
 
 If you still don't know what to expect, please check out my [Notes](https://github.com/sleepymalc/Notes) taken in this setup. Deciding to adopt this workflow probably is the best choice I did throughout my education!
-# ***VSCode-LaTeX-Inkscape***
 <p align="center">
 	<img src="./figures/note.png"/>
 </p>
@@ -24,13 +23,13 @@ Please look through the two blog posts above by Gilles Castel! They are incredib
 
 ## Setup For Typing Blasting Fast
 
-First thing first, please set up your VSCode with LaTeX properly with [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop), there are lots of tutorials online, just check them out and set them up properly.
+First thing first, please set up your VSCode with $\LaTeX$ properly with [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop), there are lots of tutorials online, just check them out and set them up properly.
 
 Now, we go through things one by one following Gilles Castel's blog post.
 
 ### Tex Conceal
 
-This is probably the only thing I don't like that much in Gilles Castel's setup. I'm quite comfortable looking at LaTeX source code for formula, and I don't think they look that nice. But if you want to set them up in VSCode, there is an extension [here](https://github.com/Pancaek/vsc-conceal), I have no experience with this particular setup, feel free to try them out though.
+This is probably the only thing I don't like that much in Gilles Castel's setup. I'm quite comfortable looking at $\LaTeX$ source code for formula, and I don't think they look that nice. But if you want to set them up in VSCode, there is an extension [here](https://github.com/Pancaek/vsc-conceal), I have no experience with this particular setup, feel free to try them out though.
 
 ### Snippets
 #### What’s a snippet?
@@ -207,7 +206,7 @@ One last thing is that I'll assume you have already installed [VSCode Vim](https
 
 ### Inkscape
 
-A big question is, why Inkscape? In Gilles Castel's blog, he had already explained it. One reason is that although $\texttt{TikZ}$ can do the job of drawing vector figures in LaTeX with original support, it's too slow to set all diagrams right. This is so true, since my experience with $\texttt{TikZ}$ is *nice looking, intuitive* but also *slow, bulky*. 
+A big question is, why Inkscape? In Gilles Castel's blog, he had already explained it. One reason is that although $\texttt{TikZ}$ can do the job of drawing vector figures in $\LaTeX$ with original support, it's too slow to set all diagrams right. This is so true, since my experience with $\texttt{TikZ}$ is *nice looking, intuitive* but also *slow, bulky*. 
 You think this is it? When you need to generate a series of figures, it'll go beyond hundreds of lines of codes easily. And up to this point, to let VSCode compile this, this is not fun at all. In this large amount of nested environment, it takes *[latexindent](https://ctan.org/pkg/latexindent)* to auto-indent them for almost tens of seconds, and then compile them by *pdfLaTeX* takes about another tens more seconds. That's not efficient at all, especially when you want some instant feedback for some small changes. 
 
 However, by using Inkscape, you only need to type (Ok, not quite, you don't need to type them out manually as you'll see) the following:
@@ -239,7 +238,7 @@ First thing first, include the following in your header
 }
 ```
 
-This assumes that your LaTeX project's home directory looks like this:
+This assumes that your $\LaTeX$ project's home directory looks like this:
 
 ```bash
 LaTeX_project
@@ -558,10 +557,10 @@ Now, instead using [HyperSnips for Math](https://marketplace.visualstudio.com/it
 Again, thanks to Gilles Castel, this workflow fits my style. Although it originally works in Linux+Vim only, the idea is the most important thing. Without his wonderful post, I can't even imagine this is possible. But now it is! Go to his original post to show him some love.
 
 ## Related Project
-
-1. [Academic_Template](https://github.com/sleepymalc/Academic_Template) (A general LaTeX template for making PPT by beamer and Academic Report)
-2. [Notes](https://github.com/sleepymalc/Notes) (All notes taken in this setup)
-3. [gillescastel/inkscape-figures](https://github.com/gillescastel/inkscape-figures)
-4. [gillescastel/inkscape-shortcut-manager](https://github.com/gillescastel/inkscape-shortcut-manager)
-5. [chipsenkbeil/choose](https://github.com/chipsenkbeil/choose)
-6. [varkor/quiver](https://github.com/varkor/quiver)
+1. [VSCode-LaTeX-Inkscape](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) (The github repo for this setup)
+2. [Academic_Template](https://github.com/sleepymalc/Academic_Template) (A general $\LaTeX$ template for making PPT by beamer and Academic Report)
+3. [Notes](https://github.com/sleepymalc/Notes) (All notes taken in this setup)
+4. [gillescastel/inkscape-figures](https://github.com/gillescastel/inkscape-figures)
+5. [gillescastel/inkscape-shortcut-manager](https://github.com/gillescastel/inkscape-shortcut-manager)
+6. [chipsenkbeil/choose](https://github.com/chipsenkbeil/choose)
+7. [varkor/quiver](https://github.com/varkor/quiver)
