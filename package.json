@@ -19,7 +19,7 @@
   "homepage": "https://github.com/sleepymalc/pbb.wtf#readme",
   "dependencies": {
     "gatsby": "^3.14.0",
-    "gatsby-theme-academic": "^1.2.5",
+    "gatsby-theme-academic": "^1.2.6",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   }
