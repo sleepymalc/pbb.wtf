@@ -433,7 +433,6 @@ Now, let's see the last thing I have to share with you.
 #### 3. Edit
 
 Again, we also use `ctrl+f` to trigger `inkscape-figures edit` command. We set up our [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) as 
-
 ```json
 {
 "key": "ctrl+f",
@@ -450,29 +449,24 @@ Again, we also use `ctrl+f` to trigger `inkscape-figures edit` command. We set u
 "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode == 'Normal'"
 },
 ```
-
 and also in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
-
 ```json
 "command-runner.commands": {
     "inkscapeEdit": "inkscape-figures edit ${workspaceFolder}/Figures/"
 }
 ```
-
 This is what's you should expect when you want to edit a particular figure:
 
 <p align="center">
 	<img src="./gifs/demo-edit-inkscape.gif"/>
 </p>
 
-
 This is where [choose](https://github.com/chipsenkbeil/choose) comes into play. When you press `ctrl+f` in `Normal` mode, you'll trigger the `inkscape-figures edit` command, and it'll look into your `Figures/` subfolder to see what figures you have and pop out a window for you to choose. After you press `enter`, it will open that file for you to edit. In my demo, I create another figure named `figure-test2`, then modify it a little, and compile it again.
 
 ### Inkscape shortcut manager
-This is the most complicated part of the whole setup, I would say. Leave as a TODO.
+
 
 ### Summary
-
 This is the whole setup I have, and let's wrap this up since I know this may be overwhelming at this point.
 1. Before starting your project, please go to `Visual` mode by entering `v` in `Normal` mode and then press `ctrl+f`. This will set up the file watcher.
 2. When you want to create a new figure, go into a new line, type the name of your figure in `Insert` mode, then press `ctrl+f`. This will create a new figure with the name you typed and open it in Inkscape for you.
@@ -518,8 +512,34 @@ This is how the workflow looks like.
 	<img src="./gifs/quiver.gif"/>
 </p>
 
-### Migrate to HyperSnips (02.18.22)
+To use the package `tikz-cd`, you need to include the following into your header:
+```latex
+% quiver style
+\usepackage{tikz-cd}
+% `calc` is necessary to draw curved arrows.
+\usetikzlibrary{calc}
+% `pathmorphing` is necessary to draw squiggly arrows.
+\usetikzlibrary{decorations.pathmorphing}
 
+% A TikZ style for curved arrows of a fixed height, due to AndréC.
+\tikzset{curve/.style={settings={#1},to path={(\tikztostart)
+					.. controls ($(\tikztostart)!\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
+					and ($(\tikztostart)!1-\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
+					.. (\tikztotarget)\tikztonodes}},
+	settings/.code={\tikzset{quiver/.cd,#1}
+			\def\pv##1{\pgfkeysvalueof{/tikz/quiver/##1}}},
+	quiver/.cd,pos/.initial=0.35,height/.initial=0}
+
+% TikZ arrowhead/tail styles.
+\tikzset{tail reversed/.code={\pgfsetarrowsstart{tikzcd to}}}
+\tikzset{2tail/.code={\pgfsetarrowsstart{Implies[reversed]}}}
+\tikzset{2tail reversed/.code={\pgfsetarrowsstart{Implies}}}
+% TikZ arrow styles.
+\tikzset{no body/.style={/tikz/dash pattern=on 0 off 1mm}}
+```
+You can certainly follow my [Template](https://github.com/sleepymalc/Academic-Template), which already includes all the requirement header for you.
+
+### Migrate to HyperSnips (02.18.22)
 Now, instead using [HyperSnips for Math](https://marketplace.visualstudio.com/items?itemName=OrangeX4.hsnips), we're now using [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips), namely the **original one**! Since I just find out that we can trigger the snippets **only in math mode** by using the special keyword called `context`, hence I just migrate to the original one. To migrate, you just need to uninstall [HyperSnips for Math](https://marketplace.visualstudio.com/items?itemName=OrangeX4.hsnips), install [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips) with the updated [latex.hsnips](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) I prepared for you, and then enjoy!
 
 ## Credits
