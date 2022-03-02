@@ -86,7 +86,7 @@ module.exports = {
       title: 'HHKB is the best, period.',
     }, {
       icon: 'camera-retro',
-      title: 'Street Phonography',
+      title: 'Street Photography',
     }, {
       icon: 'brain',
       title: 'Algorithm',
