@@ -1,9 +1,9 @@
 ---
-title: "VSCode.import([Inkscape, LaTeX])"
-tags: ["LaTeX", "Inkscape"]
+title: "VSCode.import([LaTeX, Inkscape])"
+tags: ["LaTeX", "macOS"]
 date: 2022-03-01
 path: "posts/LaTeX-Inkscape"
-excerpt: A way to integrate LaTeX, VSCode, and Inkscape in macOS
+excerpt: A way to integrate LaTeX, VSCode, and Inkscape in macOS. This is built to be fast, fast enough to let you live-tex notes in lectures.
 cover: "./preview.png"
 ---
 
@@ -17,34 +17,34 @@ If you still don't know what to expect, please check out my [Notes](https://gith
 	<img src="./figures/note.png"/>
 </p>
 
-## Disclaimer
-
-Please look through the two blog posts above by Gilles Castel! They are incredible and worth spending your time to understand how all things work, and what's the motivation behind all these. I'm only mimicking his workflow, with a little patience to set up the whole thing in my environment. Show respect to the original author!
-
 ## Setup For Typing Blasting Fast
-
-First thing first, please set up your VSCode with $\LaTeX$ properly with [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop), there are lots of tutorials online, just check them out and set them up properly.
+First thing first, please set up your VSCode with $\LaTeX$ properly with [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop). There are lots of tutorials online, just check them out and set them up properly.
+Basically, it can be done in the following steps:
+1. Download [MacTex](https://www.tug.org/mactex/). This can be replaced by something more lightweight, but in my opinion, this doesn't really help much in terms of speed or wasting your disk. But if you want something like this, check out [TeXLive](https://www.tug.org/texlive/).
+2. Download [VSCode](https://code.visualstudio.com/).
+3. Download [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+4. (Optional) Copy-pasting the following configuration file into your `settings.json`
+```JSON
+"latex-workshop.latex.autoBuild.run": "onSave"
+```
+> This will save your time by compiling your $\LaTeX$ project whenever you save your file by `Cmd+s`.
 
 Now, we go through things one by one following Gilles Castel's blog post.
 
 ### Tex Conceal
-
 This is probably the only thing I don't like that much in Gilles Castel's setup. I'm quite comfortable looking at $\LaTeX$ source code for formula, and I don't think they look that nice. But if you want to set them up in VSCode, there is an extension [here](https://github.com/Pancaek/vsc-conceal), I have no experience with this particular setup, feel free to try them out though.
 
 ### Snippets
 #### What’s a snippet?
-
 A snippet is a short reusable piece of text that can be triggered by some other text. For example, when I type `dm`, the word `dm` will be expanded to a math environment:
 <p align="center">
 	<img src="./gifs/dm.gif"/>
 </p>
 
-
 If you are a math guy, you may need to type some inline math like `\(\)`, which is kind of painful. But with snippet, you can have 
 <p align="center">
 	<img src="./gifs/fm.gif"/>
 </p>
-
 
 See? You just type `fm`, and then your snippet not only automatically type `\(\)` for you, but it also sends your cursor between `\(\)`! With this, you can type something **really** fast:
 <p align="center">
@@ -72,7 +72,6 @@ snippets for you.
 </p>
 
 ### HyperSnips
-
 If you look around in the VSCode extension marketplace to find UltiSnips' equivalence, you probably will find [Vsnips](https://marketplace.visualstudio.com/items?itemName=corvofeng.Vsnips). But I'm not sure why this is the case, I can't figure out how to set it up properly. Hence, I find another alternative, which is [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Please first download [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Now, just follow the instruction, copy [latex.hsnips](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) into `$HOME/Library/Application Support/Code/User/hsnips/`, and you're good to go!
 
 To modify this file, you can either go to this file in your finder or use VSCode built-in command function. For command function, 
@@ -84,15 +83,12 @@ To modify this file, you can either go to this file in your finder or use VSCode
 For a further and detailed explanation for snippets, please go to check out the original blog post! 
 
 ### Sympy and Mathematica
-
 Unlike Gilles Castel's approach, there is an available extension out there for you to simplify your math calculation already! Please go to checkout [Latex SYMPY Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). It's works like follows:
-
 <p align="center">
 	<img src="./gifs/integral.gif"/>
 </p>
 
 Magic right? Let's set it up! First, please look at the installation document provided by [Latex Sympy Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). After your installation is done, you can then set up the keybinding for calculating the math expression. I use `shift+e`, where `e` stands for evaluating, to calculate in the way that it will append an equal sign and the answer right after your formula, just like above. And if you don't want to show the intermediate steps of your calculation, you can use `shift+r`, where `r` stands for replacing, to directly replace the whole formula and give me the answer only. See the demo below:
-
 <p align="center">
 	<img src="./gifs/integral2.gif"/>
 </p>
@@ -101,30 +97,24 @@ Magic right? Let's set it up! First, please look at the installation document pr
 You can find my keybinding setup in this repo. But stay tuned, there is more to come! Let's go to the last thing covered in Gilles Castel's post, correcting spelling mistakes.
 
 ### Correcting spelling mistakes on the fly
-
 Although my typing speed is quite high, I have typos all the time. So this is a must for me. And surprisingly, this is the hardest thing until now for me to set it upright. Let's see how we can configure this functionality in VSCode!
 
 #### multi-command
-
 Firstly, you need to download [multi-command](https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command) to perform this. And this is a very powerful extension, which allows you to do a sequence of actions in one shortcut. We will use this later on also, and that's the place it shines.
 
 #### Code Spell Checker
-
 And then, after searching for some time, I find out that there is a popular spelling checker out there which meets our needs, [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker). Just download it, it's useful.
 
 #### LTeX
-
 If you are bad at grammar like me, you definitely want to install [LTeX](https://marketplace.visualstudio.com/items?itemName=valentjn.VSCode-ltex) to check some simple grammar mistakes for you. Although it's not powerful like [Grammarly](https://www.grammarly.com/), not even comparable, it's still a good reference for you to keep your eyes on some simple mistakes you may overlook.
 
 Now, it's time to configure all these. Open your Keyboard Shortcuts page in VSCode, which is in the bottom left
-
 <p align="center">
 	<img src="./figures/keyboard.png"/>  
 </p>
 
 
 And then go into its `JSON` file, which is at the upper right:
-
 <p align="center">
 	<img src="./figures/keyboard2.png"/>
 </p>
@@ -160,7 +150,6 @@ Now, as long as you see there is a spelling error, you just type `cmd+l`, the ke
 3. Move your cursor back by `cursorUndo`
 
 Here is a quick demo for how it works when typing:
-
 <p align="center">
 	<img src="./gifs/spell.gif"/>
 </p>
@@ -188,7 +177,6 @@ Additionally, if you also want to correct your grammar error, I use the shortcut
 ```
 
 #### Grammarly
-
 There is an unofficial API for Grammarly, but the functionality is not that useful if one wants to use auto-correction. Hence, I'll leave it as a TODO for now.
 
 Now, the first part is over. Let's go to the next truly beautiful, elegant, and exciting world, drawing with [Inkscape](https://inkscape.org/zh-hant/).
@@ -205,7 +193,6 @@ This is quite eye-pleasing, right? Those are some drawings I made when taking Li
 One last thing is that I'll assume you have already installed [VSCode Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim). While this is not required, if you don't want to use it, then you'll need to assign different keybinding. Anyway, you'll see what I mean until then!
 
 ### Inkscape
-
 A big question is, why Inkscape? In Gilles Castel's blog, he had already explained it. One reason is that although $\texttt{TikZ}$ can do the job of drawing vector figures in $\LaTeX$ with original support, it's too slow to set all diagrams right. This is so true, since my experience with $\texttt{TikZ}$ is *nice looking, intuitive* but also *slow, bulky*. 
 You think this is it? When you need to generate a series of figures, it'll go beyond hundreds of lines of codes easily. And up to this point, to let VSCode compile this, this is not fun at all. In this large amount of nested environment, it takes *[latexindent](https://ctan.org/pkg/latexindent)* to auto-indent them for almost tens of seconds, and then compile them by *pdfLaTeX* takes about another tens more seconds. That's not efficient at all, especially when you want some instant feedback for some small changes. 
 
@@ -261,7 +248,6 @@ Now, let's get into the fun part. Let's set up the shortcut for this.
 #### Download Inkscape
 
 You need to install [Inkscape](https://inkscape.org/zh-hant/) first. I recommend you install this in a terminal. I assume that you have your [`homebrew`](https://brew.sh/) installed. Then, just type the following into your terminal:
-
 ```bash
 brew install --cask inkscape
 ```
@@ -271,13 +257,10 @@ brew install --cask inkscape
 This is a figure manager developed by Gilles Castel, and here is the [repo](https://github.com/gillescastel/inkscape-figures). I recommend you to follow the installation instruction there. Here is just some guideline for you
 
 1. You need to download [choose](https://github.com/chipsenkbeil/choose) first, for later usage.
-
 2. Type this in your terminal
-
    ```bash
    pip3 install inkscape-figures
    ```
-
 3. type `inkscape-figure` in your terminal to make sure you have corrected install it.
 
 If you're using Linux and Vim, then you are done already. But since you're using macOS and VSCode, please follow me, there is some more thing for you to configure.
@@ -319,7 +302,7 @@ def latex_template(name, title):
 
 to `stdout`, and then create a figure by the `name`, which is the content of the line.
 
-But this in VSCode is impossible, hence we don't need this, we'll use another approach, namely, we'll accomplish the task by command line. And if we leave this function as it was, then it will send all these snippets into our terminal, which is quite annoying. So the modified version just removes this snippet completely.
+But this in VSCode is impossible, hence we don't need this. Instead, we'll use another approach by using command line. And if we leave this function as it was, then it will send all these snippets into our terminal, which is quite annoying. So the modified version just removes this snippet completely.
 
 Now, the only thing you need to do is to copy the [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json) into your own `keybindings.json` and `settings.json` and then you're done. But let me explain it to you, in case you want to modify it to meet your need later on. First thing first, we see that in the given code in [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), we're using [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), so let me tell you how to set this up first.
 
@@ -460,18 +443,18 @@ Again, we also use `ctrl+f` to trigger `inkscape-figures edit` command. We set u
 
 ```json
 {
-	"key": "ctrl+f",
-	"command": "command-runner.run",
-	"args": {
-		"command": "inkscapeEdit",
-		"terminal": {
-			"name": "runCommand",
-			"shellArgs": [],
-			"autoClear": true,
-			"autoFocus": false
-		}
-	},
-	"when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode == 'Normal'"
+"key": "ctrl+f",
+"command": "command-runner.run",
+"args": {
+	"command": "inkscapeEdit",
+	"terminal": {
+		"name": "runCommand",
+		"shellArgs": [],
+		"autoClear": true,
+		"autoFocus": false
+	}
+},
+"when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode == 'Normal'"
 },
 ```
 
@@ -493,55 +476,49 @@ This is what's you should expect when you want to edit a particular figure:
 This is where [choose](https://github.com/chipsenkbeil/choose) comes into play. When you press `ctrl+f` in `Normal` mode, you'll trigger the `inkscape-figures edit` command, and it'll look into your `Figures/` subfolder to see what figures you have and pop out a window for you to choose. After you press `enter`, it will open that file for you to edit. In my demo, I create another figure named `figure-test2`, then modify it a little, and compile it again.
 
 ### Inkscape shortcut manager
-
 This is the most complicated part of the whole setup, I would say. Leave as a TODO.
 
-### Summary: Workflow to Create a New Figure in VSCode with Inkscape
+### Summary
 
-This is the whole setup I have, and let's wrap this up since I know this may be quite overwhelming.
-
-1. Before you start your project, please go to `Visual` mode by entering `v` in `Normal` mode. And then press `ctrl+f`. This will set up the file watcher.
-2. When you want to create a new figure, go into a new line, type the name of your figure in `Insert` mode, then press `ctrl+f`. This will create a new figure with the name you typed, and open it in Inkscape for you.
+This is the whole setup I have, and let's wrap this up since I know this may be overwhelming at this point.
+1. Before starting your project, please go to `Visual` mode by entering `v` in `Normal` mode and then press `ctrl+f`. This will set up the file watcher.
+2. When you want to create a new figure, go into a new line, type the name of your figure in `Insert` mode, then press `ctrl+f`. This will create a new figure with the name you typed and open it in Inkscape for you.
 3. When you have drawn your figure, as long as you press `cmd+s`, it will automatically save the figure in `pdf+latex` for you, then you can close Inkscape.
 4. When you want to edit one of your figures, you press `ctrl+f` in `Normal` mode, it will pop out a window for you to choose the figure you want to edit. And the rest is the same as 3.
 
 ## Updates
 
 ### About Inkscape Shortcut Manager (09.27.21)
-
-After some research, although there is a way to let the original script in [inkscape-shortcut-manager](https://github.com/gillescastel/inkscape-shortcut-manager) run correctly since it depends on `xlib`, which is no longer used by macOS for almost every application(including Inkscape, as expected), hence the only thing I can do now is to give up. In a perceivable future, if I have time to find an alternative way to interrupt the window activity in macOS, I'll try to configure it for macOS.
+After some research, although there is a way to let the original script in [inkscape-shortcut-manager](https://github.com/gillescastel/inkscape-shortcut-manager) run correctly since it depends on `xlib`, which is no longer used by macOS for almost every application(including Inkscape, as expected). Hence, the only thing I can do now is to give up. In a perceivable future, if I have time to find an alternative way to interrupt the window activity in macOS, I'll try to configure it for macOS.
 
 
 ### Quiver - For commutative diagram (01.24.22)
-
-I have been working on Category Theory for a while, and I find out that [quiver](https://q.uiver.app/) is quite appealing, hence I integrate it into my workflow. You can also pull it to your local environment and configure the Vscode Task and combined it with a hotkey to use it **locally**. Specifically, I add the following code into my `keybindings.json`:
-
+I have been working on Category Theory for a while, and I find out that [quiver](https://q.uiver.app/) is quite appealing and convenient. Hence, I integrate it into my workflow. To use it, you simply go to [quiver](https://q.uiver.app/) and follow the tutorial. You can export the `tikz-cd`  code to $\LaTeX$ by `Cmd+e`, and you just copy-paste it to your `.tex` file.
+The workflow is pretty similar, you configure the VSCode Task, and combine it with a hotkey. Specifically, I add the following code into my `keybindings.json`:
 ```json
-    {
-        "key": "ctrl+c",
-        "command": "command-runner.run",
-        "args": {
-            "command": "quiver",
-            "terminal": {
-                "name": "runCommand",
-                "shellArgs": [],
-                "autoClear": true,
-                "autoFocus": false
-            }
-        },
-        "when": "editorTextFocus"
+{
+    "key": "ctrl+c",
+    "command": "command-runner.run",
+    "args": {
+        "command": "quiver",
+        "terminal": {
+            "name": "runCommand",
+            "shellArgs": [],
+            "autoClear": true,
+            "autoFocus": false
+        }
     },
+    "when": "editorTextFocus"
+},
 ```
-
 and also, define the command `quiver` as 
-
 ```json
-    "command-runner.commands": {
+"command-runner.commands": {
 	"quiver": "open -na 'Google Chrome' --args --new-window <path-to-quiver>/quiver/src/index.html"
-    },
+},
 ```
-
-Notice that you'll need to build it first if you want to use it offline! Please follow the tutorial [here](https://github.com/varkor/quiver). Otherwise, it's totally fine to use `"quiver": "open -na 'Google Chrome' --args --new-window https://q.uiver.app/"` as your command.
+Note that here I assume you build this at your *local environment*. To do this, go to their [GitHub repo](https://github.com/varkor/quiver) and `fork` it to your local environment, and build it following the tutorial on their [repo](https://github.com/varkor/quiver).
+In this way, you can use it offline! Otherwise, it's totally fine to use `"quiver": "open -na 'Google Chrome' --args --new-window https://q.uiver.app/"` as your command, where the opened website is the online app version.
 
 This is how the workflow looks like.
 <p align="center">
