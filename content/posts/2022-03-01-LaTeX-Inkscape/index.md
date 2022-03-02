@@ -182,15 +182,13 @@ There is an unofficial API for Grammarly, but the functionality is not that usef
 Now, the first part is over. Let's go to the next truly beautiful, elegant, and exciting world, drawing with [Inkscape](https://inkscape.org/zh-hant/).
 
 ## Drawing Like a Pro - With Inkscape
-
-Before we go to any setup detail, let's first look at some figures I draw right after I have set this up:
 <p align="center">
 	<img src="./figures/inkscape_example.png"/>
 </p>
 
-This is quite eye-pleasing, right? Those are some drawings I made when taking Linear programming lectures. But this is just my naive drawing, compare to Gilles Castel's examples, this is nothing. Check it out for the original blog. Or for more figures I draw, you can check out [Note](https://github.com/sleepymalc/Notes).
+For more figures I draw, you can check out [Note](https://github.com/sleepymalc/Notes), which contains all notes I took in [UofM](https://umich.edu/).
 
-One last thing is that I'll assume you have already installed [VSCode Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim). While this is not required, if you don't want to use it, then you'll need to assign different keybinding. Anyway, you'll see what I mean until then!
+One last thing is that I'll assume you have already installed [VSCode Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim). While this is not required, but if you don't want to use it, then you'll need to assign different keybinding later on. Anyway, you'll see what I mean until then.
 
 ### Inkscape
 A big question is, why Inkscape? In Gilles Castel's blog, he had already explained it. One reason is that although $\texttt{TikZ}$ can do the job of drawing vector figures in $\LaTeX$ with original support, it's too slow to set all diagrams right. This is so true, since my experience with $\texttt{TikZ}$ is *nice looking, intuitive* but also *slow, bulky*. 
@@ -266,15 +264,11 @@ This is a figure manager developed by Gilles Castel, and here is the [repo](http
 If you're using Linux and Vim, then you are done already. But since you're using macOS and VSCode, please follow me, there is some more thing for you to configure.
 
 #### Set up Inkscape Figure Manager
-
 ##### Modify
-
 Firstly, please type the following command in your terminal
-
 ```bash
 where inkscape-figures 
 ```
-
 to find out where the `inkscape-figures` is installed. In my environment, I use Anaconda quite a lot, so mine is `/Users/pbb/opt/anaconda3/bin/inkscape-figures`. 
 
 Now, go to a **relative directory**, in my case, it's in `/Users/pbb/opt/anaconda3/lib/python3.8/site-packages/inkscapefigures`. Open this directory by VSCode, there is something for you to modify.
@@ -282,8 +276,7 @@ Now, go to a **relative directory**, in my case, it's in `/Users/pbb/opt/anacond
 Ok, I know you probably don't have that much patience now, so I have a modified version available [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/main.py). If you don't want to know the detail, you can just copy this [`main.py`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/main.py) and replace the current one. If you're interesting, lets me explain it to you.
 
 ###### Caveat
-
-Notice that there is **one thing for you *need to* modify** in the source code in [`main.py`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/main.py) in [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures). Since Gilles Castel originally use `figures/` as his subfolder name to store figures, you need to change every `figures/` in the source code into `Figures/` if you're modifying the source code on your own rather than copy mine.
+Notice that there is **one thing you *need to* modify** in the source code in [`main.py`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/main.py) in [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures). Since Gilles Castel originally use `figures/` as his subfolder name to store figures, you need to change every `figures/` in the source code into `Figures/` if you're modifying the source code on your own rather than copy mine.
 
 ###### Detail Explanation
 
