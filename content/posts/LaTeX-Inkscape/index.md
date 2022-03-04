@@ -1,6 +1,6 @@
 ---
 title: "VSCode.import([LaTeX, Inkscape])"
-tags: ["LaTeX", "macOS"]
+tags: ["macOS", "LaTeX"] 
 date: 2022-03-01
 path: "posts/LaTeX-Inkscape"
 excerpt: A way to integrate LaTeX, VSCode, and Inkscape in macOS. This is built to be fast, fast enough to let you live-tex notes in lectures.
