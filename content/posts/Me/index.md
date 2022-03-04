@@ -1,7 +1,7 @@
 ---
 title: "cout<< pbb.self();"
 tags: ["random"]
-date: 2022-02-26
+date: 2022-02-25
 path: "posts/Me"
 excerpt: I'll say something completely nonsense here, just take it as a joke.
 cover: "./preview.png"
