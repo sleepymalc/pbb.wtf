@@ -4,7 +4,7 @@ tags: ["macOS", "app"]
 date: 2022-02-26
 path: "posts/Marta"
 excerpt: Marta, a powerful Finder alternatives. It let you control your file flow complete by keyboard. 
-cover: "gifs/preview.png"
+cover: "./preview.png"
 ---
 
 # Introduction
