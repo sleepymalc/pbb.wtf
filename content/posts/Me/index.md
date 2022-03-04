@@ -24,3 +24,4 @@ Not sure whether this is a good thing or not😅, since it somehow indicates how
 I can now say I'm the No.1 in the world lmao.
 
 You can check the public leaderboards [here](https://wakatime.com/leaders/language/tex).
+
