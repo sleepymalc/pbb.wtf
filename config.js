@@ -40,7 +40,7 @@ module.exports = {
       url: 'https://github.com/sleepymalc',
       icon: ['fab', 'github'],
     }, {
-      url: 'https://www.instagram.com/malc_na/',
+      url: 'https://www.instagram.com/malc_q/',
       icon: ['fab', 'instagram'],
     }, {
       url: 'https://twitter.com/PingbangH',
