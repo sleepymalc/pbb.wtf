@@ -57,7 +57,7 @@ You can do not only the same, but more with [Marta](https://marta.sh/)! The defi
 ```JSON
 "Right" "core.move.right"
 ```
-which essentially do the same thing as in Finder. But rather, you can redefine (yes, you can **complete redefine** all the keybindings) it as 
+which essentially do the same thing as in Finder. But rather, you can redefine (yes, you can **completely redefine** all the keybindings) it as 
 ```JSON
 "Right" "core.open"
 ```
