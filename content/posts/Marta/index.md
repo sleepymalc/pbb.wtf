@@ -61,7 +61,7 @@ which essentially do the same thing as in Finder. But rather, you can redefine (
 ```JSON
 "Right" "core.open"
 ```
-which can not only open a folder, which will bring you to that folder, but if your current focus is on a file, you can open it by a single `core.move.right` key! This makes life much easier, since if you want to 
+which can not only open a folder (i.e., it will bring you into that folder), but if your current focus is on a file, you can open it by a single `core.move.right` key! This makes life much easier, since if you want to 
 open a file in Finder, you'll need to use `Cmd+o` instead.
 
 One thing that is worth mentioning is that [Marta](https://marta.sh/) set `←` as `core.move.left`, which is a bit awkward if you are used to Finder. So instead, I change it to 
