@@ -85,6 +85,7 @@ useful shortcut!
 For example, the following demo will show you how to create a simple `.txt` file.
 ![](gifs/create-new-file.gif)
 
+
 ## Find
 A very clever move for [Marta](https://marta.sh/) is that they implemented some sort of fast searching. There are two kinds of search you can do in [Marta](https://marta.sh/), one is *local search*, another is *global search*.
 ### Local Search
@@ -143,9 +144,21 @@ You might already notice, [Marta](https://marta.sh/) doesn't provide rich suppor
 what this file is. This works like this.
 ![](gifs/quick-look.gif)
 
+
+
 ## Double Panels
-If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, it's extremely useful when you want to ***move your files around***. This is the most complex section, hence I leave it to the very end. 
-Before we start, we introduce one of the essential shortcuts to navigate in [Marta](https://marta.sh/), `tab`. It'll send you to another panel, yup, it simply does this only! Now let's start!
+If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, it's useful in the following two ways
+1. Tabs (Pages) support.
+2. ***Move your files around***. 
+
+This is the most complex section, hence I leave it to the very end. We start by introducing tabs. 
+
+### Tabs
+For short, you can open several tabs in *each* panel. And with one of the essential shortcuts to navigate in [Marta](https://marta.sh/), `tab`, which essentially will send you to another panel, you can achieve the following.
+![](gifs/tabs.gif)
+
+Yes, it's simple but powerful! In the demo, I use `Cmd+t` to create a new tab while using `Cmd+w` to close a tab in the panel I'm currently in, and use `Shift+Cmd+{` or `Shift+Cmd+}` to navigate between tabs. With this in mind, we now see how you can utilize 
+this to speed up the process of moving files around. 
 
 ### Copy
 The default behavior is just like any other file manager you familiar with, i.e., `Cmd+c` for copying, and `Cmd+v` for pasting.
