@@ -120,7 +120,7 @@ module.exports = {
       ],
     }, {
       title: 'Intern',
-      position: 'right',
+      position: 'left',
       data: [
         {
           date: 'Fall 2020 - Present',
