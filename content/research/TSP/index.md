@@ -13,6 +13,8 @@ cover: "./preview.png"
 links:
   - name: "GitHub"
     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
+  - name: "pdf"
+    url: "./paper.pdf"
 ---
 
 # Introduction
