@@ -6,8 +6,8 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'pbb-Write-The-Formula',
   introduction: [
-    'I\'m currently a Bachelor student major in Computer Science and Mathematics under Honor Mathematics program in University of Michigan (UMich), United States and Electrical Computer Engineering in Shanghai Jiao Tong University (SJTU). My current research is on Graph Neural Network (GNN) advised by [Jiaqi Ma](https://www.jiaqima.com/), under professor [Qiaozhu Mei](http://www-personal.umich.edu/~qmei/)',
-    'Despite my current research topic, my research interest spread widely in Learning Theory, (non) Convex Optimization, Machine Learning Algorithm, and provable Machine Learning Theory. Specifically, I\'m learned Linear Programming follows [Jon Lee](https://sites.google.com/site/jonleewebpage/), and learned Convex Optimization via that well-known [text book](https://web.stanford.edu/~boyd/cvxbook/), and are planning on taking further optimization courses which is dealing with nonlinear programming and stuff beyond that. Though I care about learning theory, but I also care about the **generalization ability** about a particular machine learning algorithm, hence I\'m now interested in these difficult but astonishing fields.',
+    'I\'m currently a Bachelor student major in Computer Science and Mathematics under Honor Mathematics program in University of Michigan (UMich), United States and Electrical Computer Engineering in Shanghai Jiao Tong University (SJTU). My current research interest is about provable modern machine learning theory and also computational complexity. Despite my current research topic, my interest spreads widely in (non) Convex Optimization, Machine Learning Algorithm, and topics in theoretical computer science like approximation algorithm, combinatorial optimization, and graph theory. Despite all these, I\'m also a math enthusiast. I\'m amazed by topics across abstract algebra, differential topology, algebraic topology, analysis, mathematical programming and any combination across them.',
+    'Apart from academic interest, I also have a lot of hobbies. I love documenting the world in terms of street photography in particular, check out my personal [account](https://www.instagram.com/malc_ph/)!',
   ],
   avatar: 'avatar.png',
   professions: [
@@ -128,6 +128,33 @@ module.exports = {
           description: '[foodall](https://foodall.com.tw/): ' +
             'A food delivery service platform for Taiwan',
           location: 'on GitHub',
+        },
+      ],
+    },
+    {
+      title: 'Research',
+      position: 'right',
+      data: [
+        {
+          date: 'Fall 2021 - Present',
+          title: 'Undergraduate Research Assistant',
+          description: 'Generalization Analysis of GNN' +
+            'The very first work on non-i.i.d. semi-supervised PAC-Bayesian analysis on node-level tasks.',
+          location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
+        },
+        {
+          date: 'Summer 2022 - Present',
+          title: 'Undergraduate Researcher',
+          description: '[SURE](https://sure.engin.umich.edu/) Fundamental Understanding of Deep Learning' +
+            'Generalization Analysis of deep neural network.',
+          location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
+        },
+        {
+          date: 'Summer 2022 - Present',
+          title: 'Undergraduate Researcher',
+          description: 'Network Failure Detection' +
+            'Using the detection set approach to give a tighter bound given the node-connectivity condition.',
+          location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
       ],
     },
