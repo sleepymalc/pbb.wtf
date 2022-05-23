@@ -2,9 +2,7 @@
 title: "Network Failure Detection"
 tags:
 - "Research"
-- "VC dimension"
 - "Computational Complexity"
-- "Graph Theory"
 date: May 2022 - Present
 path: "research/TCS"
 excerpt: Using the detection set approach to give a tighter bound given the node-connectivity condition..
