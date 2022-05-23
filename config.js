@@ -91,7 +91,7 @@ module.exports = {
       title: 'HHKB is the best, period.',
     }, {
       icon: 'camera-retro',
-      title: 'Street Photography',
+      title: '[Street Photography](https://www.instagram.com/malc_ph/)',
     }, {
       icon: 'brain',
       title: 'Algorithm',
