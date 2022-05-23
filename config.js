@@ -110,12 +110,18 @@ module.exports = {
         {
           date: 'Fall 2020',
           title: 'Teaching Assistant',
-          description: '[Vv186 (Honor Mathematics I)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html).',
+          description: '**' +
+            '[Vv186 (Honor Mathematics I)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
+            '**: ' +
+            'Giving discussion lectures and office hours helping students with their homework.',
           location: 'Shanghai Jiao Tong University, China',
         }, {
           date: 'Summer 2021',
           title: 'Teaching Assistant',
-          description: '[Vv285 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html).',
+          description: '**' +
+            '[Vv285 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
+            '**: ' +
+            'Giving discussion lectures and office hours helping students with their homework.',
           location: 'Shanghai Jiao Tong University, China',
         },
       ],
@@ -126,7 +132,9 @@ module.exports = {
         {
           date: 'Fall 2020 - Spring 2021',
           title: 'Backend Developer',
-          description: 'foodall: ' +
+          description: '**' +
+            'foodall' +
+            '**: ' +
             'A food delivery service platform in Taiwan.',
           location: 'online',
         },
@@ -139,21 +147,27 @@ module.exports = {
         {
           date: 'Fall 2021 - Present',
           title: 'Undergraduate Research Assistant',
-          description: 'Generalization Analysis of GNN: ' +
+          description: '**' +
+            'Generalization Analysis of GNN' +
+            '**: ' +
             'The very first work on non-i.i.d. semi-supervised PAC-Bayesian analysis on node-level tasks advised by [Jiaqi Ma](https://www.jiaqima.com/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
         {
           date: 'Summer 2022 - Present',
           title: 'Undergraduate Researcher',
-          description: '[SURE Program](https://sure.engin.umich.edu/)-Fundamental Understanding of Deep Learning: ' +
+          description: '**' +
+            '[SURE Program](https://sure.engin.umich.edu/)-Fundamental Understanding of Deep Learning' +
+            '**: ' +
             'Generalization Analysis of deep neural network advised by [Wei Hu](https://weihu.me/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
         {
           date: 'Summer 2022 - Present',
           title: 'Undergraduate Researcher',
-          description: 'Network Failure Detection: ' +
+          description: '**' +
+            'Network Failure Detection' +
+            '**: ' +
             'Using the detection set approach to give a tighter bound given the node-connectivity condition advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
