@@ -6,7 +6,7 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'pbb-Write-The-Formula',
   introduction: [
-    'I\'m currently a Bachelor student major in Computer Science and Mathematics under Honor Mathematics program in University of Michigan (UMich), United States and Electrical Computer Engineering in Shanghai Jiao Tong University (SJTU). My current research interest is about provable modern machine learning theory and also computational complexity.',
+    'I\'m currently a Bachelor student major in **Computer Science** and **Mathematics** under Honor Mathematics program in *University of Michigan (UMich)*, United States and **Electrical Computer Engineering** in *Shanghai Jiao Tong University (SJTU)*. My current research interest is about provable modern machine learning theory and also computational complexity.',
     'Despite my current research topic, my interest spreads widely among topics in theoretical computer science and both abstract and applied mathematics. In TCS (theoretical computer science), I\'m interested in approximation algorithm, randomized algorithm, computational complexity and online algorithm. In applied math, I\'m amazed by topics across applied linear algebra, random matrix theory, sensitivity analysis and statistic. As for abstract math, I recently fell in love with differential and algebraic topology, functional analysis, and also category theory.',
     'Other than academic interests, I also have a lot of hobbies. I love documenting the world in terms of street photography in particular, check out my personal [account](https://www.instagram.com/malc_ph/)!',
   ],
@@ -180,5 +180,61 @@ module.exports = {
   tagColors: [
     'magenta', 'red', 'volcano', 'orange', 'gold',
     'lime', 'green', 'cyan', 'blue', 'geekblue', 'purple',
-  ]
+  ],
+  tags: [
+    {
+      id: 'javascript',
+      name: 'javascript',
+      description: 'JavaScript is an object-oriented programming language used alongside HTML and CSS to give functionality to web pages.',
+      color: '#f0da50',
+    },
+    {
+      id: 'nodejs',
+      name: 'Node.js',
+      description: 'Node.js is a tool for executing JavaScript in a variety of environments.',
+      color: '#90c53f',
+    },
+    {
+      id: 'rxjs',
+      name: 'RxJS',
+      description: 'RxJS is a library for reactive programming using Observables, for asynchronous operations.',
+      color: '#eb428e',
+    },
+    {
+      id: 'typescript',
+      name: 'typescript',
+      description: 'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.',
+      color: '#257acc',
+    },
+    {
+      id: 'reactjs',
+      name: 'reactjs',
+      description: 'React is an open source JavaScript library used for designing user interfaces.',
+      color: '#61dbfa',
+    },
+    {
+      id: 'gatsby',
+      name: 'Gatsby.js',
+      description: 'A framework built over ReactJS to generate static page web application.  ',
+      color: '#6f309f',
+    },
+    {
+      id: 'html',
+      name: 'HTML',
+      description: 'A markup language that powers the web. All websites use HTML for structuring the content.',
+      color: '#dd3431',
+    },
+    {
+      id: 'css',
+      name: 'css',
+      description: 'CSS is used to style the HTML element and to give a very fancy look for the web application.',
+      color: '#43ace0',
+    },
+    {
+      id: 'python',
+      name: 'python',
+      description: 'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+    },
+  ],
 };
