@@ -6,7 +6,7 @@ tags:
 - "Optimization"
 date: Jan 2022 - April 2022
 path: "research/TSP"
-excerpt: An imitation learning approach to solve an NP-hard combinatorial optimization problem exactly.
+excerpt: "A novel approach to ***exactly*** solve the NP-hard combinatorial optimization problem by using *imitation learning*. The [paper](./paper.pdf) is also available for completeness."
 selected: true
 cover: "./preview.png"
 links:
