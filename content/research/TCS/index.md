@@ -1,6 +1,7 @@
 ---
 title: "Network Failure Detection"
 tags:
+- "Research"
 - "VC dimension"
 - "Computational Complexity"
 - "Graph Theory"

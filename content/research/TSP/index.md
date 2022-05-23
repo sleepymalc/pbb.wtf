@@ -1,10 +1,9 @@
 ---
 title: "Travel the Same Path: A Novel TSP Solving Strategy"
 tags:
-- "TSP"
+- "Project"
 - "Reinforcement Learning"
-- "Imitation Learning"
-- "Combinatorial Optimization"
+- "Optimization"
 date: Jan 2022 - April 2022
 path: "research/TSP"
 excerpt: An imitation learning approach to solve an NP-hard combinatorial optimization problem exactly.

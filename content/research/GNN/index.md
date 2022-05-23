@@ -1,9 +1,10 @@
 ---
 title: "Subgroup Generalization of GNN"
 tags:
-- "GNN"
+- "Research"
+- "Graph Neural Network"
 - "Learning Theory"
-- "PAC-Bayesian"
+- "Computational Complexity"
 date: Jan 2022 - Present
 path: "research/GNN"
 excerpt: The very first work on non-i.i.d. semi-supervised PAC-Bayesian analysis on node-level tasks.
