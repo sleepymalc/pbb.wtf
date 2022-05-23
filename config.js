@@ -127,7 +127,7 @@ module.exports = {
           title: 'Backend Developer (One man group)',
           description: '[foodall](https://foodall.com.tw/): ' +
             'A food delivery service platform for Taiwan',
-          location: 'on GitHub',
+          location: 'online',
         },
       ],
     },
