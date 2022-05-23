@@ -74,18 +74,16 @@ use **Cross-Entropy Loss** to compare our prediction to the result produced by $
 
 ## Graph Convolutional Neural Network (GCNN)
 One may wonder where does the GNN involve in our methodology, is it used to model the topology of the nodes of a particular TSP instances?
-<p align="center">
-	<img src="./figures/TSP.png" height="200"/>
-</p>
 
 The answer is **no**. The GCNN is our model which learn how to perform branching given the state of the problem (e.g., given the current state of the explored 
-recursion tree of the branch and bound algorithm).
-<p align="center">
-	<img src="./figures/GCNN.png" height="200"/>
-</p>
+recursion tree of the branch and bound algorithm). Intuitively, in the pipeline graph above, 
+* Top-left corresponds to TSP instances (red dots corresponding to actual cities in TSP problem).
+* Bottom-left corresponds to our model (black dots corresponding to a node in our GCNN).
 
-Now, it should clear that how we utilize GNN to help us to solve this TSP problem: We use GCNN to learn a strong branching strategy and use it to do 
-branching whenever needed.
+Now, it should clear that how we utilize GNN to help us to solve this TSP problem: We use GCNN to learn a 
+strong branching strategy and use it to do branching whenever needed.
+
+
 
 # Experimental Result
 We look at the walltime needed for the model trained on TSP10 and tested on TSP25 for 100 instances (ordered by the walltime of $\texttt{SCIP}$).
