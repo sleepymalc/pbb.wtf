@@ -145,7 +145,7 @@ module.exports = {
         {
           date: 'Summer 2022 - Present',
           title: 'Undergraduate Researcher',
-          description: '[SURE](https://sure.engin.umich.edu/) Fundamental Understanding of Deep Learning' +
+          description: '[SURE Program](https://sure.engin.umich.edu/): Fundamental Understanding of Deep Learning' +
             'Generalization Analysis of deep neural network.',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
