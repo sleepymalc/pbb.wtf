@@ -7,7 +7,7 @@ tags:
 date: May 2022 - Present
 path: "research/DL"
 excerpt: The very first work on non-i.i.d. semi-supervised PAC-Bayesian analysis on node-level tasks.
-selected: true
+selected: false
 cover: ""
 links:
   - name: "GitHub"

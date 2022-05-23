@@ -7,7 +7,7 @@ tags:
 date: May 2022 - Present
 path: "research/TCS"
 excerpt: Using the detection set approach to give a tighter bound given the node-connectivity condition..
-selected: true
+selected: false
 cover: ""
 links:
   - name: "GitHub"
