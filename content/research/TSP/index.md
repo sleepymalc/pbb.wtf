@@ -13,7 +13,7 @@ links:
   - name: "GitHub"
     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
   - name: "pdf"
-    url: "./paper.pdf"
+    url: "./research/TSP/paper.pdf"
 ---
 
 # Introduction
@@ -72,14 +72,20 @@ use **Cross-Entropy Loss** to compare our prediction to the result produced by $
 	<img src="./figures/pipeline.png"/>
 </p>
 
-## Graph Convolutional Neural Network
+## Graph Convolutional Neural Network (GCNN)
 One may wonder where does the GNN involve in our methodology, is it used to model the topology of the nodes of a particular TSP instances?
 <p align="center">
-	<img src="./figures/TSP.png" width="100"/>
+	<img src="./figures/TSP.png" height="200"/>
 </p>
 
 The answer is **no**. The GCNN is our model which learn how to perform branching given the state of the problem (e.g., given the current state of the explored 
 recursion tree of the branch and bound algorithm).
+<p align="center">
+	<img src="./figures/GCNN.png" height="200"/>
+</p>
+
+
+
 ## Result
 
 
