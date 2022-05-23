@@ -40,7 +40,7 @@ module.exports = {
       url: 'https://github.com/sleepymalc',
       icon: ['fab', 'github'],
     }, {
-      url: 'linkedin.com/in/pingbang-hu-78a190215',
+      url: 'https://www.linkedin.com/in/pingbang-hu-78a190215',
       icon: ['fab', 'linkedin'],
     },
     {
