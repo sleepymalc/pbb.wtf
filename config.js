@@ -109,12 +109,12 @@ module.exports = {
         {
           date: 'Fall 2020',
           title: 'Teaching Assistant',
-          description: '[Vv186 (Honor Mathematics I)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)',
+          description: '[Vv186 (Honor Mathematics I)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html).',
           location: 'Shanghai Jiao Tong University, China',
         }, {
           date: 'Summer 2021',
           title: 'Teaching Assistant',
-          description: '[Vv285 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)',
+          description: '[Vv285 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html).',
           location: 'Shanghai Jiao Tong University, China',
         },
       ],
@@ -123,10 +123,10 @@ module.exports = {
       position: 'left',
       data: [
         {
-          date: 'Fall 2020 - Present',
-          title: 'Backend Developer (One man group)',
-          description: '[foodall](https://foodall.com.tw/): ' +
-            'A food delivery service platform for Taiwan',
+          date: 'Fall 2020 - Spring 2021',
+          title: 'Backend Developer',
+          description: 'foodall: ' +
+            'A food delivery service platform in Taiwan.',
           location: 'online',
         },
       ],
@@ -138,22 +138,22 @@ module.exports = {
         {
           date: 'Fall 2021 - Present',
           title: 'Undergraduate Research Assistant',
-          description: 'Generalization Analysis of GNN' +
-            'The very first work on non-i.i.d. semi-supervised PAC-Bayesian analysis on node-level tasks.',
+          description: 'Generalization Analysis of GNN: ' +
+            'The very first work on non-i.i.d. semi-supervised PAC-Bayesian analysis on node-level tasks advised by [Jiaqi Ma](https://www.jiaqima.com/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
         {
           date: 'Summer 2022 - Present',
           title: 'Undergraduate Researcher',
-          description: '[SURE Program](https://sure.engin.umich.edu/): Fundamental Understanding of Deep Learning' +
-            'Generalization Analysis of deep neural network.',
+          description: '[SURE Program](https://sure.engin.umich.edu/)-Fundamental Understanding of Deep Learning: ' +
+            'Generalization Analysis of deep neural network advised by [Wei Hu](https://weihu.me/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
         {
           date: 'Summer 2022 - Present',
           title: 'Undergraduate Researcher',
-          description: 'Network Failure Detection' +
-            'Using the detection set approach to give a tighter bound given the node-connectivity condition.',
+          description: 'Network Failure Detection: ' +
+            'Using the detection set approach to give a tighter bound given the node-connectivity condition advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
       ],
@@ -180,61 +180,5 @@ module.exports = {
   tagColors: [
     'magenta', 'red', 'volcano', 'orange', 'gold',
     'lime', 'green', 'cyan', 'blue', 'geekblue', 'purple',
-  ],
-  tags: [
-    {
-      id: 'javascript',
-      name: 'javascript',
-      description: 'JavaScript is an object-oriented programming language used alongside HTML and CSS to give functionality to web pages.',
-      color: '#f0da50',
-    },
-    {
-      id: 'nodejs',
-      name: 'Node.js',
-      description: 'Node.js is a tool for executing JavaScript in a variety of environments.',
-      color: '#90c53f',
-    },
-    {
-      id: 'rxjs',
-      name: 'RxJS',
-      description: 'RxJS is a library for reactive programming using Observables, for asynchronous operations.',
-      color: '#eb428e',
-    },
-    {
-      id: 'typescript',
-      name: 'typescript',
-      description: 'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.',
-      color: '#257acc',
-    },
-    {
-      id: 'reactjs',
-      name: 'reactjs',
-      description: 'React is an open source JavaScript library used for designing user interfaces.',
-      color: '#61dbfa',
-    },
-    {
-      id: 'gatsby',
-      name: 'Gatsby.js',
-      description: 'A framework built over ReactJS to generate static page web application.  ',
-      color: '#6f309f',
-    },
-    {
-      id: 'html',
-      name: 'HTML',
-      description: 'A markup language that powers the web. All websites use HTML for structuring the content.',
-      color: '#dd3431',
-    },
-    {
-      id: 'css',
-      name: 'css',
-      description: 'CSS is used to style the HTML element and to give a very fancy look for the web application.',
-      color: '#43ace0',
-    },
-    {
-      id: 'python',
-      name: 'python',
-      description: 'A general purpose programming language that is widely used for developing various applications.',
-      color: '#f9c646',
-    },
-  ],
+  ]
 };
