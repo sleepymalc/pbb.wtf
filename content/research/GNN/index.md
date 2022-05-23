@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Subgroup Generalization of GNN"
 tags:
 - "GNN"
 - "Learning Theory"
