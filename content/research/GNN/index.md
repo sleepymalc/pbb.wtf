@@ -3,11 +3,12 @@ title: "Untitled"
 tags:
 - "GNN"
 - "Learning Theory"
+- "PAC-Bayesian"
 date: Jan 2022 - Present
 path: "research/GNN"
-excerpt: Investigating into some theoretical and provable properties about GNN (Graph Neural Network) related to brain vessel graph.
+excerpt: The very first work on non-i.i.d. semi-supervised PAC-Bayesian analysis on node-level tasks.
 selected: true
-cover: "./preview.png"
+cover: ""
 links:
   - name: "GitHub"
     url: "https://github.com/sleepymalc"
