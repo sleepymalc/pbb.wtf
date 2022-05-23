@@ -8,7 +8,7 @@ module.exports = {
   introduction: [
     'I\'m currently a Bachelor student major in **Computer Science** and **Mathematics** under Honor Mathematics program in *University of Michigan (UMich)*, United States and **Electrical Computer Engineering** in *Shanghai Jiao Tong University (SJTU)*. My current research interest is about provable modern machine learning theory and also computational complexity.',
     'Despite my current research topic, my interest spreads widely among topics in theoretical computer science and both abstract and applied mathematics. In TCS (theoretical computer science), I\'m interested in approximation algorithm, randomized algorithm, computational complexity and online algorithm. In applied math, I\'m amazed by topics across applied linear algebra, random matrix theory, sensitivity analysis and statistic. As for abstract math, I recently fell in love with differential and algebraic topology, functional analysis, and also category theory.',
-    'Other than academic interests, I also have a lot of hobbies. I love documenting the world in terms of street photography in particular, check out my personal [account](https://www.instagram.com/malc_ph/)!',
+    'Other than academic interests, I also have a lot of hobbies. I love street photography in particular, check out my personal [account](https://www.instagram.com/malc_ph/)!',
   ],
   avatar: 'avatar.png',
   professions: [
