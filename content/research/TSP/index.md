@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Travel the Same Path: A Novel TSP Solving Strategy"
 tags:
 - "TSP"
 - "Reinforcement Learning"
@@ -7,7 +7,7 @@ tags:
 - "Combinatorial Optimization"
 date: Jan 2022 - April 2022
 path: "research/TSP"
-excerpt: Travel the Same Path\: A Novel TSP Solving Strategy.
+excerpt: An imitation learning approach to solve an NP-hard combinatorial optimization problem exactly.
 selected: true
 cover: ""
 links:
@@ -16,4 +16,3 @@ links:
 ---
 
 # Introduction
-> I can't tell for now, but it's interesting for sure...
