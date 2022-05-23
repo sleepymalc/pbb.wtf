@@ -6,10 +6,10 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'pbb-Write-The-Formula',
   introduction: [
-    'I\'m currently a Bachelor student major in **Computer Science** and **Mathematics** under Honor Mathematics program in *University of Michigan (UMich)*, United States and **Electrical Computer Engineering** in *Shanghai Jiao Tong University (SJTU)*, China. My current research interest is about provable modern machine learning theory and also computational complexity.',
+    'I\'m from Taiwan, and my Chinese name is **胡平邦** (pronounced as *Hu, Ping-Bang*), and since I know my name is hard to pronounce in particular, so I\'ll respond to both **Benson** or **Pingbang**, just choose one you like 👀',
+    'Currently, I\'m a Bachelor student major in **Computer Science** and **Mathematics** under Honor Mathematics program in *University of Michigan (UMich)*, United States and **Electrical Computer Engineering** in *Shanghai Jiao Tong University (SJTU)*, China. My current research interest is about provable modern machine learning theory and also computational complexity.',
     'Despite my current research topic, my interest spreads widely among topics in theoretical computer science and both abstract and applied mathematics. In theoretical computer science, I\'m interested in approximation algorithm, randomized algorithm, computational complexity and online algorithm. In applied math, I\'m amazed by topics across applied linear algebra, random matrix theory, sensitivity analysis and statistic. As for abstract math, I recently fell in love with differential and algebraic topology, functional analysis, and also category theory.',
     'Other than academic interests, I also have a lot of hobbies. I love street photography in particular, check out my personal [account](https://www.instagram.com/malc_ph/) 📷! I also love playing drums 🥁, and I\'m currently learning guitar 🎸. But I need to admit my music flavor is a little bit extreme, I\'m really into **Metal**, especially those heavy ones 🤘!',
-    'I\'m from Taiwan, and my Chinese name is **胡平邦** (pronounced as *Hu, Ping-Bang*), and since I know my name is hard to pronounce in particular, so I\'ll respond to both **Benson** or **Pingbang**, just choose one you like 👀',
   ],
   avatar: 'avatar.png',
   professions: [
