@@ -9,7 +9,7 @@ date: Jan 2022 - Present
 path: "research/GNN"
 excerpt: The very first work on non-i.i.d. semi-supervised PAC-Bayesian analysis on node-level tasks.
 selected: false
-cover: ""
+cover: "./preview.png"
 links:
   - name: "GitHub"
     url: "https://github.com/sleepymalc"
