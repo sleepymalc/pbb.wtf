@@ -43,9 +43,9 @@ I know it's crazy, but it's actually doable if one choose a lighter schedule (i.
 
 One thing to note is that, in Umich, the courses with course number up to 4xx are in principle designed for *undergraduate student*, while higher level (5xx and up) are for *graduated student* instead. Though one may expect graduate-level courses will be very gentle on grading, but it turns out that this is not the case in four of courses above, which totally screwed up my grade.
 
-In particular, those two math courses is not only for graduated student, but also for *preparing qualifying exams*. You may ask, "*Ok, then what?*" The thing is, I'm awful at taking exams, and I'll need extra time to practice these exam-oriented problems. But with other hardcore CS courses, I hadn't been able to do this in any chance... So, without any *miracle*, I screwed up on math exams, tragically.
+In particular, those two math courses is not only for graduated students, but also for *preparing qualifying exams*. You may ask, "*Ok, then what?*" The thing is, I'm awful at taking exams, and I'll need extra time to practice those exam-oriented problems. But with other hardcore CS courses, I hadn't been able to do this in any chance... So, without any *miracle*, I screwed up on math exams, tragically.
 
-However, the only good news is that I was able to finish all CS courses strong since they're all project, or at least homework oriented, rather than exam oriented (although both EECS 545 and EECS 598-008 decide to add an exam with no reason, starting right at the semester I took them 🙃).
+However, the only good news is that I was able to finish all CS courses strong since they're all project, or at least homework oriented, rather than exam oriented (although both EECS 545 and EECS 598-008 decide to add an exam with no reason, starting right at the semester I took them 🙃 while there are no exams before).
 
 #### Limit
 After this semester, I understand one thing, which I probably should learn earlier: I don't have super-power.
