@@ -29,7 +29,7 @@ We will utilize GCNN (Graph Convolutional Neural Network), a particular kind of 
 and inspiring way. In particular, we focus on the generalization ability of models trained on small-sized problem instances. 
 
 # Preliminary
-We direct reader who is interested in technical detailed to the [paper](./research/TSP/paper.pdf) for the preliminary and technical part of this project. The following 
+We direct reader who is interested in technical detailed to the [paper](./TSP/paper.pdf) for the preliminary and technical part of this project. The following 
 is just a very brief summary.
 ## Integer Linear Programming Formulation of TSP
 We first formulate TSP in terms of **Integer Linear Programming**. Given an undirected weighted group $\mathcal{G} = (\mathcal{E}, \mathcal{V})$,
@@ -102,7 +102,7 @@ If we zoom-in to the first 80 and last 20 instances, we have the following.
 </p>
 
 # Discussion
-Here we list some selected discussion. Again, please refer to the [paper](./research/TSP/paper.pdf) for completeness.
+Here we list some selected discussion. Again, please refer to the [paper](./TSP/paper.pdf) for completeness.
 
 ## Generalization Ability
 We observe that our TSP10 and TSP15 imitation models outperform the $\texttt{SCIP}$ solver on baseline test instances, and
