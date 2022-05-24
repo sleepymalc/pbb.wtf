@@ -118,7 +118,7 @@ ability should remain, and the performance will be even better in terms of TSP s
 ## Bottlenecks and Future Work
 There is a huge performance difference between our proposed model (also $\texttt{SCIP}$) and the SOTA TSP solver, $\texttt{Concorde}$. Since the proposed
 model's backbone is branch and bound algorithm, by formulating TSP into an ILP, we lost some useful problem structures which can be further exploited by
-algorithms used in \texttt{Concorde}. But the existence of a similar pattern of growth in solving time for more difficult instances of larger TSP sizes
+algorithms used in $\texttt{Concorde}$. But the existence of a similar pattern of growth in solving time for more difficult instances of larger TSP sizes
 even for $\texttt{Gurobi}$ and $\texttt{Concorde}$ is promising, as our imitation model applied to these solvers should
 lead to similar time improvements. A major bottleneck is that SOTA solvers like $\texttt{Gurobi}$, or $\texttt{Concorde}$, are often licensed, hence not
 open-sourced. This results in the difficulty of utilizing a stronger baseline and learn from which to get a further improvement.
