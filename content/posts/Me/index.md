@@ -50,8 +50,11 @@ However, the only good news is that I was able to finish all CS courses strong s
 #### Limit
 After this semester, I understand one thing, which I probably should learn earlier: I don't have super-power.
 
-I know this is ridiculous since what I just said sounds so arrogant, but before this semester, I really think I **know how to handle pressure and perform well at the same time** academically, and I seem nowhere near the limit. But I saw my limit this semester, and I also understood how easy that limit can be passed and everything just went off. But it is what it is, I can't change my grade and I need to apply Ph.D. with my 
-current grade. I'm so anxious about my grade since my situation is special: I transferred (kind of) to Umich, and there's one year for me to get my transcript to apply for grad-school. On one hand, it's easy to get a perfect 4.0/4.0 in this case, but on the other hand, if one screwed up in just one course, the GPA just go down significantly. In my case, I screwed up in two courses, so...🤮
+I know this is ridiculous since what I just said sounds so arrogant, but before this semester, I really think I **know how to handle pressure and perform well at the same time** academically, and I seem nowhere near the limit. But I saw my limit this semester, and I also understood how easy that limit can be passed and everything just went off. But it is what it is, I can't change my grade and I need to apply Ph.D. with my current grade. 
+
+"*Why will two courses effect my grade that much?*", one may asks. Good question, and here is the answer. My situation is special: I transferred (kind of) to Umich, and there's one year for me to get my transcript (only grades I got in Umich counts on my final transcript) to apply for grad-school. On one hand, it's easy to get a perfect 4.0/4.0 compare to nomal situation, but on the other hand, if one screwed up in just one course, the GPA just go down significantly. In my case, I screwed up in two courses, so...🤮
+
+I'm worried to a point that I get insomnia.
 
 #### Self Redemption
 Though everyone is saying that "*GPA is not important for applying Ph.D., the only thing which matter are recommendation letters, trust me!*", but they all got an 4.0/4.0 (or 3.9x). Though I know this may be the case, but I just can't help but thinking about all bad things that can happen due to that bad grade.
@@ -59,5 +62,7 @@ Though everyone is saying that "*GPA is not important for applying Ph.D., the on
 Thankfully, I think I just redeemed myself. I still love math, and am good at it from my progress of my researches; I may still get three strong recommendation letters from great professors who advised me on different but related projects; most importantly, I now know my limit and just got over that depression, so I know how to avoid it.
 
 **Learn from mistakes, and get even stronger than those who never met one.**
+
+I'll start updating my life as an undergraduate research, soon (hopefully...)
 
 ## SU22 @Umich
