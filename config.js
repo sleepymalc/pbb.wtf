@@ -122,11 +122,12 @@ module.exports = {
           description: '**' +
             '[Vv285 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
             '**: ' +
-            'Giving discussion lectures and office hours helping students with their homework.',
+            'Giving discussion lectures and office hours helping students with their homework. We also holds the first *JI Integration Bee* competition.',
           location: 'Shanghai Jiao Tong University, China',
         },
       ],
-    }, {
+    },
+    {
       title: 'Intern',
       position: 'left',
       data: [
@@ -136,7 +137,7 @@ module.exports = {
           description: '**' +
             'foodall' +
             '**: ' +
-            'A food delivery service platform in Taiwan.',
+            'A food delivery service platform in Taiwan. The general framework is based on **Go** with **Gin**, with RESTful API design and **MongoDB** as the database.',
           location: 'online',
         },
       ],
