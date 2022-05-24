@@ -7,7 +7,7 @@ tags:
 - "Optimization"
 date: Jan 2022 - April 2022
 path: "research/TSP"
-excerpt: "A novel approach to ***exactly*** solve the NP-hard combinatorial optimization problem by using *imitation learning*. The [paper](./paper.pdf) is also available for completeness."
+excerpt: "A novel approach to ***exactly*** solve the NP-hard combinatorial optimization problem by using *imitation learning*. The [paper](./research/TSP/paper.pdf) is also available for completeness."
 selected: true
 cover: "./preview.png"
 links:
@@ -29,7 +29,7 @@ We will utilize GCNN (Graph Convolutional Neural Network), a particular kind of 
 and inspiring way. In particular, we focus on the generalization ability of models trained on small-sized problem instances. 
 
 # Preliminary
-We direct reader who is interested in technical detailed to the [paper](./paper.pdf) for the preliminary and technical part of this project. The following 
+We direct reader who is interested in technical detailed to the [paper](./research/TSP/paper.pdf) for the preliminary and technical part of this project. The following 
 is just a very brief summary.
 ## Integer Linear Programming Formulation of TSP
 We first formulate TSP in terms of **Integer Linear Programming**. Given an undirected weighted group $\mathcal{G} = (\mathcal{E}, \mathcal{V})$,
@@ -87,24 +87,22 @@ strong branching strategy and use it to do branching whenever needed.
 
 
 # Experimental Result
-We look at the walltime needed for the model trained on TSP10 and tested on TSP25 for 100 instances (ordered by the walltime of $\texttt{SCIP}$).
+We look at the walltime needed for the model trained on TSP10/TSP15 and tested on TSP25 for 100 instances (ordered by the walltime of $\texttt{SCIP}$).
 <p align="center">
-	<img src="./figures/result/tsp10/normal.png"/>
+	<img src="./figures/result/tsp10/normal.png" height="350"/>
+	<img src="./figures/result/tsp15/normal.png" height="350"/>
 </p>
 
 If we zoom-in to the first 80 and last 20 instances, we have the following.
 <p align="center">
-	<img src="./figures/result/tsp10/zoom-first80.png"/>
+	<img src="./figures/result/tsp10/zoom-first80.png" height="350"/>
+	<img src="./figures/result/tsp10/zoom-last20.png" height="350"/>
+	<img src="./figures/result/tsp15/zoom-first80.png" height="350"/>
+	<img src="./figures/result/tsp15/zoom-last20.png" height="350"/>
 </p>
-
-<p align="center">
-	<img src="./figures/result/tsp10/zoom-last20.png"/>
-</p>
-
-We see that we perform basically the same compare to $\texttt{SCIP}$, which indicates that our model is able to generalize quite well.
 
 # Discussion
-Here we list some selected discussion. Again, please refer to the [paper](./paper.pdf) for completeness.
+Here we list some selected discussion. Again, please refer to the [paper](./research/TSP/paper.pdf) for completeness.
 
 ## Generalization Ability
 We observe that our TSP10 and TSP15 imitation models outperform the $\texttt{SCIP}$ solver on baseline test instances, and
