@@ -7,7 +7,7 @@ date: May 2022 - Present
 path: "research/TCS"
 excerpt: Using the detection set approach to give a tighter bound given the node-connectivity condition..
 selected: false
-cover: ""
+cover: "./preview.png"
 links:
   - name: "GitHub"
     url: "https://github.com/sleepymalc"
