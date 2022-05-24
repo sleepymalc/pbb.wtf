@@ -84,20 +84,21 @@ module.exports = {
     }],
   interests: [
     {
-      icon: 'drum',
-      title: 'Drum!',
-    }, {
-      icon: 'keyboard',
-      title: 'HHKB is the best, period.',
-    }, {
-      icon: 'camera-retro',
-      title: 'Street Photography',
-    }, {
       icon: 'brain',
       title: 'Algorithm',
     }, {
       icon: 'shapes',
       title: 'Topology',
+    },
+    {
+      icon: 'drum',
+      title: 'Drum!',
+    }, {
+      icon: 'camera-retro',
+      title: 'Street Photography',
+    }, {
+      icon: 'keyboard',
+      title: 'HHKB is the best, period.',
     }, {
       icon: 'cat',
       title: 'Who doesn\'t love cats?',
