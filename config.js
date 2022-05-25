@@ -4,7 +4,7 @@ module.exports = {
   title: 'Pingbang Hu',
   description: 'Personal Website of Pingbang Hu',
   author: 'Pingbang Hu',
-  authorAlternative: 'pbb-Write-The-Formula',
+  authorAlternative: 'Write-The-Formula',
   introduction: [
     'I\'m from Taiwan 🇹🇼, and my Chinese name is **胡平邦** (pronounced as *Hu, Ping-Bang*), which is hard to pronounce in particular, so I\'ll respond to both **Benson** and **Pingbang**, just choose one you like 👀',
     'Currently, I\'m a Bachelor student major in **Computer Science** and **Mathematics** under Honor Mathematics program in *University of Michigan (UMich)*, United States 🇺🇸 and **Electrical Computer Engineering** in *Shanghai Jiao Tong University (SJTU)*, China 🇨🇳. My current research interest is about provable modern machine learning theory and also computational complexity.',
@@ -148,9 +148,9 @@ module.exports = {
       data: [
         {
           date: 'Fall 2021 - Present',
-          title: 'Undergraduate Research Assistant',
+          title: 'Undergraduate Researcher',
           description: '**' +
-            'Generalization Analysis of GNN' +
+            '[Generalization Analysis of GNN](../research/GNN)' +
             '**: ' +
             'The very first work on non-i.i.d. semi-supervised PAC-Bayesian analysis on node-level tasks advised by [Jiaqi Ma](https://www.jiaqima.com/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
@@ -159,16 +159,16 @@ module.exports = {
           date: 'Summer 2022 - Present',
           title: 'Undergraduate Researcher',
           description: '**' +
-            '[SURE Program](https://sure.engin.umich.edu/)-Fundamental Understanding of Deep Learning' +
+            '[Fundamental Understanding of Deep Learning](../research/DL)' +
             '**: ' +
-            'Generalization Analysis of deep neural network advised by [Wei Hu](https://weihu.me/).',
+            'Generalization Analysis of deep neural network advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
         {
           date: 'Summer 2022 - Present',
           title: 'Undergraduate Researcher',
           description: '**' +
-            'Network Failure Detection' +
+            '[Network Failure Detection](../research/TCS)' +
             '**: ' +
             'Using the detection set approach to give a tighter bound given the node-connectivity condition advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
