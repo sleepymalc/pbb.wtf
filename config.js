@@ -114,7 +114,7 @@ module.exports = {
           description: '**' +
             '[Vv186 (Honor Mathematics I)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
             '**: ' +
-            'Giving discussion lectures and office hours helping students with their homework.',
+            'Giving discussion lectures and office hours, also grading exams and assignments.',
           location: 'Shanghai Jiao Tong University, China',
         }, {
           date: 'Summer 2021',
@@ -122,7 +122,7 @@ module.exports = {
           description: '**' +
             '[Vv285 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
             '**: ' +
-            'Giving discussion lectures and office hours helping students with their homework. We also holds the first *JI Integration Bee* competition.',
+            'Giving discussion lectures and office hours, also grading exams and assignments. We also holds the first [*JI Integration Bee* competition](https://github.com/sleepymalc/UM-SJTU_JI_IntegrationBee).',
           location: 'Shanghai Jiao Tong University, China',
         },
       ],
