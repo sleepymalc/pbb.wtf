@@ -84,21 +84,20 @@ recursion tree of the branch and bound algorithm). Intuitively, in the pipeline 
 Now, it should clear that how we utilize GNN to help us to solve this TSP problem: We use GCNN to learn a 
 strong branching strategy and use it to do branching whenever needed.
 
-
-
 # Experimental Result
 We look at the walltime needed for the model trained on TSP10/TSP15 and tested on TSP25 for 100 instances (ordered by the walltime of $\texttt{SCIP}$).
+
 <p align="center">
-	<img src="./figures/result/tsp10/normal.png" height="350"/>
-	<img src="./figures/result/tsp15/normal.png" height="350"/>
+	<img src="./figures/result/tsp10/normal.png" width="50%"/>
+	<img src="./figures/result/tsp15/normal.png" width="50%"/>
 </p>
 
 If we zoom-in to the first 80 and last 20 instances, we have the following.
 <p align="center">
-	<img src="./figures/result/tsp10/zoom-first80.png" height="350"/>
-	<img src="./figures/result/tsp10/zoom-last20.png" height="350"/>
-	<img src="./figures/result/tsp15/zoom-first80.png" height="350"/>
-	<img src="./figures/result/tsp15/zoom-last20.png" height="350"/>
+	<img src="./figures/result/tsp10/zoom-first80.png" width="50%"/>
+	<img src="./figures/result/tsp10/zoom-last20.png" width="50%"/>
+	<img src="./figures/result/tsp15/zoom-first80.png" width="50%"/>
+	<img src="./figures/result/tsp15/zoom-last20.png" width="50%"/>
 </p>
 
 # Discussion
