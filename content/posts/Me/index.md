@@ -3,7 +3,7 @@ title: "cout<< pbb.self();"
 tags: ["random"]
 date: 2022-02-26
 path: "posts/Me"
-excerpt: Only nonsense here 🗣
+excerpt: Only nonsense here
 cover: "./preview.png"
 ---
 
