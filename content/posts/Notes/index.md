@@ -25,7 +25,7 @@ I'm trying.
 This is the first course taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/) toward the series of graduated level large-scale and mathematical programming courses.
 Topics include **Linear Programming**, **Weak and Strong Duality**, **Simplex Algorithm**, **Large-Scale Linear Programming**, **Sensitivity Analysis**, **Integer Programming** and their applications.
 > * [pdf](./LinProg.pdf) 
-> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear_Programming)
+> * [latex](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear_Programming)
 
 ### Analysis of Social Networks (EECS544/EECS444 @Umich)
 <p align="center">
@@ -35,7 +35,7 @@ Topics include **Linear Programming**, **Weak and Strong Duality**, **Simplex Al
 This is a course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), covering topics across **Graph Partitioning Algorithm**,
 **Random Process**, **Random Graph Theory** and **Game Theory** with **Auctions**.
 > * [pdf](./SocNetAnalysis.pdf) 
-> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/EECS544-Analysis_of_Social_Networks)
+> * [LaTeX](https://github.com/sleepymalc/Notes/tree/main/EECS544-Analysis_of_Social_Networks)
 
 ## Winter 2022
 ### Algebraic Topology (MATH592 @Umich)
@@ -47,7 +47,7 @@ This is an introductory course taught by [Jennifer Wilson](http://www.math.lsa.u
 requires background about abstract algebra and some point set topology. Topics include **CW-Complex**, **Fundamental Group**, **Van-Kampen Theorem**, **Homology** and also their applications 
 like [Lefschetz fixed-point theorem](https://en.wikipedia.org/wiki/Lefschetz_fixed-point_theorem).
 > * [pdf](./AlgTop.pdf) 
-> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH592-Introduction_to_Algebraic_Topology)
+> * [LaTeX](https://github.com/sleepymalc/Notes/tree/main/MATH592-Introduction_to_Algebraic_Topology)
 
 ### Real Analysis (MATH597 @Umich)
 <p align="center">
@@ -57,7 +57,7 @@ like [Lefschetz fixed-point theorem](https://en.wikipedia.org/wiki/Lefschetz_fix
 This is the graduate level Real Analysis taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Everything is built up from Measure Theory,
 like integration and differentiation. Topics include **Measure Theory**, **Hilbert/Banach Spaces** and also **$L^p$ Spaces**, **Introduction to Fourier Analysis**.
 > * [pdf](./ReAnalysis.pdf) 
-> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
+> * [LaTeX](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
 
 # Senior
 
