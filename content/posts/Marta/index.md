@@ -1,9 +1,9 @@
 ---
-title: "$open a Marta"
+title: "Finder.replace_by(Marta)"
 tags: ["macOS", "app"]
 date: 2022-02-27
 path: "posts/Marta"
-excerpt: A keyboard-based file manager
+excerpt: Marta, a powerful Finder alternatives. It let you control your file flow complete by keyboard. 
 cover: "./preview.png"
 ---
 
