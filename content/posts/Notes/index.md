@@ -27,6 +27,7 @@ I'm trying.
 > [pdf](./LinProg.pdf), [code](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear_Programming)
 
 This is the first course toward the series of large-scale and rigorous mathematical programming graduated level courses taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/). 
+Topics include **Linear Programming**, **Weak and Strong Duality**, **Large-Scale Linear Programming**, and also **Integer Programming** and their applications.
 
 
 ### Analysis of Social Networks (EECS544/EECS444)
@@ -36,8 +37,8 @@ This is the first course toward the series of large-scale and rigorous mathemati
 
 > [pdf](./SocNetAnalysis.pdf), [code](https://github.com/sleepymalc/Notes/tree/main/EECS544-Analysis_of_Social_Networks)
 
-This is a course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), covering topics across Graph Theory,
-Random Process, Random Graph Theory and Game Theory with Auctions.
+This is a course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), covering topics across **Graph Theory**,
+**Random Process**, **Random Graph Theory** and **Game Theory** with **Auctions**.
 
 ## Winter 2022
 ### Algebraic Topology (MATH592)
@@ -48,7 +49,7 @@ Random Process, Random Graph Theory and Game Theory with Auctions.
 > [pdf](./AlgTop.pdf), [code](https://github.com/sleepymalc/Notes/tree/main/MATH592-Introduction_to_Algebraic_Topology)
 
 This is an introductory course taught by [Jennifer Wilson](http://www.math.lsa.umich.edu/~jchw/) about Algebraic Topology which is self-contained enough that only 
-requires background about abstract algebra and some point set topology. Topics include CW-Complex, Van-Kampen Theorem, Homology and also their applications.
+requires background about abstract algebra and some point set topology. Topics include **CW-Complex**, **Van-Kampen Theorem**, **Homology** and also their applications.
 
 ### Real Analysis (MATH597)
 <p align="center">
@@ -58,7 +59,7 @@ requires background about abstract algebra and some point set topology. Topics i
 > [pdf](./ReAnalysis.pdf), [code](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
 
 This is the graduate level Real Analysis taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Everything is built up from Measure Theory,
-like integration and differentiation. Topics include Measure Theory, Hilbert/Banach Spaces and also $L^p$ Spaces, Introduction to Fourier Analysis.
+like integration and differentiation. Topics include **Measure Theory**, **Hilbert/Banach Spaces** and also **$L^p$ Spaces**, **Introduction to Fourier Analysis**.
 
 # Senior
 
