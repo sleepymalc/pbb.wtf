@@ -21,7 +21,7 @@ I'm trying.
 ## Fall 2021
 ### Linear Programming (MATH561/IOE510/TO518) 
 <p align="center">
-	<img src="./figures/MATH561.png" width="70%"/>
+	<img src="./figures/MATH561.png" width="30%"/>
 </p>
 
 > [pdf](./LinProg.pdf), [code](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear_Programming)
@@ -31,7 +31,7 @@ This is the first course toward the series of large-scale and rigorous mathemati
 
 ### Analysis of Social Networks (EECS544/EECS444)
 <p align="center">
-	<img src="./figures/EECS544.png" width="70%"/>
+	<img src="./figures/EECS544.png" width="30%"/>
 </p>
 
 > [pdf](./SocNetAnalysis.pdf), [code](https://github.com/sleepymalc/Notes/tree/main/EECS544-Analysis_of_Social_Networks)
@@ -42,7 +42,7 @@ Random Process, Random Graph Theory and Game Theory with Auctions.
 ## Winter 2022
 ### Algebraic Topology (MATH592)
 <p align="center">
-	<img src="./figures/MATH592.png" width="70%"/>
+	<img src="./figures/MATH592.png" width="30%"/>
 </p>
 
 > [pdf](./AlgTop.pdf), [code](https://github.com/sleepymalc/Notes/tree/main/MATH592-Introduction_to_Algebraic_Topology)
@@ -52,7 +52,7 @@ requires background about abstract algebra and some point set topology. Topics i
 
 ### Real Analysis (MATH597)
 <p align="center">
-	<img src="./figures/MATH597.png" width="70%"/>
+	<img src="./figures/MATH597.png" width="30%"/>
 </p>
 
 > [pdf](./ReAnalysis.pdf), [code](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
