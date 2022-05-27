@@ -3,7 +3,7 @@ title: "$ code -add LaTeX Inkscape"
 tags: ["macOS", "LaTeX", "notes"] 
 date: 2022-03-01
 path: "posts/VSCode-LaTeX-Inkscape"
-excerpt: Write LaTeX in a smart and fast way
+excerpt: Write LaTeX in a smart and fast way 🖋
 cover: "./preview.png"
 --- 
 
@@ -17,7 +17,7 @@ I use $\LaTeX$ heavily in the past two years for both academic work and professi
 I took quite a few math courses, hence after finding out this workflow, I decided to adapt the whole setup from Linux-Vim to macOS-VSCode. So, if you're interested in this and in the same situation as me, namely if you don't want to jump into Linux and Vim, follow me!
 
 If you still don't know what to expect, please check out my [Notes](./Notes) taken in this setup. Deciding to adopt this workflow probably is the best choice I did throughout my education!
-<p align="center">🖋
+<p align="center">
 	<img src="./figures/note.png"/>
 </p>
 
