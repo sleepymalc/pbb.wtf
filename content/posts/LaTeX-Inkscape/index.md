@@ -3,7 +3,7 @@ title: "$ code -add LaTeX Inkscape"
 tags: ["macOS", "LaTeX", "notes"] 
 date: 2022-03-01
 path: "posts/VSCode-LaTeX-Inkscape"
-excerpt: Write LaTeX in a smart and fast way 🖋
+excerpt: "Write LaTeX in a smart and fast way 🖋"
 cover: "./preview.png"
 --- 
 
