@@ -8,7 +8,7 @@ cover: "./preview.png"
 ---
 
 These are a selection of my notes of courses taught at University of Michigan. If you're interested in the $\LaTeX$ code, have a look on [Github](https://github.com/sleepymalc/Notes). 
-If you're interested in my setup, also have a look on [Github](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) or just [here](./LaTeX-Inkscape).
+If you're interested in my setup, also have a look on [Github](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) or just [here](./VSCode-LaTeX-Inkscape).
 
 # What's in here?
 All notes are written in modern style $\LaTeX$ with clear definition/theorem references and hyperlinks. Also, the drawing is done in a professional and clean way.
