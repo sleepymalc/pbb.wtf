@@ -3,7 +3,7 @@ title: "$ ls ./Notes"
 tags: ["math", "notes", "LaTeX"]
 date: Updating
 path: "posts/Notes"
-excerpt: Notes for (mostly math) classes I took in University of Michigan 📝
+excerpt: 📝 Notes for (mostly math) classes I took in University of Michigan.
 cover: "./preview.png"
 ---
 
@@ -28,7 +28,7 @@ I'm trying.
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear_Programming)
 
 This is the first course toward the series of large-scale and rigorous mathematical programming graduated level courses taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/). 
-Topics include **Linear Programming**, **Weak and Strong Duality**, **Large-Scale Linear Programming**, **Sensitivity Analysis** and also **Integer Programming** and their applications.
+Topics include **Linear Programming**, **Weak and Strong Duality**, **Simplex Algorithm**, **Large-Scale Linear Programming**, **Sensitivity Analysis** and also **Integer Programming** and their applications.
 
 
 ### Analysis of Social Networks (EECS544/EECS444 @Umich)
@@ -64,7 +64,7 @@ like [Lefschetz fixed-point theorem](https://en.wikipedia.org/wiki/Lefschetz_fix
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
 
 This is the graduate level Real Analysis taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Everything is built up from Measure Theory,
-like integration and differentiation. Topics include **Measure Theory**, **Hilbert/Banach Spaces** and also **$L^p$ Spaces**, **Introduction to Fourier Analysis**.
+like integration and differentiation. Topics include **Measure Theory**, **Hilbert/Banach Spaces**, **$L^p$ Spaces**, and some **Fourier Analysis**.
 
 # Senior
 

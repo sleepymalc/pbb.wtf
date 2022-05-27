@@ -3,7 +3,7 @@ title: "cout<< pbb.self();"
 tags: ["random"]
 date: 2022-02-26
 path: "posts/Me"
-excerpt: I'll say something completely nonsense here, just take it as a joke 🗣
+excerpt: 🗣 I'll say something completely nonsense here, just take it as a joke.
 cover: "./preview.png"
 ---
 
@@ -12,7 +12,7 @@ I'm just a regular student who is stressed and can't fall asleep every night. I 
 
 # The Year 2022.
 
-## WN22 @Umich
+## Winter 2022 @Umich
 ### Feb. 26. 
 The spring breaks just started, and I wasted the very first day successfully, which is probably the only thing I know how to succeed at this moment. I just felt burned out at this moment, after three hard exams, piles of assignments, and the stress from my research.
 Not whining, but this semester is way harder than I can ever imagine...
@@ -65,4 +65,4 @@ Thankfully, I think I just redeemed myself. I still love math, and am good at it
 
 I'll start updating my life as an undergraduate research, soon (hopefully...)
 
-## SU22 @Umich
+## Summer 2022 @Umich
