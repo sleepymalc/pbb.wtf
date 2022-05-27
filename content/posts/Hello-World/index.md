@@ -15,7 +15,8 @@ To demonstrate, we can easily print out some beautiful formulas like
 $$
 \lim\limits_{r \to 0} \frac{1}{m(B(x, r))}\int_{B(x, r)}\left\vert f(y) - f(x) \right\vert\,\mathrm{d}y = 0 \text{ for a.e. \(x\)}
 $$
-for $f\in L^1$, which is the statement of [Lebesgue Differentiation Theorem](https://en.wikipedia.org/wiki/Lebesgue_differentiation_theorem), or the cute [Euler identity](https://en.wikipedia.org/wiki/Euler%27s_identity)
+for $f\in L^1$, which is the statement of [Lebesgue Differentiation Theorem](https://en.wikipedia.org/wiki/Lebesgue_differentiation_theorem), or the cute [Euler identity](https://en.wikipedia.org/wiki/Euler%27s_identity)[^1]
 $$
 e^{i\pi} + 1 = 0.
 $$
+[^1]: Though this is not my favorite equation of all time...
