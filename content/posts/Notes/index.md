@@ -19,7 +19,7 @@ I'm trying.
 # Junior
 
 ## Fall 2021
-### Linear Programming (MATH561/IOE510/TO518) 
+### Linear Programming (MATH561/IOE510/TO518 @Umich) 
 <p align="center">
 	<img src="./figures/MATH561.png" width="30%"/>
 </p>
@@ -30,7 +30,7 @@ This is the first course toward the series of large-scale and rigorous mathemati
 Topics include **Linear Programming**, **Weak and Strong Duality**, **Large-Scale Linear Programming**, **Sensitivity Analysis** and also **Integer Programming** and their applications.
 
 
-### Analysis of Social Networks (EECS544/EECS444)
+### Analysis of Social Networks (EECS544/EECS444 @Umich)
 <p align="center">
 	<img src="./figures/EECS544.png" width="30%"/>
 </p>
@@ -41,7 +41,7 @@ This is a course about social network analysis taught by [Vijay G Subramanian](h
 **Random Process**, **Random Graph Theory** and **Game Theory** with **Auctions**.
 
 ## Winter 2022
-### Algebraic Topology (MATH592)
+### Algebraic Topology (MATH592 @Umich)
 <p align="center">
 	<img src="./figures/MATH592.png" width="30%"/>
 </p>
@@ -52,7 +52,7 @@ This is an introductory course taught by [Jennifer Wilson](http://www.math.lsa.u
 requires background about abstract algebra and some point set topology. Topics include **CW-Complex**, **Fundamental Group**, **Van-Kampen Theorem**, **Homology** and also their applications 
 like [Lefschetz fixed-point theorem](https://en.wikipedia.org/wiki/Lefschetz_fixed-point_theorem).
 
-### Real Analysis (MATH597)
+### Real Analysis (MATH597 @Umich)
 <p align="center">
 	<img src="./figures/MATH597.png" width="30%"/>
 </p>
