@@ -1,5 +1,5 @@
 ---
-title: "ls ./Notes"
+title: "$ ls ./Notes"
 tags: ["math", "notes", "LaTeX"]
 date: Keep Updating
 path: "posts/Notes"
