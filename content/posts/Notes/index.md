@@ -1,5 +1,5 @@
 ---
-title: "$ cat ./Notes/*"
+title: "$cat ./Notes/*"
 tags: ["math", "notes", "LaTeX"]
 date: Keep Updating
 path: "posts/Notes"
