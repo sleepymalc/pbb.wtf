@@ -1,5 +1,5 @@
 ---
-title: "code -add LaTeX Inkscape"
+title: "$ code -add LaTeX Inkscape"
 tags: ["macOS", "LaTeX", "notes"] 
 date: 2022-03-01
 path: "posts/VSCode-LaTeX-Inkscape"
@@ -10,7 +10,8 @@ cover: "./preview.png"
 # ***VSCode-LaTeX-Inkscape***
 I use $\LaTeX$ heavily in the past two years for both academic work and professional work, and I think I'm quite proficient in terms of typing things out in $\LaTeX$. But when I see this blog post from **Gilles Castel**-[How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/) and also [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/), I realize that I'm still too naive. 
 
-I took quite a few math courses, hence after finding out this workflow, I decided to adapt the whole setup from Linux-Vim to macOS-VSCode. So, if you're interested in this and in the same situation as me, namely if you don't want to jump into Linux and Vim, follow me!
+I took quite a few math courses, hence after finding out this workflow, I decided to adapt the whole setup from Linux-Vim to macOS-VSCode[^1]. So, if you're interested in this and in the same situation as me, namely if you don't want to jump into Linux and Vim, follow me!
+[^1]: This set up is universal for VSCode user indeed. The only part that'll be macOS-specific is the [inkscape-shortcut-manager](#inkscape-shortcut-manager) functionality. One can certainly achieve a similar result as in my [Notes](./Notes), but with this the drawing speed will be significantly faster.
 
 If you still don't know what to expect, please check out my [Notes](./Notes) taken in this setup. Deciding to adopt this workflow probably is the best choice I did throughout my education!
 <p align="center">
@@ -186,7 +187,7 @@ Now, the first part is over. Let's go to the next truly beautiful, elegant, and 
 	<img src="./figures/inkscape_example.png"/>
 </p>
 
-For more figures I draw, you can check out [Note](https://github.com/sleepymalc/Notes), which contains all notes I took in [UofM](https://umich.edu/).
+For more figures I draw, you can check out [Note](./Notes), which contains all notes I took in [UMich](https://umich.edu/).
 
 One last thing is that I'll assume you have already installed [VSCode Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim). While this is not required, but if you don't want to use it, then you'll need to assign different keybinding later on. Anyway, you'll see what I mean until then.
 
@@ -389,7 +390,7 @@ and also in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/
 We break down what `ctrl+f` do in `Insert` mode exactly step by step. We see that when we press `ctrl+f` in `Insert` mode, we trigger `multiCommand.execute` to execute a sequence of instructions, which are
 
 1. Copy the content into your clipboard of the line your cursor at
-2. We insert a bland line after since we need to insert a snippet, and that's will delete an additional line. You can try to delete this and the next instruction, and see what happens.
+2. We insert a bland line after since we need to insert a snippet, and that will delete an additional line. You can try to delete this and the next instruction, and see what happens.
 3. After inserting a new line, we move back our cursor.
 4. We delete that copied content by removing this line.
 5. We insert a snippet defined in [`latex.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.json). **Notice that this is the default snippet functionality built-in VSCode, not what we have used above**. I'll explain where to copy this file in a minute.
@@ -464,7 +465,7 @@ This is what's you should expect when you want to edit a particular figure:
 This is where [choose](https://github.com/chipsenkbeil/choose) comes into play. When you press `ctrl+f` in `Normal` mode, you'll trigger the `inkscape-figures edit` command, and it'll look into your `Figures/` subfolder to see what figures you have and pop out a window for you to choose. After you press `enter`, it will open that file for you to edit. In my demo, I create another figure named `figure-test2`, then modify it a little, and compile it again.
 
 ### Inkscape shortcut manager
-
+I haven't got time to detailed document this part yet. But check out [this issue](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/issues/1) for some information.
 
 ### Summary
 This is the whole setup I have, and let's wrap this up since I know this may be overwhelming at this point.
