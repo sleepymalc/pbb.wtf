@@ -1,9 +1,9 @@
 ---
-title: "open -a Marta"
+title: "$ open -a Marta"
 tags: ["macOS", "app"]
 date: 2022-02-27
 path: "posts/Marta"
-excerpt: Marta, a powerful Finder alternatives. It let you control your file flow complete by keyboard. 
+excerpt: A keyboard-based file manager
 cover: "./preview.png"
 ---
 
