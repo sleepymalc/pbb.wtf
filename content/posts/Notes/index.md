@@ -27,7 +27,7 @@ I'm trying.
 > [pdf](./LinProg.pdf), [code](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear_Programming)
 
 This is the first course toward the series of large-scale and rigorous mathematical programming graduated level courses taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/). 
-Topics include **Linear Programming**, **Weak and Strong Duality**, **Large-Scale Linear Programming**, and also **Integer Programming** and their applications.
+Topics include **Linear Programming**, **Weak and Strong Duality**, **Large-Scale Linear Programming**, **Sensitivity Analysis** and also **Integer Programming** and their applications.
 
 
 ### Analysis of Social Networks (EECS544/EECS444)
@@ -37,7 +37,7 @@ Topics include **Linear Programming**, **Weak and Strong Duality**, **Large-Scal
 
 > [pdf](./SocNetAnalysis.pdf), [code](https://github.com/sleepymalc/Notes/tree/main/EECS544-Analysis_of_Social_Networks)
 
-This is a course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), covering topics across **Graph Theory**,
+This is a course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), covering topics across **Graph Partitioning Algorithm**,
 **Random Process**, **Random Graph Theory** and **Game Theory** with **Auctions**.
 
 ## Winter 2022
@@ -49,7 +49,8 @@ This is a course about social network analysis taught by [Vijay G Subramanian](h
 > [pdf](./AlgTop.pdf), [code](https://github.com/sleepymalc/Notes/tree/main/MATH592-Introduction_to_Algebraic_Topology)
 
 This is an introductory course taught by [Jennifer Wilson](http://www.math.lsa.umich.edu/~jchw/) about Algebraic Topology which is self-contained enough that only 
-requires background about abstract algebra and some point set topology. Topics include **CW-Complex**, **Van-Kampen Theorem**, **Homology** and also their applications.
+requires background about abstract algebra and some point set topology. Topics include **CW-Complex**, **Fundamental Group**, **Van-Kampen Theorem**, **Homology** and also their applications 
+like [Lefschetz fixed-point theorem](https://en.wikipedia.org/wiki/Lefschetz_fixed-point_theorem).
 
 ### Real Analysis (MATH597)
 <p align="center">
