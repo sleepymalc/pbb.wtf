@@ -1,19 +1,22 @@
 ---
-title: "VSCode.import([LaTeX, Inkscape])"
+title: "$ code -add LaTeX Inkscape"
 tags: ["macOS", "LaTeX", "notes"] 
 date: 2022-03-01
-path: "posts/LaTeX-Inkscape"
-excerpt: A way to integrate LaTeX, VSCode, and Inkscape in macOS. This is built to be fast, fast enough to let you live-tex notes in lectures.
+path: "posts/VSCode-LaTeX-Inkscape"
+excerpt: Write LaTeX in a smart and fast way 🖋
 cover: "./preview.png"
----
+--- 
 
+This is built to be fast, fast enough to let you live-tex notes in lectures and also draw professional figures.[^1]
+
+[^1]: `$ code` is the command to open VSCode in command line in macOS.
 # ***VSCode-LaTeX-Inkscape***
 I use $\LaTeX$ heavily in the past two years for both academic work and professional work, and I think I'm quite proficient in terms of typing things out in $\LaTeX$. But when I see this blog post from **Gilles Castel**-[How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/) and also [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/), I realize that I'm still too naive. 
 
 I took quite a few math courses, hence after finding out this workflow, I decided to adapt the whole setup from Linux-Vim to macOS-VSCode. So, if you're interested in this and in the same situation as me, namely if you don't want to jump into Linux and Vim, follow me!
 
 If you still don't know what to expect, please check out my [Notes](./Notes) taken in this setup. Deciding to adopt this workflow probably is the best choice I did throughout my education!
-<p align="center">
+<p align="center">🖋
 	<img src="./figures/note.png"/>
 </p>
 
