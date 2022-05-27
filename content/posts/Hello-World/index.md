@@ -3,7 +3,7 @@ title: "printf(\"Hello World\\n\");"
 tags: ["random"]
 date: 2022-02-25
 path: "posts/Hello-World"
-excerpt: "Building my very first personal website."
+excerpt: Building my very first personal website.
 cover: "./preview.png"
 ---
 

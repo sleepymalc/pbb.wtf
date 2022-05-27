@@ -3,7 +3,7 @@ title: "$ open -a Marta"
 tags: ["macOS", "app"]
 date: 2022-02-27
 path: "posts/Marta"
-excerpt: "A keyboard-based file manager ⌨️"
+excerpt: A keyboard-based file manager ⌨️
 cover: "./preview.png"
 ---
 
