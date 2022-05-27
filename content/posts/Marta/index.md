@@ -1,5 +1,5 @@
 ---
-title: "Finder.replace_by(Marta)"
+title: "$ open -a Marta"
 tags: ["macOS", "app"]
 date: 2022-02-27
 path: "posts/Marta"
