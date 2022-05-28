@@ -7,7 +7,7 @@ excerpt: "🧠 Extend logic logically: The right way of doing probability."
 cover: "./preview.png"
 ---
 
-> I'm working with probability intensively in the past few months, and some questions just naturally arose... I think it's time to say something.
+> I'm working with probability intensively in the past few months,  I think it's time to say something.
 
 # Introduction
 > Required: *Probability*, *Abstract Algebra*. 
