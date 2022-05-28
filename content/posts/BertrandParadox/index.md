@@ -67,7 +67,7 @@ While infinity is an (potential) issue, but there's in fact something more serio
 </p>
 
 
-While the problem may seem innocent at the first look, but it's an interplay between infinity and different viewpoints of probability. Nevertheless, let's try to solve this.
+While the problem may seem innocent at the first look, but there's an interplay between infinity and different viewpoints of probability. Nevertheless, let's try to solve this.
 
 ## First Attempt: Random Endpoints
 Let's try to find a random chord in a circle first. A natural way to do this is to randomly picked two points on the circle and link them together. We see that without loss of generality, we can assume that one of the 
