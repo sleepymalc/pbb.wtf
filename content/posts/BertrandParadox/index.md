@@ -147,26 +147,70 @@ the answer is different.
 But for someone who believes that there is a ***right way*** to do probability in every scenario (Bayesian probability 👀), this problem is well-defined enough in the sense that, the probability should reveal what's the state of our knowledge 
 of a particular problem and how much can we exploit it and make it into our expectation of belief, so the probability in its own nature should be able to answer questions with subtly (in this case, not well-specified random experiment).
 
-## The *Right Way*
-Here, I'm going to give an interpretation of this problem based on Bayesian probability and the principle of indifference along with maximum ignorance principle.
-> This is the only section may need algebra knowledge.
-
-
-
 # Discussion
-## Back to $\infty$: The intuition
+## Intuition of the Issue
 An intuitive way to see why $\infty$ causes this paradox is the following: Imaging you can really *randomly* choose chords on a circle, and let's say we label every chord with a number and then choose a random number instead.[^3]
 
-We first note that there are clearly uncountably possible different chords, so we may label every chord with a real number between $[0,1]$.[^4] Then, 
+We first note that there are clearly uncountably possible different chords, so we may label every chord with a real number between $[0,1]$.[^4] Then, the ambiguity immediately arises: How should we assign the pairing between the real 
+number and the chords? The thing is, since they are infinitely many real numbers and chords, we're extremely flexible in terms of assigning them. For example, I can make $[0,0.999999]$ pairing with chords that's all chords passing 
+the center of the circle (namely all diameters), while make $[0.999999,1]$ pair with all other chords or another way around. Effectively, we're **choosing the distribution** in this pairing, hence make us biased toward some chords 
+hence not uniformly random.
+
 
 [^3]: This will not bring in additional complexity if we do it in isomorphic way.
 [^4]: Under the [Continuum hypothesis](https://en.wikipedia.org/wiki/Continuum_hypothesis) with ZFC set theory, $\mathbb{R}$ is the smallest possible set to do this.
 
+## Critique on Bayesian Probability
+[Edwin Thompson Jaynes](https://en.wikipedia.org/wiki/Edwin_Thompson_Jaynes)[^5] is very opinionated about the **right way** to do statistic or to interpret probability (in a Bayesian way), so he come up with the idea of **maximum ignorance**
+principle in order to tackle this paradox. Basically, maximum ignorance says that we can't assume anything if the problem is not specified, and he argued that we can use such principle to do probability without any ambiguity.
+
+So in this case, the answer should be the same with respect to translation (since we should be able to move our circle in the space) and scale (we can scale the circle in the space) invariant.
+Indeed, in one of his work, he concluded that the radial points method is the correct one to model this since it equipped with *translational* and also *scale* invariant.[^6]
+
+[^5]: Who wrote the book [Probability Theory-The Logic of Science](https://bayes.wustl.edu/etj/prob/book.pdf).
+[^6]: He basically argued that the radius points method has translational and scale invariant by a geometric argument, which is fine.
+
+The truth is that, this idea of maximum ignorance which induces *scale* and *translation* invariant can still yield other answer since it still depends on the underlying procedure of random selection that one uses. In particular, Alon Droy 
+shows that each of the solutions can be derived using rotational, scaling, and translational invariance, hence the maximum ignorance principle is just as subject to interpretation as the principle of indifference itself.
+
+## Dealing with Randomness with $\infty$
+> This is the only section where abstract is involved
+
+From the discussion, how do we know that we're safe when dealing with things like "*choosing ___ randomly*"? The answer is, if there is a clear *symmetry* of that space, and we want our distribution to be *invariant* to that symmetry.
+
+For example, if we say *choose a real number in $[0,1]$ randomly*, there should be no ambiguity. This is due to the fact that for $[0,1]$, there is one symmetry which is clear: the translation.
+<p align="center">
+	<img src="figures/trans_inv.png"/>
+	<figcaption>For any little interval, moving it will not change its topological structure.</figcaption>
+</p>
+
+Hence, a uniform distribution with respect to this randomness need to be translational invariance as well. 
+<p align="center">
+	<img src="figures/dist_trans_inv.png"/>
+	<figcaption>The green distribution is uniform, while the orange one is not.</figcaption>
+</p>
+
+In a formal algebraic language, the invariant with respect to the symmetry corresponds to whether the <u>group of symmetry acts ***transitively*** on the space</u>.[^7] In the above uniform example, we can choose any $\Delta$
+such that it can take me from $a$ to $b$ by setting $a+\Delta\coloneqq b$, where $a,b\in[0,1]$. Hence, as long as the space we're working on has a clear symmetry while this symmetry acts transitively (with the technical *compactness* condition),
+we're safe.
+
+[^7]: An additional condition is that the space must be *compact* in order to be safe, but it's a bit technical here.
+
+As in our example, we're trying to find a group of symmetry which acts as *transitively* on the space of **chords** as possible. In first two methods, we have rotational symmetry, but Jaynes argued that they're not the answer since 
+only rotational symmetry is not enough.
+<p align="center">
+	<img src="figures/rot.png"/>
+	<figcaption>Only rotational symmetry does not act transitively on chords since a shorter chord can't be transformed into longer one and vice versa.</figcaption>
+</p>
+
+While for the last method, we have translational symmetry in addition as shown by Jaynes. And we immediately see that with translational symmetry, we can turn any chord into another by translation and rotation.
+<p align="center">
+	<img src="figures/rot-trans.png"/>
+	<figcaption>We transform the orange chord into the blue one by first rotating the circle and then translation it in the space.</figcaption>
+</p>
 
 # Final Words
-Personally, though I like the idea of **extended mathematical logic** interpretation of probability, and with the fact that Bertrand's Paradox seems like having a great solution as given, but 
-I think that this is asking something beyond its capability. And though we can find this smart translation invariant in this particular problem, but there seems no such guarantee which promises that we can 
-do this every time.
+Personally, though I like the idea of **extended mathematical logic** interpretation of probability such that probability as a model of knowledge, but I think that this is asking something beyond its capability. 
 
 # Further Reading
 * [Bertrand's Paradox (with 3blue1brown) - Numberphile](https://www.youtube.com/watch?v=mZBwsm6B280)
