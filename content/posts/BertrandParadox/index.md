@@ -138,7 +138,9 @@ In contrast of frequentist interpretation, here, Bayesian probability is interpr
 > There are more subcategories in probability, but it's too involved...
 
 ### The *Right Way* to do Probability
-
+In the view of frequentist probability, the original problem is not well-defined in the sense of what's exactly is the experiment corresponding to random chords, as shown in above, i.e., random endpoints, midpoints and radial point methods.
+In particular, we see that the difference between midpoints and radial point methods is extremely subtle: the reasoning and the key feature (uniqueness of a chord corresponds to a midpoint) are the same, but just with different *process*
+the answer is different.
 
 ## Discussion
 
