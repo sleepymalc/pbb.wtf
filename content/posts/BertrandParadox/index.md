@@ -211,7 +211,3 @@ While for the last method, we have translational symmetry in addition as shown b
 
 # Final Words
 Personally, though I like the idea of **extended mathematical logic** interpretation of probability such that probability as a model of knowledge, but I think that this is asking something beyond its capability. 
-
-# Further Reading
-* [Bertrand's Paradox (with 3blue1brown) - Numberphile](https://www.youtube.com/watch?v=mZBwsm6B280)
-* [More on Bertrand's Paradox (with 3blue1brown) - Numberphile](https://www.youtube.com/watch?v=pJyKM-7IgAU)
