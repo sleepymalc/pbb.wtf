@@ -153,7 +153,7 @@ An intuitive way to see why $\infty$ causes this paradox is the following: Imagi
 
 We first note that there are clearly uncountably possible different chords, so we may label every chord with a real number between $[0,1]$.[^4] Then, the ambiguity immediately arises: How should we assign the pairing between the real 
 number and the chords? The thing is, since they are infinitely many real numbers and chords, we're extremely flexible in terms of assigning them. For example, I can make $[0,0.999999]$ pairing with chords that's all chords passing 
-the center of the circle (namely all diameters), while make $[0.999999,1]$ pair with all other chords or another way around. Effectively, we're **choosing the distribution** in this pairing, hence make us biased toward some chords 
+the center of the circle (namely all diameters), while make $[0.999999,1]$ pair with all other chords or another way around. Effectively, we're **choosing the distribution** in this pairing, making us biased toward some chords 
 hence not uniformly random.
 
 
