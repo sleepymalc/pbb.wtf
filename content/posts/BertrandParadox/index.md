@@ -137,12 +137,36 @@ In contrast of frequentist interpretation, here, Bayesian probability is interpr
 
 > There are more subcategories in probability, but it's too involved...
 
-### The *Right Way* to do Probability
-In the view of frequentist probability, the original problem is not well-defined in the sense of what's exactly is the experiment corresponding to random chords, as shown in above, i.e., random endpoints, midpoints and radial point methods.
+### Interpretation
+In the view of frequentist probability, the original problem is not well-defined in the sense that we don't know *what exactly is the experiment corresponding to random chords*.
+As shown in above, random endpoints, midpoints and radial point methods all make sense, and who know whether these three are all *reasonable* random experiment? Maybe there are more, we just don't know.
+
 In particular, we see that the difference between midpoints and radial point methods is extremely subtle: the reasoning and the key feature (uniqueness of a chord corresponds to a midpoint) are the same, but just with different *process*
 the answer is different.
 
-## Discussion
+But for someone who believes that there is a ***right way*** to do probability in every scenario (Bayesian probability 👀), this problem is well-defined enough in the sense that, the probability should reveal what's the state of our knowledge 
+of a particular problem and how much can we exploit it and make it into our expectation of belief, so the probability in its own nature should be able to answer questions with subtly (in this case, not well-specified random experiment).
+
+## The *Right Way*
+Here, I'm going to give an interpretation of this problem based on Bayesian probability and the principle of indifference along with maximum ignorance principle.
+> This is the only section may need algebra knowledge.
+
+
+
+# Discussion
+## Back to $\infty$: The intuition
+An intuitive way to see why $\infty$ causes this paradox is the following: Imaging you can really *randomly* choose chords on a circle, and let's say we label every chord with a number and then choose a random number instead.[^3]
+
+We first note that there are clearly uncountably possible different chords, so we may label every chord with a real number between $[0,1]$.[^4] Then, 
+
+[^3]: This will not bring in additional complexity if we do it in isomorphic way.
+[^4]: Under the [Continuum hypothesis](https://en.wikipedia.org/wiki/Continuum_hypothesis) with ZFC set theory, $\mathbb{R}$ is the smallest possible set to do this.
+
+
+# Final Words
+Personally, though I like the idea of **extended mathematical logic** interpretation of probability, and with the fact that Bertrand's Paradox seems like having a great solution as given, but 
+I think that this is asking something beyond its capability. And though we can find this smart translation invariant in this particular problem, but there seems no such guarantee which promises that we can 
+do this every time.
 
 # Further Reading
 * [Bertrand's Paradox (with 3blue1brown) - Numberphile](https://www.youtube.com/watch?v=mZBwsm6B280)
