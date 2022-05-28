@@ -22,12 +22,13 @@ is true, and one of them must be true, but not both.
 
 [^1]: Regardless what $A$ and $B$ is, which depends on the content (i.e., under ZF-set theory or HoTT).
 
-Now, someone comes in and said: "*What about our information is not **complete**? Then I suppose that I can at least deduce how **true** $P\colon A\implies B$ is if I have some information about $A$ and $B$?*"
+Now, someone comes in and said: "*What about our information is not **complete**? I suppose that I can at least deduce how **true** $P\colon A\implies B$ is if I have some information about $A$ and $B$?*"
 The idea of *probability* then kicks in: We try to *assign* a real value $p\in[0,1]$ between $0$ and $1$ to *measure*[^2] how true something is with some slackness.
 
 [^2]: The word *measure* is chosen since Measure Theory is really the underlying backbone of probability theory.
 
-But then something gets a bit messy here. In classical probability theory and the number of possible outcome of some experiment is finite, say $N$, and we have no information about whether one outcome will be more likely than others, then we just assign each outcome with a probability $p=1/N$ evenly without problems.
+But something gets a bit sloppy here. In classical probability theory and the number of possible outcome of some experiment is finite, say $N$, and we have no information about whether one outcome will be more likely than others, 
+then we just assign each outcome with a probability $p=1/N$ evenly without problems, which is called **the principle of indifference**.
 
 ### Thought Experiment: When everything is finite
 consider the experiment we're doing is *tossing coins*. If we know nothing about the coin and how others is going to toss that coin, then the probability should just be 
@@ -59,14 +60,14 @@ Well, while this is true, I think this is a good example to let us aware that it
 
 
 # Bertrand's Paradox
-When infinity is more involved, the trouble comes along. Consider the following experiment: Given a circle and an equilateral triangle inscribed in it, what is the probability that a random chord is longer than a side of the triangle?
+While infinity is an (potential) issue, but there's in fact something more serious and fatal. Consider the following experiment: Given a circle and an equilateral triangle inscribed in it, what is the probability that a random chord is longer than a side of the triangle?
 
 <p align="center">
 	<img src="figures/0.png"/>
 </p>
 
 
-While the problem may seem innocent at the first look, but there are much more to say. Nevertheless, let's try to solve this.
+While the problem may seem innocent at the first look, but it's an interplay between infinity and different viewpoints of probability. Nevertheless, let's try to solve this.
 
 ## First Attempt: Random Endpoints
 Let's try to find a random chord in a circle first. A natural way to do this is to randomly picked two points on the circle and link them together. We see that without loss of generality, we can assume that one of the 
