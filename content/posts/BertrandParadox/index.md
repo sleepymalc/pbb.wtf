@@ -7,10 +7,8 @@ excerpt: "🧠 Extend logic logically: The right way of doing probability."
 cover: "./preview.png"
 ---
 
-> I'm working with probability intensively in the past few months,  I think it's time to say something.
-
 # Introduction
-> Required: *Probability*, *Abstract Algebra*. 
+I'm working with probability intensively in the past few months, I think it's time to say something.
 
 ## Classical Probability
 In modern mathematics, there are essentially two ways of building everything from ground up: one is set theory (e.g., [ZF-set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory)), another is type theory (e.g., [HoTT](https://en.wikipedia.org/wiki/Homotopy_type_theory)).
