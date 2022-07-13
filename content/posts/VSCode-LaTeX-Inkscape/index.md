@@ -509,7 +509,7 @@ As reference for the key chords I add the original picture from [the original bl
 
 #### Missing Key Chords
 
-I did not add the *ergonomic* rebindings `x`, `w`, `f`, and `shift+z`. This should be possible in Inkscape itself. This setup also misses the bindings `t`, `shift+t`, `a`, `shift+a`, `s`, and `shift+s`. Since I encountered issues I did not pursue these.
+I did not add the *ergonomic* rebinding `x`, `w`, `f`, and `shift+z`. This should be possible in Inkscape itself. This setup also misses the bindings `t`, `shift+t`, `a`, `shift+a`, `s`, and `shift+s`. Since I encountered issues I did not pursue these.
 
 ### Summary
 This is the whole setup I have, and let's wrap this up since I know this may be overwhelming at this point.
