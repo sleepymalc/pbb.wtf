@@ -466,7 +466,6 @@ This is what's you should expect when you want to edit a particular figure:
 This is where [choose](https://github.com/chipsenkbeil/choose) comes into play. When you press `ctrl+f` in `Normal` mode, you'll trigger the `inkscape-figures edit` command, and it'll look into your `Figures/` subfolder to see what figures you have and pop out a window for you to choose. After you press `enter`, it will open that file for you to edit. In my demo, I create another figure named `figure-test2`, then modify it a little, and compile it again.
 
 ### Inkscape shortcut manager
-### Inkscape shortcut manager
 
 In this section, we'll setup a very efficient shortcut manager to help you draw any mathematical figures faster than you can ever imagine! Notice that this setup is quite complicated, but the result is quite good. It depends on 
 
