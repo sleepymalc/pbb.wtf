@@ -76,6 +76,8 @@ snippets for you.
 ### HyperSnips
 If you look around in the VSCode extension marketplace to find UltiSnips' equivalence, you probably will find [Vsnips](https://marketplace.visualstudio.com/items?itemName=corvofeng.Vsnips). But I'm not sure why this is the case, I can't figure out how to set it up properly. Hence, I find another alternative, which is [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Please first download [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Now, just follow the instruction, copy [latex.hsnips](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) into `$HOME/Library/Application Support/Code/User/hsnips/`, and you're good to go!
 
+https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/830e4f87b3f59f82719d298af80f43367128865e/VSCode-setting/Snippets/latex.hsnips#L1-L1002
+
 To modify this file, you can either go to this file in your finder or use VSCode built-in command function. For command function, 
 
 1. Press `shift+cmd+space` to type in some command to VSCode.
@@ -275,7 +277,11 @@ to find out where the `inkscape-figures` is installed. In my environment, I use 
 
 Now, go to a **relative directory**, in my case, it's in `/Users/pbb/opt/anaconda3/lib/python3.8/site-packages/inkscapefigures`. Open this directory by VSCode, there is something for you to modify.
 
-Ok, I know you probably don't have that much patience now, so I have a modified version available [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/main.py). If you don't want to know the detail, you can just copy this [`main.py`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/main.py) and replace the current one. If you're interesting, lets me explain it to you.
+Ok, I know you probably don't have that much patience now, so I have a modified version available [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/main.py). 
+
+https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/830e4f87b3f59f82719d298af80f43367128865e/Inkscape-setting/Inkscape-figure-manager/main.py#L1-L296
+
+If you don't want to know the detail, you can just copy this [`main.py`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/main.py) and replace the current one. If you're interesting, lets me explain it to you.
 
 ###### Caveat
 Notice that there is **one thing you *need to* modify** in the source code in [`main.py`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/main.py) in [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures). Since Gilles Castel originally use `figures/` as his subfolder name to store figures, you need to change every `figures/` in the source code into `Figures/` if you're modifying the source code on your own rather than copy mine.
@@ -299,7 +305,13 @@ to `stdout`, and then create a figure by the `name`, which is the content of the
 
 But this in VSCode is impossible, hence we don't need this. Instead, we'll use another approach by using command line. And if we leave this function as it was, then it will send all these snippets into our terminal, which is quite annoying. So the modified version just removes this snippet completely.
 
-Now, the only thing you need to do is to copy the [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json) into your own `keybindings.json` and `settings.json` and then you're done. But let me explain it to you, in case you want to modify it to meet your need later on. First thing first, we see that in the given code in [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), we're using [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), so let me tell you how to set this up first.
+Now, the only thing you need to do is to copy the [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json) into your own `keybindings.json` and `settings.json` and then you're done. 
+
+https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/3cb7d9f4af1227d8ed956129696a547d7889052e/VSCode-setting/keybindings.json#L1-L133
+
+https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/3cb7d9f4af1227d8ed956129696a547d7889052e/VSCode-setting/settings.json#L1-L14
+
+But let me explain it to you, in case you want to modify it to meet your need later on. First thing first, we see that in the given code in [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), we're using [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), so let me tell you how to set this up first.
 
 ##### Command Runner
 
@@ -395,6 +407,9 @@ We break down what `ctrl+f` do in `Insert` mode exactly step by step. We see tha
 3. After inserting a new line, we move back our cursor.
 4. We delete that copied content by removing this line.
 5. We insert a snippet defined in [`latex.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.json). **Notice that this is the default snippet functionality built-in VSCode, not what we have used above**. I'll explain where to copy this file in a minute.
+
+https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/830e4f87b3f59f82719d298af80f43367128865e/VSCode-setting/Snippets/latex.json#L1-L14
+
 6. Lastly, we send a command in a terminal by `command runner`, with the command `inkscapeCreate` we defined in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json). Then we're done!
 
 In the fifth instruction, we need to use the snippet like 
@@ -479,7 +494,11 @@ Please downloads the above two apps.
 #### Karabiner Elements
 
 We'll first setup the following [complex_modifications](https://karabiner-elements.pqrs.org/docs/json/root-data-structure/#custom-json-file-in-configkarabinerassetscomplex_modifications) for [Karabiner Elements](https://karabiner-elements.pqrs.org/) using a [`jsonnet`](https://jsonnet.org) file.
-The file can be found [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/karabiner-inkscape.jsonnet), and the `jsonnet` tool can be installed via `$ brew install jsonnet`.
+The file can be found [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/karabiner-inkscape.jsonnet), 
+
+https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/830e4f87b3f59f82719d298af80f43367128865e/Inkscape-setting/Inkscape-shortcut-manager/karabiner-inkscape.jsonnet#L1-L39
+
+and the `jsonnet` tool can be installed via `$ brew install jsonnet`.
 
 Converting the `.jsonnet` file into the json file for [Karabiner Elements](https://karabiner-elements.pqrs.org/) can be done as following
 
@@ -495,9 +514,9 @@ Then enable in [Karabiner Elements](https://karabiner-elements.pqrs.org/) UI the
 
 #### Hammerspoon
 
-1. Open the [Hammerspoon](https://www.hammerspoon.org/) console and run `hs.ipc.cliInstall()` to install the cli command `hs`.
-2. Add to your [`~/.hammerspoon/init.lua`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/init.lua).
+Firstly, open the [Hammerspoon](https://www.hammerspoon.org/) console and run `hs.ipc.cliInstall()` to install the cli command `hs`. Then, just add the following code to your [`~/.hammerspoon/init.lua`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/init.lua).
 
+https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/830e4f87b3f59f82719d298af80f43367128865e/Inkscape-setting/Inkscape-shortcut-manager/init.lua#L1-L153
 #### Reference Card for Key Chords
 
 As reference for the key chords I add the original picture from [the original blog](https://castel.dev/post/lecture-notes-2/) but with the key chords included in the picture.
