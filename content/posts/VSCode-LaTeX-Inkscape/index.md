@@ -8,6 +8,9 @@ cover: "./preview.png"
 ---
 
 # ***VSCode-LaTeX-Inkscape***
+
+<script src="https://gist.github.com/sleepymalc/1b166ae1319e5e06eeff6b8f2de3e32e.js"></script>
+
 I use $\LaTeX$ heavily in the past two years for both academic work and professional work, and I think I'm quite proficient in terms of typing things out in $\LaTeX$. But when I see this blog post from **Gilles Castel**-[How I'm able to take notes in mathematics lectures using LaTeX and Vim](https://castel.dev/post/lecture-notes-1/) and also [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/), I realize that I'm still too naive. 
 
 I took quite a few math courses, hence after finding out this workflow, I decided to adapt the whole setup from Linux-Vim to macOS-VSCode[^1]. So, if you're interested in this and in the same situation as me, namely if you don't want to jump into Linux and Vim, follow me!
