@@ -486,11 +486,7 @@ Please downloads the above two apps.
 #### Karabiner Elements
 
 We'll first setup the following [complex_modifications](https://karabiner-elements.pqrs.org/docs/json/root-data-structure/#custom-json-file-in-configkarabinerassetscomplex_modifications) for [Karabiner Elements](https://karabiner-elements.pqrs.org/) using a [`jsonnet`](https://jsonnet.org) file.
-The file can be found [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/karabiner-inkscape.jsonnet), 
-
-https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/830e4f87b3f59f82719d298af80f43367128865e/Inkscape-setting/Inkscape-shortcut-manager/karabiner-inkscape.jsonnet#L1-L39
-
-and the `jsonnet` tool can be installed via `$ brew install jsonnet`.
+The file can be found [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/karabiner-inkscape.jsonnet), and the `jsonnet` tool can be installed via `$ brew install jsonnet`.
 
 Converting the `.jsonnet` file into the json file for [Karabiner Elements](https://karabiner-elements.pqrs.org/) can be done as following
 
@@ -508,7 +504,6 @@ Then enable in [Karabiner Elements](https://karabiner-elements.pqrs.org/) UI the
 
 Firstly, open the [Hammerspoon](https://www.hammerspoon.org/) console and run `hs.ipc.cliInstall()` to install the cli command `hs`. Then, just add the following code to your [`~/.hammerspoon/init.lua`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/init.lua).
 
-https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/830e4f87b3f59f82719d298af80f43367128865e/Inkscape-setting/Inkscape-shortcut-manager/init.lua#L1-L153
 #### Reference Card for Key Chords
 
 As reference for the key chords I add the original picture from [the original blog](https://castel.dev/post/lecture-notes-2/) but with the key chords included in the picture.
