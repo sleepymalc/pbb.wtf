@@ -59,6 +59,16 @@ This is probably the only thing I don't like that much in Gilles Castel's setup.
 
 ### HyperSnips
 
+If you look around in the VS Code extension marketplace to find UltiSnips' equivalence, you probably will find [Vsnips](https://marketplace.visualstudio.com/items?itemName=corvofeng.Vsnips). But I'm not sure why this is the case, I can't figure out how to set it up properly. Hence, I find another alternative, which is [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Please first download [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Now, just follow the instruction, copy [latex.hsnips](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) into `$HOME/Library/Application Support/Code/User/hsnips/`, and you're good to go!
+
+To modify this file, you can either go to this file in your finder or use VSCode built-in command function. For command function,
+
+1. Press `shift+cmd+space` to type in some command to VS Code.
+2. Type `>HyperSnips: Open Snippet File`
+3. Choose `latex.hsnips`
+
+After doing this, you're all set. But a big question is, what exactly is a snippet?
+
 #### Snippets
 
 A snippet is a short reusable piece of text that can be triggered by some other text. For example, when I type `dm`, the word `dm` will be expanded to a math environment:
@@ -100,19 +110,6 @@ Let's try to set up this step by step. And maybe you can create your snippets al
 <p align="center">
 	<img src="./gifs/useful.gif"/>
 </p>
-
-### HyperSnips
-
-If you look around in the VS Code extension marketplace to find UltiSnips' equivalence, you probably will find [Vsnips](https://marketplace.visualstudio.com/items?itemName=corvofeng.Vsnips). But I'm not sure why this is the case, I can't figure out how to set it up properly. Hence, I find another alternative, which is [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Please first download [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Now, just follow the instruction, copy [latex.hsnips](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) into `$HOME/Library/Application Support/Code/User/hsnips/`, and you're good to go!
-
-To modify this file, you can either go to this file in your finder or use VSCode built-in command function. For command function,
-
-1. Press `shift+cmd+space` to type in some command to VS Code.
-2. Type `>HyperSnips: Open Snippet File`
-3. Choose `latex.hsnips`
-
-For a further and detailed explanation for snippets, please go to check out the original blog post! 
-
 ### Sympy and Mathematica
 
 Unlike Gilles Castel's approach, there is an available extension out there for you to simplify your math calculation already! Please go to checkout [Latex SYMPY Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). It's works like follows:
