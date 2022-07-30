@@ -151,7 +151,8 @@ Here is a quick demo for how it works when typing:
 Additionally, if you also want to correct your grammar error, I use the shortcut `cmd`+`k` to trigger a quick-fix for a general error.
 
 <details>
-<summary><h4>Detail Explanation</h></summary>
+
+<summary><b>Detail Explanation</b></summary>
 
 You can skip this part if you don't want to know the working mechanism. But if you're interested, please follow! The following code snippet in `settings.json` is responsible for correcting your spelling mistakes by just clicking `cmd`+`l`.
 
@@ -309,7 +310,9 @@ Now, this is a tricky part: you need to find where the source-code of the inksca
 Open this directory by VS Code, there is something for you to modify. Ok, I know you probably don't have that much patience now, so I have a modified version available [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/). Just replace the whole directory with mine, and you're good to go.
 
 <details>
-<summary><h4>Detail Explanation</h></summary>
+
+<summary><b>Detail Explanation</b></summary>
+
 In Gilles Castel's approach, he uses the shortcut `ctrl`+`f` to trigger this script, which will copy the whole line's content depending on the cursor's position, and the script will send the snippets by the function
 
 ```python
@@ -350,7 +353,8 @@ To open the file watcher, you can type `inkscape-figures watch` in the terminal.
 > Otherwise it'll simply show nothing. (Remember to select the terminal corresponds to `runCommand`!)
 
 <details>
-<summary><h5>Detail Explanation</h></summary>
+
+<summary><b>Detail Explanation</b></summary>
 
 In [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json), we have
 
@@ -390,7 +394,8 @@ Notice that we set the `autoFocus=false` for the terminal [Command Runner](https
 Same as above, we also use `ctrl`+`f` to trigger `inkscape-figures create` command. But in this case, we use `INSERT` for creating a new Inkscape figure. Specifically, we first type out the image's name we want our image to be called, then in this case we're already in `INSERT` mode, we just pres `ctrl`+`f` to create this image after naming.
 
 <details>
-<summary><h5>Detail Explanation</h></summary>
+
+<summary><b>Detail Explanation</b></summary>
 
 We set up our ['keybindings.json'](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) as
 
@@ -495,7 +500,8 @@ Again, we also use `ctrl`+`f` to trigger `inkscape-figures edit` command, but th
 > We see that we don't have any additional argument for `choose`, but if you want, you can replace this line by the next line, which modify the style of `choose`. For detail information, type `choose -h` to see all the options.
 
 <details>
-<summary><h5>Detail Explanation</h></summary>
+
+<summary><b>Detail Explanation</b></summary>
 
 The corresponding keybinding in ['keybindings.json'](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) is:
 
