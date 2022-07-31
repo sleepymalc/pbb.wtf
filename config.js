@@ -79,8 +79,8 @@ module.exports = {
     }, {
       date: 'Sept 2016 - June 2019',
       icon: 'school',
-      title: 'High School',
-      location: 'Wu-Ling Senior High School, Taiwan',
+      title: 'Social Science/Math and Science Concentration',
+      location: 'National Wu-Ling Senior High School, Taiwan',
     }],
   interests: [
     {
