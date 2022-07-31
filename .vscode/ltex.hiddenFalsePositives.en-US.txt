@@ -1,0 +1,1 @@
+{"rule":"THERE_RE_MANY","sentence":"^\\QYou can imagine that there are enormous amount of actions provided, so you might feel lost sometimes.\\E$"}
