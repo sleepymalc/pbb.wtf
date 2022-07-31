@@ -15,7 +15,6 @@ I use $\LaTeX$ heavily in the past two years for both academic work and professi
 
 If you still don't know what to expect, please check out my [Notes](./Notes) taken in this setup.
 
-
 [^1]: This set up is universal for VS Code user indeed. The only part that'll be macOS-specific is the [inkscape-shortcut-manager](#inkscape-shortcut-manager) functionality. One can certainly achieve a similar result as in my [Notes](./Notes), but with this the drawing speed will be significantly faster.
 
 <p align="center">
@@ -148,6 +147,8 @@ Here is a quick demo for how it works when typing:
 
 Additionally, if you also want to correct your grammar error, I use the shortcut `cmd`+`k` to trigger a quick-fix for a general error.
 
+---
+
 <details>
 
 <summary><b>Detail Explanation</b></summary>
@@ -206,6 +207,8 @@ And likewise, the following code snippet is responsible for correcting grammar m
 
 </details>
 
+---
+
 Now, the first part is over. Let's go to the next truly beautiful, elegant, and exciting world, drawing with [Inkscape](https://inkscape.org/zh-hant/).
 
 ## Drawing Like a Pro - With Inkscape
@@ -226,8 +229,8 @@ A big question is, why Inkscape? In the original blog, he had already explained 
 
 You need to install [Inkscape](https://inkscape.org/zh-hant/) first. I recommend you install this in a terminal. I assume that you have your [`homebrew`](https://brew.sh/) installed. Then, just type the following into your terminal:
 
-```bash
-$ brew install --cask inkscape
+```sh
+> brew install --cask inkscape
 ```
 
 #### Set up the Environment in LaTeX
@@ -259,10 +262,9 @@ And to use it in your code, it's like the following:
 
 And then you're done! Also, the compilation time for this is shorter than you can ever expect. Let's get started then!
 
-
 This assumes that your $\LaTeX$ project's home directory looks like this:
 
-```bash
+```sh
 LaTeX_project
     ├── main.tex
     ├── main.pdf
@@ -276,21 +278,20 @@ LaTeX_project
 
 Now, let's get into the fun part, i.e., to set up the shortcut for this.
 
-
 ### Inkscape Figure Manager
 
 This is a figure manager developed by Gilles Castel, and here is the [repo](https://github.com/gillescastel/inkscape-figures). I recommend you to follow the installation instruction there. Here is just some guideline for you
 
 1. Download [choose](https://github.com/chipsenkbeil/choose) (specifically for macOS, [rofi](https://github.com/davatorium/rofi) for Linux instead):
 
-   ```bash
-   $ brew install choose-gui
+   ```sh
+   > brew install choose-gui
    ```
 
 2. Install the Inkscape figure manager:
 
-   ```bash
-   $ pip3 install inkscape-figures
+   ```sh
+   > pip3 install inkscape-figures
    ```
 
    > After installing it, type `inkscape-figure` in your terminal to make sure you have corrected install it.
@@ -306,6 +307,8 @@ Now, this is a tricky part: you need to find where the source-code of the inksca
 > Using global finding may be helpful...
 
 Open this directory by VS Code, there is something for you to modify. Ok, I know you probably don't have that much patience now, so I have a modified version available [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/). Just replace the whole directory with mine, and you're good to go.
+
+---
 
 <details>
 
@@ -326,12 +329,13 @@ def latex_template(name, title):
 
 to `stdout`, and then create a figure by the `name`, which is the content of the line.
 
-
 But this in VS Code is impossible, hence we don't need this, we'll use command line. And if we leave this function as it was, then it will send all these snippets into our terminal, which is quite annoying. So the modified version just removes this snippet completely.
 
 But let me explain it to you, in case you want to modify it to meet your need later on. First thing first, we see that in the given code in [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), we're using [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), so let me tell you how to set this up first.
 
 </details>
+
+---
 
 We're now prepared to see a detailed explanation about commands provided in [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures). There are three different commands in the [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures). We break it down one by one.
 
@@ -343,12 +347,14 @@ To open the file watcher, you can type `inkscape-figures watch` in the terminal.
 
 > You should trigger this at the beginning. i.e., use this after you open your project folder. To check whether `watch` is triggered correctly, you can simply open the terminal and see what's the output when you press `ctrl`+`f`: If it's already triggered, then it'll show
 >
-> ```bash
-> $ inkscape-figures watch 
+> ```sh
+> > inkscape-figures watch 
 > Unable to lock on the pidfile.
 > ```
 >
-> Otherwise it'll simply show nothing. (Remember to select the terminal corresponds to `runCommand`!)
+> Otherwise, it'll simply show nothing. (Remember to select the terminal corresponds to `runCommand`!)
+
+---
 
 <details>
 
@@ -387,9 +393,13 @@ Notice that we set the `autoFocus=false` for the terminal [Command Runner](https
 
 </details>
 
+---
+
 #### Create
 
 Same as above, we also use `ctrl`+`f` to trigger `inkscape-figures create` command. But in this case, we use `INSERT` for creating a new Inkscape figure. Specifically, we first type out the image's name we want our image to be called, then in this case we're already in `INSERT` mode, we just pres `ctrl`+`f` to create this image after naming.
+
+---
 
 <details>
 
@@ -471,6 +481,8 @@ which is just the snippet we remove from [Inkscape figure manager](https://githu
 
 </details>
 
+---
+
 <p align="center">
 	<img src="./gifs/demo-create-inkscape.gif"/>
 </p>
@@ -496,6 +508,8 @@ Again, we also use `ctrl`+`f` to trigger `inkscape-figures edit` command, but th
 > ```
 >
 > We see that we don't have any additional argument for `choose`, but if you want, you can replace this line by the next line, which modify the style of `choose`. For detail information, type `choose -h` to see all the options.
+
+---
 
 <details>
 
@@ -532,6 +546,8 @@ I think now it's clear enough how all these work together to trigger the corresp
 
 </details>
 
+---
+
 In the following demo, I create another figure named `figure-test2`, then modify it a little, and compile it again.
 
 <p align="center">
@@ -552,12 +568,12 @@ Please download the above two apps.
 #### Karabiner Elements
 
 We'll first set up the following [complex_modifications](https://karabiner-elements.pqrs.org/docs/json/root-data-structure/#custom-json-file-in-configkarabinerassetscomplex_modifications) for [Karabiner Elements](https://karabiner-elements.pqrs.org/) using a [`jsonnet`](https://jsonnet.org) file.
-The file can be found [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/karabiner-inkscape.jsonnet), and the `jsonnet` tool can be installed via `$ brew install jsonnet`.
+The file can be found [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/karabiner-inkscape.jsonnet), and the `jsonnet` tool can be installed via `> brew install jsonnet`.
 
 Converting the `.jsonnet` file into the json file for [Karabiner Elements](https://karabiner-elements.pqrs.org/) can be done as following
 
 ```sh
-$ jsonnet karabiner-inkscape.jsonnet > ~/.config/karabiner/assets/complex_modifications/karabiner-inkscape.json
+> jsonnet karabiner-inkscape.jsonnet > ~/.config/karabiner/assets/complex_modifications/karabiner-inkscape.json
 ```
 
 Then enable in [Karabiner Elements](https://karabiner-elements.pqrs.org/) UI the complex modifications.
@@ -668,6 +684,10 @@ You can certainly follow my [Template](https://github.com/sleepymalc/Academic-Te
 ### Migrate to HyperSnips (02.18.22)
 
 Now, instead using [HyperSnips for Math](https://marketplace.visualstudio.com/items?itemName=OrangeX4.hsnips), we're now using [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips), namely the **original one**! Since I just find out that we can trigger the snippets **only in math mode** by using the special keyword called `context`, hence I just migrate to the original one. To migrate, you just need to uninstall [HyperSnips for Math](https://marketplace.visualstudio.com/items?itemName=OrangeX4.hsnips), install [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips) with the updated [latex.hsnips](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) I prepared for you, and then enjoy!
+
+### Documenting Inkscape Shortcut Manager (07.30.22)
+
+I finally have time to document all my configuration and making some changes to make this document more readable. I personally have used this workflow for more than half of a year, so I think this is stable and will not be changed in a near future.
 
 ## Credits
 
