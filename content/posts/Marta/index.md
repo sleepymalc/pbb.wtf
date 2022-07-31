@@ -3,21 +3,23 @@ title: "$ open -a Marta"
 tags: ["macOS", "app"]
 date: 2022-02-27
 path: "posts/Marta"
-excerpt: ⌨️ Marta, a powerful keyboard-based Finder alternatives.
+excerpt: ⌨️ Marta, a powerful keyboard-based [Finder](https://support.apple.com/en-us/HT201732) alternatives.
 cover: "./preview.png"
 ---
 
-# 🦊 Marta - A Finder Alternative 🦊
+# 🦊 Marta - A [Finder](https://support.apple.com/en-us/HT201732) Alternative 🦊
 
 <p align="center">
 	<img width="80%" src="figures/marta.png"/>
 </p>
 
-Though most of the native apps made by excellent Apple engineers are easy to use[^1], but Finder is different. I asked lots of my macOS friends, and nearly all of them think Finder is great, "*it's fast and easy to use.*" Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before.
-> Although I can write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you, but sadly, while Apple is moving on to arm architecture, [TotalFinder](https://totalfinder.binaryage.com/) couldn't keep up with the pace to be compatible with Apple. Indeed, it stops updating and not maintained anymore.[^2] (~~Things can be changed!!! See this [post](https://twitter.com/akemin_dayo/status/1467946268181753859) and [this](https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879/12)~~ Things just changed!!! See [here](#alternatives)!)
+Though most of the native apps made by excellent Apple engineers are easy to use[^1], but [Finder](https://support.apple.com/en-us/HT201732) is different. I asked lots of my macOS friends, and nearly all of them think [Finder](https://support.apple.com/en-us/HT201732) is great, "*it's fast and easy to use.*" Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before.
+> Although I can write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you, but sadly, while Apple is moving on to arm architecture, [TotalFinder](https://totalfinder.binaryage.com/) couldn't keep up with the pace to be compatible with Apple. Indeed, it stops updating and not maintained anymore.[^2]
 > <p align="center">
 > 	<img width="80%" src="figures/totalfinder.png"/>
 > </p>
+>
+> *~~Things can be changed!!! See this [post](https://twitter.com/akemin_dayo/status/1467946268181753859) and [this](https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879/12)~~ Things just changed!!! See [here](#alternatives)!*
 
 [^1]: Even if it's not the case, there are at least some alternatives.
 [^2]: But it's now free though... 😂
@@ -28,11 +30,11 @@ Though most of the native apps made by excellent Apple engineers are easy to use
 <img src="figures/icon-hand-draw.png" align="right"/>
 </p>
 
-The fundamental difference between [TotalFinder](https://totalfinder.binaryage.com/) and Finder is the **multiple tabs support** with **double panels display**, which allows you to manage files *purely by keyboard*. If you're using Finder, you'll need multiple windows and probably with mouse to achieve this, but now you can do the same thing with only one active window.
+The fundamental difference between [TotalFinder](https://totalfinder.binaryage.com/) and [Finder](https://support.apple.com/en-us/HT201732) is the **multiple tabs support** with **double panels display**, which allows you to manage files *purely by keyboard*. If you're using Finder, you'll need multiple windows and probably with mouse to achieve this, but now you can do the same thing with only one active window.
 
 Though [TotalFinder](https://totalfinder.binaryage.com/) is no longer available for arm mac, [Marta](https://marta.sh/) appeared. It's better in some ways compared to [TotalFinder](https://totalfinder.binaryage.com/), but not that convenient in others. Nevertheless, it's *free*, *natively support*, and most importantly, *it's cute*! The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "this cute fox stands for quick and smart, just like [Marta](https://marta.sh/)".
 
-> If you ask, "*Ok, so what? You can use arrow keys moving around in Finder too!*" Well, then in this case, Finder may be sufficient for your usage.
+> If you ask, "*Ok, so what? You can use arrow keys moving around in [Finder](https://support.apple.com/en-us/HT201732) too!*" Well, then in this case, [Finder](https://support.apple.com/en-us/HT201732) may be sufficient for your usage.
 
 ## Features
 
@@ -127,7 +129,7 @@ If your current folder contains lots of files, you can locate any file you want 
 </p>
 
 This is extremely fast and clever!
-> Note that Finder does support this feature, but it does not do well in some cases. Marta does it more consistent and intuitively.
+> Note that [Finder](https://support.apple.com/en-us/HT201732) does support this feature, but it does not do well in some cases. Marta does it more consistent and intuitively.
 
 #### Global Search
 
@@ -197,7 +199,7 @@ You might already notice, [Marta](https://marta.sh/) doesn't provide rich suppor
 	<img src="gifs/quick-look.gif"/>
 </p>
 
-> I need to admit, the preview column provided by Finder is quite useful in some cases...
+> I need to admit, the preview column provided by [Finder](https://support.apple.com/en-us/HT201732) is quite useful in some cases...
 
 ### Double Panels
 
@@ -230,7 +232,7 @@ This is quite useful and fast!
 
 #### Move (Cut-like)
 
-In case some of you didn't know, Finder **do** provide the functionality `cut`. This is done by first using `cmd`+`c` like `copy`, and instead of using `cmd`+`v`, you use `Opt+cmd`+`v` to cut the selected content and past them to where you want.
+In case some of you didn't know, [Finder](https://support.apple.com/en-us/HT201732) **do** provide the functionality `cut`. This is done by first using `cmd`+`c` like `copy`, and instead of using `cmd`+`v`, you use `Opt+cmd`+`v` to cut the selected content and past them to where you want.
 >So basically, in Finder, you can first use `cmd`+`c` to copy the selected files, and then determine whether you want to past or cut them until the very end.
 
 [Marta](https://marta.sh/), on the other hand, **doesn't** provide such an *action*. It only provides `core.move`, and the way it's done is like following.
@@ -382,5 +384,12 @@ Here, I'm going to list some alternatives of Finder, you can try them yourself!
 
 1. [TotalFinder](https://totalfinder.binaryage.com/)
 
-   Just find out that the [TotalFinder](https://totalfinder.binaryage.com/) is back! See the [discussion thread](https://discuss.binaryage.com/t/update-discussion-totalfinder-1-14-2-for-apple-silicon-and-intel/8364) to see how to download it! I'll probably use **both**: Namely to replace Finder with [TotalFinder](https://totalfinder.binaryage.com/) and still use [Marta](https://marta.sh/) as my main tool to organize my files.
-3. [QSpaces](https://qspace.awehunt.com/en-us/index.html)
+   Just find out that the [TotalFinder](https://totalfinder.binaryage.com/) is back! See the [discussion thread](https://discuss.binaryage.com/t/update-discussion-totalfinder-1-14-2-for-apple-silicon-and-intel/8364) to see how to download it!
+   >But a big *caveat* is that: It still requires you to disable [SIP](https://en.wikipedia.org/wiki/System_Integrity_Protection), see [this](https://totalfinder.binaryage.com/apple-silicon). I genuinely **don't care**, but now things are different: in arm mac, disable [SIP](https://en.wikipedia.org/wiki/System_Integrity_Protection) will cause some problem, see [here](https://totalfinder.binaryage.com/apple-silicon#mark-important-disabling-sip-in-any-capacity-even-partially-will-also).
+   > <p align="center">
+   >    <img src="figures/SIP.png"/>
+   > </p>
+
+2. [QSpaces](https://qspace.awehunt.com/en-us/index.html)
+
+    Another powerful [Finder](https://support.apple.com/en-us/HT201732) alternative. It basically can do what [Marta](https://marta.sh/) is capable of, but with a better (well, complicated) GUI. I still prefer [Marta](https://marta.sh/) after trying this, but definitely check it out if you're interested.
