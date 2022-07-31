@@ -6,10 +6,10 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
   introduction: [
-    'I\'m from Taiwan 🇹🇼, and my Chinese name is **胡平邦** (pronounced as *Hu, Pingˊ-Bongˉ* ), which is hard to pronounce 🗣 in particular, so I\'ll respond to both **Benson** and **Pingbang**, just choose one you like 👀.',
-    'I\'m a Bachelor student major in **Computer Science** and **Mathematics** under Honor Mathematics program in *University of Michigan (UMich)*, United States 🇺🇸 and **Electrical Computer Engineering** in *Shanghai Jiao Tong University (SJTU)*, China 🇨🇳. My current research interest is about *provable modern machine learning theory* and also *computational complexity* and the crossover between *graph theory*.',
+    'My Chinese name is **胡平邦** (pronounced as *Hu, Pingˊ-Bongˉ* ) from Taiwan 🇹🇼, but I\'ll respond to both **Benson** and **Pingbang**, just choose one you like 👀 (I know my Chinese name is hard to pronounce in particular 😥)',
+    'I\'m a Bachelor student major in **Computer Science** and **Honor Mathematics** in *University of Michigan (UMich)* 🇺🇸 and **Electrical Computer Engineering** in *Shanghai Jiao Tong University (SJTU)* 🇨🇳. My research interest is about *provable modern machine learning theory* and also *computational complexity* and the crossover between *graph theory*.',
     'Despite my current research topics, my interest spreads widely among topics in theoretical computer science and mathematics. For TCS in particular, I\'m interested in approximation, online and randomized algorithm 🧠; as for math, I\'m quite into random matrix theory, statistic, differential and algebraic topology and functional analysis recently 📚.',
-    'Other than academic interests, I also have a lot of hobbies. I love street photography in particular, check out my personal [account](https://www.instagram.com/malc_ph/) 📷! I also love playing drums 🥁, and I\'m currently learning guitar 🎸. And also, I write [blog posts](./posts)📝 from time to time, go check it out!',
+    'Occasionally, I\'ll do street photography and write blog posts as a hobby, check out my personal [account](https://www.instagram.com/malc_ph/) 📷 and my [blog posts](./posts) 📝! I also love playing drums 🥁 and are now trying to learn guitar 🎸.',
   ],
   avatar: 'avatar.png',
   professions: [
@@ -84,6 +84,16 @@ module.exports = {
     }],
   interests: [
     {
+      icon: 'camera-retro',
+      title: 'Photography',
+    }, {
+      icon: 'keyboard',
+      title: 'HHKB, the best',
+    }, {
+      icon: 'cat',
+      title: 'Who doesn\'t love cats?',
+    },
+    {
       icon: 'brain',
       title: 'Algorithm',
     }, {
@@ -93,16 +103,8 @@ module.exports = {
     {
       icon: 'drum',
       title: 'Drum!',
-    }, {
-      icon: 'camera-retro',
-      title: 'Street Photography',
-    }, {
-      icon: 'keyboard',
-      title: 'HHKB is the best, period.',
-    }, {
-      icon: 'cat',
-      title: 'Who doesn\'t love cats?',
-    }],
+    }
+  ],
   experience: [
     {
       title: 'Teaching',
