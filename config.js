@@ -65,17 +65,17 @@ module.exports = {
       date: 'Sept 2021 - Present',
       icon: 'university',
       title: 'Bachelor in Computer Science',
-      location: 'University of Michigan, United States',
+      location: 'LSA, University of Michigan, United States',
     }, {
       date: 'Sept 2021 - Present',
       icon: 'university',
       title: 'Bachelor in Mathematics (Honors)',
-      location: 'University of Michigan, United States',
+      location: 'CoE, University of Michigan, United States',
     }, {
       date: 'Sept 2019 - Present',
       icon: 'university',
       title: 'Bachelor in Electrical Computer Engineering',
-      location: 'Shanghai Jiao Tong University, China',
+      location: 'UM-SJTU JI, Shanghai Jiao Tong University, China',
     }, {
       date: 'Sept 2016 - June 2019',
       icon: 'school',
