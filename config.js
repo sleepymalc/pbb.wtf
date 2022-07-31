@@ -54,7 +54,7 @@ module.exports = {
   ],
   wakatime: {
     username: 'sleepymalc',
-    activity: 'dffaa52c-7d3e-4bda-99a5-4c9205ff244c',
+    activity: 'eb201619-dfe8-485e-b683-11ce3475ad61',
     language: 'cccb943f-2bfc-47e5-b218-c56b858c1a90',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT
