@@ -1,11 +1,10 @@
----
+
 title: "$ code -add LaTeX Inkscape"
-tags: ["macOS", "LaTeX", "notes"] 
+tags: ["macOS", "LaTeX", "notes"]
 date: 2022-03-01
 path: "posts/VSCode-LaTeX-Inkscape"
 excerpt: 🖋 A way to integrate LaTeX, VSCode, and Inkscape in macOS.
 cover: "./preview.png"
----
 
 # ***VSCode-LaTeX-Inkscape***
 
@@ -147,67 +146,63 @@ Here is a quick demo for how it works when typing:
 
 Additionally, if you also want to correct your grammar error, I use the shortcut `cmd`+`k` to trigger a quick-fix for a general error.
 
----
-
 <details>
 
 <summary><b>Detail Explanation</b></summary>
 
-You can skip this part if you don't want to know the working mechanism. But if you're interested, please follow! The following code snippet in `settings.json` is responsible for correcting your spelling mistakes by just clicking `cmd`+`l`.
-
-```json
-{
-    "key": "cmd+l",
-    "command": "extension.multiCommand.execute",
-    "args": {
-        "sequence": [
-	    "cSpell.goToPreviousSpellingIssue",
-	    {
-	        "command": "editor.action.codeAction",
-	        "args": {
-	            "kind": "quickfix",
-		    "apply": "first"
-                }
-	    },
-	    "cursorUndo",
-        ]
-    }
-},
-```
-
-> Make sure that the curly braces above have a trailing comma, otherwise, VS Code will complain about it.
-
-The working mechanism is as follows. When you press `cmd`+`l`, the [multi-command](https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command) will do the following:
-
-1. Use one of the default function from cSpell's: `goToPreviousSpellingIssue`, which jump your cursor on that spelling error word
-2. Triggered a default editor action, with the argument being `quickfix` to open a quick fix drop-down list, and choose the `first` suggestion
-3. Move your cursor back by `cursorUndo`
-
-And likewise, the following code snippet is responsible for correcting grammar mistakes.
-
-```json
-{
-    "key": "cmd+k",
-    "command": "extension.multiCommand.execute",
-    "args": {
-        "sequence": [
-            "editor.action.marker.prev",
-            {
-                "command": "editor.action.codeAction",
-                "args": {
-                    "kind": "quickfix",
-                    "apply": "first"
-                }
-            },
-            "cursorUndo",
-        ]
-    }
- },
-```
+> You can skip this part if you don't want to know the working mechanism. But if you're interested, please follow! The following code snippet in `settings.json` is responsible for correcting your spelling mistakes by just clicking `cmd`+`l`.
+>
+> ```json
+> {
+>     "key": "cmd+l",
+>     "command": "extension.multiCommand.execute",
+>     "args": {
+>         "sequence": [
+> 	    "cSpell.goToPreviousSpellingIssue",
+> 	    {
+> 	        "command": "editor.action.codeAction",
+> 	        "args": {
+> 	            "kind": "quickfix",
+> 		    "apply": "first"
+>                 }
+> 	    },
+> 	    "cursorUndo",
+>         ]
+>     }
+> },
+> ```
+>
+> > Make sure that the curly braces above have a trailing comma, otherwise, VS Code will complain about it.
+>
+> The working mechanism is as follows. When you press `cmd`+`l`, the [multi-command](https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command) will do the following:
+>
+> 1. Use one of the default function from cSpell's: `goToPreviousSpellingIssue`, which jump your cursor on that spelling error word
+> 2. Triggered a default editor action, with the argument being `quickfix` to open a quick fix drop-down list, and choose the `first` suggestion
+> 3. Move your cursor back by `cursorUndo`
+>
+> And likewise, the following code snippet is responsible for correcting grammar mistakes.
+>
+> ```json
+> {
+>     "key": "cmd+k",
+>     "command": "extension.multiCommand.execute",
+>     "args": {
+>         "sequence": [
+>             "editor.action.marker.prev",
+>             {
+>                 "command": "editor.action.codeAction",
+>                 "args": {
+>                     "kind": "quickfix",
+>                     "apply": "first"
+>                 }
+>             },
+>             "cursorUndo",
+>         ]
+>     }
+>  },
+> ```
 
 </details>
-
----
 
 Now, the first part is over. Let's go to the next truly beautiful, elegant, and exciting world, drawing with [Inkscape](https://inkscape.org/zh-hant/).
 
@@ -308,34 +303,30 @@ Now, this is a tricky part: you need to find where the source-code of the inksca
 
 Open this directory by VS Code, there is something for you to modify. Ok, I know you probably don't have that much patience now, so I have a modified version available [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-figure-manager/). Just replace the whole directory with mine, and you're good to go.
 
----
-
 <details>
 
 <summary><b>Detail Explanation</b></summary>
 
-In Gilles Castel's approach, he uses the shortcut `ctrl`+`f` to trigger this script, which will copy the whole line's content depending on the cursor's position, and the script will send the snippets by the function
-
-```python
-def latex_template(name, title):
-    return '\n'.join((r"\begin{figure}[ht]",
-                      r"    This is a custom LaTeX template!",
-                      r"    \centering",
-                      rf"    \incfig[1]{{{name}}}",
-                      rf"    \caption{{{title}}}",
-                      rf"    \label{{fig:{name}}}",
-                      r"\end{figure}"))
-```
-
-to `stdout`, and then create a figure by the `name`, which is the content of the line.
-
-But this in VS Code is impossible, hence we don't need this, we'll use command line. And if we leave this function as it was, then it will send all these snippets into our terminal, which is quite annoying. So the modified version just removes this snippet completely.
-
-But let me explain it to you, in case you want to modify it to meet your need later on. First thing first, we see that in the given code in [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), we're using [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), so let me tell you how to set this up first.
+> In Gilles Castel's approach, he uses the shortcut `ctrl`+`f` to trigger this script, which will copy the whole line's content depending on the cursor's position, and the script will send the snippets by the function
+>
+> ```python
+> def latex_template(name, title):
+>     return '\n'.join((r"\begin{figure}[ht]",
+>                       r"    This is a custom LaTeX template!",
+>                       r"    \centering",
+>                       rf"    \incfig[1]{{{name}}}",
+>                       rf"    \caption{{{title}}}",
+>                       rf"    \label{{fig:{name}}}",
+>                       r"\end{figure}"))
+> ```
+>
+> to `stdout`, and then create a figure by the `name`, which is the content of the line.
+>
+> But this in VS Code is impossible, hence we don't need this, we'll use command line. And if we leave this function as it was, then it will send all these snippets into our terminal, which is quite annoying. So the modified version just removes this snippet completely.
+>
+> But let me explain it to you, in case you want to modify it to meet your need later on. First thing first, we see that in the given code in [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), we're using [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), so let me tell you how to set this up first.
 
 </details>
-
----
 
 We're now prepared to see a detailed explanation about commands provided in [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures). There are three different commands in the [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures). We break it down one by one.
 
@@ -354,134 +345,128 @@ To open the file watcher, you can type `inkscape-figures watch` in the terminal.
 >
 > Otherwise, it'll simply show nothing. (Remember to select the terminal corresponds to `runCommand`!)
 
----
-
 <details>
 
 <summary><b>Detail Explanation</b></summary>
 
-In [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json), we have
-
-```json
-{
-    "key": "ctrl+f",
-    "command": "command-runner.run",
-    "args": {
-        "command": "inkscapeStart",
-        "terminal": {
-            "name": "runCommand",
-            "shellArgs": [],
-            "autoClear": true,
-            "autoFocus": false
-        }
-    },
-    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode == 'Visual'"
-}
-```
-
-for starting the [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures). And the command is defined in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
-
-```json
-"command-runner.commands": {
-    "inkscapeStart": "inkscape-figures watch"
-}
-```
-
-In detail, we just use [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner) to run the command we defined in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), in this case, I explicitly tell the keybinding `ctrl`+`f` will trigger `inkscapeStart` when I'm in `VISUAL` mode in Vim, which is just `inkscape-figures watcher` as defined above.
-
-Notice that we set the `autoFocus=false` for the terminal [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner) uses since we don't want a pop-up terminal to distract us. If you want to see whether the command is triggered correctly every time, you can set it to `true`.
+> In [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json), we have
+>
+> ```json
+> {
+>     "key": "ctrl+f",
+>     "command": "command-runner.run",
+>     "args": {
+>         "command": "inkscapeStart",
+>         "terminal": {
+>             "name": "runCommand",
+>             "shellArgs": [],
+>             "autoClear": true,
+>             "autoFocus": false
+>         }
+>     },
+>     "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode == 'Visual'"
+> }
+> ```
+>
+> for starting the [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures). And the command is defined in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
+>
+> ```json
+> "command-runner.commands": {
+>     "inkscapeStart": "inkscape-figures watch"
+> }
+> ```
+>
+> In detail, we just use [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner) to run the command we defined in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), in this case, I explicitly tell the keybinding `ctrl`+`f` will trigger `inkscapeStart` when I'm in `VISUAL` mode in Vim, which is just `inkscape-figures watcher` as defined above.
+>
+> Notice that we set the `autoFocus=false` for the terminal [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner) uses since we don't want a pop-up terminal to distract us. If you want to see whether the command is triggered correctly every time, you can set it to `true`.
 
 </details>
-
----
 
 #### Create
 
 Same as above, we also use `ctrl`+`f` to trigger `inkscape-figures create` command. But in this case, we use `INSERT` for creating a new Inkscape figure. Specifically, we first type out the image's name we want our image to be called, then in this case we're already in `INSERT` mode, we just pres `ctrl`+`f` to create this image after naming.
 
----
-
 <details>
 
 <summary><b>Detail Explanation</b></summary>
 
-We set up our ['keybindings.json'](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) as
-
-```json
-{
-    "key": "ctrl+f",
-    "command": "extension.multiCommand.execute",
-    "args": {
-        "sequence": [
-	    "editor.action.clipboardCopyAction",
-	    "editor.action.insertLineAfter",
-	    "cursorUp",
-	    "editor.action.deleteLines",
-	    {
-	        "command": "editor.action.insertSnippet",
-		"args": {
-		    "name": "incfig"
-		}
-            },
-            {
-	        "command": "command-runner.run",
-		"args": {
-		    "command": "inkscapeCreate",
-		},
-		"terminal": {
-		    "name": "runCommand",
-		    "shellArgs": [],
-		    "autoClear": true,
-		    "autoFocus": false
-		}
-            },
-	]
-    },
-    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode == 'Insert'"
-},
-```
-
-and also in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
-
-```json
-"command-runner.commands": {
-    "inkscapeCreate": "inkscape-figures create ${selectedText} ${fileDirname}/Figures/"
-}
-```
-
-We break down what `ctrl`+`f` do in `INSERT` mode exactly step by step. We see that when we press `ctrl`+`f` in `INSERT` mode, we trigger `multiCommand.execute` to execute a sequence of instructions, which are
-
-1. Copy the content into your clipboard of the line your cursor at
-2. Insert a blank line after since we need to insert a snippet, and that's will delete an additional line. You can try to delete this and the next instruction, and see what happens.
-3. Move back our cursor after inserting that new line.
-4. Delete that copied content by removing this line.
-5. Insert a snippet defined in [`latex.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.json). **Notice that this is the default snippet functionality built-in VS Code, not [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips) we have used before**. I'll explain where to copy this file in a minute.
-6. Lastly, we send a command in a terminal by [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), with the command `inkscapeCreate` we defined in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json).
-
-In the fifth instruction, the snippet we used is
-
-```json
- { 
- 	"incfig": { 
- 		"prefix": "incfig", 
- 		"body": [ 
- 			"\\begin{figure}[H]", 
- 			"\t\\centering", 
- 			"\t\\incfig{${1:$CLIPBOARD}}", 
- 			"\t\\caption{${2:title}}", 
- 			"\t\\label{fig:${1:$CLIPBOARD}}", 
- 			"\\end{figure}", 
- 		], 
- 		"description": "Inserts mathematical diagram" 
- 	} 
- } 
-```
-
-which is just the snippet we remove from [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures)'s source code! It's back again, in a different approach.
+> We set up our ['keybindings.json'](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) as
+>
+> ```json
+> {
+>     "key": "ctrl+f",
+>     "command": "extension.multiCommand.execute",
+>     "args": {
+>         "sequence": [
+> 	    "editor.action.clipboardCopyAction",
+> 	    "editor.action.insertLineAfter",
+> 	    "cursorUp",
+> 	    "editor.action.deleteLines",
+> 	    {
+> 	        "command": "editor.action.insertSnippet",
+> 		"args": {
+> 		    "name": "incfig"
+> 		}
+>             },
+>             {
+> 	        "command": "command-runner.run",
+> 		"args": {
+> 		    "command": "inkscapeCreate",
+> 		},
+> 		"terminal": {
+> 		    "name": "runCommand",
+> 		    "shellArgs": [],
+> 		    "autoClear": true,
+> 		    "autoFocus": false
+> 		}
+>             },
+> 	]
+>     },
+>     "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode == 'Insert'"
+> },
+> ```
+>
+> and also in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
+>
+> ```json
+> "command-runner.commands": {
+>     "inkscapeCreate": "inkscape-figures create ${selectedText} ${fileDirname}/Figures/"
+> }
+> ```
+>
+> We break down what `ctrl`+`f` do in `INSERT` mode exactly step by step. We see that when we press `ctrl`+`f` in `INSERT` mode, we trigger `multiCommand.execute` to execute a sequence of instructions, which are
+>
+> 1. Copy the content into your clipboard of the line your cursor at
+> 2. Insert a blank line after since we need to insert a snippet, and that's will delete an additional line. You can try to delete this and the next instruction, and see what happens.
+> 3. Move back our cursor after inserting that new line.
+> 4. Delete that copied content by removing this line.
+> 5. Insert a snippet defined in [`latex.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.json). **Notice that this is the default snippet functionality built-in VS Code, not [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips) we have used before**. I'll explain where to copy this file in a minute.
+> 6. Lastly, we send a command in a terminal by [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), with the command `inkscapeCreate` we defined in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json).
+>
+> In the fifth instruction, the snippet we used is
+>
+> ```json
+>  { 
+>  	"incfig": { 
+>  		"prefix": "incfig", 
+>  		"body": [ 
+>  			"\\begin{figure}[H]", 
+>  			"\t\\centering", 
+>  			"\t\\incfig{${1:$CLIPBOARD}}", 
+>  			"\t\\caption{${2:title}}", 
+>  			"\t\\label{fig:${1:$CLIPBOARD}}", 
+>  			"\\end{figure}", 
+>  		], 
+>  		"description": "Inserts mathematical diagram" 
+>  	} 
+>  } 
+> ```
+>
+> which is just the snippet we remove from [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures)'s source code! It's back again, in a different approach.
+>
+>
 
 </details>
-
----
 
 <p align="center">
 	<img src="./gifs/demo-create-inkscape.gif"/>
@@ -509,44 +494,40 @@ Again, we also use `ctrl`+`f` to trigger `inkscape-figures edit` command, but th
 >
 > We see that we don't have any additional argument for `choose`, but if you want, you can replace this line by the next line, which modify the style of `choose`. For detail information, type `choose -h` to see all the options.
 
----
-
 <details>
 
 <summary><b>Detail Explanation</b></summary>
 
-The corresponding keybinding in ['keybindings.json'](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) is:
-
-```json
-{
-    "key": "ctrl+f",
-    "command": "command-runner.run",
-    "args": {
-        "command": "inkscapeEdit",
-        "terminal": {
-            "name": "runCommand",
-            "shellArgs": [],
-            "autoClear": true,
-            "autoFocus": false
-        }
-    },
-    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode == 'Normal'"
-},
-```
-
-and also in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
-
-```json
-"command-runner.commands": {
-    "inkscapeEdit": "inkscape-figures edit ${fileDirname}/Figures/"
-}
-```
-
-I think now it's clear enough how all these work together to trigger the corresponding command. When you press `ctrl`+`f` in `NORMAL` mode, you'll trigger the `inkscape-figures edit` command, and it'll look into your `Figures/` subfolder to see what figures you have and pop out a window for you to choose, which is the functionality provided by [choose](https://github.com/chipsenkbeil/choose).
+> The corresponding keybinding in ['keybindings.json'](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) is:
+>
+> ```json
+> {
+>     "key": "ctrl+f",
+>     "command": "command-runner.run",
+>     "args": {
+>         "command": "inkscapeEdit",
+>         "terminal": {
+>             "name": "runCommand",
+>             "shellArgs": [],
+>             "autoClear": true,
+>             "autoFocus": false
+>         }
+>     },
+>     "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode == 'Normal'"
+> },
+> ```
+>
+> and also in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
+>
+> ```json
+> "command-runner.commands": {
+>     "inkscapeEdit": "inkscape-figures edit ${fileDirname}/Figures/"
+> }
+> ```
+>
+> I think now it's clear enough how all these work together to trigger the corresponding command. When you press `ctrl`+`f` in `NORMAL` mode, you'll trigger the `inkscape-figures edit` command, and it'll look into your `Figures/` subfolder to see what figures you have and pop out a window for you to choose, which is the functionality provided by [choose](https://github.com/chipsenkbeil/choose).
 
 </details>
-
----
 
 In the following demo, I create another figure named `figure-test2`, then modify it a little, and compile it again.
 
