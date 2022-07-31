@@ -14,7 +14,7 @@ cover: "./preview.png"
 </p>
 
 Though most of the native apps made by excellent Apple engineers are easy to use[^1], but Finder is different. I asked lots of my macOS friends, and nearly all of them think Finder is great, "*it's fast and easy to use.*" Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before.
-> Although I can write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you, but sadly, while Apple is moving on to arm architecture, [TotalFinder](https://totalfinder.binaryage.com/) couldn't keep up with the pace to be compatible with Apple. Indeed, it stops updating and not maintained anymore.[^2] (~~Things can be changed!!! See this [post](https://twitter.com/akemin_dayo/status/1467946268181753859) and [this](https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879/12)~~ Things just changed!!! See [here](#totalfinder-is-back)!)
+> Although I can write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you, but sadly, while Apple is moving on to arm architecture, [TotalFinder](https://totalfinder.binaryage.com/) couldn't keep up with the pace to be compatible with Apple. Indeed, it stops updating and not maintained anymore.[^2] (~~Things can be changed!!! See this [post](https://twitter.com/akemin_dayo/status/1467946268181753859) and [this](https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879/12)~~ Things just changed!!! See [here](#alternatives)!)
 > <p align="center">
 > 	<img width="80%" src="figures/totalfinder.png"/>
 > </p>
@@ -376,8 +376,11 @@ I actually quite like the look of Sakura 🌸, but since I use dark mode as my m
 
 Overall, I think [Marta](https://marta.sh/) provides excellent customization abilities, while still easy enough for simple use. If you think you need an extra boost of productivity, or even just want to try out new applications, [Marta](https://marta.sh/) is definitely worth giving a shot!
 
-## Updates
+## Alternatives
 
-### TotalFinder is Back
+Here, I'm going to list some alternatives of Finder, you can try them yourself!
 
-Just find out that the [TotalFinder](https://totalfinder.binaryage.com/) is back! See the [discussion thread](https://discuss.binaryage.com/t/update-discussion-totalfinder-1-14-2-for-apple-silicon-and-intel/8364) to see how to download it! I'll probably use **both**: Namely to replace Finder with [TotalFinder](https://totalfinder.binaryage.com/) and still use [Marta](https://marta.sh/) as my main tool to organize my files.
+1. [TotalFinder](https://totalfinder.binaryage.com/)
+
+   Just find out that the [TotalFinder](https://totalfinder.binaryage.com/) is back! See the [discussion thread](https://discuss.binaryage.com/t/update-discussion-totalfinder-1-14-2-for-apple-silicon-and-intel/8364) to see how to download it! I'll probably use **both**: Namely to replace Finder with [TotalFinder](https://totalfinder.binaryage.com/) and still use [Marta](https://marta.sh/) as my main tool to organize my files.
+3. [QSpaces](https://qspace.awehunt.com/en-us/index.html)
