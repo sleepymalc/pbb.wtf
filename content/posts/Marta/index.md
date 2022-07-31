@@ -64,9 +64,10 @@ Now, let's start binding some useful *actions* to your favorite keybindings!
 
 In Finder, you can use arrow keys to navigate through folders, namely
 
-* `←` : Move to the parent folder
-* `→` : Move in the folder if the current focus is on a folder
-* `↑`/`↓`: Move up and down.
+* `←` : Move to the parent folder.
+* `→` : Move in the folder if the current focus is on a folder (otherwise do nothing).
+* `↑` : Move up.
+* `↓` : Move down.
 
 You can do not only the same, but more with [Marta](https://marta.sh/)! The definition of the right key in [Marta](https://marta.sh/) in default is the `core.move.right` *action*
 
@@ -74,13 +75,14 @@ You can do not only the same, but more with [Marta](https://marta.sh/)! The defi
 "Right" "core.move.right"
 ```
 
-which essentially do the same thing as in Finder. But rather, you can redefine (yes, you can **completely redefine** all the keybindings) it as
+which essentially do the same thing as in Finder. But rather, you can redefine (yes, you can **completely redefine** all the keybindings) it into `core.open` *action* by
 
 ```JSON
 "Right" "core.open"
 ```
 
-which can not only open a folder (i.e., it will bring you into that folder), but if your current focus is on a file, you can still open it since now your `→` stands for `core.open`! This makes life much easier, since if you want to open a file in Finder, you'll need to use `cmd`+`o` instead.
+which can not only bring you into that folder, but if your current focus is on a file, you can also open it! This makes life much easier.
+> If you want to open a file in Finder, you'll need to use `cmd`+`o` instead.
 
 One thing that is worth mentioning is that [Marta](https://marta.sh/) set `←` as `core.move.left`, which is a bit awkward if you are used to Finder. So instead, I change it to
 
@@ -88,25 +90,25 @@ One thing that is worth mentioning is that [Marta](https://marta.sh/) set `←` 
 "Left" "core.go.up"
 ```
 
-which is more natural for me.
+which essentially do the same thing as Finder.
 
-### Create New Files/Folders
+### Create New Files & Folders
 
-By default, you can create **any** types of file in [Marta](https://marta.sh/) by the following `new.folder` and `new.file` *actions*:
+By default, you can create folders and **any** types of file in [Marta](https://marta.sh/) by the following `new.folder` and `new.file` *actions*:
 
 ```JSON
 "F7" 		"core.new.folder"
-"shift+F7" 	"core.new.file"
+"Shift+F7" 	"core.new.file"
 ```
 
 You can bind it to your favorite keybindings to match your own habits. For me, since [Totalfinder](https://totalfinder.binaryage.com/) follows the same shortcut as Finder, hence I change it to
 
 ```JSON
-"shift+cmd`+`n"   "core.new.folder"
-"shift+cmd`+`f"   "core.new.file"
+"Shift+Cmd+n"   "core.new.folder"
+"Shift+Cmd+f"   "core.new.file"
 ```
 
-while `shift`+`cmd`+`n` is the default shortcut to create a new folder in Finder, but there is no such shortcut, or I should say, there is no easy way to create a new file in Finder, hence you get another useful shortcut! For example, the following demo will show you how to create a simple `.txt` file.
+while `shift`+`cmd`+`n` is the default shortcut to create a new folder in Finder, but there is no such shortcut, or I should say, there is no easy way to create a new file in Finder, hence you get another useful shortcut! The following demo will show you how to create a new folder and a simple `.txt` file.
 
 <p align="center">
 	<img width="80%" src="gifs/create-new-file.gif"/>
@@ -125,11 +127,11 @@ If your current folder contains lots of files, you can locate any file you want 
 </p>
 
 This is extremely fast and clever!
-> Note that Finder does support this feature, but it does not do well in some sense. Marta does it more consistent and intuitively.
+> Note that Finder does support this feature, but it does not do well in some cases. Marta does it more consistent and intuitively.
 
 #### Global Search
 
-What if you want to go to other directories far from your current one? You can use the function `Look UP`, which is triggered by `cmd`+`p`. After you type this keybinding, a search bar will pop up, and you can search for the place you want to go to. Notice that it can be either a file/directory. Let me show you how it's done.
+What if you want to go to other directories far from your current one? You can use the function `Look UP`, which is triggered by `cmd`+`p`. After you type this keybinding, a search bar will pop up, and you can search for the place you want to go to. Notice that it can be either a file or directory.
 
 <p align="center">
 	<img width="80%" src="gifs/global-search.gif"/>
@@ -143,13 +145,15 @@ As we mentioned before, we can open the file by `→`, but there is some subtly 
 
 #### Open With
 
-Interestingly, as you just saw, [Marta](https://marta.sh/) let you go *directly in* a `.zip` file and see the content in it. What if you want to do something else about it? Like, open it by other apps to unzip? By default, we have the following.
+Interestingly, as you're going to see, [Marta](https://marta.sh/) let you go *directly in* a `.zip` file and see the content in it with the `core.open` *action*. What if you want to do something else about it? Like, open it by other apps to unzip?
+
+Thankfully, we have the `core.open.with` *action* by default:
 
 ```JSON
-"cmd`+`Return" "core.open.with"
+"Cmd`+`Return" "core.open.with"
 ```
 
-This allows you to open a file with different apps. Personally, I use [Keka](https://www.keka.io/en/), which is a portable, powerful but light-weight file archiver. Say I just zipped the newly created `text.txt` file and want to unzip it, I can press `cmd`+`Return`, then by selecting what app we want to open this file with. In this case, I want to open `test.txt.zip` with [Keka](https://www.keka.io/en/), then we have the following.
+This allows you to open a file with different apps. Personally, I use [Keka](https://www.keka.io/en/), which is a portable, powerful but light-weight file archiver. Say I just zipped the newly created `text.txt` file and want to unzip it, I can press `cmd`+`Return`, and search for the app I want to open this file with. In this case, I want to open `test.txt.zip` with [Keka](https://www.keka.io/en/):
 
 <p align="center">
 	<img width="80%" src="gifs/open.gif"/>
@@ -157,20 +161,21 @@ This allows you to open a file with different apps. Personally, I use [Keka](htt
 
 #### Edit
 
-For those developers, I bet you'll need to open an **entire folder** very often. And as far as I know, there is no easy way to do this in Finder. But in [Marta](https://marta.sh/), you can use the `core.edit` *action*:
+For developers, I bet you'll need to open an **entire folder** very often. And as far as I know, there is no easy way to do this in Finder. But in [Marta](https://marta.sh/), you can use the `core.edit` *action*:
 
 ```JSON
 "F4" "core.edit"
 ```
 
-As you might already observe, I tend to define my keybinding with the keyword's first alphabet being the same as the first alphabet of the functionality this keybinding stands for. Hence, rather than remember this weird `F4` functional key, I use
+As you might already observe, I tend to define my keybinding with the keyword's first alphabet being the same as the first alphabet of the functionality this keybinding stands for. Hence, rather than remember this weird `F4` functional key, I use `cmd`+`e` to do the `core.edit` *action*:
 
 ```JSON
-"cmd`+`e"	"core.edit"
+"Cmd+e" "core.edit"
 ```
 
-What this action `core.edit` is really doing is that after you specify a **text-editor**, which you can specify in the configuration file, it'll open whatever you're focusing on within that app. For example, I use [Visual Studio Code](https://code.visualstudio.com/) as
-my primarily IDE, so I define
+What `core.edit` is really doing is that after you specify a **text-editor**, which you can specify in the configuration file, it'll open whatever you're focusing on within that app.[^4] For example, I use [Visual Studio Code](https://code.visualstudio.com/) as my primarily IDE, so I define
+
+[^4]: That's to say, you can also open a file with the **text-editor** you specified.
 
 ```JSON
 environment {
@@ -181,7 +186,7 @@ environment {
 So, if you now want to open a project, you can simply press `cmd`+`e`, then it'll open this folder within your favorite IDE you specified! Let's see the demo.
 
 <p align="center">
-	<img width="80%" src="gifs/edit.gif"/>
+	<img src="gifs/edit.gif"/>
 </p>
 
 #### Preview
@@ -189,8 +194,10 @@ So, if you now want to open a project, you can simply press `cmd`+`e`, then it'l
 You might already notice, [Marta](https://marta.sh/) doesn't provide rich support of figures as your visual tool for file organization. But as in Finder, you can always press `space` to open/close a quick *preview* (it's formally called *quick look*) to see what this file is. This works like this.
 
 <p align="center">
-	<img width="80%" src="gifs/quick-look.gif"/>
+	<img src="gifs/quick-look.gif"/>
 </p>
+
+> I need to admit, the preview column provided by Finder is quite useful in some cases...
 
 ### Double Panels
 
@@ -209,21 +216,28 @@ For short, you can open several tabs in *each* panel. And with one of the essent
 	<img width="80%" src="gifs/tabs.gif"/>
 </p>
 
-Yes, it's simple but powerful! In the demo, I use `cmd`+`t` to create a new tab while using `cmd`+`w` to close a tab in the panel I'm currently in, and use `shift`+`cmd`+`{` or `shift`+`cmd`+`}` to navigate between tabs. With this in mind, we now see how you can utilize this to speed up the process of moving files around.
+Yes, it's simple but powerful! In the demo, I use `cmd`+`t` to create a new tab while using `cmd`+`w` to close it. Further, I use `opt`+`cmd`+`←` and `opt`+`cmd`+`→` to navigate between tabs. With this in mind, we now see how you can utilize this to speed up the process of moving files around.
 
-#### Copy
+#### Copy & Pasting
 
-The default behavior is just like any other file manager you familiar with, i.e., `cmd`+`c` for copying, and `cmd`+`v` for pasting.
+The default behavior is just like any other file managers you familiar with, i.e., `cmd`+`c` for copying, and `cmd`+`v` for pasting. But I have done one tweak relates to copy: I assign `opt`+`cmd`+`c` to copy the *path* of the current focus file/folder by combining this keybinding with `core.path` as follows:
 
-#### Move
+```JSON
+"Cmd+Opt+c" "core.path"
+```
+
+This is quite useful and fast!
+
+#### Move (Cut-like)
 
 In case some of you didn't know, Finder **do** provide the functionality `cut`. This is done by first using `cmd`+`c` like `copy`, and instead of using `cmd`+`v`, you use `Opt+cmd`+`v` to cut the selected content and past them to where you want.
-So basically, in Finder, you can first use `cmd`+`c` to copy the selected files, and then determine whether you want to past or cut them until the very end. [Marta](https://marta.sh/), on the other hand, **doesn't** provide such an *action*.
-It only provides `core.move`, and the way it's done is like following.
+>So basically, in Finder, you can first use `cmd`+`c` to copy the selected files, and then determine whether you want to past or cut them until the very end.
+
+[Marta](https://marta.sh/), on the other hand, **doesn't** provide such an *action*. It only provides `core.move`, and the way it's done is like following.
 
 1. Select the file you want to `core.move`.
-2. Press the keybinding you assign to `core.move` (default is `F6`).
-3. It'll pop up a small window asking you where you want to `core.move` the selected file. The default path is ***another panel's address***.
+2. Press the keybinding you assign to `core.move` (default is `F6`, I reassign it to be `cmd`+`x`).
+3. Type the path you want to `core.move` the selected files (can include folders) to. The default path is ***another panel (current tab)'s path***.
 
 For demonstration, say I want to move the created `Test/test.txt` to my `Test2` folder. The workflow should be like this:
 
@@ -231,31 +245,33 @@ For demonstration, say I want to move the created `Test/test.txt` to my `Test2` 
 	<img width="80%" src="gifs/move.gif"/>
 </p>
 
-The big question now arises: "How can I do this efficiently? It seems like the functionality is quite limited." Now comes the crucial part, `clone` *action*.
-
 #### Clone
 
-The clone action is quite interesting, it includes four variations:
+As you can see, [Marta](https://marta.sh/) want you to handle your file-reorganization by utilizing its **double panels** feature. So, there must be a way to create a tab to the other side of your panel quickly, maybe? Indeed! It's exactly the `clone`-related *actions*, which include four variations:
 
 1. `core.clone.left` (only works when you're at the *right* panel)
-    > It'll set the *left* panel to the **folder** you selected. If your current focus is on **file**, it'll simply set the *left* panel as the folder you're currently in of the *right* panel.
-2. `core.clone.right` (only works when you're at the *left* panel)
-    > Same as `core.clone.left`, but reversed in an obvious way.
-3. `core.clone.left.folder` (only works when you're at the *right* panel)
-    > Almost the same as `core.clone.left`, but it'll ***always*** set the *left* folder as the folder you're currently in of the *right* panel.
-4. `core.clone.right.folder` (only works when you're at the *left* panel)
-    > Same as `core.clone.left.folder`, but reversed in an obvious way.
 
-You can now imagine how useful this is since if you're moving files under some parent folder, then you can use `core.clone` *action* to quickly set another panel to the similar address and `core.move` files around.
+    It'll set the *left* panel to the **folder** you selected. If your current focus is on **file**, it'll simply set the *left* panel as the folder you're currently in.
+2. `core.clone.right` (only works when you're at the *left* panel)
+
+    Same as `core.clone.left`, but reversed in an obvious way.
+3. `core.clone.left.folder` (only works when you're at the *right* panel)
+
+    Almost the same as `core.clone.left`, but it'll ***always*** set the *left* panel as the folder you're currently in.
+4. `core.clone.right.folder` (only works when you're at the *left* panel)
+
+    Same as `core.clone.left.folder`, but reversed in an obvious way.
+
+Now, if you're moving files around under some parent folder, then you can use `core.clone` *action* to quickly set another panel to the similar path and `core.move` files around fast.
 
 ## Personal Configuration
 
-Let's see the configuration file. To open the configuration file, you can simply press `cmd`+`,` in [Marta](https://marta.sh/). And to apply all my configurations, copy the following codes into the **Right** panel of the configuration file. The left-hand
-side of the configuration file is the default config for reference.
+Let's see the configuration file. To open the configuration file, you can simply press `cmd`+`,`. To apply all my configurations, copy the following codes into the **Right** panel of the configuration file.
+> The left-hand side of the configuration file is the default config for reference.
 
 ```JSON
 behavior {
-    theme "Dark"
+    theme "Kon"
     
     actions {
         core.trash.confirm false
@@ -274,23 +290,27 @@ keyBindings {
     "Right"         "core.open"
     "Left"          "core.go.up"
     
-    "shift+cmd`+`n"   "core.new.folder"
-    "shift+cmd`+`f"   "core.new.file"
+    "Shift+Cmd+n"   "core.new.folder"
+    "Shift+Cmd+f"   "core.new.file"
     
-    "cmd`+`e"         "core.edit"
-    "shift+cmd`+`x"   "core.move.inactive"
-    "cmd`+`o"         "core.open"
-    "cmd`+`x"         "core.move"
+    "Cmd+e"         "core.edit"
+    "Shift+Cmd+x"   "core.move.inactive"
+    "Cmd+o"         "core.open"
+    "Cmd+x"         "core.move"
+    "Cmd+Opt+c"     "core.path"
     
-    "shift+cmd`+`t"   "core.terminal.activate"
+    "Shift+Cmd+t"   "core.terminal.activate"
     
     "F4"            null
     "F6"            null
     "F7"            null
-    "shift+F7"      null
+    "Shift+F7"      null
     "F8"            null
-    "cmd`+`y"         null
+    "Cmd+y"         null
     "Backspace"     null
+    
+    "Cmd+Opt+Right" "core.tab.next"
+    "Cmd+Opt+Left"  "core.tab.previous"
 }
 
 environment {
@@ -346,7 +366,7 @@ One thing I didn't bring up is that there are actually different themes you can 
 	<img width="80%"src="figures/sakura.png"/>
 </p>
 
-I actually quite like the look of Sakura 🌸, but since I use dark mode throughout all application, hence I just give up on this... Definitely try it out! To change the theme, you can either just work in the configuration file, or to [search the `Switch Theme` *action*](gifs/posts/Marta#search-action):
+I actually quite like the look of Sakura 🌸, but since I use dark mode as my main theme, hence I just give up on this... Definitely try it out! To change the theme, you can either just change the `tmeme` (the first line in my [personal configuration](#personal-configuration)) in the configuration file, or to search the `Switch Theme` *action*:
 
 <p align="center">
 	<img width="80%" src="gifs/switch-theme.gif"/>
