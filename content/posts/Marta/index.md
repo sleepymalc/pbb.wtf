@@ -14,7 +14,7 @@ cover: "./preview.png"
 </p>
 
 Though most of the native apps made by excellent Apple engineers are easy to use[^1], but Finder is different. I asked lots of my macOS friends, and nearly all of them think Finder is great, "*it's fast and easy to use.*" Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before.
-> Although I can write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you, but sadly, while Apple is moving on to arm architecture, [Totalfinder](https://totalfinder.binaryage.com/) couldn't keep up with the pace to be compatible with Apple. Indeed, it stops updating and not maintained anymore.[^2] (Things can be changed!!! See this [post](https://twitter.com/akemin_dayo/status/1467946268181753859) and [this](https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879/12))
+> Although I can write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you, but sadly, while Apple is moving on to arm architecture, [TotalFinder](https://totalfinder.binaryage.com/) couldn't keep up with the pace to be compatible with Apple. Indeed, it stops updating and not maintained anymore.[^2] (~~Things can be changed!!! See this [post](https://twitter.com/akemin_dayo/status/1467946268181753859) and [this](https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879/12)~~ Things just changed!!! See [here](#totalfinder-is-back)!)
 > <p align="center">
 > 	<img width="80%" src="figures/totalfinder.png"/>
 > </p>
@@ -28,9 +28,9 @@ Though most of the native apps made by excellent Apple engineers are easy to use
 <img src="figures/icon-hand-draw.png" align="right"/>
 </p>
 
-The fundamental difference between [Totalfinder](https://totalfinder.binaryage.com/) and Finder is the **multiple tabs support** with **double panels display**, which allows you to manage files *purely by keyboard*. If you're using Finder, you'll need multiple windows and probably with mouse to achieve this, but now you can do the same thing with only one active window.
+The fundamental difference between [TotalFinder](https://totalfinder.binaryage.com/) and Finder is the **multiple tabs support** with **double panels display**, which allows you to manage files *purely by keyboard*. If you're using Finder, you'll need multiple windows and probably with mouse to achieve this, but now you can do the same thing with only one active window.
 
-Though [Totalfinder](https://totalfinder.binaryage.com/) is no longer available for arm mac, [Marta](https://marta.sh/) appeared. It's better in some ways compared to [Totalfinder](https://totalfinder.binaryage.com/), but not that convenient in others. Nevertheless, it's *free*, *natively support*, and most importantly, *it's cute*! The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "this cute fox stands for quick and smart, just like [Marta](https://marta.sh/)".
+Though [TotalFinder](https://totalfinder.binaryage.com/) is no longer available for arm mac, [Marta](https://marta.sh/) appeared. It's better in some ways compared to [TotalFinder](https://totalfinder.binaryage.com/), but not that convenient in others. Nevertheless, it's *free*, *natively support*, and most importantly, *it's cute*! The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "this cute fox stands for quick and smart, just like [Marta](https://marta.sh/)".
 
 > If you ask, "*Ok, so what? You can use arrow keys moving around in Finder too!*" Well, then in this case, Finder may be sufficient for your usage.
 
@@ -101,7 +101,7 @@ By default, you can create folders and **any** types of file in [Marta](https://
 "Shift+F7" 	"core.new.file"
 ```
 
-You can bind it to your favorite keybindings to match your own habits. For me, since [Totalfinder](https://totalfinder.binaryage.com/) follows the same shortcut as Finder, hence I change it to
+You can bind it to your favorite keybindings to match your own habits. For me, since [TotalFinder](https://totalfinder.binaryage.com/) follows the same shortcut as Finder, hence I change it to
 
 ```JSON
 "Shift+Cmd+n"   "core.new.folder"
@@ -375,3 +375,9 @@ I actually quite like the look of Sakura 🌸, but since I use dark mode as my m
 ## Conclusion
 
 Overall, I think [Marta](https://marta.sh/) provides excellent customization abilities, while still easy enough for simple use. If you think you need an extra boost of productivity, or even just want to try out new applications, [Marta](https://marta.sh/) is definitely worth giving a shot!
+
+## Updates
+
+### TotalFinder is Back
+
+Just find out that the [TotalFinder](https://totalfinder.binaryage.com/) is back! See the [discussion thread](https://discuss.binaryage.com/t/update-discussion-totalfinder-1-14-2-for-apple-silicon-and-intel/8364) to see how to download it! I'll probably use **both**: Namely to replace Finder with [TotalFinder](https://totalfinder.binaryage.com/) and still use [Marta](https://marta.sh/) as my main tool to organize my files.
