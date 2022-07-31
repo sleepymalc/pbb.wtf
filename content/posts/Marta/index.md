@@ -52,7 +52,7 @@ You might sometimes get lost when you are working with  [Marta](https://marta.sh
 
 When you press `shift`+`cmd`+`p`, a search bar named *Search Action* will pop up, and you can search any *action* you want to use. For example, there is a built-in `Compress` *action* in [Marta](https://marta.sh/), but since I didn't compress files that often, hence I do not assign a keybinding to this. Do not panic if you suddenly want to compress some files! You can select files[^3] you want to zip and then press `shift`+`cmd`+`p`, search for `Compress` and use `enter` to trigger the action:
 
-[^3]: To select multiple files, you select them by using `shift+↑/↓` as expected.
+[^3]: To select multiple files, you select them by using `shift`+`↑`/`↓` as expected.
 
 <p align="center">
 	<img width="80%" src="gifs/search-action.gif"/>
