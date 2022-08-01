@@ -13,16 +13,17 @@ The webpage is building with [gatsby-theme-academic](https://www.npmjs.com/packa
 Here's a quick summary of the building guide from [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic).
 
 1. Clone the project and install dependencies.
-   >
-   >  ```bash
-   > > git clone https://github.com/tc-imba/greatest-gatsby-academic-template.git
-   > > cd greatest-gatsby-academic-template
-   > > yarn
-   >
+
+    ```bash
+    > git clone https://github.com/tc-imba/greatest-gatsby-academic-template.git
+    > cd greatest-gatsby-academic-template
+    > yarn
+    ```
 
 2. Start developing.
-   >
-   > ```bash
-   > > yarn develop 
-   >
+
+    ```bash
+    > yarn develop 
+    ```
+
 3. Open your website with url: `http://localhost:8000`.
