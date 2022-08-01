@@ -1,12 +1,16 @@
 # pbb.wtf
 
+<p>
+	<img src="https://github.com/sleepymalc/pbb.wtf/blob/main/preview.png"/>
+</p>
+
 <p align="center"><b><i>
 	The source code of my website.
 </i></b></p>
 
 ## Abstract
 
-The webpage is building with [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic), which is an under-develop theme, but it's already flexible enough for simple usage.
+The webpage is built with [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic), which is an under-develop theme, but it's already flexible enough for simple usage.
 
 ## Building
 
@@ -26,4 +30,4 @@ Here's a quick summary of the building guide from [gatsby-theme-academic](https:
     > yarn develop 
     ```
 
-3. Open your website with url: `http://localhost:8000`.
+3. Open your website with URL `http://localhost:8000` to see a preview!
