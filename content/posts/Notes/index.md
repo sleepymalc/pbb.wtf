@@ -13,7 +13,7 @@ cover: "./preview.png"
 	<img src="./figures/preview.png"/>
 </p>
 
-These are lecture notes I took at the University of Michigan. If you're interested in the $\LaTeX$ code, have a look on [Github](https://github.com/sleepymalc/Notes). If you're interested in my setup, also have a look on [Github](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) or just [here](./VSCode-LaTeX-Inkscape).
+These are lecture notes I took at the University of Michigan. If you're interested in the $\LaTeX$ code, have a look on [GitHub](https://github.com/sleepymalc/Notes). If you're interested in my setup, also have a look on this [GitHub repo](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) or just [here](./VSCode-LaTeX-Inkscape).
 
 ## What's in here?
 
@@ -29,7 +29,7 @@ All notes are written in modern style $\LaTeX$ with clear definition/theorem ref
 	<img src="./figures/MATH561.png" align="right" width="18%"/>
 </p>
 
-This is the first course in the series of large-scale and rigorous mathematical programming graduate-level courses taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/). Topics include **Linear Programming**, **Weak and Strong Duality**, **Simplex Algorithm**, **Large-Scale Linear Programming**, **Sensitivity Analysis**, and also **Integer** Programming** and their applications.
+This is the first course in the series of graduate-level, large-scale and rigorous mathematical programming courses taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/). Topics include **Linear Programming**, **Weak and Strong Duality**, **Simplex Algorithm**, **Large-Scale Linear Programming**, **Sensitivity Analysis**, and also **Integer Programming** and their applications.
 >
 > * [pdf](./Notes/LinProg.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear_Programming)
