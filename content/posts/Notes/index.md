@@ -69,8 +69,8 @@ This is the graduate-level Real Analysis taught by [Jinho Baik](http://www.math.
 > * [pdf](./Notes/ReAnalysis.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
 
-# Senior
+## Senior
 
-## Fall 2022
+### Fall 2022
 
 > Wait for it...
