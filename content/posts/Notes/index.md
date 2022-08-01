@@ -26,7 +26,7 @@ All notes are written in modern style $\LaTeX$ with clear definition/theorem ref
 #### Linear Programming (MATH561/IOE510/TO518 @Umich)
 
 <p>
-	<img src="./figures/MATH561.png" align="right" width="20%"/>
+	<img src="./figures/MATH561.png" align="right" width="18%"/>
 </p>
 
 This is the first course in the series of large-scale and rigorous mathematical programming graduate-level courses taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/). Topics include **Linear Programming**, **Weak and Strong Duality**, **Simplex Algorithm**, **Large-Scale Linear Programming**, **Sensitivity Analysis**, and also **Integer** Programming** and their applications.
@@ -37,7 +37,7 @@ This is the first course in the series of large-scale and rigorous mathematical 
 #### Analysis of Social Networks (EECS544/EECS444 @Umich)
 
 <p>
-	<img src="./figures/EECS544.png" align="right" width="20%"/>
+	<img src="./figures/EECS544.png" align="right" width="18%"/>
 </p>
 
 This is a graduated level course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), covering topics across **Graph Partitioning Algorithm**, **Community Detection Algorithm**, **Stochastic Process and Markov Chain**, **Monte Carlo Algorithm**, **Random Graph Theory** and **Game Theory** with **Auctions and Matching Market**.
@@ -50,7 +50,7 @@ This is a graduated level course about social network analysis taught by [Vijay 
 #### Algebraic Topology (MATH592 @Umich)
 
 <p>
-	<img src="./figures/MATH592.png" align="right" width="20%"/>
+	<img src="./figures/MATH592.png" align="right" width="18%"/>
 </p>
 
 This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.umich.edu/~jchw/) about Introduction to Algebraic Topology. It is self-contained enough that only requires a background in abstract algebra and some point set topology. Topics include **CW-Complex**, **Fundamental Group**, **Van-Kampen Theorem**, **Homology**, and also their applications like [Lefschetz fixed-point theorem](https://en.wikipedia.org/wiki/Lefschetz_fixed-point_theorem).
@@ -61,7 +61,7 @@ This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.
 #### Real Analysis (MATH597 @Umich)
 
 <p>
-	<img src="./figures/MATH597.png" align="right" width="20%"/>
+	<img src="./figures/MATH597.png" align="right" width="18%"/>
 </p>
 
 This is the graduate-level Real Analysis taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Everything is built up from Measure Theory, like integration and differentiation. Topics include **Measure Theory**, **Hilbert/Banach Spaces**, **$L^p$ Spaces**, and some **Fourier analysis**.
