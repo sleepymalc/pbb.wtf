@@ -5,12 +5,12 @@
 </p>
 
 <p align="center"><b><i>
-	The source code of my website.
+	The Source Code of my Website.
 </i></b></p>
 
 ## Abstract
 
-The webpage is built with [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic), which is an under-develop theme, but it's already flexible enough for simple usage.
+The webpage is built with [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic), which is an under-develop theme, but it's already flexible enough for simple usage. Also, the development is automatically done by [Vercel](https://vercel.com/).
 
 ## Building
 
