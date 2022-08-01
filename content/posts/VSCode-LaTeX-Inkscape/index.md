@@ -9,8 +9,6 @@ cover: "./preview.png"
 
 # ***VSCode-LaTeX-Inkscape***
 
-<script src="https://gist.github.com/sleepymalc/508abcd93d588ae09ee1b44ee6c1e790.js"></script>
-
 I use $\LaTeX$ heavily in the past two years for both academic work and professional work, and I think I'm quite proficient in terms of typing things out in $\LaTeX$. But when I see this blog post from **Gilles Castel**-[How I'm able to take notes in mathematics lectures using $\LaTeX$ and Vim](https://castel.dev/post/lecture-notes-1/) and also [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/), I decided to adapt the whole setup from Linux-Vim to macOS-VS Code.[^1]
 
 If you still don't know what to expect, please check out my [Notes](./Notes) taken in this setup.
@@ -18,7 +16,7 @@ If you still don't know what to expect, please check out my [Notes](./Notes) tak
 [^1]: This set up is universal for VS Code user indeed. The only part that'll be macOS-specific is the [inkscape-shortcut-manager](#inkscape-shortcut-manager) functionality. One can certainly achieve a similar result as in my [Notes](./Notes), but with this the drawing speed will be significantly faster.
 
 <p align="center">
-	<img src="./figures/note.png"/>
+	<img src="./figures/note_preview.png"/>
 </p>
 
 ## Disclaimer
