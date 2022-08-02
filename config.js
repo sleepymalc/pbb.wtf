@@ -226,6 +226,12 @@ module.exports = {
       color: '#257acc',
     },
     {
+      id: 'reactjs',
+      name: 'reactjs',
+      description: 'React is an open source JavaScript library used for designing user interfaces.',
+      color: '#61dbfa',
+    },
+    {
       id: 'gatsby',
       name: 'Gatsby.js',
       description: 'A framework built over ReactJS to generate static page web application.  ',
