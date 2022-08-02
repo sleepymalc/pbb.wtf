@@ -124,7 +124,7 @@ module.exports = {
           description: '**' +
             '[Vv285 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
             '**: ' +
-            'Giving discussion lectures and office hours, also grading exams and assignments. We also holds the first [*JI Integration Bee* competition](https://github.com/sleepymalc/UM-SJTU_JI_IntegrationBee).',
+            'Giving discussion lectures and office hours, also grading exams and assignments. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee).',
           location: 'Shanghai Jiao Tong University, China',
         },
       ],
@@ -154,7 +154,7 @@ module.exports = {
           description: '**' +
             '[Generalization Analysis of GNN](../research/GNN)' +
             '**: ' +
-            'The very first work on non-i.i.d. semi-supervised PAC-Bayesian analysis on node-level tasks advised by [Jiaqi Ma](https://www.jiaqima.com/).',
+            'Theoretical analysis on generalization ability of non-i.i.d. semi-supervised node-level tasks advised by [Jiaqi Ma](https://www.jiaqima.com/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
         {
@@ -163,7 +163,7 @@ module.exports = {
           description: '**' +
             '[Fundamental Understanding of Deep Learning](../research/DL)' +
             '**: ' +
-            'Generalization Analysis of deep neural network advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
+            'Develop various technique to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
         {
@@ -172,7 +172,7 @@ module.exports = {
           description: '**' +
             '[Network Failure Detection](../research/TCS)' +
             '**: ' +
-            'Using the detection set approach to give a tighter bound given the node-connectivity condition advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/).',
+            'Parametrized network failure detection set analysis advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
         },
       ],
@@ -201,59 +201,5 @@ module.exports = {
     'lime', 'green', 'cyan', 'blue', 'geekblue', 'purple',
   ],
   tags: [
-    {
-      id: 'javascript',
-      name: 'javascript',
-      description: 'JavaScript is an object-oriented programming language used alongside HTML and CSS to give functionality to web pages.',
-      color: '#f0da50',
-    },
-    {
-      id: 'nodejs',
-      name: 'Node.js',
-      description: 'Node.js is a tool for executing JavaScript in a variety of environments.',
-      color: '#90c53f',
-    },
-    {
-      id: 'rxjs',
-      name: 'RxJS',
-      description: 'RxJS is a library for reactive programming using Observables, for asynchronous operations.',
-      color: '#eb428e',
-    },
-    {
-      id: 'typescript',
-      name: 'typescript',
-      description: 'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.',
-      color: '#257acc',
-    },
-    {
-      id: 'reactjs',
-      name: 'reactjs',
-      description: 'React is an open source JavaScript library used for designing user interfaces.',
-      color: '#61dbfa',
-    },
-    {
-      id: 'gatsby',
-      name: 'Gatsby.js',
-      description: 'A framework built over ReactJS to generate static page web application.  ',
-      color: '#6f309f',
-    },
-    {
-      id: 'html',
-      name: 'HTML',
-      description: 'A markup language that powers the web. All websites use HTML for structuring the content.',
-      color: '#dd3431',
-    },
-    {
-      id: 'css',
-      name: 'css',
-      description: 'CSS is used to style the HTML element and to give a very fancy look for the web application.',
-      color: '#43ace0',
-    },
-    {
-      id: 'python',
-      name: 'python',
-      description: 'A general purpose programming language that is widely used for developing various applications.',
-      color: '#f9c646',
-    },
   ],
 };

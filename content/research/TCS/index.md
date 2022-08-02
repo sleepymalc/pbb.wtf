@@ -5,13 +5,15 @@ tags:
 - "Computational Complexity"
 date: May 2022 - Present
 path: "research/TCS"
-excerpt: Using the detection set approach to give a tighter bound given the node-connectivity condition..
+excerpt: Parametrized general network failure detection set analysis
 selected: false
 cover: "./preview.png"
 links:
   - name: "GitHub"
     url: "https://github.com/sleepymalc"
 ---
+# Network Failure Detection
 
-# Introduction
+## Introduction
+
 > I can't tell for now, but it's interesting for sure...
