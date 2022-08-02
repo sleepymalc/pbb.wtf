@@ -54,6 +54,8 @@ Now, we go through things one by one following Gilles Castel's blog post.
 
 This is probably the only thing I don't like that much in Gilles Castel's setup. I'm quite comfortable looking at $\LaTeX$ source code for formula, and I don't think they look that nice. But if you want to set them up in VS Code, there is an extension [here](https://github.com/Pancaek/vsc-conceal), I have no experience with this particular setup, feel free to try them out though.
 
+
+
 ### HyperSnips
 
 If you look around in the VS Code extension marketplace to find UltiSnips' equivalence, you probably will find [Vsnips](https://marketplace.visualstudio.com/items?itemName=corvofeng.Vsnips). But I'm not sure why this is the case, I can't figure out how to set it up properly. Hence, I find another alternative, which is [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Please first download [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Now, just follow the instruction, copy [latex.hsnips](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) into `$HOME/Library/Application Support/Code/User/hsnips/`, and you're good to go!
@@ -534,7 +536,7 @@ In the following demo, I create another figure named `figure-test2`, then modify
 	<img src="./gifs/demo-edit-inkscape.gif"/>
 </p>
 
-### Inkscape shortcut manager
+### Inkscape Shortcut Manager
 
 In this section, we'll set up a very efficient shortcut manager to help you draw any mathematical figures faster than you can ever imagine! Notice that this setup is quite complicated, but the result is quite good. It depends on
 
@@ -667,7 +669,7 @@ Now, instead using [HyperSnips for Math](https://marketplace.visualstudio.com/it
 
 ### Documenting Inkscape Shortcut Manager (07.30.22)
 
-I finally have time to document all my configuration and making some changes to make this document more readable. I personally have used this workflow for more than half of a year, so I think this is stable and will not be changed in a near future.
+I finally have time to document the configuration of [Inkscape shortcut manager](#inkscape-shortcut-manager) and making some changes to make this document more readable. I personally have used this workflow for more than half of a year, so I think this is stable and will not be changed in a near future.
 
 ## Credits
 
@@ -675,9 +677,9 @@ Again, thanks to Gilles Castel, this workflow fits my style. Although it origina
 
 ## Related Project
 
-1. [VSCode-LaTeX-Inkscape](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) (The github repo for this setup)
-2. [Academic_Template](https://github.com/sleepymalc/Academic_Template) (A general $\LaTeX$ template for making PPT by beamer and Academic Report)
-3. [Notes](https://github.com/sleepymalc/Notes) (All notes taken in this setup)
+1. [VSCode-LaTeX-Inkscape](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) (The GitHub repo for this setup)
+2. [LeTeX-Template](https://github.com/sleepymalc/LaTeX-Template)
+3. [Notes](https://github.com/sleepymalc/Notes)
 4. [gillescastel/inkscape-figures](https://github.com/gillescastel/inkscape-figures)
 5. [gillescastel/inkscape-shortcut-manager](https://github.com/gillescastel/inkscape-shortcut-manager)
 6. [chipsenkbeil/choose](https://github.com/chipsenkbeil/choose)
