@@ -1,6 +1,6 @@
 ---
 path: "tags/gatsby"
-excerpt: A framework built over ReactJS to generate static page web application.
+excerpt: random.
 ---
 
-A framework built over ReactJS to generate static page web application.
+Random.
