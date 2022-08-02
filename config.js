@@ -201,5 +201,11 @@ module.exports = {
     'lime', 'green', 'cyan', 'blue', 'geekblue', 'purple',
   ],
   tags: [
+    {
+      id: 'python',
+      name: 'python',
+      description: 'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+    },
   ],
 };
