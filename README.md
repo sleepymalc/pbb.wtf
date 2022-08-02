@@ -1,7 +1,7 @@
 # pbb.wtf
 
 <p>
-	<img src="https://github.com/sleepymalc/pbb.wtf/blob/main/preview.png"/>
+	<img src="./preview.png"/>
 </p>
 
 <p align="center"><b><i>
