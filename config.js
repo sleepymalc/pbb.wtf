@@ -202,10 +202,10 @@ module.exports = {
   ],
   tags: [
     {
-      id: 'python',
-      name: 'python',
-      description: 'A general purpose programming language that is widely used for developing various applications.',
-      color: '#f9c646',
+      id: 'gatsby',
+      name: 'Gatsby.js',
+      description: '',
+      color: '#6f309f',
     },
   ],
 };
