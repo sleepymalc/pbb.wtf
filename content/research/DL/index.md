@@ -14,7 +14,8 @@ links:
   - name: "GitHub"
     url: "https://github.com/sleepymalc"
 ---
+# Fundamental Understanding of Deep Learning
 
-# Introduction
+## Introduction
 
 > I can't tell for now, but it's interesting for sure...
