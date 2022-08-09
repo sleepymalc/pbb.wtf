@@ -7,7 +7,7 @@ excerpt: "🧠 Extend logic logically: The right way of doing probability."
 cover: "./preview.png"
 ---
 
-## Introduction
+# Bertrand's Paradox
 
 I'm working with probability intensively for the past few months, I think it's time to say something.
 
@@ -63,7 +63,7 @@ Let's consider the following experiment: There is a black box (you can't see wha
 
 > As a spoiler, the main reason that we're able to find out the answer of the above cases, is because of the *principle of indifference* is well-defined.
 
-## Bertrand's Paradox
+## The Paradox
 
 While infinity is a (potential) issue, there's something more serious and fatal. Consider the following experiment: Given a circle and an equilateral triangle inscribed in it, what is the probability that a random chord is longer than a side of the triangle?
 
