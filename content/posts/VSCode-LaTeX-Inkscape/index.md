@@ -3,7 +3,7 @@ title: "$ code -add LaTeX Inkscape"
 tags: ["macOS", "LaTeX", "notes"]
 date: 2022-03-01
 path: "posts/VSCode-LaTeX-Inkscape"
-excerpt: 🖋 A way to integrate LaTeX, VSCode, and Inkscape in macOS.
+excerpt: 🖋 A way to integrate LaTeX, VS Code, and Inkscape in macOS.
 cover: "./preview.png"
 ---
 
@@ -38,7 +38,7 @@ And also, create a snippet file for $\LaTeX$ in the following steps:
 First thing first, please set up your VS Code with $\LaTeX$ properly with [$\LaTeX$ Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop), there are lots of tutorials online, just check them out and set them up properly. There are lots of tutorials online, just check them out and set them up properly. Basically, it can be done in the following steps:
 
 1. Download [MacTex](https://www.tug.org/mactex/). This can be replaced by something more lightweight, but in my opinion, this doesn't really help much in terms of speed or wasting your disk. But if you want something like this, check out [TeXLive](https://www.tug.org/texlive/).
-2. Download [VSCode](https://code.visualstudio.com/).
+2. Download [VS Code](https://code.visualstudio.com/).
 3. Download [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 4. Copy-pasting the following configuration file into your `settings.json`
 
@@ -54,13 +54,11 @@ Now, we go through things one by one following Gilles Castel's blog post.
 
 This is probably the only thing I don't like that much in Gilles Castel's setup. I'm quite comfortable looking at $\LaTeX$ source code for formula, and I don't think they look that nice. But if you want to set them up in VS Code, there is an extension [here](https://github.com/Pancaek/vsc-conceal), I have no experience with this particular setup, feel free to try them out though.
 
-
-
 ### HyperSnips
 
-If you look around in the VS Code extension marketplace to find UltiSnips' equivalence, you probably will find [Vsnips](https://marketplace.visualstudio.com/items?itemName=corvofeng.Vsnips). But I'm not sure why this is the case, I can't figure out how to set it up properly. Hence, I find another alternative, which is [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Please first download [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Now, just follow the instruction, copy [latex.hsnips](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) into `$HOME/Library/Application Support/Code/User/hsnips/`, and you're good to go!
+If you look around in the VS Code extension marketplace to find UltiSnips' equivalence, you probably will find [Vsnips](https://marketplace.visualstudio.com/items?itemName=corvofeng.Vsnips). But I'm not sure why this is the case, I can't figure out how to set it up properly. Hence, I find another alternative, which is [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Please first download [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Now, just follow the instruction, copy [`latex.hsnips`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) into `$HOME/Library/Application Support/Code/User/hsnips/`, and you're good to go!
 
-To modify this file, you can either go to this file in your finder or use VSCode built-in command function. For command function,
+To modify this file, you can either go to this file in your finder or use VS Code built-in command function. For command function,
 
 1. Press `shift+cmd+space` to type in some command to VS Code.
 2. Type `>HyperSnips: Open Snippet File`
@@ -296,7 +294,7 @@ If you're using Linux and Vim, then you are done already. But since you're using
 
 #### Set up Inkscape Figure Manager
 
-Firstly, install the [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner). This will allow you to send commands into a terminal with the shortcut. The configuration is in [`setting.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json) and we'll see how it works la
+Firstly, install the [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner). This will allow you to send commands into a terminal with the shortcut. The configuration is in [`settings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json) and we'll see how it works la
 
 Now, this is a tricky part: you need to find where the source-code of the inkscape-figures manager is. In my case, it's in `/Users/pbb/opt/anaconda3/lib/python3.8/site-packages/inkscapefigures`.
 
@@ -325,7 +323,7 @@ Open this directory by VS Code, there is something for you to modify. Ok, I know
 >
 > But this in VS Code is impossible, hence we don't need this, we'll use command line. And if we leave this function as it was, then it will send all these snippets into our terminal, which is quite annoying. So the modified version just removes this snippet completely.
 >
-> But let me explain it to you, in case you want to modify it to meet your need later on. First thing first, we see that in the given code in [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), we're using [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), so let me tell you how to set this up first.
+> But let me explain it to you, in case you want to modify it to meet your need later on. First thing first, we see that in the given code in [`keybindings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [`settings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), we're using [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), so let me tell you how to set this up first.
 
 </details>
 
@@ -350,7 +348,7 @@ To open the file watcher, you can type `inkscape-figures watch` in the terminal.
 
 <summary><b>Detail Explanation</b></summary>
 
-> In [keybindings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json), we have
+> In [`keybindings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json), we have
 >
 > ```json
 > {
@@ -369,7 +367,7 @@ To open the file watcher, you can type `inkscape-figures watch` in the terminal.
 > }
 > ```
 >
-> for starting the [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures). And the command is defined in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
+> for starting the [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures). And the command is defined in [`settings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
 >
 > ```json
 > "command-runner.commands": {
@@ -377,7 +375,7 @@ To open the file watcher, you can type `inkscape-figures watch` in the terminal.
 > }
 > ```
 >
-> In detail, we just use [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner) to run the command we defined in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), in this case, I explicitly tell the keybinding `ctrl`+`f` will trigger `inkscapeStart` when I'm in `VISUAL` mode in Vim, which is just `inkscape-figures watcher` as defined above.
+> In detail, we just use [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner) to run the command we defined in [`settings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json), in this case, I explicitly tell the keybinding `ctrl`+`f` will trigger `inkscapeStart` when I'm in `VISUAL` mode in Vim, which is just `inkscape-figures watcher` as defined above.
 >
 > Notice that we set the `autoFocus=false` for the terminal [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner) uses since we don't want a pop-up terminal to distract us. If you want to see whether the command is triggered correctly every time, you can set it to `true`.
 
@@ -427,7 +425,7 @@ Same as above, we also use `ctrl`+`f` to trigger `inkscape-figures create` comma
 > },
 > ```
 >
-> and also in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
+> and also in [`settings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
 >
 > ```json
 > "command-runner.commands": {
@@ -442,7 +440,7 @@ Same as above, we also use `ctrl`+`f` to trigger `inkscape-figures create` comma
 > 3. Move back our cursor after inserting that new line.
 > 4. Delete that copied content by removing this line.
 > 5. Insert a snippet defined in [`latex.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.json). **Notice that this is the default snippet functionality built-in VS Code, not [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips) we have used before**. I'll explain where to copy this file in a minute.
-> 6. Lastly, we send a command in a terminal by [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), with the command `inkscapeCreate` we defined in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json).
+> 6. Lastly, we send a command in a terminal by [Command Runner](https://marketplace.visualstudio.com/items?itemName=edonet.vscode-command-runner), with the command `inkscapeCreate` we defined in [`settings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json).
 >
 > In the fifth instruction, the snippet we used is
 >
@@ -464,7 +462,6 @@ Same as above, we also use `ctrl`+`f` to trigger `inkscape-figures create` comma
 > ```
 >
 > which is just the snippet we remove from [Inkscape figure manager](https://github.com/gillescastel/inkscape-figures)'s source code! It's back again, in a different approach.
->
 >
 
 </details>
@@ -518,7 +515,7 @@ Again, we also use `ctrl`+`f` to trigger `inkscape-figures edit` command, but th
 > },
 > ```
 >
-> and also in [settings.json](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
+> and also in [`settings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json):
 >
 > ```json
 > "command-runner.commands": {
