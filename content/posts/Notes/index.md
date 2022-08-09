@@ -9,10 +9,6 @@ cover: "./preview.png"
 
 # Note
 
-<p align="center">
-	<img src="./figures/preview.png"/>
-</p>
-
 These are lecture notes I took at the University of Michigan. If you're interested in the $\LaTeX$ code, have a look on [GitHub](https://github.com/sleepymalc/Notes). If you're interested in my setup, also have a look on this [GitHub repo](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) or just [here](./VSCode-LaTeX-Inkscape).
 
 ## What's in here?
