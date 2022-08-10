@@ -16,7 +16,7 @@ If you still don't know what to expect, please check out my [Notes](./Notes) tak
 [^1]: This set up is universal for VS Code user indeed. The only part that'll be macOS-specific is the [inkscape-shortcut-manager](#inkscape-shortcut-manager) functionality. One can certainly achieve a similar result as in my [Notes](./Notes), but with this the drawing speed will be significantly faster.
 
 <p align="center">
-	<img src="./figures/note_preview.png"/>
+	<img src="./figures/preview.png"/>
 </p>
 
 ## Disclaimer
