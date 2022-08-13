@@ -36,3 +36,4 @@ Here's a quick summary of the building guide from [gatsby-theme-academic](https:
 
 - [ ] 📝 Post: Research Workflow
 - [ ] 📝 Post: Discrete Calculus
+- [ ] 📝 Post: Fractional Calculus
