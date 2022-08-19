@@ -18,7 +18,7 @@ module.exports = {
   ],
   birthday: 'Nov. 10, 2000',
   location: 'United States',
-  email: 'pbb@umich.edu',
+  email: 'sleepymalc@gmail.com',
   tocMaxDepth: 2,
   excerptMaxLength: 500,
   postsForArchivePage: 3,
