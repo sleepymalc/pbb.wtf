@@ -48,7 +48,7 @@ module.exports = {
       url: 'https://www.instagram.com/malc_q/',
       icon: ['fab', 'instagram'],
     }, {
-      url: 'https://twitter.com/PingbangH',
+      url: 'https://twitter.com/PingbangHu',
       icon: ['fab', 'twitter'],
     },
   ],
