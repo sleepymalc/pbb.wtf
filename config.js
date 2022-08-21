@@ -116,7 +116,7 @@ module.exports = {
           description: '**' +
             '[VV186 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
             '**: ' +
-            'Collaborated with the teaching staff as an instructional aide of a 200+ student course on the main ECE track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible. This is the first course that provides deep single variable function analysis background to students with strong Mathematical maturity.',
+            'Collaborated with the teaching staff as an instructional aide of a 200+ student course on the main ECE track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible.',
           location: 'Shanghai Jiao Tong University, China',
         }, {
           date: 'Summer 2021',
@@ -124,7 +124,7 @@ module.exports = {
           description: '**' +
             '[VV285 (Honor Mathematics III)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
             '**: ' +
-            'Collaborated with the teaching staff as an instructional aide of a 150+ student course on the main ECE track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee) and tested students understanding of learning goals by devising quiz questions. This is the first course that provides deep multi-variables function analysis background to students with strong Mathematical maturity.',
+            'Collaborated with the teaching staff as an instructional aide of a 150+ student course on the main ECE track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee) and tested students understanding of learning goals by devising quiz questions.',
           location: 'Shanghai Jiao Tong University, China',
         }, {
           date: 'Fall 2022',
@@ -134,21 +134,6 @@ module.exports = {
             '**: ' +
             'Collaborated with the teaching staff as an instructional aide of a 100+ student course on the main CS track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible.',
           location: 'University of Michigan, United States',
-        },
-      ],
-    },
-    {
-      title: 'Intern',
-      position: 'left',
-      data: [
-        {
-          date: 'Fall 2020 - Spring 2021',
-          title: 'Backend Developer',
-          description: '**' +
-            'foodall' +
-            '**: ' +
-            'A food delivery service platform in Taiwan. The general framework is based on *Go* with *Gin*, with RESTful API design and *MongoDB* as the database.',
-          location: 'online',
         },
       ],
     },
@@ -182,6 +167,21 @@ module.exports = {
             '**: ' +
             'Parametrized network failure detection set analysis advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/).',
           location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
+        },
+      ],
+    },
+    {
+      title: 'Intern',
+      position: 'right',
+      data: [
+        {
+          date: 'Fall 2020 - Spring 2021',
+          title: 'Backend Developer',
+          description: '**' +
+            'foodall' +
+            '**: ' +
+            'A food delivery service platform in Taiwan. The general framework is based on *Go* with *Gin*, with RESTful API design and *MongoDB* as the database.',
+          location: 'online',
         },
       ],
     },
