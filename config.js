@@ -112,20 +112,28 @@ module.exports = {
       data: [
         {
           date: 'Fall 2020',
-          title: 'Teaching Assistant',
+          title: 'Instructional Aide',
           description: '**' +
-            '[Vv186 (Honor Mathematics I)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
+            '[VV186 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
             '**: ' +
-            'Giving discussion lectures and office hours, also grading exams and assignments.',
+            'Collaborated with the teaching staff of VV186 (Honor Mathematics II), a 200+ student course on the main ECE track, as an instructional aide. Helped students understand concepts through weekly office hours. Taught discussion sections to reinforce conceptual understanding and review course material covered in the lecture. Collaborated with course staff to ensure the student experience was as smooth as possible. This is the first course that provides deep single variable function analysis background to students with strong Mathematical maturity.',
           location: 'Shanghai Jiao Tong University, China',
         }, {
           date: 'Summer 2021',
-          title: 'Teaching Assistant',
+          title: 'Instructional Aide',
           description: '**' +
-            '[Vv285 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
+            '[VV285 (Honor Mathematics III)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
             '**: ' +
-            'Giving discussion lectures and office hours, also grading exams and assignments. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee).',
+            'Collaborated with the teaching staff of VV285 (Honor Mathematics III), a 150+ student course on the main ECE track, as an instructional aide. Helped students understand concepts through weekly office hours. Taught discussion sections to reinforce conceptual understanding and review course material covered in the lecture. Additionally, we also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee) and tested students understanding of learning goals by devising quiz questions. Collaborated with course staff to ensure the student experience was as smooth as possible. This is the first course that provides deep multi-variables function analysis background to students with strong Mathematical maturity.',
           location: 'Shanghai Jiao Tong University, China',
+        }, {
+          date: 'Fall 2022',
+          title: 'Instructional Aide',
+          description: '**' +
+            '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
+            '**: ' +
+            'Collaborated with the teaching staff of EECS572 (Randomness and Computation), a 100+ student course on the main computer science track, as an instructional aide. Helped students understand concepts through weekly office hours. Taught discussion sections to reinforce conceptual understanding and review course material covered in the lecture. Collaborated with course staff to ensure the student experience was as smooth as possible.',
+          location: 'University of Michigan, United States',
         },
       ],
     },
