@@ -180,7 +180,7 @@ module.exports = {
           description: '**' +
             'foodall' +
             '**: ' +
-            'A food delivery service platform in Taiwan. The general framework is based on *Go* with *Gin*, with RESTful API design and *MongoDB* as the database.',
+            'A food order platform in Taiwan, built with *Golang* and *Gin*, *MongoDB*, with RESTful API design.',
           location: 'Virtual, Shanghai, China',
         },
       ],
