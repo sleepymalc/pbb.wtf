@@ -70,7 +70,7 @@ module.exports = {
       date: 'Sept 2021 - Present',
       icon: 'university',
       title: 'Bachelor in Mathematics (Honors)',
-      location: 'CoE, University of Michigan, United States',
+      location: 'LSA, University of Michigan, United States',
     }, {
       date: 'Sept 2019 - Present',
       icon: 'university',
