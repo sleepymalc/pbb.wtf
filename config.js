@@ -111,13 +111,13 @@ module.exports = {
       position: 'left',
       data: [
         {
-          date: 'Fall 2020',
+          date: 'Fall 2022',
           title: 'Instructional Aide',
           description: '**' +
-            '[VV186 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
+            '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
             '**: ' +
-            'Collaborated with the teaching staff as an instructional aide of a 200+ student course on the main ECE track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible.',
-          location: 'Shanghai Jiao Tong University, China',
+            'Collaborated with the teaching staff as an instructional aide of a 100+ student course on the main CS track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible.',
+          location: 'University of Michigan, United States',
         }, {
           date: 'Summer 2021',
           title: 'Instructional Aide',
@@ -127,13 +127,13 @@ module.exports = {
             'Collaborated with the teaching staff as an instructional aide of a 150+ student course on the main ECE track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee) and tested students understanding of learning goals by devising quiz questions.',
           location: 'Shanghai Jiao Tong University, China',
         }, {
-          date: 'Fall 2022',
+          date: 'Fall 2020',
           title: 'Instructional Aide',
           description: '**' +
-            '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
+            '[VV186 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
             '**: ' +
-            'Collaborated with the teaching staff as an instructional aide of a 100+ student course on the main CS track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible.',
-          location: 'University of Michigan, United States',
+            'Collaborated with the teaching staff as an instructional aide of a 200+ student course on the main ECE track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible.',
+          location: 'Shanghai Jiao Tong University, China',
         },
       ],
     },
@@ -171,7 +171,7 @@ module.exports = {
       ],
     },
     {
-      title: 'Intern',
+      title: 'Software Development',
       position: 'right',
       data: [
         {
