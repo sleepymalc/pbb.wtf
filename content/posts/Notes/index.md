@@ -67,7 +67,7 @@ This is the graduate-level Real Analysis focused on measure theory taught by [Ji
 
 ## Senior
 
-### Fall 2022
+### Fall 2022[^1]
 
 #### Approximation Algorithms and Hardness of Approximation (EECS598-001 @Umich)
 
@@ -91,13 +91,4 @@ This is the graduate-level real analysis course focused on functional analysis t
 > * [pdf](./Notes/ReAnalysisII.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
 
-#### Nonlinear Programming (MATH663 @Umich)
-
-<!-- <p>
-	<img src="./figures/MATH597.png" align="right" width="18%"/>
-</p> -->
-
-This is the graduate-level optimization course taught by [Salar Fattahi](https://fattahi.engin.umich.edu/).
->
-> * [pdf](./Notes/NonLinProg.pdf)
-> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH633-Nonlinear-Programming)
+[^1]: Turns out that MATH663/IOE611 Nonlinear Programming provides nice lecture slides so I wont bother scribing it myself.
