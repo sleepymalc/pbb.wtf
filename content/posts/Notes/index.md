@@ -60,7 +60,7 @@ This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.
 	<img src="./figures/MATH597.png" align="right" width="18%"/>
 </p>
 
-This is the graduate-level Real Analysis taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Everything is built up from Measure Theory, like integration and differentiation. Topics include **Measure Theory**, **Hilbert/Banach Spaces**, **$L^p$ Spaces**, and some **Fourier analysis**.
+This is the graduate-level Real Analysis focused on measure theory taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Everything is built up from Measure Theory, like integration and differentiation. Topics include **Measure Theory**, **Hilbert/Banach Spaces**, **$L^p$ Spaces**, and some **Fourier analysis**.
 >
 > * [pdf](./Notes/ReAnalysis.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
@@ -69,4 +69,35 @@ This is the graduate-level Real Analysis taught by [Jinho Baik](http://www.math.
 
 ### Fall 2022
 
-> Wait for it...
+#### Approximation Algorithms and Hardness of Approximation (EECS598-001 @Umich)
+
+<!-- <p>
+	<img src="./figures/MATH597.png" align="right" width="18%"/>
+</p> -->
+
+This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web.eecs.umich.edu/~euiwoong/).
+>
+> * [pdf](./Notes/AppxAlgo.pdf)
+> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/EECS598-001-Approximation-Algorithms-and-Hardness-of-Approximation)
+
+#### Functional Analysis (MATH602 @Umich)
+
+<!-- <p>
+	<img src="./figures/MATH597.png" align="right" width="18%"/>
+</p> -->
+
+This is the graduate-level real analysis course focused on functional analysis taught by [Joseph Conlon](http://www.math.lsa.umich.edu/~conlon/).
+>
+> * [pdf](./Notes/ReAnalysisII.pdf)
+> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
+
+#### Nonlinear Programming (MATH633 @Umich)
+
+<!-- <p>
+	<img src="./figures/MATH597.png" align="right" width="18%"/>
+</p> -->
+
+This is the graduate-level optimization course taught by [Salar Fattahi](https://fattahi.engin.umich.edu/).
+>
+> * [pdf](./Notes/NonLinProg.pdf)
+> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH633-Nonlinear-Programming)
