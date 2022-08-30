@@ -91,7 +91,7 @@ This is the graduate-level real analysis course focused on functional analysis t
 > * [pdf](./Notes/ReAnalysisII.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
 
-#### Nonlinear Programming (MATH633 @Umich)
+#### Nonlinear Programming (MATH663 @Umich)
 
 <!-- <p>
 	<img src="./figures/MATH597.png" align="right" width="18%"/>
