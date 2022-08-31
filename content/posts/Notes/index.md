@@ -28,7 +28,7 @@ All notes are written in modern style $\LaTeX$ with clear definition/theorem ref
 This is the first course in the series of graduate-level, large-scale and rigorous mathematical programming courses taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/). Topics include **Linear Programming**, **Weak and Strong Duality**, **Simplex Algorithm**, **Large-Scale Linear Programming**, **Sensitivity Analysis**, and also **Integer Programming** and their applications.
 >
 > * [pdf](./Notes/LinProg.pdf)
-> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear_Programming)
+> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear-Programming)
 
 #### Analysis of Social Networks (EECS544/EECS444 @Umich)
 
@@ -39,7 +39,7 @@ This is the first course in the series of graduate-level, large-scale and rigoro
 This is a graduated level course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), covering topics across **Graph Partitioning Algorithm**, **Community Detection Algorithm**, **Stochastic Process and Markov Chain**, **Monte Carlo Algorithm**, **Random Graph Theory** and **Game Theory** with **Auctions and Matching Market**.
 >
 > * [pdf](./Notes/SocNetAnalysis.pdf)
-> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/EECS544-Analysis_of_Social_Networks)
+> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/EECS544-Analysis-of-Social-Networks)
 
 ### Winter 2022
 
@@ -52,7 +52,7 @@ This is a graduated level course about social network analysis taught by [Vijay 
 This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.umich.edu/~jchw/) about Introduction to Algebraic Topology. It is self-contained enough that only requires a background in abstract algebra and some point set topology. Topics include **CW-Complex**, **Fundamental Group**, **Van-Kampen Theorem**, **Homology**, and also their applications like [Lefschetz fixed-point theorem](https://en.wikipedia.org/wiki/Lefschetz_fixed-point_theorem).
 >
 > * [pdf](./Notes/AlgTop.pdf)
-> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH592-Introduction_to_Algebraic_Topology)
+> * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH592-Introduction-to-Algebraic-Topology)
 
 #### Real Analysis (MATH597 @Umich)
 
