@@ -6,10 +6,10 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
   introduction: [
-    'Hi there 👋! My Chinese name is **胡平邦** (pronounced as *Hu, Pingˊ-Bongˉ* ) from Taiwan 🇹🇼, but I\'ll respond to both **Benson** and **Pingbang**, just choose one you like 👀 (I know my Chinese name is hard to pronounce in particular 😥)',
+    'Hi there 👋! My Chinese name is **胡平邦** (pronounced as *Hu, Pingˊ-Bongˉ* ) from Taiwan 🇹🇼, but I\'ll respond to both **Benson** and **Pingbang**.',
     'I\'m a Bachelor student major in **Computer Science** and **Honor Mathematics** in *University of Michigan (UMich)* 🇺🇸 and **Electrical Computer Engineering** in *Shanghai Jiao Tong University (SJTU)* 🇨🇳. My research interest is about *provable modern machine learning theory* and also *computational complexity* and the crossover between *graph theory*.',
     'Despite my current research topics, my interest spreads widely among topics in theoretical computer science and mathematics. For TCS in particular, I\'m interested in approximation, online and randomized algorithm 🧠; as for math, I\'m quite into random matrix theory, statistic, differential and algebraic topology and functional analysis recently 📚.',
-    'Occasionally, I\'ll do street photography 📷 and write blog posts ✍️ as a hobby, check out my personal [account](https://www.instagram.com/malc_ph/) and my [blog posts](./posts) 📝! I also love playing drums 🥁 and are now learning guitar 🎸.',
+    'Occasionally, I\'ll do street photography 📷 and write blog posts ✍️ as a hobby, check out my personal [account](https://www.instagram.com/malc_ph/) and my [blog posts](./posts) 📝!',
   ],
   avatar: 'avatar.png',
   professions: [
