@@ -39,7 +39,7 @@ module.exports = {
       icon: ['ai', 'cv'],
     }, {
       url: 'https://scholar.google.com/citations?user=TXqLUIAAAAAJ&hl=en&oi=ao',
-      icon: ['fab', 'user-graduate'],
+      icon: ['fab', 'graduation-cap'],
     },
     {
       url: 'https://github.com/sleepymalc',
