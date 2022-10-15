@@ -120,7 +120,7 @@ module.exports = {
             '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
             '**: ' +
             'Collaborated with the teaching staff as an instructional aide of a 100+ student course on the main CS track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible.',
-          location: 'University of Michigan, United States',
+          location: 'University of Michigan, U.S.A.',
         }, {
           date: 'Summer 2021',
           title: 'Instructional Aide',
@@ -151,7 +151,7 @@ module.exports = {
             '[Generalization Analysis of GNN](../research/GNN)' +
             '**: ' +
             'Theoretical analysis on generalization ability of non-i.i.d. semi-supervised node-level tasks advised by [Jiaqi Ma](https://www.jiaqima.com/).',
-          location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
+          location: 'University of Michigan, Michigan, U.S.A.',
         },
         {
           date: 'Summer 2022 - Present',
@@ -160,7 +160,7 @@ module.exports = {
             '[Fundamental Understanding of Deep Learning](../research/DL)' +
             '**: ' +
             'Develop various technique to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
-          location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
+          location: 'University of Michigan, Michigan, U.S.A.',
         },
         {
           date: 'Summer 2022 - Present',
@@ -169,7 +169,7 @@ module.exports = {
             '[Network Failure Detection](../research/TCS)' +
             '**: ' +
             'Parametrized network failure detection set analysis advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/).',
-          location: 'University of Michigan, Ann Arbor, Michigan, U.S.',
+          location: 'University of Michigan, Michigan, U.S.A.',
         },
       ],
     },
