@@ -12,7 +12,6 @@ links:
   - name: "GitHub"
     url: "https://github.com/sleepymalc"
 ---
-# Network Failure Detection
 
 ## Introduction
 

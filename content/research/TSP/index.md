@@ -16,8 +16,6 @@ links:
     url: "https://arxiv.org/abs/2210.05906"
 ---
 
-# Travel the Same Path (TSP): A Novel TSP Solving Strategy
-
 ## Introduction
 
 The traveling salesman problem (TSP) can be described as follows: given a list of cities and the distances between each pair of cities, find the
@@ -30,12 +28,12 @@ once while having the smallest cost.
 We will utilize GCNN (Graph Convolutional Neural Network), a particular kind of GNN, together with imitation learning to solve TSP in an interesting
 and inspiring way. In particular, we focus on the generalization ability of models trained on small-sized problem instances.
 
-## Preliminary
+### Preliminary
 
 We direct reader who is interested in technical detailed to the [paper](./TSP/paper.pdf) for the preliminary and technical part of this project. The following
 is just a very brief summary.
 
-### Integer Linear Programming Formulation of TSP
+#### Integer Linear Programming Formulation of TSP
 
 We first formulate TSP in terms of **Integer Linear Programming**. Given an undirected weighted group $\mathcal{G} = (\mathcal{E}, \mathcal{V})$,
 we label the nodes with numbers $1, \ldots, n$ and define
@@ -62,14 +60,14 @@ $$
 This is the Miller-Tucker-Zemlin formulation\cite{MTZ-formulation}. Note that in our case, since we are solving TSP exactly, all variables are
 integers. This type of integer linear programming is sometimes known as **pure integer programming**.
 
-### Branch and Bound
+#### Branch and Bound
 
 We then solve TSP as the above ILP formulation by **branch and bound**. It's possible to do branch and bound sufficiently by choosing a good branch strategy,
 and since branching and bound involves *performing a series of branching strategy*, so we model this as **Markov Decision Process (MDP)** in its nature.
 
 Now, our goal is clear: We want to learn from an expert (in this case, a SOTA modern solver $\texttt{SCIP}$), which is typically called **imitating learning**.
 
-## Pipeline
+### Pipeline
 
 Our learning pipeline is as follows. We first create some random TSP instances and turn them into ILP,
 then we use imitation learning to learn how to choose the **branching target** at each branching.
@@ -80,7 +78,7 @@ use **Cross-Entropy Loss** to compare our prediction to the result produced by $
 	<img src="./figures/pipeline.png"/>
 </p>
 
-### Graph Convolutional Neural Network (GCNN)
+#### Graph Convolutional Neural Network (GCNN)
 
 One may wonder where does the GNN involve in our methodology, is it used to model the topology of the nodes of a particular TSP instances?
 
@@ -93,7 +91,7 @@ recursion tree of the branch and bound algorithm). Intuitively, in the pipeline 
 Now, it should clear that how we utilize GNN to help us to solve this TSP problem: We use GCNN to learn a
 strong branching strategy and use it to do branching whenever needed.
 
-## Experimental Result
+### Experimental Result
 
 We look at the walltime needed for the model trained on TSP10/TSP15 and tested on TSP25 for 100 instances (ordered by the walltime of $\texttt{SCIP}$).
 
@@ -110,11 +108,11 @@ If we zoom-in to the first 80 and last 20 instances, we have the following.
 	<img src="./figures/result/tsp15/zoom-last20.png" width="50%"/>
 </p>
 
-## Discussion
+### Discussion
 
 Here we list some selected discussion. Again, please refer to the [paper](./TSP/paper.pdf) for completeness.
 
-### Generalization Ability
+#### Generalization Ability
 
 We observe that our TSP10 and TSP15 imitation models outperform the $\texttt{SCIP}$ solver on baseline test instances, and
 **successfully generalizes to TSP15, TSP20, and TSP25**. They perform significantly better on average than $$\texttt{SCIP}$$ in difficult-to-solve TSPs as
@@ -125,7 +123,7 @@ In other words, when we look at the model performance, the generalization abilit
 generalization in our formulation. By adapting this methodology on a more sophisticated algorithm which formulates TSP linearly, the generalization
 ability should remain, and the performance will be even better in terms of TSP sizes.
 
-### Bottlenecks and Future Work
+#### Bottlenecks and Future Work
 
 There is a huge performance difference between our proposed model (also $\texttt{SCIP}$) and the SOTA TSP solver, $\texttt{Concorde}$. Since the proposed
 model's backbone is branch and bound algorithm, by formulating TSP into an ILP, we lost some useful problem structures which can be further exploited by
@@ -134,7 +132,7 @@ even for $\texttt{Gurobi}$ and $\texttt{Concorde}$ is promising, as our imitatio
 lead to similar time improvements. A major bottleneck is that SOTA solvers like $\texttt{Gurobi}$, or $\texttt{Concorde}$, are often licensed, hence not
 open-sourced. This results in the difficulty of utilizing a stronger baseline and learn from which to get a further improvement.
 
-## Conclusion
+### Conclusion
 
 Finding exact solutions of combinatorial optimization problems as fast as possible is a challenging avenue in modern theoretical CS. Our proposed method
 is a step toward this goal via machine learning. For nearly all exact optimization solving algorithms, there is some kind of *exhaustion* going on

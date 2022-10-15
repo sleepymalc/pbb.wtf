@@ -38,6 +38,10 @@ module.exports = {
       url: '/resume.pdf',
       icon: ['ai', 'cv'],
     }, {
+      url: 'https://scholar.google.com/citations?user=TXqLUIAAAAAJ&hl=en&oi=ao',
+      icon: ['fab', 'circle-user'],
+    },
+    {
       url: 'https://github.com/sleepymalc',
       icon: ['fab', 'github'],
     }, {
