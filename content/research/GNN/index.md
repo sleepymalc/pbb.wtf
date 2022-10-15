@@ -1,7 +1,6 @@
 ---
 title: "Subgroup Generalization of GNN"
 tags:
-- "Research"
 - "Graph Neural Network"
 - "Learning Theory"
 - "Computational Complexity"
@@ -16,4 +15,5 @@ links:
 ---
 
 # Introduction
+
 > I can't tell for now, but it's interesting for sure...

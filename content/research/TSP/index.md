@@ -1,7 +1,6 @@
 ---
 title: "Travel the Same Path: A Novel TSP Solving Strategy"
 tags:
-- "Project"
 - "Reinforcement Learning"
 - "Deep Learning"
 - "Optimization"

@@ -1,9 +1,7 @@
 ---
 title: "Fundamental Understanding of Deep Learning"
 tags:
-- "Research"
 - "Deep Learning"
-- "Learning Theory"
 - "Computational Complexity"
 date: May 2022 - Present
 path: "research/DL"

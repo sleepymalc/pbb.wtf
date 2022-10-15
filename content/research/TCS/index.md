@@ -1,7 +1,7 @@
 ---
 title: "Network Failure Detection"
 tags:
-- "Research"
+- "Theoretical Computer Science"
 - "Computational Complexity"
 date: May 2022 - Present
 path: "research/TCS"
