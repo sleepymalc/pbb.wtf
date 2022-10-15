@@ -13,8 +13,8 @@ cover: "./preview.png"
 links:
   - name: "GitHub"
     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
-  - name: "pdf"
-    url: "./research/TSP/paper.pdf"
+  - name: "arXiv"
+    url: "https://arxiv.org/abs/2210.05906"
 ---
 
 # Travel the Same Path (TSP): A Novel TSP Solving Strategy
