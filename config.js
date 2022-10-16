@@ -7,8 +7,7 @@ module.exports = {
   authorAlternative: 'Write-The-Formula',
   introduction: [
     'Hi there 👋! I\'m **Pingbang Hu** (**胡平邦**), pronounced as *Hu, Pingˊ-Bongˉ*, a Bachelor student major in **Computer Science** and **Honor Mathematics** in *University of Michigan (UMich)* 🇺🇸 and **Electrical Computer Engineering** in *Shanghai Jiao Tong University (SJTU)* 🇨🇳 from Taiwan 🇹🇼. My research interest is about *machine learning theory* and also *theoretical computer science*, specialized in *graph theory* in particular.',
-    'Despite my research, my interest spreads widely among topics in TCS and math. To name a few, I\'m interested in approximation, online and randomized algorithm 🧠 and computational complexity, random matrix theory, high dimensional statistic, differential and algebraic topology and functional analysis 📚',
-    'Occasionally, I\'ll do [street photography](https://www.instagram.com/malc_ph/) 📷 and write [blog posts](./posts) 📝.',
+    'Despite my research, my interest spreads widely among topics in TCS and math. To name a few, I\'m interested in approximation, online and randomized algorithm 🧠 and computational complexity, high dimensional statistic and functional analysis 📚. Occasionally, I\'ll do [street photography](https://www.instagram.com/malc_ph/) 📷 and write [blog posts](./posts) 📝.',
   ],
   avatar: 'avatar.png',
   professions: [
