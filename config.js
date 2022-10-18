@@ -78,11 +78,6 @@ module.exports = {
       icon: 'university',
       title: 'Bachelor in Electrical Computer Engineering',
       location: 'UM-SJTU JI, Shanghai Jiao Tong University, China',
-    }, {
-      date: 'Sept 2016 - June 2019',
-      icon: 'school',
-      title: 'Social Science/Math and Science Concentration',
-      location: 'National Wu-Ling Senior High School, Taiwan',
     }],
   interests: [
     {
