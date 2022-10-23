@@ -130,7 +130,7 @@ module.exports = {
           description: '**' +
             '[VV285 (Honor Mathematics III)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
             '**: ' +
-            'Collaborated with the teaching staff as an instructional aide of a 150+ student course on the main B.S. ECE track. Hold discussion \& office hour weekly. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee) and tested students understanding of learning goals by devising quiz questions.',
+            'Collaborated with the teaching staff as an instructional aide of a 150+ student course on the main B.S. ECE track. Hold discussion \& office hour weekly. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
           location: 'Shanghai Jiao Tong University, China',
         }, {
           date: 'Fall 2020',
