@@ -67,12 +67,12 @@ module.exports = {
       date: 'Sept 2021 - Present',
       icon: 'university',
       title: 'Bachelor in Computer Science',
-      location: 'LSA, University of Michigan, United States',
+      location: 'College of Engineering, University of Michigan, U.S.A.',
     }, {
       date: 'Sept 2021 - Present',
       icon: 'university',
       title: 'Minor in Mathematics',
-      location: 'LSA, University of Michigan, United States',
+      location: 'College of Literature, Science, and the Arts, University of Michigan, U.S.A.',
     }, {
       date: 'Sept 2019 - Present',
       icon: 'university',
@@ -108,12 +108,21 @@ module.exports = {
       position: 'left',
       data: [
         {
+          date: 'Winter 2023',
+          title: 'Instructional Aide',
+          description: '**' +
+            '[EECS475 (Introduction to Cryptography)](https://mahdi.ch/eecs475/)' +
+            '**: ' +
+            'Collaborated with the teaching staff as an instructional aide of an 70+ student course on the main CS track. Hold discussion \& office hour weekly.',
+          location: 'University of Michigan, U.S.A.',
+        },
+        {
           date: 'Fall 2022',
           title: 'Instructional Aide',
           description: '**' +
             '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
             '**: ' +
-            'Collaborated with the teaching staff as an instructional aide of a 100+ student course on the main CS track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible.',
+            'Collaborated with the teaching staff as an instructional aide of an 70+ student course on the M.S. theory CS track. Hold discussion \& office hour weekly.',
           location: 'University of Michigan, U.S.A.',
         }, {
           date: 'Summer 2021',
@@ -121,7 +130,7 @@ module.exports = {
           description: '**' +
             '[VV285 (Honor Mathematics III)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
             '**: ' +
-            'Collaborated with the teaching staff as an instructional aide of a 150+ student course on the main ECE track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee) and tested students understanding of learning goals by devising quiz questions.',
+            'Collaborated with the teaching staff as an instructional aide of a 150+ student course on the main B.S. ECE track. Hold discussion \& office hour weekly. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee) and tested students understanding of learning goals by devising quiz questions.',
           location: 'Shanghai Jiao Tong University, China',
         }, {
           date: 'Fall 2020',
@@ -129,7 +138,7 @@ module.exports = {
           description: '**' +
             '[VV186 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
             '**: ' +
-            'Collaborated with the teaching staff as an instructional aide of a 200+ student course on the main ECE track. Offered weekly office hours, taught discussion sections to reinforce conceptual understanding and review course material to ensure the student experience was as smooth as possible.',
+            'Collaborated with the teaching staff as an instructional aide of a 200+ student course on the main B.S. ECE track. Hold discussion \& office hour weekly.',
           location: 'Shanghai Jiao Tong University, China',
         },
       ],
@@ -186,27 +195,27 @@ module.exports = {
   awards: [
     {
       date: 'Apr. 2022',
-      title: 'Dean\'s Honor List Recipients, UMich',
+      title: 'Dean\'s Honor List Recipients, UMich, U.S.A.',
     },
     {
       date: 'Dec. 2021',
-      title: 'Dean\'s Honor List Recipients, UMich',
+      title: 'Dean\'s Honor List Recipients, UMich, U.S.A.',
     },
     {
       date: 'Oct. 2021',
-      title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship, SJTU',
+      title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship, SJTU, China',
     },
     {
       date: 'Nov. 2020',
-      title: 'Undergraduate Excellent Scholarship, SJTU',
+      title: 'Undergraduate Excellent Scholarship, SJTU, China',
     },
     {
       date: 'Jun. 2020',
-      title: 'Bao Gang Excellent Scholarship, SJTU',
+      title: 'Bao Gang Excellent Scholarship, SJTU, China',
     },
     {
       date: 'Dec. 2019',
-      title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship, SJTU',
+      title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship, SJTU, China',
     },
   ],
   tagColors: [
