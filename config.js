@@ -77,7 +77,7 @@ module.exports = {
       date: 'Sept 2019 - Present',
       icon: 'university',
       title: 'Bachelor in Electrical Computer Engineering',
-      location: 'UM-SJTU JI, Shanghai Jiao Tong University, China',
+      location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University, China',
     }],
   interests: [
     {
