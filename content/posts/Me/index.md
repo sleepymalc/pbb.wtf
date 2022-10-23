@@ -24,7 +24,7 @@ The spring breaks just started, and I wasted the very first day successfully, wh
 It turns out that in [WakaTime](https://wakatime.com), I use $\LaTeX$ the ***most***.
 
 <p align="center">
-	<img src="./figures/wakatime.png"/>
+	<img src="./figures/wakatime.png" width="80%"/>
 </p>
 
 Not sure whether this is a good thing or not😅, since it somehow indicates how busy I'm writing math stuff instead of working on my research... But at least I can now say I'm the No.1 in the world lmao.[^1]
