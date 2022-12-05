@@ -3,13 +3,13 @@ title: "$ ls ./Notes"
 tags: ["math", "notes", "LaTeX"]
 date: Updating
 path: "posts/Notes"
-excerpt: 📝 Notes for (mostly math) classes I took in University of Michigan.
+excerpt: 📝 Notes for (mostly math) classes I took at the University of Michigan.
 cover: "./preview.png"
 ---
 
 # Note
 
-These are lecture notes I took at the University of Michigan. If you're interested in the $\LaTeX$ code, have a look on [GitHub](https://github.com/sleepymalc/Notes). If you're interested in my setup, also have a look on this [GitHub repo](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) or just [here](./VSCode-LaTeX-Inkscape).
+These are lecture notes I took at the University of Michigan. If you're interested in the $\LaTeX$ code, have a look on [GitHub](https://github.com/sleepymalc/Notes). If you're interested in my setup, also have a look at this [GitHub repo](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) or just [here](./VSCode-LaTeX-Inkscape).
 
 ## What's in here?
 
@@ -36,7 +36,7 @@ This is the first course in the series of graduate-level, large-scale and rigoro
 	<img src="./figures/EECS544.png" align="right" width="18%"/>
 </p>
 
-This is a graduated level course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), covering topics across **Graph Partitioning Algorithm**, **Community Detection Algorithm**, **Stochastic Process and Markov Chain**, **Monte Carlo Algorithm**, **Random Graph Theory** and **Game Theory** with **Auctions and Matching Market**.
+This is a graduated-level course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), covering topics across **Graph Partitioning Algorithm**, **Community Detection Algorithm**, **Stochastic Process and Markov Chain**, **Monte Carlo Algorithm**, **Random Graph Theory** and **Game Theory** with **Auctions and Matching Market**.
 >
 > * [pdf](./Notes/SocNetAnalysis.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/EECS544-Analysis-of-Social-Networks)
@@ -91,4 +91,14 @@ This is the graduate-level real analysis course focused on functional analysis t
 > * [pdf](./Notes/ReAnalysisII.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
 
-[^1]: Turns out that MATH663/IOE611 Nonlinear Programming provides nice lecture slides so I wont bother scribing it myself.
+[^1]: Turns out that MATH663/IOE611 Nonlinear Programming provides nice lecture slides, so I won't bother scribing it myself.
+
+#### Randomness and Computation ([EECS572](https://mahdi.ch/eecs572/) @Umich, TA)
+
+<!-- <p>
+	<img src="./figures/MATH597.png" align="right" width="18%"/>
+</p> -->
+
+This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/), and I'm grateful to be a teaching assistant for this course together with Neophytos Charalambides. The note will be posted after the semester ends (soon!).
+<!-- >
+> * [pdf](./Notes/ReAnalysisII.pdf) -->
