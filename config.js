@@ -120,9 +120,9 @@ module.exports = {
           date: 'Fall 2022',
           title: 'Instructional Aide',
           description: '**' +
-            '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
+            '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/) *[Note](./posts/Notes#randomness-and-computation-eecs572-umich-ta)*' +
             '**: ' +
-            'Collaborated with the teaching staff as an instructional aide of an 70+ student course on the M.S. theory CS track. Hold discussion \& office hour weekly.',
+            'Collaborated with the teaching staff as an instructional aide of an 70+ student course on the M.S. theory CS track. Hold discussion \& office hour weekly. ',
           location: 'University of Michigan, U.S.A.',
         }, {
           date: 'Summer 2021',

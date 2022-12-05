@@ -42,3 +42,5 @@ I think I should at least write something before the summer break ends otherwise
 #### Oct. 22
 
 Finally, I decide not to get another math degree. Not because I'm bad at math, but because of the unexpected complexity of doing a triple-degree. In the past year, I learn [linear programming](../Notes/index.md#linear-programming-math561ioe510to518-umich), [measure theory](../Notes/index.md#real-analysis-math597-umich), [algebraic topology](../Notes/index.md#algebraic-topology-math592-umich), and are currently learning [functional analysis](../Notes/index.md#functional-analysis-math602-umich) and nonlinear optimization. And if I still choose to purse a math degree at UMich, I can't learn what I want to learn (I plan to take multi-variables complex analysis and stochastic process theory the next term) otherwise I can't graduate in the expected term, i.e., Winter 23, since I'll need to spend 12 credits on something I don't really like to fulfill the degree requirement 😥. Hence, I make a big move: I quit! I think I should not bother myself with a meaningless degree since I have other promising *proofs* which shows my math knowledge.
+
+#### Dec. 05
