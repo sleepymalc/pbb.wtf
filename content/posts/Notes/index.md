@@ -60,7 +60,7 @@ This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.
 	<img src="./figures/MATH597.png" align="right" width="18%"/>
 </p>
 
-This is the graduate-level Real Analysis focused on measure theory taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Everything is built up from Measure Theory, like integration and differentiation. Topics include **Measure Theory**, **Hilbert/Banach Spaces**, **$L^p$ Spaces**, and some **Fourier Analyses**.
+This is the graduate-level real analysis course taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Everything is built up from measure theory, like integration and differentiation. Topics include **Measure Theory**, **Hilbert/Banach Spaces**, **$L^p$ Spaces**, and some **Fourier Analyses**.
 >
 > * [pdf](./Notes/ReAnalysis.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
@@ -87,7 +87,7 @@ This is the advanced graduate-level theory course focused on randomized complexi
 	<img src="./figures/EECS598-001.png" align="right" width="18%"/>
 </p>
 
-This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web.eecs.umich.edu/~euiwoong/), which focuses on methods of designing and analyzing approximation algorithms, together with the theoretical background on showing the hardness of approximation. Topics include **Covering**, **Clustering**, **Network Design**, and **CSP**. Furthermore, we have covered **Lasserre (SoS) Hierarchy**, **Unique Game Conjecture**, and **Probabilistic Checkable Proofs**.
+This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web.eecs.umich.edu/~euiwoong/), which focuses on methods of designing and analyzing approximation algorithms, together with the theoretical background on showing the hardness of approximation. Topics include **Covering**, **Clustering**, **Network Design**, and **CSP**. We also talked about **Lasserre (SoS) Hierarchy**, **Unique Game Conjecture**, and **Probabilistic Checkable Proofs**.
 >
 > * [pdf](./Notes/AppxAlgo.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/EECS598-001-Approximation-Algorithms-and-Hardness-of-Approximation)
@@ -98,7 +98,7 @@ This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web
 	<img src="./figures/MATH602.png" align="right" width="18%"/>
 </p>
 
-This is the graduate-level real analysis course focused on functional analysis taught by [Joseph Conlon](http://www.math.lsa.umich.edu/~conlon/). The focus of this course is rather standard, including **Banach and Hilbert Spaces Theory**, **Bounded Linear, Compact, and Self-Adjoint Operators Theorem**, **Representation, Hahn-Banach, Open Mapping Theorem**, and **Spectral Theory**. We also covered some point-set topology along the way.
+This is the graduate-level functional analysis course taught by [Joseph Conlon](http://www.math.lsa.umich.edu/~conlon/). The focus of this course is rather standard, including **Banach and Hilbert Spaces Theory**, **Bounded Linear, Compact, and Self-Adjoint Operators Theorem**, **Representation, Hahn-Banach, Open Mapping Theorem**, and **Spectral Theory**. We also covered some point-set topology along the way.
 >
 > * [pdf](./Notes/ReAnalysisII.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
