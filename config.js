@@ -123,7 +123,7 @@ module.exports = {
             '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
             '**: ' +
             'Collaborated with the teaching staff as an instructional aide of an 70+ student course on the M.S. theory CS track. Hold discussion \& office hour weekly.\n' +
-            '\[[Note](../posts/Notes#randomness-and-computation-eecs572-umich-ta)\]',
+            '([Note](../posts/Notes#randomness-and-computation-eecs572-umich-ta))',
           location: 'University of Michigan, U.S.A.',
         }, {
           date: 'Summer 2021',

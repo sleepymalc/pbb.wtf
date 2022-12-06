@@ -25,7 +25,7 @@ All notes are written in modern style $\LaTeX$ with clear definition/theorem ref
 	<img src="./figures/MATH561.png" align="right" width="18%"/>
 </p>
 
-This is the first course in the series of graduate-level, large-scale and rigorous mathematical programming courses taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/). Topics include **Linear Programming**, **Weak and Strong Duality**, **Simplex Algorithm**, **Large-Scale Linear Programming**, **Sensitivity Analysis**, and also **Integer Programming** and their applications.
+This is the first course in the series of graduate-level, large-scale and rigorous mathematical programming courses taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/). Topics include **Linear Programming**, **Weak and Strong Duality**, the **Simplex Algorithm**, **Large-Scale Linear Programming**, **Sensitivity Analysis**, and also **Integer Programming** and their applications.
 >
 > * [pdf](./Notes/LinProg.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear-Programming)
@@ -36,7 +36,7 @@ This is the first course in the series of graduate-level, large-scale and rigoro
 	<img src="./figures/EECS544.png" align="right" width="18%"/>
 </p>
 
-This is a graduated-level course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), covering topics across **Graph Partitioning Algorithm**, **Community Detection Algorithm**, **Stochastic Process and Markov Chain**, **Monte Carlo Algorithm**, **Random Graph Theory** and **Game Theory** with **Auctions and Matching Market**.
+This is a graduate-level course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), covering topics across **Graph Partitioning Algorithm**, **Community Detection Algorithm**, **Stochastic Process and Markov Chain**, **Monte Carlo Algorithm**, **Random Graph Theory** and **Game Theory** with **Auctions and Matching Market**.
 >
 > * [pdf](./Notes/SocNetAnalysis.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/EECS544-Analysis-of-Social-Networks)
@@ -60,7 +60,7 @@ This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.
 	<img src="./figures/MATH597.png" align="right" width="18%"/>
 </p>
 
-This is the graduate-level Real Analysis focused on measure theory taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Everything is built up from Measure Theory, like integration and differentiation. Topics include **Measure Theory**, **Hilbert/Banach Spaces**, **$L^p$ Spaces**, and some **Fourier analysis**.
+This is the graduate-level Real Analysis focused on measure theory taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Everything is built up from Measure Theory, like integration and differentiation. Topics include **Measure Theory**, **Hilbert/Banach Spaces**, **$L^p$ Spaces**, and some **Fourier Analyses**.
 >
 > * [pdf](./Notes/ReAnalysis.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
@@ -75,7 +75,7 @@ This is the graduate-level Real Analysis focused on measure theory taught by [Ji
 	<img src="./figures/MATH597.png" align="right" width="18%"/>
 </p> -->
 
-This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web.eecs.umich.edu/~euiwoong/).
+This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web.eecs.umich.edu/~euiwoong/), which focuses on methods of designing and analyzing approximation algorithms, together with the theoretical background on showing the hardness of approximation. Topics include **Covering**, **Clustering**, **Network Design**, and **CSP**.
 >
 > * [pdf](./Notes/AppxAlgo.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/EECS598-001-Approximation-Algorithms-and-Hardness-of-Approximation)
@@ -86,7 +86,7 @@ This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web
 	<img src="./figures/MATH597.png" align="right" width="18%"/>
 </p> -->
 
-This is the graduate-level real analysis course focused on functional analysis taught by [Joseph Conlon](http://www.math.lsa.umich.edu/~conlon/).
+This is the graduate-level real analysis course focused on functional analysis taught by [Joseph Conlon](http://www.math.lsa.umich.edu/~conlon/). The focus of this course is rather standard, including **Banach and Hilbert Spaces Theory**, **Bounded Linear, Compact, and Self-Adjoint Operators Theorem**, **Representation, Hahn-Banach, and Open Mapping Theorem**, **Spectral Theory**.
 >
 > * [pdf](./Notes/ReAnalysisII.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
