@@ -75,7 +75,7 @@ This is the graduate-level Real Analysis focused on measure theory taught by [Ji
 	<img src="./figures/EECS598-001.png" align="right" width="18%"/>
 </p>
 
-This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web.eecs.umich.edu/~euiwoong/), which focuses on methods of designing and analyzing approximation algorithms, together with the theoretical background on showing the hardness of approximation. Topics include **Covering**, **Clustering**, **Network Design**, and **CSP**.
+This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web.eecs.umich.edu/~euiwoong/), which focuses on methods of designing and analyzing approximation algorithms, together with the theoretical background on showing the hardness of approximation. Topics include **Covering**, **Clustering**, **Network Design**, and **CSP**. Furthermore, we have covered **Lasserre (SoS) Hierarchy**, **Unique Game Conjecture**, and **Probabilistic Checkable Proofs**.
 >
 > * [pdf](./Notes/AppxAlgo.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/EECS598-001-Approximation-Algorithms-and-Hardness-of-Approximation)
