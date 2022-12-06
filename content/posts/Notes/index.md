@@ -9,7 +9,7 @@ cover: "./preview.png"
 
 # Note
 
-These are lecture notes I took at the University of Michigan. If you're interested in the $\LaTeX$ code, have a look on [GitHub](https://github.com/sleepymalc/Notes). If you're interested in my setup, also have a look at this [GitHub repo](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) or just [here](./VSCode-LaTeX-Inkscape).
+These are the lecture notes I took, and if you're interested in the $\LaTeX$ code, have a look on [GitHub](https://github.com/sleepymalc/Notes). If you're interested in my setup, also have a look at this [GitHub repo](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) or just [here](./VSCode-LaTeX-Inkscape).
 
 ## What's in here?
 
@@ -69,6 +69,18 @@ This is the graduate-level Real Analysis focused on measure theory taught by [Ji
 
 ### Fall 2022[^1]
 
+[^1]: Turns out that MATH663/IOE611 Nonlinear Programming provides nice lecture slides, so I won't bother scribing it myself.
+
+#### Randomness and Computation ([EECS572](https://mahdi.ch/eecs572/) @Umich, TA)
+
+<p>
+	<img src="./figures/EECS572.png" align="right" width="18%"/>
+</p>
+
+This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/), and I'm grateful to be a teaching assistant for this course together with Neophytos Charalambides. The note will be posted after the semester ends (soon!).
+<!-- >
+> * [pdf](./Notes/Rand-Comp.pdf) -->
+
 #### Approximation Algorithms and Hardness of Approximation (EECS598-001 @Umich)
 
 <p>
@@ -90,15 +102,3 @@ This is the graduate-level real analysis course focused on functional analysis t
 >
 > * [pdf](./Notes/ReAnalysisII.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
-
-[^1]: Turns out that MATH663/IOE611 Nonlinear Programming provides nice lecture slides, so I won't bother scribing it myself.
-
-#### Randomness and Computation ([EECS572](https://mahdi.ch/eecs572/) @Umich, TA)
-
-<p>
-	<img src="./figures/EECS572.png" align="right" width="18%"/>
-</p>
-
-This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/), and I'm grateful to be a teaching assistant for this course together with Neophytos Charalambides. The note will be posted after the semester ends (soon!).
-<!-- >
-> * [pdf](./Notes/Rand-Comp.pdf) -->
