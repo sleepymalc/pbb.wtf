@@ -69,7 +69,7 @@ This is the graduate-level Real Analysis focused on measure theory taught by [Ji
 
 ### Fall 2022[^1]
 
-[^1]: Turns out that MATH663/IOE611 Nonlinear Programming provides nice lecture slides, so I won't bother scribing it myself.
+[^1]: I also took Nonlinear Programming (MATH663/IOE611), but professor provides nice lecture slides, so I won't bother scribing it myself.
 
 #### Randomness and Computation ([EECS572](https://mahdi.ch/eecs572/) @Umich, TA)
 
