@@ -71,9 +71,9 @@ This is the graduate-level Real Analysis focused on measure theory taught by [Ji
 
 #### Approximation Algorithms and Hardness of Approximation (EECS598-001 @Umich)
 
-<!-- <p>
-	<img src="./figures/MATH597.png" align="right" width="18%"/>
-</p> -->
+<p>
+	<img src="./figures/EECS598-001.png" align="right" width="18%"/>
+</p>
 
 This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web.eecs.umich.edu/~euiwoong/), which focuses on methods of designing and analyzing approximation algorithms, together with the theoretical background on showing the hardness of approximation. Topics include **Covering**, **Clustering**, **Network Design**, and **CSP**.
 >
@@ -82,11 +82,11 @@ This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web
 
 #### Functional Analysis (MATH602 @Umich)
 
-<!-- <p>
-	<img src="./figures/MATH597.png" align="right" width="18%"/>
-</p> -->
+<p>
+	<img src="./figures/MATH602.png" align="right" width="18%"/>
+</p>
 
-This is the graduate-level real analysis course focused on functional analysis taught by [Joseph Conlon](http://www.math.lsa.umich.edu/~conlon/). The focus of this course is rather standard, including **Banach and Hilbert Spaces Theory**, **Bounded Linear, Compact, and Self-Adjoint Operators Theorem**, **Representation, Hahn-Banach, and Open Mapping Theorem**, **Spectral Theory**.
+This is the graduate-level real analysis course focused on functional analysis taught by [Joseph Conlon](http://www.math.lsa.umich.edu/~conlon/). The focus of this course is rather standard, including **Banach and Hilbert Spaces Theory**, **Bounded Linear, Compact, and Self-Adjoint Operators Theorem**, **Representation, Hahn-Banach, Open Mapping Theorem**, and **Spectral Theory**.
 >
 > * [pdf](./Notes/ReAnalysisII.pdf)
 > * [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
@@ -95,10 +95,10 @@ This is the graduate-level real analysis course focused on functional analysis t
 
 #### Randomness and Computation ([EECS572](https://mahdi.ch/eecs572/) @Umich, TA)
 
-<!-- <p>
-	<img src="./figures/MATH597.png" align="right" width="18%"/>
-</p> -->
+<p>
+	<img src="./figures/EECS572.png" align="right" width="18%"/>
+</p>
 
 This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/), and I'm grateful to be a teaching assistant for this course together with Neophytos Charalambides. The note will be posted after the semester ends (soon!).
 <!-- >
-> * [pdf](./Notes/ReAnalysisII.pdf) -->
+> * [pdf](./Notes/Rand-Comp.pdf) -->
