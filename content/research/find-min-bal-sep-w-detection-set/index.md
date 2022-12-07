@@ -6,7 +6,7 @@ tags:
 date: May 2022 - September 2022
 path: "research/find-min-bal-sep-w-detection-set"
 excerpt: Parametrized general network failure detection set analysis
-selected: false
+selected: true
 cover: "./preview.png"
 links:
   - name: "GitHub"
@@ -14,5 +14,3 @@ links:
 ---
 
 ## Introduction
-
-> I can't tell for now, but it's interesting for sure...
