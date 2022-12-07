@@ -151,7 +151,7 @@ module.exports = {
           date: 'Fall 2021 - Present',
           title: 'Undergraduate Researcher',
           description: '**' +
-            '[Generalization Analysis of GNN](../research/GNN)' +
+            '[Generalization Analysis of GNN](../research/one-layer-GCN-is-enough)' +
             '**: ' +
             'Theoretical analysis on generalization ability of non-i.i.d. semi-supervised node-level tasks advised by [Jiaqi Ma](https://www.jiaqima.com/).',
           location: 'University of Michigan, Michigan, U.S.A.',
@@ -160,7 +160,7 @@ module.exports = {
           date: 'Summer 2022 - Present',
           title: 'Undergraduate Researcher',
           description: '**' +
-            '[Fundamental Understanding of Deep Learning](../research/DL)' +
+            '[Fundamental Understanding of Deep Learning](../research/intrinsic-dim-est)' +
             '**: ' +
             'Develop various technique to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
           location: 'University of Michigan, Michigan, U.S.A.',
@@ -169,7 +169,7 @@ module.exports = {
           date: 'Summer 2022 - Present',
           title: 'Undergraduate Researcher',
           description: '**' +
-            '[Network Failure Detection](../research/TCS)' +
+            '[Network Failure Detection](../research/find-min-bal-sep-w-detection-set)' +
             '**: ' +
             'Parametrized network failure detection set analysis advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/).',
           location: 'University of Michigan, Michigan, U.S.A.',

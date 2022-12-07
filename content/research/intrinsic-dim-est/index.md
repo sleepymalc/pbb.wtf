@@ -1,11 +1,11 @@
 ---
-title: "Fundamental Understanding of Deep Learning"
+title: "Intrinsic Dimension Estimation"
 tags:
 - "Deep Learning"
 - "Computational Complexity"
 date: May 2022 - Present
-path: "research/DL"
-excerpt: Develop various technique to understand deep neural networks.
+path: "research/intrinsic-dim-est"
+excerpt: Characterize and develop novel method to test for intrinsic dimension of real-life datasets.
 selected: false
 cover: ""
 links:

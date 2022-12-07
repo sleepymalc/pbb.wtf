@@ -1,12 +1,12 @@
 ---
-title: "Subgroup Generalization of GNN"
+title: "One-Layer GCN is Enough"
 tags:
 - "Graph Neural Network"
 - "Learning Theory"
 - "Computational Complexity"
 date: Jan 2022 - Present
 path: "research/GNN"
-excerpt: The very first work on non-i.i.d. semi-supervised PAC-Bayesian analysis on node-level tasks.
+excerpt: Theoretical analysis of the representation power of a 1-layer GCN for non-i.i.d. semi-supervised node-level tasks.
 selected: false
 cover: "./preview.png"
 links:

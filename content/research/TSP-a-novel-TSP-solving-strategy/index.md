@@ -5,7 +5,7 @@ tags:
 - "Deep Learning"
 - "Optimization"
 date: Jan 2022 - April 2022
-path: "research/TSP"
+path: "research/TSP-a-novel-TSP-solving-strategy"
 excerpt: "A novel approach to ***exactly*** solve the NP-hard combinatorial optimization problem by using *imitation learning*."
 selected: true
 cover: "./preview.png"
