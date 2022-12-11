@@ -160,8 +160,7 @@ But for someone who believes that there is a ***right way*** to do probability i
 
 An intuitive way to see why $\infty$ causes this paradox is the following: imaging you can **really** *randomly* choose chords on a circle, and let's say we label every chord with a number and then choose a random number instead.[^3]
 
-We first note that there are uncountable possible different chords, so we may label every chord with a real number between $[0,1]$.[^4] Then, the ambiguity immediately arises: How should we assign the pairing between the real number and the chords? The thing is since they are infinitely many real numbers and chords, we're extremely flexible in terms of assigning them. For example, I can make $[0,0.999999]$ pairing with chords that are all chords passing the center of the circle (namely all diameters), while making $[0.999999,1]$ pair with all other chords or another way around. Effectively, we're **choosing the distribution** in this pairing, making us biased toward some chords
-hence not uniformly random.
+We first note that there are uncountable possible different chords, so we may label every chord with a real number between $[0,1]$.[^4] Then, the ambiguity immediately arises: How should we assign the pairing between the real number and the chords? The thing is since they are infinitely many real numbers and chords, we're extremely flexible in terms of assigning them. For example, I can make $[0,0.999999]$ pairing with chords that are all chords passing the center of the circle (namely all diameters), while making $0.999999,1$ pairing with all other chords or another way around. Effectively, we're **choosing the distribution** in this pairing, making us biased toward some chords hence not uniformly random.
 
 [^3]: This will not bring in additional complexity if we do it in an isomorphic way.
 [^4]: Under the [Continuum hypothesis](https://en.wikipedia.org/wiki/Continuum_hypothesis) with ZFC set theory, $\mathbb{R}$ is the smallest possible set to do this.
@@ -173,7 +172,7 @@ hence not uniformly random.
 So in this case, the answer should be the same concerning translation (since we should be able to move our circle in the space) and scale (we can scale the circle in the space) invariant. Indeed, in one of his works, he concluded that the [radial points method](#third-attempt-random-radial-points) is the correct one to model this since it equipped with *translational* and also *scale* invariant.[^6]
 
 [^5]: Who wrote the book [Probability Theory-The Logic of Science](https://bayes.wustl.edu/etj/prob/book.pdf).
-[^6]: He basically argued that the radius points method has translational and scale invariant by a geometric argument, which is fine.
+[^6]: He argued that the radius points method has translational and scale invariant by a geometric argument, which is fine.
 
 But the truth is the idea of maximum ignorance which induces *scale* and *translation* invariant can still yield another answer since it still depends on the underlying procedure of random selection that one uses. In particular, Alon Droy shows that each of the solutions can be derived using rotational, scaling, and translational invariance, hence the maximum ignorance principle is just as subject to interpretation as the principle of indifference itself.
 
@@ -183,7 +182,7 @@ But the truth is the idea of maximum ignorance which induces *scale* and *transl
 
 From the discussion, how do we know that we're safe when dealing with things like "*choosing ___ randomly*"? The answer is if there is a clear *symmetry* in that space, and we want our distribution to be *invariant* to that symmetry.
 
-For example, if we say *choose a real number in $[0,1]$ randomly*, there should be no ambiguity. This is because in $[0,1]$, there is one symmetry that is clear: the translation.
+For example, if we say *choose a real number in $[0,1]$ randomly*, there should be no ambiguity. This is because, in $0,1$, there is one symmetry that is clear: the translation.
 
 <p align="center">
 	<img src="figures/trans_inv.png"/>
