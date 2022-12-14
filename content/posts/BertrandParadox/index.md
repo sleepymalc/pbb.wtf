@@ -13,7 +13,7 @@ I'm working with probability intensively for the past few months, I think it's t
 
 ## Classical Probability
 
-In modern mathematics, there are essentially two ways of building everything from the ground up: one is set theory (e.g., [ZF-set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory)), and another is type theory (e.g., [HoTT](https://en.wikipedia.org/wiki/Homotopy_type_theory)). But these two are just subfields of *Mathematical logic*: people have a clear idea that given $A,B$,[^1] either
+In modern mathematics, there are essentially two ways of building everything from the ground up: one is set theory (e.g., [ZF-set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory)), and another is type theory (e.g., [HoTT](https://en.wikipedia.org/wiki/Homotopy_type_theory)). But these two are just subfields of *Mathematical logic*, and people have a clear idea that given $A, B$,[^1] either
 
 $$
 A\implies B\text{ or } A\;\not\!\!\!\!\implies B
