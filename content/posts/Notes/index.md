@@ -77,9 +77,9 @@ This is the graduate-level real analysis course taught by [Jinho Baik](http://ww
 	<img src="./figures/EECS572.png" align="right" width="18%"/>
 </p>
 
-This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/), and I'm grateful to be a teaching assistant for this course together with Neophytos Charalambides.
+This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/), and I'm grateful to be a teaching assistant for this course together with Neophytos Charalambides. Topics include various randomized algorithms, Randomized Complexity, Markov Chains, Random Walks, Expander Graphs, Pseudo-random Generators, Hardness v.s. Randomness.[^2]
 >
-> * [pdf](./Notes/RandComp.pdf)[^2]
+> * [pdf](./Notes/RandComp.pdf)
 
 [^2]: Sorry for not being able to provide the source code due to the class policy.
 
