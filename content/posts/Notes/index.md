@@ -69,7 +69,7 @@ This is the graduate-level real analysis course taught by [Jinho Baik](http://ww
 
 ### Fall 2022[^1]
 
-[^1]: I also took Nonlinear Programming (MATH663/IOE611), but the professor provides nice lecture slides, so I won't bother scribing it myself.
+[^1]: I also took Nonlinear Programming (MATH663/IOE611), but the professor provided excellent lecture slides, so I won't bother scribing it myself.
 
 #### Randomness and Computation ([EECS572](https://mahdi.ch/eecs572/) @Umich, TA)
 
@@ -77,9 +77,11 @@ This is the graduate-level real analysis course taught by [Jinho Baik](http://ww
 	<img src="./figures/EECS572.png" align="right" width="18%"/>
 </p>
 
-This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/), and I'm grateful to be a teaching assistant for this course together with Neophytos Charalambides. The note will be posted after the semester ends (soon!).
-<!-- >
-> * [pdf](./Notes/Rand-Comp.pdf) -->
+This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/), and I'm grateful to be a teaching assistant for this course together with Neophytos Charalambides.
+>
+> * [pdf](./Notes/RandComp.pdf)[^2]
+
+[^2]: Sorry for not being able to provide the source code due to the class policy.
 
 #### Approximation Algorithms and Hardness of Approximation (EECS598-001 @Umich)
 
