@@ -196,14 +196,6 @@ module.exports = {
   ],
   awards: [
     {
-      date: 'Apr. 2022',
-      title: 'Dean\'s Honor List Recipients, UMich, U.S.A.',
-    },
-    {
-      date: 'Dec. 2021',
-      title: 'Dean\'s Honor List Recipients, UMich, U.S.A.',
-    },
-    {
       date: 'Oct. 2021',
       title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship, SJTU, China',
     },
