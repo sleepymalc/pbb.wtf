@@ -57,7 +57,7 @@ This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.
 	<img src="./figures/MATH597.png" align="right" width="16%"/>
 </p>
 
-This is the graduate-level real analysis course taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html), focusing on abstract measure theory. Topics include **Measure Theory**, **Hilbert Spaces**, **Banach Spaces**, **$L^p$ Spaces**, and some **Fourier Analyses**.
+This is the graduate-level real analysis course taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Topics include **Measure Theory**, **Hilbert Spaces**, **Banach Spaces**, **$L^p$ Spaces**, and some **Fourier Analyses**. While focusing on real measures, we did discuss signed and complex measures for completeness. This course is pretty rigorous and well-structured and acts as a pre-requests for [functional analysis (MATH 602)](#functional-analysis-math602-umich).
 >
 > [\[pdf\]](./Notes/ReAnalysis.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
 
