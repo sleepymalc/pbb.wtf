@@ -27,7 +27,7 @@ All notes are written in modern style $\LaTeX$ with explicit definition/theorem 
 
 This is the first course in the series of graduate-level, large-scale and rigorous mathematical programming courses taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/). Topics include **Duality Theorems**, the mathematical rigorous **Simplex Algorithm**, **Complementary Slackness**, **Large-Scale Linear Programming**, **Sensitivity Analysis**, and **Integer Programming** with their applications.
 >
-> This course is not intended to teach you how to *hand-solve* a *small-scale* linear programming problems, rather, it's intended to give a rigorous foundation of solving *large-scale* linear programming problems in an algorithmic way. We rely on `python` and `Gurobi` for examples to solve various problems in the assignments.
+> This course is not intended to teach you how to *hand-solve small-scale* linear programming problems, rather, it's intended to give a rigorous foundation of solving *large-scale* linear programming problems in an algorithmic way. We rely on `python` and `Gurobi` for examples to solve various problems in the assignments.
 >
 > ---
 > [\[pdf\]](./Notes/LinProg.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear-Programming)
