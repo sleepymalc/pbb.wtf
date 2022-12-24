@@ -7,8 +7,6 @@ excerpt: 🗣 I'll say something completely nonsense here, just take it as a jok
 cover: "./preview.png"
 ---
 
-I'm just a regular student who is stressed and can't fall asleep every night. I have lots to say to this world, but no one is listening, not because people intended ignoring me, just because I'm not that important, and we all understand that.
-
 ## The Year 2022
 
 ### Winter 2022 @UMich
