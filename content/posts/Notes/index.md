@@ -111,4 +111,4 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 
 [\[pdf\]](./Notes/ReAnalysisII.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
 
-> A rigorous, self-contained, and well-structured course giving you the needed tools for analyzing function spaces.
+> A rigorous course giving you the needed tools for analyzing function spaces. It'll give you a solid understanding on infinite dimensional vector space and how to deal with operators over these spaces.
