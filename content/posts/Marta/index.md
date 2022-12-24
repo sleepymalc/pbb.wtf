@@ -7,7 +7,7 @@ excerpt: ⌨️ Marta, a powerful keyboard-based [Finder](https://support.apple.
 cover: "./preview.png"
 ---
 
-# 🦊 Marta - A [Finder](https://support.apple.com/en-us/HT201732) Alternative 🦊
+## 🦊 Marta - A Finder Alternative 🦊
 
 <p align="center">
 	<img width="80%" src="figures/marta.png"/>

@@ -7,11 +7,9 @@ excerpt: 📝 Notes for (mostly math) classes I took at the University of Michig
 cover: "./preview.png"
 ---
 
-# Note
+## What's in here?
 
 These are the lecture notes I took, and if you're interested in the $\LaTeX$ code, have a look on [GitHub](https://github.com/sleepymalc/Notes). If you're interested in my setup, look at this [GitHub repo](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) or just [here](./VSCode-LaTeX-Inkscape).
-
-## What's in here?
 
 All notes are written in modern style $\LaTeX$ with explicit definition/theorem references and hyperlinks. Also, the drawing is done professionally and cleanly.
 
