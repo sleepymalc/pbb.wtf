@@ -99,7 +99,7 @@ This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web
 
 [\[pdf\]](./Notes/AppxAlgo.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/EECS598-001-Approximation-Algorithms-and-Hardness-of-Approximation)
 
-> Covering the recent advances on approximation algorithms and also the hardness of approximations. Quite excited to learn about *PCP*, *UGC*, and how complexity classes are defined for approximation problems.
+> This is one of the most exciting course I have taken: algorithmic design, hardness of approximation and fancy topics such as *SoS hierarchy*, *PCP*, *UGC* are all fun to learn, especially the approximated complexity theory part.
 
 #### Functional Analysis (MATH602 @Umich)
 
