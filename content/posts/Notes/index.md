@@ -29,7 +29,7 @@ This is the first course in the series of graduate-level, large-scale and rigoro
 >
 > This course is not intended to teach you how to *hand-solve small-scale* linear programming problems, rather, it's intended to give a rigorous foundation of solving *large-scale* linear programming problems in an algorithmic way. We rely on `python` and `Gurobi` for examples to solve various problems in the assignments.
 ---
-[$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear-Programming) | <a href="./Notes/LinProg.pdf"> <img src="../icon/pdf.svg" width="1em"></a>  
+[$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/MATH561-Linear-Programming) | <a href="./Notes/LinProg.pdf"><img src="../icon/pdf.svg" width="1em"> pdf</a>  
 
 #### Analysis of Social Networks (EECS544/EECS444 @Umich)
 
