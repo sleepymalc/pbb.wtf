@@ -178,9 +178,9 @@ But the truth is the idea of maximum ignorance, which induces *scale**and*transl
 
 > This is the only section where abstract is involved
 
-From the discussion, how do we know that we're safe when dealing with things like "*choosing ___ randomly*"? The answer is if there is a clear *symmetry* in that space, and we want our distribution to be *invariant* to that symmetry.
+From the discussion, how do we know that we're safe when dealing with things like "*choosing ___ randomly*"? The answer is if there is an apparent *symmetry* in that space, and we want our distribution to be *invariant* to that symmetry.
 
-For example, if we say *choose a real number in $[0,1]$ randomly*, there should be no ambiguity. This is because, in $0,1$, there is one symmetry that is clear: the translation.
+For example, if we say *choose a real number in $[0,1]$ randomly*, there should be no ambiguity. This is because, in $0,1$, there is one clear symmetry: the translation.
 
 <p align="center">
 	<img src="figures/trans_inv.png"/>
