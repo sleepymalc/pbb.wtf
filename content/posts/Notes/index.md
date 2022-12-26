@@ -19,9 +19,9 @@ All notes are written in modern style $\LaTeX$ with explicit definition/theorem 
 
 #### Linear Programming (MATH561/IOE510/TO518 @Umich)
 
-<p>
+<div>
 	<img src="./figures/MATH561.png" align="right" width="18%"/>
-</p>
+</div>
 
 This is the first course in the series of graduate-level, large-scale and rigorous mathematical programming courses taught by [Jon Lee](https://sites.google.com/site/jonleewebpage/). Topics include **Duality Theorems**, the mathematical rigorous **Simplex Algorithm**, **Complementary Slackness**, **Large-Scale Linear Programming**, **Sensitivity Analysis**, and **Integer Programming** with their applications.
 
@@ -31,9 +31,9 @@ This is the first course in the series of graduate-level, large-scale and rigoro
 
 #### Analysis of Social Networks (EECS544/EECS444 @Umich)
 
-<p>
+<div>
 	<img src="./figures/EECS544.png" align="right" width="18%"/>
-</p>
+</div>
 
 This is a graduate-level course about social network analysis taught by [Vijay G Subramanian](https://subramanian.engin.umich.edu/), aiming at a rigorous mathematical understanding of various social network algorithms and theories. Topics include **Graph Partitioning Algorithms**, **Stochastic Processes**, **Random Graph Theory**, and **Algorithmic Game Theory**, including **Auctions** and **Matching Market Algorithms**.
 
@@ -45,9 +45,9 @@ This is a graduate-level course about social network analysis taught by [Vijay G
 
 #### Algebraic Topology (MATH592 @Umich)
 
-<p>
+<div>
 	<img src="./figures/MATH592.png" align="right" width="18%"/>
-</p>
+</div>
 
 This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.umich.edu/~jchw/) about Introduction to Algebraic Topology. Topics include **CW-Complex**, **Fundamental Group**, **Van-Kampen Theorem**, **Homology**, and also their applications like [Lefschetz fixed-point theorem](https://en.wikipedia.org/wiki/Lefschetz_fixed-point_theorem).
 
@@ -57,9 +57,9 @@ This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.
 
 #### Real Analysis (MATH597 @Umich)
 
-<p>
+<div>
 	<img src="./figures/MATH597.png" align="right" width="18%"/>
-</p>
+</div>
 
 This is the graduate-level real analysis course taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Topics include **Measure Theory**, **Hilbert Spaces**, **Banach Spaces**, **$L^p$ Spaces**, and some **Fourier Analyses**. While focusing on real measures, we did discuss signed and complex measures for completeness.
 
@@ -75,9 +75,9 @@ This is the graduate-level real analysis course taught by [Jinho Baik](http://ww
 
 #### Randomness and Computation ([EECS572](https://mahdi.ch/eecs572/) @Umich, TA)
 
-<p>
+<div>
 	<img src="./figures/EECS572.png" align="right" width="18%"/>
-</p>
+</div>
 
 This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various randomized algorithms, Randomized Complexity, Markov Chains, Random Walks, Expander Graphs, Pseudo-random Generators, and Hardness v.s. Randomness.[^2]
 
@@ -89,9 +89,9 @@ This is the advanced graduate-level theory course focused on randomized complexi
 
 #### Approximation Algorithms and Hardness of Approximation (EECS598-001 @Umich)
 
-<p>
+<div>
 	<img src="./figures/EECS598-001.png" align="right" width="18%"/>
-</p>
+</div>
 
 This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web.eecs.umich.edu/~euiwoong/), which focuses on methods of designing and analyzing approximation algorithms, together with the theoretical background on showing the hardness of approximation. Topics include **Covering**, **Clustering**, **Network Design**, and **CSP**. We also discussed **Lasserre (SoS) Hierarchy**, **Unique Game Conjecture**, and **Probabilistic Checkable Proofs**.
 
@@ -101,9 +101,9 @@ This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web
 
 #### Functional Analysis (MATH602 @Umich)
 
-<p>
+<div>
 	<img src="./figures/MATH602.png" align="right" width="18%"/>
-</p>
+</div>
 
 This is the graduate-level functional analysis course taught by [Joseph Conlon](http://www.math.lsa.umich.edu/~conlon/). The focus of this course is rather standard, including **Banach and Hilbert Spaces Theory**, **Bounded Linear, Compact, and Self-Adjoint Operators Theorem**, **Representation, Hahn-Banach, Open Mapping Theorem**, and **Spectral Theory**. We also covered some point-set topology along the way.
 

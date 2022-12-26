@@ -9,15 +9,15 @@ cover: "./preview.png"
 
 ## 🦊 Marta - A Finder Alternative 🦊
 
-<p align="center">
+<div align="center">
 	<img width="80%" src="figures/marta.png"/>
-</p>
+</div>
 
 Though most of the native apps made by excellent Apple engineers are easy to use[^1], but [Finder](https://support.apple.com/en-us/HT201732) is different. I asked lots of my macOS friends, and nearly all of them think [Finder](https://support.apple.com/en-us/HT201732) is great, "*it's fast and easy to use.*" Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before.
 > Although I can write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you, but sadly, while Apple is moving on to arm architecture, [TotalFinder](https://totalfinder.binaryage.com/) couldn't keep up with the pace to be compatible with Apple. Indeed, it stops updating and not maintained anymore.[^2]
-> <p align="center">
+> <div align="center">
 > 	<img width="80%" src="figures/totalfinder.png"/>
-> </p>
+> </div>
 >
 > *~~Things can be changed!!! See this [post](https://twitter.com/akemin_dayo/status/1467946268181753859) and [this](https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879/12)~~ Things just changed!!! See [here](#alternatives)!*
 
@@ -26,9 +26,9 @@ Though most of the native apps made by excellent Apple engineers are easy to use
 
 ## Why Marta?
 
-<p>
+<div>
 <img src="figures/icon-hand-draw.png" align="right"/>
-</p>
+</div>
 
 The fundamental difference between [TotalFinder](https://totalfinder.binaryage.com/) and [Finder](https://support.apple.com/en-us/HT201732) is the **multiple tabs support** with **double panels display**, which allows you to manage files *purely by keyboard*. If you're using Finder, you'll need multiple windows and probably with mouse to achieve this, but now you can do the same thing with only one active window.
 
@@ -40,9 +40,9 @@ Though [TotalFinder](https://totalfinder.binaryage.com/) is no longer available 
 
 I'm going to briefly introduce some basic but powerful features in [Marta](https://marta.sh/). For the full documentation, please check the official [docs](https://marta.sh/docs/) for reference. First, this is the basic look of your Marta window:
 
-<p align="center">
+<div align="center">
 	<img width="80%"src="figures/demo.png"/>
-</p>
+</div>
 
 ### Actions
 
@@ -56,9 +56,9 @@ When you press `shift`+`cmd`+`p`, a search bar named *Search Action* will pop up
 
 [^3]: To select multiple files, you select them by using `shift`+`↑`/`↓` as expected.
 
-<p align="center">
+<div align="center">
 	<img width="80%" src="gifs/search-action.gif"/>
-</p>
+</div>
 
 Now, let's start binding some useful *actions* to your favorite keybindings!
 
@@ -112,9 +112,9 @@ You can bind it to your favorite keybindings to match your own habits. For me, s
 
 while `shift`+`cmd`+`n` is the default shortcut to create a new folder in Finder, but there is no such shortcut, or I should say, there is no easy way to create a new file in Finder, hence you get another useful shortcut! The following demo will show you how to create a new folder and a simple `.txt` file.
 
-<p align="center">
+<div align="center">
 	<img width="80%" src="gifs/create-new-file.gif"/>
-</p>
+</div>
 
 ### Find
 
@@ -124,9 +124,9 @@ A very clever move for [Marta](https://marta.sh/) is that they implemented some 
 
 If your current folder contains lots of files, you can locate any file you want quickly by ***directly typing their name***. Let me show you how to do this.
 
-<p align="center">
+<div align="center">
 	<img width="80%" src="gifs/local-search.gif"/>
-</p>
+</div>
 
 This is extremely fast and clever!
 > Note that [Finder](https://support.apple.com/en-us/HT201732) does support this feature, but it does not do well in some cases. Marta does it more consistent and intuitively.
@@ -135,9 +135,9 @@ This is extremely fast and clever!
 
 What if you want to go to other directories far from your current one? You can use the function `Look UP`, which is triggered by `cmd`+`p`. After you type this keybinding, a search bar will pop up, and you can search for the place you want to go to. Notice that it can be either a file or directory.
 
-<p align="center">
+<div align="center">
 	<img width="80%" src="gifs/global-search.gif"/>
-</p>
+</div>
 
 Now, after locating the file/folder, the next question is, how to open them?
 
@@ -157,9 +157,9 @@ Thankfully, we have the `core.open.with` *action* by default:
 
 This allows you to open a file with different apps. Personally, I use [Keka](https://www.keka.io/en/), which is a portable, powerful but light-weight file archiver. Say I just zipped the newly created `text.txt` file and want to unzip it, I can press `cmd`+`Return`, and search for the app I want to open this file with. In this case, I want to open `test.txt.zip` with [Keka](https://www.keka.io/en/):
 
-<p align="center">
+<div align="center">
 	<img width="80%" src="gifs/open.gif"/>
-</p>
+</div>
 
 #### Edit
 
@@ -187,17 +187,17 @@ environment {
 
 So, if you now want to open a project, you can simply press `cmd`+`e`, then it'll open this folder within your favorite IDE you specified! Let's see the demo.
 
-<p align="center">
+<div align="center">
 	<img src="gifs/edit.gif"/>
-</p>
+</div>
 
 #### Preview
 
 You might already notice, [Marta](https://marta.sh/) doesn't provide rich support of figures as your visual tool for file organization. But as in Finder, you can always press `space` to open/close a quick *preview* (it's formally called *quick look*) to see what this file is. This works like this.
 
-<p align="center">
+<div align="center">
 	<img src="gifs/quick-look.gif"/>
-</p>
+</div>
 
 > I need to admit, the preview column provided by [Finder](https://support.apple.com/en-us/HT201732) is quite useful in some cases...
 
@@ -214,9 +214,9 @@ This is the most complex section, hence I leave it to the very end. We start by 
 
 For short, you can open several tabs in *each* panel. And with one of the essential shortcuts to navigate in [Marta](https://marta.sh/), `tab`, which essentially will send you to another panel, you can achieve the following.
 
-<p align="center">
+<div align="center">
 	<img width="80%" src="gifs/tabs.gif"/>
-</p>
+</div>
 
 Yes, it's simple but powerful! In the demo, I use `cmd`+`t` to create a new tab while using `cmd`+`w` to close it. Further, I use `opt`+`cmd`+`←` and `opt`+`cmd`+`→` to navigate between tabs. With this in mind, we now see how you can utilize this to speed up the process of moving files around.
 
@@ -243,9 +243,9 @@ In case some of you didn't know, [Finder](https://support.apple.com/en-us/HT2017
 
 For demonstration, say I want to move the created `Test/test.txt` to my `Test2` folder. The workflow should be like this:
 
-<p align="center">
+<div align="center">
 	<img width="80%" src="gifs/move.gif"/>
-</p>
+</div>
 
 #### Clone
 
@@ -346,33 +346,33 @@ One thing I didn't bring up is that there are actually different themes you can 
 
 1. Kon
 
-<p align="center">
+<div align="center">
 	<img width="80%"src="figures/kon.png"/>
-</p>
+</div>
 
 2. Dark
 
-<p align="center">
+<div align="center">
 	<img width="80%"src="figures/dark.png"/>
-</p>
+</div>
 
 3. Classic
 
-<p align="center">
+<div align="center">
 	<img width="80%"src="figures/classic.png"/>
-</p>
+</div>
 
 4. Sakura 🌸
 
-<p align="center">
+<div align="center">
 	<img width="80%"src="figures/sakura.png"/>
-</p>
+</div>
 
 I actually quite like the look of Sakura 🌸, but since I use dark mode as my main theme, hence I just give up on this... Definitely try it out! To change the theme, you can either just change the `tmeme` (the first line in my [personal configuration](#personal-configuration)) in the configuration file, or to search the `Switch Theme` *action*:
 
-<p align="center">
+<div align="center">
 	<img width="80%" src="gifs/switch-theme.gif"/>
-</p>
+</div>
 
 ## Conclusion
 
@@ -386,9 +386,9 @@ Here, I'm going to list some alternatives of Finder, you can try them yourself!
 
    Just find out that the [TotalFinder](https://totalfinder.binaryage.com/) is back! See the [discussion thread](https://discuss.binaryage.com/t/update-discussion-totalfinder-1-14-2-for-apple-silicon-and-intel/8364) to see how to download it!
    >But a big *caveat* is that: It still requires you to disable [SIP](https://en.wikipedia.org/wiki/System_Integrity_Protection), see [this](https://totalfinder.binaryage.com/apple-silicon). I genuinely **don't care**, but now things are different: in arm mac, disable [SIP](https://en.wikipedia.org/wiki/System_Integrity_Protection) will cause some problem, see [here](https://totalfinder.binaryage.com/apple-silicon#mark-important-disabling-sip-in-any-capacity-even-partially-will-also).
-   > <p align="center">
+   > <div align="center">
    >    <img src="figures/SIP.png"/>
-   > </p>
+   > </div>
 
 2. [QSpaces](https://qspace.awehunt.com/en-us/index.html)
 

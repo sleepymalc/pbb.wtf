@@ -74,9 +74,9 @@ then we use imitation learning to learn how to choose the **branching target** a
 Our GNN model produces a set of actions with the probability corresponding to each possible action (in our case, which variable to branch). We then
 use **Cross-Entropy Loss** to compare our prediction to the result produced by $\texttt{SCIP}$ and complete one iteration.
 
-<p align="center">
+<div align="center">
 	<img src="./figures/pipeline.png"/>
-</p>
+</div>
 
 #### Graph Convolutional Neural Network (GCNN)
 
@@ -95,18 +95,18 @@ strong branching strategy and use it to do branching whenever needed.
 
 We look at the walltime needed for the model trained on TSP10/TSP15 and tested on TSP25 for 100 instances (ordered by the walltime of $\texttt{SCIP}$).
 
-<p align="center">
+<div align="center">
 	<img src="./figures/result/tsp10/normal.png" width="50%"/>
 	<img src="./figures/result/tsp15/normal.png" width="50%"/>
-</p>
+</div>
 
 If we zoom-in to the first 80 and last 20 instances, we have the following.
-<p align="center">
+<div align="center">
 	<img src="./figures/result/tsp10/zoom-first80.png" width="50%"/>
 	<img src="./figures/result/tsp10/zoom-last20.png" width="50%"/>
 	<img src="./figures/result/tsp15/zoom-first80.png" width="50%"/>
 	<img src="./figures/result/tsp15/zoom-last20.png" width="50%"/>
-</p>
+</div>
 
 ### Discussion
 

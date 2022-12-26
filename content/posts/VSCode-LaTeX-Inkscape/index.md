@@ -15,9 +15,9 @@ If you still don't know what to expect, please check out my [Notes](./Notes) tak
 
 [^1]: This set up is universal for VS Code user indeed. The only part that'll be macOS-specific is the [inkscape-shortcut-manager](#inkscape-shortcut-manager) functionality. One can certainly achieve a similar result as in my [Notes](./Notes), but with this the drawing speed will be significantly faster.
 
-<p align="center">
+<div align="center">
 	<img src="./figures/note.png"/>
-</p>
+</div>
 
 ## Disclaimer
 
@@ -70,57 +70,57 @@ After doing this, you're all set. But a big question is, what exactly is a snipp
 
 A snippet is a short reusable piece of text that can be triggered by some other text. For example, when I type `dm`, the word `dm` will be expanded to a math environment:
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/dm.gif"/>
-</p>
+</div>
 
 If you are a math guy, you may need to type some inline math like `\(\)`, which is kind of painful. But with snippet, you can have
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/fm.gif"/>
-</p>
+</div>
 
 See? You just type `fm`, and then your snippet not only automatically type `\(\)` for you, but it also sends your cursor between `\(\)`! With this, you can type something **really** fast:
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/fast.gif"/>
-</p>
+</div>
 
 Note that in the above demo, I use a very common snippet, `qs` for `^{2}`.
 
 As you can imagine, this can be quite complex. For example, you can even have something like this:
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/table.gif"/>
-</p>
+</div>
 
 or this:
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/pmatrix.gif"/>
-</p>
+</div>
 
 For the first snippet, I type `table2 5`, and then it generates a table with 2 rows and 5 columns. For the second one, I type `pmat` for matrix, and then type `2 5` to indicate that I want a 2 by 5 matrix, then boom! My snippets do that for me in an instant!
 
 Let's try to set up this step by step. And maybe you can create your snippets also! Here is some useful snippets for you.
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/useful.gif"/>
-</p>
+</div>
 
 ### Sympy and Mathematica
 
 Unlike Gilles Castel's approach, there is an available extension out there for you to simplify your math calculation already! Please go to checkout [Latex SYMPY Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). It's works like follows:
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/integral.gif"/>
-</p>
+</div>
 
 Magic right? Let's set it up! First, please look at the installation document provided by [Latex Sympy Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). After your installation is done, you can then set up the keybinding for calculating the math expression. I use `shift`+`e`, where `e` stands for evaluating, to calculate in the way that it will append an equal sign and the answer right after your formula, just like above. And if you don't want to show the intermediate steps of your calculation, you can use `shift`+`r`, where `r` stands for replacing, to directly replace the whole formula and give me the answer only. See the demo below:
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/integral2.gif"/>
-</p>
+</div>
 
 > This plugin is indeed more powerful than just this, see the documentation for detail.
 
@@ -139,9 +139,9 @@ Although my typing speed is quite high, I have typos all the time. So this is a 
 
 Here is a quick demo for how it works when typing:
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/spell.gif"/>
-</p>
+</div>
 
 Additionally, if you also want to correct your grammar error, I use the shortcut `cmd`+`k` to trigger a quick-fix for a general error.
 
@@ -207,9 +207,9 @@ Now, the first part is over. Let's go to the next truly beautiful, elegant, and 
 
 ## Drawing Like a Pro - With Inkscape
 
-<p align="center">
+<div align="center">
 	<img src="./figures/inkscape_example.png"/>
-</p>
+</div>
 
 For more examples, check out the original blog. Or for more figures I draw, you can check out [Note](./Notes).
 
@@ -468,9 +468,9 @@ Same as above, we also use `ctrl`+`f` to trigger `inkscape-figures create` comma
 
 </details>
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/demo-create-inkscape.gif"/>
-</p>
+</div>
 
 Let me break it down for you. Firstly, I change into `INSERT` mode in VS Code Vim and type my new figure's name `figure-test`. And then, I press `ctrl`+`f` to trigger the keybinding, which will automatically create an Inkscape figure named `figure-test` for me and open it.
 
@@ -531,9 +531,9 @@ Again, we also use `ctrl`+`f` to trigger `inkscape-figures edit` command, but th
 
 In the following demo, I create another figure named `figure-test2`, then modify it a little, and compile it again.
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/demo-edit-inkscape.gif"/>
-</p>
+</div>
 
 ### Inkscape Shortcut Manager
 
@@ -559,9 +559,9 @@ Converting the `.jsonnet` file into the json file for [Karabiner Elements](https
 
 Then enable in [Karabiner Elements](https://karabiner-elements.pqrs.org/) UI the complex modifications.
 
-<p align="center">
+<div align="center">
 	<img src="./figures/Karabiner.png"/>
-</p>
+</div>
 
 #### Hammerspoon
 
@@ -571,9 +571,9 @@ Firstly, open the [Hammerspoon](https://www.hammerspoon.org/) console and run `h
 
 As reference for the key chords I add the original picture from [the original blog](https://castel.dev/post/lecture-notes-2/) but with the key chords included in the picture.
 
-<p align="center">
+<div align="center">
 	<img src="./figures/inkscape_shortcut.png"/>
-</p>
+</div>
 
 #### Missing Key Chords
 
@@ -629,9 +629,9 @@ Notice that you'll need to build it first if you want to use it offline! Please 
 
 This is how the workflow looks like.
 
-<p align="center">
+<div align="center">
 	<img src="./gifs/quiver.gif"/>
-</p>
+</div>
 
 To use the package `tikz-cd`, you need to include the following into your header:
 
