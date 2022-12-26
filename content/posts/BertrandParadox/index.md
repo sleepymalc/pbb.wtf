@@ -57,7 +57,7 @@ But now, if we consider the case that there are infinitely many possible outcome
 
 Let's consider the following experiment: There is a black box (you can't see what's inside) containing some dice with various sides, e.g., a usual $6$-sided die, a $15$-sided, etc. I'll randomly pick one and roll it (you still can't see this process). Now, what's the probability of the result being $8$?
 
-"*There is just not enough information!*" you might say. But after second thought, a clever student will yell at me, "*The probability is $0$ since there are infinitely many outcomes, and we can't distinguish them!*" While this is true, I think this is an excellent example to make us aware that it gets tricker when infinity involves: sometimes, the answer may not be apparent, **AT** ALL***.
+"*There is just not enough information!*" you might say. But after second thought, a clever student will yell at me, "*The probability is $0$ since there are infinitely many outcomes, and we can't distinguish them!*" While this is true, I think this is an excellent example to make us aware that it gets tricker when infinity involves: sometimes, the answer may not be apparent.
 
 > As a spoiler, the main reason that we're able to find out the answer of the above cases, is because of the *principle of indifference* is well-defined.
 
@@ -165,9 +165,9 @@ We first note that there are uncountable possible different chords, so we may la
 
 ### Critique on Bayesian Probability
 
-[Edwin Thompson Jaynes](https://en.wikipedia.org/wiki/Edwin_Thompson_Jaynes)[^5] is very opinionated about the **right way** to do statistics or to interpret probability (in a Bayesian way), so he come up with the idea of the **maximum ignorance** principle in order to tackle this paradox. Maximum ignorance says that we can't assume anything if the problem is not specified, and he argued that we could use such a principle to do probability without any ambiguity.
+[Edwin Thompson Jaynes](https://en.wikipedia.org/wiki/Edwin_Thompson_Jaynes)[^5] is very opinionated about the **right way** to do statistics or to interpret probability (in a Bayesian way), so he came up with the idea of the **maximum ignorance** principle to tackle this paradox. Maximum ignorance says that we can't assume anything if the problem is not specified, and he argued that we could use such a principle to do probability without any ambiguity.
 
-So in this case, the answer should be the same concerning translation (since we should be able to move our circle in the space) and scale (we can scale the circle in the space) invariant. Indeed, in one of his works, he concluded that the [radial points method](#third-attempt-random-radial-points) is the correct one to model this since it equipped with *translational* and also *scale* invariant.[^6]
+So, in this case, the answer should be the same concerning translation (since we should be able to move our circle in space) and scale (we can scale the circle in space) invariant. Indeed, in one of his works, he concluded that the [radial points method](#third-attempt-random-radial-points) is the correct one to model this since it equipped with *translational* and also *scale* invariant.[^6]
 
 [^5]: Who wrote the book [Probability Theory-The Logic of Science](https://bayes.wustl.edu/etj/prob/book.pdf).
 [^6]: He argued that the radius points method has translational and scale invariant by a geometric argument, which is fine.
@@ -180,7 +180,7 @@ But the truth is the idea of maximum ignorance, which induces *scale**and*transl
 
 From the discussion, how do we know that we're safe when dealing with things like "*choosing ___ randomly*"? The answer is if there is an apparent *symmetry* in that space, and we want our distribution to be *invariant* to that symmetry.
 
-For example, if we say *choose a real number in $[0,1]$ randomly*, there should be no ambiguity. This is because, in $0,1$, there is one clear symmetry: the translation.
+For example, if we say *choose a real number in $[0,1]$ randomly*, there should be no ambiguity since, in $[0,1]$, there is one clear symmetry: the translation.
 
 <p align="center">
 	<img src="figures/trans_inv.png"/>

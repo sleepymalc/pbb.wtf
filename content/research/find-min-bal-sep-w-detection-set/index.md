@@ -6,11 +6,9 @@ tags:
 date: May 2022 - September 2022
 path: "research/find-min-bal-sep-w-detection-set"
 excerpt: Parametrized general network failure detection set analysis
-selected: true
+selected: false
 cover: "./preview.png"
 links:
-  - name: "GitHub"
-    url: "https://github.com/sleepymalc"
 ---
 
 ## Introduction
