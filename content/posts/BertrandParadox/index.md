@@ -65,9 +65,9 @@ Let's consider the following experiment: There is a black box (you can't see wha
 
 While infinity is a (potential) issue, there's something more severe and fatal. Consider the following experiment: Given a circle and an equilateral triangle inscribed in it, what is the probability that a random chord is longer than a side of the triangle?
 
-<p align="center">
+<div align="center">
 	<img src="figures/0.png"/>
-</p>
+</div>
 
 While the problem may seem innocent at first look, there's an interplay between infinity and different viewpoints of probability. Nevertheless, let's try to solve this.
 
@@ -77,10 +77,10 @@ Let's try to find a random chord in a circle first. A natural way to do this is 
 
 Observe that if the other chord endpoint lies on the arc between the endpoints of the triangle side opposite the first point, the chord is longer than a side of the triangle.
 
-<p align="center">
+<div align="center">
  	<img src="figures/1.png" />
 	 <figcaption>If the second endpoint lies on the purple arc, it's shorter; otherwise (cyan), it's longer.</figcaption>
-</p>
+</div>
 
 The length of the arc is one-third of the circumference of the circle. Therefore the probability that a random chord is longer than a side of the inscribed triangle is
 
@@ -94,10 +94,10 @@ But after a second thought, one can find out that there are multiple ways of cho
 
 Hence, **choosing a random point in the circle** corresponds to determining a random chord. Again, without loss of generality, we may assume that one side of the inscribed triangle is parallel with the chosen chord. We then see that as long as the chosen midpoint is *outside the <u>inscribed circle</u> of the triangle*, the corresponding chord is shorter; otherwise, it's longer.
 
-<p align="center">
+<div align="center">
 	<img src="figures/2.png"/>
 	<figcaption>Again, purple corresponds to the shorter case, and cyan corresponds to the longer case.</figcaption>
-</p>
+</div>
 
 In this viewpoint, we see that the probability that a random chord is longer than a side of the inscribed triangle is equal to the ratio between the area of the inscribed circle and the area of the original circle, which is
 
@@ -109,10 +109,10 @@ $$
 
 This is similar to the [random midpoints method](#second-attempt-random-midpoints), but there is a subtle difference. Here, we first **choose a random radius**, and again, without loss of generality, we may assume that one side of the triangle is perpendicular to that chosen radius. Then, we **choose a random point on that radius (a radial point)** and make it the midpoint of the chord. The chord is unique, as we mentioned in the [random midpoints method](#second-attempt-random-midpoints), and for the same reason, if the chosen point is on the inner half of the radius, then the corresponding chord is longer; otherwise, it's shorter.
 
-<p align="center">
+<div align="center">
 	<img src="figures/3.png"/>
 	<figcaption>Purple corresponds to the shorter case, and cyan corresponds to the longer case.</figcaption>
-</p>
+</div>
 
 But we see that the calculation is different. The probability that a random chord is longer than a side of the inscribed triangle is equal to simply
 
@@ -182,17 +182,17 @@ From the discussion, how do we know that we're safe when dealing with things lik
 
 For example, if we say *choose a real number in $[0,1]$ randomly*, there should be no ambiguity since, in $[0,1]$, there is one clear symmetry: the translation.
 
-<p align="center">
+<div align="center">
 	<img src="figures/trans_inv.png"/>
 	<figcaption>For any little interval, moving it will not change its topological structure.</figcaption>
-</p>
+</div>
 
 Hence, uniform distribution w.r.t. this randomness needs to be translational invariance as well.
 
-<p align="center">
+<div align="center">
 	<img src="figures/dist_trans_inv.png"/>
 	<figcaption>The green distribution is uniform, while the orange one is not.</figcaption>
-</p>
+</div>
 
 In a formal algebraic language, the invariant w.r.t. the symmetry corresponds to whether the <u>group of symmetry acts ***transitively*** on the space</u>.[^7] In the above uniform example, we can choose any $\Delta$ such that it can take me from $a$ to $b$ by setting $a+\Delta\coloneqq b$, where $a,b\in[0,1]$. Hence, as long as the space we're working on has a clear symmetry while this symmetry acts transitively (with the technical *compactness* condition), we're safe.
 
@@ -200,17 +200,17 @@ In a formal algebraic language, the invariant w.r.t. the symmetry corresponds to
 
 As in our example, we're trying to find a group of symmetry that acts as *transitively* on the space of **chords** as possible. In the first two methods, we have rotational symmetry, but Jaynes argued that they're not the answer since only rotational symmetry is not enough.
 
-<p align="center">
+<div align="center">
 	<img src="figures/rot.png"/>
 	<figcaption>Only rotational symmetry does not act transitively on chords since a shorter chord can't be transformed into a longer one and vice versa.</figcaption>
-</p>
+</div>
 
 While for the last method, we have translational symmetry in addition, as shown by Jaynes. And we immediately see that with translational symmetry, we can turn any chord into another by translation and rotation.
 
-<p align="center">
+<div align="center">
 	<img src="figures/rot-trans.png"/>
 	<figcaption>We transform the orange chord into the blue one by rotating the circle and then translating it within the space.</figcaption>
-</p>
+</div>
 
 ## Final Words
 
