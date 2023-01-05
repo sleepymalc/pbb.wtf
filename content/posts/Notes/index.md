@@ -111,7 +111,9 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 
 > A rigorous course giving you the needed tools for analyzing function spaces. It'll give you a solid understanding on infinite dimensional vector spaces and how to deal with operators over these spaces.
 
-### Winter 2023
+### Winter 2023[^3]
+
+[^3]: Okay, I'm an IA for Introduction to Cryptography (EECS475) this semester, and the scribe notes will also be available! However, it'll only happen after the semester ends...
 
 #### Mathematical Logic (MATH681 @Umich)
 
