@@ -113,18 +113,6 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 
 ### Winter 2023
 
-#### Riemannian Geometry (MATH635 @Umich)
-
-<div>
-	<img src="./figures/MATH635.png" align="right" width="18%"/>
-</div>
-
-This is the advanced graduate-level differential geometry course focused on Riemannian geometry taught by [Lydia Bieri](http://www-personal.umich.edu/~lbieri/). Topics include local and global aspects of differential geometry and the relation with the underlying topology.
-
-[\[pdf\]](./Notes/DiffGeo.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH635-Riemannian-Geometry)
-
-> TBD
-
 #### Mathematical Logic (MATH681 @Umich)
 
 <div>
@@ -135,4 +123,16 @@ This is the graduate-level mathematical logic course taught by [Matthew Harrison
 
 [\[pdf\]](./Notes/Logic.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH681-Mathematical-Logic)
 
-> "Learn some fundamental stuffs and show-off to your friends" is basically my mind-set when taking this course 🤪
+> "Learn some fundamental stuffs and show-off to your friends" is basically my mind-set when taking this course 🤪 But seriously, learning something fundamental at this level is a new experience and challenge for me, but hey, it's the last semester, so might just relax and see how it goes!
+
+#### Riemannian Geometry (MATH635 @Umich)
+
+<div>
+	<img src="./figures/MATH635.png" align="right" width="18%"/>
+</div>
+
+This is the advanced graduate-level differential geometry course focused on Riemannian geometry taught by [Lydia Bieri](http://www-personal.umich.edu/~lbieri/). Topics include local and global aspects of differential geometry and the relation with the underlying topology.
+
+[\[pdf\]](./Notes/DiffGeo.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH635-Riemannian-Geometry)
+
+> I always want to have a solid understanding on differential geometry since the recent advances in machine learning theory relying on related concepts quite heavily in some particular branches such as optimization and the well-known [manifold hypothesis](https://en.wikipedia.org/wiki/Manifold_hypothesis), or even more practical, manifold learning.
