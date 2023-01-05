@@ -110,3 +110,29 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 [\[pdf\]](./Notes/ReAnalysisII.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
 
 > A rigorous course giving you the needed tools for analyzing function spaces. It'll give you a solid understanding on infinite dimensional vector spaces and how to deal with operators over these spaces.
+
+### Winter 2023
+
+#### Riemannian Geometry (MATH635 @Umich)
+
+<div>
+	<img src="./figures/MATH635.png" align="right" width="18%"/>
+</div>
+
+This is the advanced graduate-level differential geometry course focused on Riemannian geometry taught by [Lydia Bieri](http://www-personal.umich.edu/~lbieri/). Topics include local and global aspects of differential geometry and the relation with the underlying topology.
+
+[\[pdf\]](./Notes/DiffGeo.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH635-Riemannian-Geometry)
+
+> TBD
+
+#### Mathematical Logic (MATH681 @Umich)
+
+<div>
+	<img src="./figures/MATH681.png" align="right" width="18%"/>
+</div>
+
+This is the graduate-level mathematical logic course taught by [Matthew Harrison-Trainor](http://www-personal.umich.edu/~matthhar/), aiming to obtain insights into all other branches of mathematics, such as algebraic geometry, analysis, etc. Specifically, we will cover model theory beyond the basic foundational ideas of logic.
+
+[\[pdf\]](./Notes/Logic.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH681-Mathematical-Logic)
+
+> "Learn some fundamental stuffs and show-off to your friends" is basically my mind-set when taking this course 🤪
