@@ -53,6 +53,10 @@ module.exports = {
       url: 'https://twitter.com/PingbangHu',
       icon: ['fab', 'twitter'],
     },
+    {
+      url: 'https://www.street.pbb.wtf',
+      icon: ['fa', 'camera-retro'],
+    },
   ],
   wakatime: {
     username: 'sleepymalc',
