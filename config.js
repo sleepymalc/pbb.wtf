@@ -54,7 +54,7 @@ module.exports = {
       icon: ['fab', 'twitter'],
     },
     {
-      url: 'https://www.street.pbb.wtf',
+      url: 'https://street.pbb.wtf/',
       icon: ['fa', 'camera-retro'],
     },
   ],
