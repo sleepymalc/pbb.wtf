@@ -11,8 +11,7 @@ module.exports = {
   ],
   avatar: 'avatar.png',
   professions: [
-    'Mathematician',
-    'Researcher',
+    'Mathematician'
   ],
   birthday: 'Nov. 10, 2000',
   location: 'United States',
