@@ -13,7 +13,7 @@ I use $\LaTeX$ heavily for both academic work and professional work, and I think
 
 If you still don't know what to expect, please check out my [Notes](./Notes) taken in this setup.
 
-[^1]: This setup is universal for VS Code users indeed. The only part that'll be macOS-specific is the Inkscape part ([Inkscape-figures](#inkscape-figure-manager) and [Inkscape-shortcut-manager](#inkscape-shortcut-manager)). While the first part can be replaced by [super-figure](https://github.com/Joao-Peterson/super-figure) (while I still prefer my setup, you can still try it out even if you're in macOS), and you can certainly achieve a similar result in Windows as in my [Notes](./Notes), the drawing speed will be slower without the shortcut manager. Just keep that in mind.
+[^1]: This setup is universal for VS Code users indeed. The only part that'll be macOS-specific is the Inkscape part ([Inkscape-figure-manager](#inkscape-figure-manager) and [Inkscape-shortcut-manager](#inkscape-shortcut-manager)). While the first part can be replaced by [super-figure](https://github.com/Joao-Peterson/super-figure) (while I still prefer my setup, you can still try it out even if you're in macOS), and you can certainly achieve a similar result in Windows as in my [Notes](./Notes), the drawing speed will be slower without the shortcut manager. Just keep that in mind.
 
 <div align="center">
 	<img src="./figures/note.png"/>
@@ -38,10 +38,8 @@ And also, create a snippet file for $\LaTeX$ in the following steps:
 First thing first, please set up your [VS Code](https://code.visualstudio.com/) with $\LaTeX$ properly with [$\LaTeX$ Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop), there are lots of tutorials online, just check them out and set them up properly. Basically, it can be done in the following steps:
 
 1. Download [MacTex](https://www.tug.org/mactex/). This can be replaced by something more lightweight, but in my opinion, this doesn't really help much in terms of speed or wasting your disk. But if you want something like this, check out [TeXLive](https://www.tug.org/texlive/).
-
 2. Download [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
-
-4. Copy-pasting the following configuration file into your `settings.json`
+3. Copy-pasting the following configuration file into your `settings.json`
 
 	```JSON
 	"latex-workshop.latex.autoBuild.run": "onSave"
@@ -59,9 +57,9 @@ This is probably the only thing I don't like that much in Gilles Castel's setup.
 
 If you look around in the VS Code extension marketplace to find UltiSnips' equivalence, you probably will find [Vsnips](https://marketplace.visualstudio.com/items?itemName=corvofeng.Vsnips). But I'm not sure why this is the case, I can't figure out how to set it up properly. Hence, I find another alternative, which is [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Please first download [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips) and just follow the instruction, copy [`latex.hsnips`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) into `$HOME/Library/Application Support/Code/User/hsnips/`, and you're good to go!
 
-To modify this file, you can either go to this file in your finder or use VS Code built-in command function. For command function,
+To modify this file, you can either go to this file in your finder or use VS Code built-in command function. For commands function,
 
-1. Press `shift+cmd+space` to type in some command to VS Code.
+1. Press `shift+cmd+space` to type in some commands to VS Code.
 2. Type `>HyperSnips: Open Snippet File`
 3. Choose `latex.hsnips`
 
@@ -75,13 +73,13 @@ A snippet is a short reusable piece of text that can be triggered by some other 
 	<img src="./gifs/dm.gif"/>
 </div>
 
-If you are a math guy, you may need to type some inline math like `\(\)`, which is kind of painful. But with snippet, you can have
+If you are a math guy, you may need to type some inline math like `\(\)`, which is kind of painful. But with snippets, you can have
 
 <div align="center">
 	<img src="./gifs/fm.gif"/>
 </div>
 
-See? You just type `fm` (not the best choice here, but since `im` is a common prefix, so can't really use that as our snippet 🥲), and then your snippet not only automatically types `\(\)` for you but it also sends your cursor between `\(\)`! With this, you can type something **really** fast:
+See? You just type `fm` (not the best choice here, but since `im` is a common prefix, so can't really use that as our snippet 🥲), and then your snippet not only automatically types `\(\)` for you, and it also sends your cursor between `\(\)`! With this, you can type something **really** fast:
 
 <div align="center">
 	<img src="./gifs/fast.gif"/>
@@ -103,11 +101,12 @@ or this:
 
 For the first snippet, I type `table2 5`, and then it generates a table with 2 rows and 5 columns. For the second one, I type `pmat` for matrix, and then type `2 5` to indicate that I want a 2 by 5 matrix, then boom! My snippets do that for me in an instant!
 
-My snippet file includes common used snippets as suggested in the original posts, you can look into it to better understand how does it work. And maybe you can create your snippets also! Here is some useful snippets for you.
+My snippet file includes commonly used snippets as suggested in the original posts, you can look into it to better understand how it works. And maybe you can create your snippets also! Here are some useful snippets for you.
 
 <div align="center">
 	<img src="./gifs/useful.gif"/>
 </div>
+
 #### Math Environment
 
 In the recent update of [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips), the *context* functionality is implemented, which is very useful, and you should understand how it works. If you look at the top of the snippet file, you will see
