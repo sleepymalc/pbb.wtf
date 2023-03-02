@@ -9,11 +9,11 @@ cover: "./preview.png"
 
 ## VSCode-LaTeX-Inkscape
 
-I use $\LaTeX$ heavily in the past two years for both academic work and professional work, and I think I'm quite proficient in terms of typing things out in $\LaTeX$. But when I see this blog post from **Gilles Castel**-[How I'm able to take notes in mathematics lectures using $\LaTeX$ and Vim](https://castel.dev/post/lecture-notes-1/) and also [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/), I decided to adapt the whole setup from Linux-Vim to macOS-VS Code.[^1]
+I use $\LaTeX$ heavily for both academic work and professional work, and I think I'm quite proficient in terms of typing things out in $\LaTeX$. But when I see the mind-blowing blog posts from **Gilles Castel (RIP)**-[How I'm able to take notes in mathematics lectures using $\LaTeX$ and Vim](https://castel.dev/post/lecture-notes-1/) and also [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/), I realize that I'm still far from *fast*, so I decided to adapt the whole setup from Linux-Vim to macOS-VS Code.[^1]
 
 If you still don't know what to expect, please check out my [Notes](./Notes) taken in this setup.
 
-[^1]: This set up is universal for VS Code user indeed. The only part that'll be macOS-specific is the [inkscape-shortcut-manager](#inkscape-shortcut-manager) functionality. One can certainly achieve a similar result as in my [Notes](./Notes), but with this the drawing speed will be significantly faster.
+[^1]: This setup is universal for VS Code users indeed. The only part that'll be macOS-specific is the [inkscape-figures](#inkscape-figure-manager) and [inkscape-shortcut-manager](#inkscape-shortcut-manager) functionality. While the first part can be replaced by [super-figure](https://github.com/Joao-Peterson/super-figure) (while I still prefer my setup, you can still try it out even if you're in macOS), and you can certainly achieve a similar result in Windows as in my [Notes](./Notes), the drawing speed will be slower without the shortcut manager. Just keep that in mind.
 
 <div align="center">
 	<img src="./figures/note.png"/>
@@ -23,7 +23,7 @@ If you still don't know what to expect, please check out my [Notes](./Notes) tak
 
 Please look through the two blog posts above by Gilles Castel! They are incredible and worth spending your time to understand how all things work, and what's the motivation behind all these. I'm only mimicking his workflow, with a little patience to set up the whole thing in my environment. Show respect to the original author!
 
-Before we start anything serious, just copy the [`keybindings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [`settings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json) into your own `keybindings.json` and `settings.json`. Don't worry, I'll explain what do they do later.
+Before we start anything serious, just copy the [`keybindings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/keybindings.json) and [`settings.json`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/settings.json) into your own `keybindings.json` and `settings.json`. Don't worry, I'll explain what they do later.
 
 And also, create a snippet file for $\LaTeX$ in the following steps:
 
@@ -38,8 +38,9 @@ And also, create a snippet file for $\LaTeX$ in the following steps:
 First thing first, please set up your [VS Code](https://code.visualstudio.com/) with $\LaTeX$ properly with [$\LaTeX$ Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop), there are lots of tutorials online, just check them out and set them up properly. Basically, it can be done in the following steps:
 
 1. Download [MacTex](https://www.tug.org/mactex/). This can be replaced by something more lightweight, but in my opinion, this doesn't really help much in terms of speed or wasting your disk. But if you want something like this, check out [TeXLive](https://www.tug.org/texlive/).
-2. Download [VS Code](https://code.visualstudio.com/).
-3. Download [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+
+2. Download [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+
 4. Copy-pasting the following configuration file into your `settings.json`
 
 	```JSON
@@ -52,11 +53,11 @@ Now, we go through things one by one following Gilles Castel's blog post.
 
 ### Tex Conceal
 
-This is probably the only thing I don't like that much in Gilles Castel's setup. I'm quite comfortable looking at $\LaTeX$ source code for formula, and I don't think they look that nice. But if you want to set them up in VS Code, there is an extension [here](https://github.com/Pancaek/vsc-conceal), I have no experience with this particular setup, feel free to try them out though.
+This is probably the only thing I don't like that much in Gilles Castel's setup. I'm quite comfortable looking at $\LaTeX$ source code for formulas, and I don't think concealed source code looks that nice. But if you want to set them up in VS Code, there is an extension [here](https://github.com/Pancaek/vsc-conceal). I have no experience with this particular setup, though, so feel free to try them out.
 
 ### HyperSnips
 
-If you look around in the VS Code extension marketplace to find UltiSnips' equivalence, you probably will find [Vsnips](https://marketplace.visualstudio.com/items?itemName=corvofeng.Vsnips). But I'm not sure why this is the case, I can't figure out how to set it up properly. Hence, I find another alternative, which is [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Please first download [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Now, just follow the instruction, copy [`latex.hsnips`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) into `$HOME/Library/Application Support/Code/User/hsnips/`, and you're good to go!
+If you look around in the VS Code extension marketplace to find UltiSnips' equivalence, you probably will find [Vsnips](https://marketplace.visualstudio.com/items?itemName=corvofeng.Vsnips). But I'm not sure why this is the case, I can't figure out how to set it up properly. Hence, I find another alternative, which is [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips). Please first download [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips) and just follow the instruction, copy [`latex.hsnips`](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/VSCode-setting/Snippets/latex.hsnips) into `$HOME/Library/Application Support/Code/User/hsnips/`, and you're good to go!
 
 To modify this file, you can either go to this file in your finder or use VS Code built-in command function. For command function,
 
@@ -68,7 +69,7 @@ After doing this, you're all set. But a big question is, what exactly is a snipp
 
 #### Snippets
 
-A snippet is a short reusable piece of text that can be triggered by some other text. For example, when I type `dm`, the word `dm` will be expanded to a math environment:
+A snippet is a short reusable piece of text that can be triggered by some other text. For example, when I type `dm` (stands for display math), the word `dm` will be expanded to a display math environment:
 
 <div align="center">
 	<img src="./gifs/dm.gif"/>
@@ -80,7 +81,7 @@ If you are a math guy, you may need to type some inline math like `\(\)`, which 
 	<img src="./gifs/fm.gif"/>
 </div>
 
-See? You just type `fm`, and then your snippet not only automatically type `\(\)` for you, but it also sends your cursor between `\(\)`! With this, you can type something **really** fast:
+See? You just type `fm` (not the best choice here, but since `im` is a common prefix, so can't really use that as our snippet 🥲), and then your snippet not only automatically types `\(\)` for you but it also sends your cursor between `\(\)`! With this, you can type something **really** fast:
 
 <div align="center">
 	<img src="./gifs/fast.gif"/>
@@ -102,21 +103,83 @@ or this:
 
 For the first snippet, I type `table2 5`, and then it generates a table with 2 rows and 5 columns. For the second one, I type `pmat` for matrix, and then type `2 5` to indicate that I want a 2 by 5 matrix, then boom! My snippets do that for me in an instant!
 
-Let's try to set up this step by step. And maybe you can create your snippets also! Here is some useful snippets for you.
+My snippet file includes common used snippets as suggested in the original posts, you can look into it to better understand how does it work. And maybe you can create your snippets also! Here is some useful snippets for you.
 
 <div align="center">
 	<img src="./gifs/useful.gif"/>
 </div>
+#### Math Environment
+
+In the recent update of [HyperSnips](https://marketplace.visualstudio.com/items?itemName=draivin.hsnips), the *context* functionality is implemented, which is very useful, and you should understand how it works. If you look at the top of the snippet file, you will see
+
+```javascript
+global
+function math(context) {
+    return  context.scopes.findLastIndex(s => s.startsWith("meta.math")) > context.scopes.findLastIndex(s => s.startsWith("comment") || s.startsWith("meta.text.normal.tex"));
+}
+endglobal
+```
+
+And for some snippets, you will see `context math(context)` in front of which, e.g., the *greater or equal* snippet:
+
+```javascript
+context math(context)
+snippet `>=|(?<!\\)geq` "greater or equal to" A
+\geq $0
+endsnippet
+```
+
+while some do not, e.g., the *display math* snippet:
+
+```javascript
+snippet dm "display Math" bA
+\[
+	${1}
+\]$0
+endsnippet
+```
+
+Basically, the `context` specifies when the snippet will be triggered, and I define the function `math(context)` to determine when we are in the *math* environment. This is quite important since the official `math(context)` function for detecting math scope for $\LaTeX$ is given by
+
+```javascript
+global
+function math(context) {
+    return context.scopes.some(s => s.startsWith("meta.math")) && !context.scopes.some(s => s.startsWith("comment") || s.startsWith("meta.text.normal.tex"));
+}
+endglobal
+```
+
+However, this leads to some problems. For example, sometimes, in the equation, I want to write
+
+```latex
+\[
+    x_n = x \text{ for some \(n\) large enough},
+\]
+```
+
+Such a case is fine since the math I want to write in the text scope is simple, just `\(n\)`. However, in the current (and perhaps most popular) scope function, it happens that `\(\text{ \( not in the math mode \) }\)`.
+
+To overcome this, I write the following more generic version:
+
+```javascript
+global
+function math(context) {
+    return  context.scopes.findLastIndex(s => s.startsWith("meta.math")) > context.scopes.findLastIndex(s => s.startsWith("comment") || s.startsWith("meta.text.normal.tex"));
+}
+endglobal
+```
+
+So, since the nested environment is ordered in the scope, this will always return the correct mode. Even better, there will be no undefined behavior since if the `.findLastIndex` can't find either, it will return `-1` instead of something undefined, so everything is handled.
 
 ### Sympy and Mathematica
 
-Unlike Gilles Castel's approach, there is an available extension out there for you to simplify your math calculation already! Please go to checkout [Latex SYMPY Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). It's works like follows:
+Unlike Gilles Castel's approach, there is an available extension out there for you to simplify your math calculation already! Please go check out [Latex SYMPY Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). It works like follows:
 
 <div align="center">
 	<img src="./gifs/integral.gif"/>
 </div>
 
-Magic right? Let's set it up! First, please look at the installation document provided by [Latex Sympy Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). After your installation is done, you can then set up the keybinding for calculating the math expression. I use `shift`+`e`, where `e` stands for evaluating, to calculate in the way that it will append an equal sign and the answer right after your formula, just like above. And if you don't want to show the intermediate steps of your calculation, you can use `shift`+`r`, where `r` stands for replacing, to directly replace the whole formula and give me the answer only. See the demo below:
+Magic right? Let's set it up! First, please look at the installation document provided by [Latex Sympy Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). After your installation, you can set up the keybinding for calculating the math expression. I use `shift`+`e`, where `e` stands for evaluating, to calculate so that it will append an equal sign and the answer right after your formula, just like above. And if you want to avoid showing the intermediate steps of your calculation, you can use `shift`+`r`, where `r` stands for replacing, to directly replace the whole formula and give me the answer only. See the demo below:
 
 <div align="center">
 	<img src="./gifs/integral2.gif"/>
@@ -274,7 +337,7 @@ Now, let's get into the fun part, i.e., to set up the shortcut for this.
 
 ### Inkscape Figure Manager
 
-This is a figure manager developed by Gilles Castel, and here is the [repo](https://github.com/gillescastel/inkscape-figures). I recommend you to follow the installation instruction there. Here is just some guideline for you.
+This is a figure manager developed by Gilles Castel, and here is the [repo](https://github.com/gillescastel/inkscape-figures). I recommend you follow the installation instruction there. Here is just some guideline for you.
 
 1. Download [choose](https://github.com/chipsenkbeil/choose) (specifically for macOS, [rofi](https://github.com/davatorium/rofi) for Linux instead):
 
@@ -291,6 +354,8 @@ This is a figure manager developed by Gilles Castel, and here is the [repo](http
    > After installing it, type `inkscape-figure` in your terminal to make sure you have corrected install it.
 
 If you're using Linux and Vim, then you are done already. But since you're using macOS and VS Code, please follow me, there is some more thing for you to configure.
+
+> If you're using Windows, then check out [super-figure](https://github.com/Joao-Peterson/super-figure). It implements similar functionalities but in a more chunky way. Even if you're using macOS, you can try it too, although I prefer my setup.
 
 #### Set up Inkscape Figure Manager
 
