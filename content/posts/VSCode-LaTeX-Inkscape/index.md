@@ -13,7 +13,7 @@ I use $\LaTeX$ heavily for both academic work and professional work, and I think
 
 If you still don't know what to expect, please check out my [Notes](./Notes) taken in this setup.
 
-[^1]: This setup is universal for VS Code users indeed. The only part that'll be macOS-specific is the [inkscape-figures](#inkscape-figure-manager) and [inkscape-shortcut-manager](#inkscape-shortcut-manager) functionality. While the first part can be replaced by [super-figure](https://github.com/Joao-Peterson/super-figure) (while I still prefer my setup, you can still try it out even if you're in macOS), and you can certainly achieve a similar result in Windows as in my [Notes](./Notes), the drawing speed will be slower without the shortcut manager. Just keep that in mind.
+[^1]: This setup is universal for VS Code users indeed. The only part that'll be macOS-specific is the Inkscape part ([Inkscape-figures](#inkscape-figure-manager) and [Inkscape-shortcut-manager](#inkscape-shortcut-manager)). While the first part can be replaced by [super-figure](https://github.com/Joao-Peterson/super-figure) (while I still prefer my setup, you can still try it out even if you're in macOS), and you can certainly achieve a similar result in Windows as in my [Notes](./Notes), the drawing speed will be slower without the shortcut manager. Just keep that in mind.
 
 <div align="center">
 	<img src="./figures/note.png"/>
