@@ -8,7 +8,7 @@ module.exports = {
   introduction: [
     'Hi there 👋! I\'m **Pingbang Hu** (**胡平邦**), pronounced as *Hu, Pingˊ-Bongˉ*, a senior student major in **Computer Science** (minor in **Mathematics**) in *University of Michigan (UMich)* 🇺🇸 and **Electrical Computer Engineering** in *Shanghai Jiao Tong University (SJTU)* 🇨🇳 from Taiwan 🇹🇼. My research interest is about *machine learning theory* and also *theoretical computer science*, specialized in *graph theory* in particular.',
     'Despite my research, my interest spreads widely among topics in TCS and math. To name a few "buzzwords" I\'m interested in: *approximation*, *online* and *randomized algorithm* 🧠 *computational complexity*, *high dimensional statistic* and *functional analysis* 📚. Occasionally, I\'ll do [street photography](https://street.pbb.wtf/) 📷 and write [blog posts](./posts) 📝.', ,
-    `***Now***, I'm designing *fast graph algorithm* and studying *differential geometry*, *model theory*, *graphings*, and *algorithmic game theory*`
+    `***Now***, I'm: designing *fast graph algorithms*, studying *differential geometry*, *model theory*, *graphings*, and *algorithmic game theory*.`
   ],
   avatar: 'avatar.png',
   professions: [
