@@ -68,6 +68,12 @@ module.exports = {
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   education: [
     {
+      date: '(incoming) Sept 2023',
+      icon: 'university',
+      title: 'Ph.D. in Information science',
+      location: 'School of Information Science, University of Illinois Urbana-Champaign, U.S.A.',
+    },
+    {
       date: 'Sept 2021 - Present',
       icon: 'university',
       title: 'Bachelor in Computer Science',
