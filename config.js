@@ -71,23 +71,23 @@ module.exports = {
       date: '(incoming) Sept 2023',
       icon: 'university',
       title: 'Ph.D. in Information science',
-      location: 'School of Information Science, University of Illinois Urbana-Champaign, U.S.A.',
+      location: 'School of Information Science, University of Illinois Urbana-Champaign',
     },
     {
       date: 'Sept 2021 - Present',
       icon: 'university',
       title: 'Bachelor in Computer Science',
-      location: 'College of Engineering, University of Michigan, U.S.A.',
+      location: 'College of Engineering, University of Michigan',
     }, {
       date: 'Sept 2021 - Present',
       icon: 'university',
       title: 'Minor in Mathematics',
-      location: 'College of Literature, Science, and the Arts, University of Michigan, U.S.A.',
+      location: 'College of Literature, Science, and the Arts, University of Michigan',
     }, {
       date: 'Sept 2019 - Present',
       icon: 'university',
       title: 'Bachelor in Electrical Computer Engineering',
-      location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University, China',
+      location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
     }],
   interests: [
     {
