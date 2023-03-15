@@ -70,7 +70,7 @@ module.exports = {
     {
       date: '(incoming) Sept 2023',
       icon: 'university',
-      title: 'Ph.D. in Information science',
+      title: 'Ph.D. in Information Science',
       location: 'School of Information Science, University of Illinois Urbana-Champaign',
     },
     {
