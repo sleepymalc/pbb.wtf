@@ -41,7 +41,7 @@ Finally, I decide not to get another math degree. Not because I'm bad at math, b
 
 ### Winter 2023 @Umich
 
-### Mar. 19
+#### Mar. 19
 
 It's been quite a while since the last post, and I think it's good to document what I have been up to recently. I just accepted my UIUC 🌽 Info offer, so I'll spend my next five (hope not longer than this) years there! The field I'm going to work on is going to be GMN theory, and more broadly, just DL theory. Although I think my advisor won't mind me doing some cool TCS stuff along the way 😇 Let's see how it goes.
 
