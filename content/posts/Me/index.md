@@ -43,6 +43,6 @@ Finally, I decide not to get another math degree. Not because I'm bad at math, b
 
 #### Mar. 19
 
-It's been quite a while since the last post, and I think it's good to document what I have been up to recently. I just accepted my UIUC 🌽 Info offer, so I'll spend my next five (hope no longer than that) years there! The field I'm going to work on is going to be GMN theory, and more broadly, just DL theory. Although I think my advisor won't mind me doing some cool TCS stuff along the way 😇 Let's see how it goes.
+It's been quite a while since the last post, and I think it's good to document what I have been up to recently. I just accepted my UIUC 🌽 Info offer, so I'll spend my next five (hope no longer than that) years there! The field I'm going to work on is going to be GNN theory, and more broadly, just DL theory. Although I think my advisor won't mind me doing some cool TCS stuff along the way 😇 Let's see how it goes.
 
 Additionally, this is my last semester at UMich, and after that, I'm going back to Taiwan 🇹🇼 and spending four months there with my family and friends while finishing the last semester of my dual degree at SJTU online. Hope everything works out, I really need a good rest.
