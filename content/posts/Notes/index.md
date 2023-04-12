@@ -113,7 +113,7 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 
 ### Winter 2023
 
-#### Introduction to Cryptography ([EECS572](https://mahdi.ch/eecs475/) @Umich, TA)
+#### Introduction to Cryptography ([EECS475](https://mahdi.ch/eecs475/) @Umich, TA)
 
 <div>
 	<img src="./figures/EECS475.png" align="right" width="18%"/>
