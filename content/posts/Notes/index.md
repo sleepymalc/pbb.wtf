@@ -111,9 +111,19 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 
 > A rigorous course giving you the needed tools for analyzing function spaces. It'll give you a solid understanding on infinite dimensional vector spaces and how to deal with operators over these spaces.
 
-### Winter 2023[^3]
+### Winter 2023
 
-[^3]: Okay, I'm an IA for Introduction to Cryptography (EECS475) this semester, and the scribe notes will also be available! However, it'll only happen after the semester ends...
+#### Introduction to Cryptography ([EECS572](https://mahdi.ch/eecs475/) @Umich, TA)
+
+<div>
+	<img src="./figures/EECS475.png" align="right" width="18%"/>
+</div>
+
+This is the upper-level theory course on formal cryptography and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various historic ciphers, perfect secrecy, symmetric encryption (including pseudorandom generators, stream ciphers, pseudorandom functions and permutations), message authentication, cryptographic hash functions, and public key encryption.[^2]
+
+[\[pdf\]](./Notes/Crypto.pdf)
+
+> An interesting foray to theoretical cryptography. I'm grateful to be a teaching assistant for this course together with Nikhil Shagrithaya as an undergrad.
 
 #### Mathematical Logic (MATH681 @Umich)
 
