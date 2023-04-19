@@ -13,7 +13,7 @@ These are the lecture notes I took, and if you're interested in the $\LaTeX$ cod
 
 All notes are written in modern style $\LaTeX$ with explicit definition/theorem references and hyperlinks. Also, the drawing is done professionally and cleanly.
 
-> Note that due to the class policy, the notes from the class I am/was teaching, I'm not able to provide the source code for them.
+> Due to the privacy policy, notes from classes I am/was teaching, the source code is unavailable.
 
 ## Junior
 
