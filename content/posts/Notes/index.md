@@ -13,6 +13,8 @@ These are the lecture notes I took, and if you're interested in the $\LaTeX$ cod
 
 All notes are written in modern style $\LaTeX$ with explicit definition/theorem references and hyperlinks. Also, the drawing is done professionally and cleanly.
 
+> Note that due to the class policy, the notes from the class I am/was teaching, I'm not able to provide the source code for them.
+
 ## Junior
 
 ### Fall 2021
@@ -79,13 +81,11 @@ This is the graduate-level real analysis course taught by [Jinho Baik](http://ww
 	<img src="./figures/EECS572.png" align="right" width="18%"/>
 </div>
 
-This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various randomized algorithms, Randomized Complexity, Markov Chains, Random Walks, Expander Graphs, Pseudo-random Generators, and Hardness v.s. Randomness.[^2]
+This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various randomized algorithms, Randomized Complexity, Markov Chains, Random Walks, Expander Graphs, Pseudo-random Generators, and Hardness v.s. Randomness.
 
 [\[pdf\]](./Notes/RandComp.pdf)
 
 > Overall a rigorous course covering all background knowledge one might need to do research in the related fields. I'm grateful to be a teaching assistant for this course together with Neophytos Charalambides as an undergrad.
-
-[^2]: Sorry for not being able to provide the source code due to the class policy.
 
 #### Approximation Algorithms and Hardness of Approximation (EECS598-001 @Umich)
 
@@ -119,7 +119,7 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 	<img src="./figures/EECS475.png" align="right" width="18%"/>
 </div>
 
-This is the upper-level theory course on formal cryptography and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various historic ciphers, perfect secrecy, symmetric encryption (including pseudorandom generators, stream ciphers, pseudorandom functions and permutations), message authentication, cryptographic hash functions, and public key encryption.[^2]
+This is the upper-level theory course on formal cryptography and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various historic ciphers, perfect secrecy, symmetric encryption (including pseudorandom generators, stream ciphers, pseudorandom functions and permutations), message authentication, cryptographic hash functions, and public key encryption.
 
 [\[pdf\]](./Notes/Crypto.pdf)
 
