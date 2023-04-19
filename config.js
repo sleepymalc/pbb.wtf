@@ -75,12 +75,12 @@ module.exports = {
       location: 'School of Information Science, University of Illinois Urbana-Champaign',
     },
     {
-      date: 'Sept 2021 - Present',
+      date: 'Sept 2021 - Apr 2022',
       icon: 'university',
       title: 'Bachelor in Computer Science',
       location: 'College of Engineering, University of Michigan',
     }, {
-      date: 'Sept 2021 - Present',
+      date: 'Sept 2021 - Apr 2022',
       icon: 'university',
       title: 'Minor in Mathematics',
       location: 'College of Literature, Science, and the Arts, University of Michigan',
