@@ -6,7 +6,7 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
   introduction: [
-    'Hi there 👋! I\'m **Pingbang Hu 胡平邦** (*Hu, Pingˊ-Bongˉ*) from Taiwan 🇹🇼, an incoming Ph.D. student in **Information Science** at *University of Illinois Urbana-Champaign (UIUC)* 🇺🇸 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/). My research interest is about *machine learning theory* and *theoretical computer science*, specialized in *graph theory*.',
+    'Hi there 👋! I\'m **Pingbang Hu 胡平邦** (*Hu, Pingˊ-Bongˉ*) from Taiwan 🇹🇼, an incoming Ph.D. student in **Information Science** at *University of Illinois Urbana-Champaign (UIUC)* 🇺🇸 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/). My research interest is about *machine learning theory* and *theoretical computer science*, specialized on *graphs*.',
     'I obtained my bachelor degree in **Computer Science** (minor in **Mathematics**) at *University of Michigan (UMich)* 🇺🇸 (B.S.) and **Electrical Computer Engineering** at *Shanghai Jiao Tong University (SJTU)* 🇨🇳 (B.E.).',
     'My interest spreads widely among TCS and math. To name a few: I enjoy *algorithm design*, *computational complexity* 🧠, *high dimensional statistic* 📊, *analysis*, *geometry/topology* and *optimization theory* 📚. Occasionally, I\'ll do [street photography](https://street.pbb.wtf/) 📷 and write [blog posts](./posts) 📝.', ,
     `***Now***, I'm: designing *fast graph algorithms*, studying *differential geometry*, *model theory*, *graphings*, and *algorithmic game theory*.`
