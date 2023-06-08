@@ -10,7 +10,7 @@
 
 ## Abstract
 
-The webpage is built with [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic), which is an under-develop theme. However, it's already flexible enough for simple usage. Also, the development is automatically done by [Vercel](https://vercel.com/).
+The webpage is built with [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic), which is still under-develop. However, it's already flexible enough for simple usage. Also, the development is automatically done by [Vercel](https://vercel.com/).
 
 ## Building
 
