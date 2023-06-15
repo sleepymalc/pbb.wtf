@@ -14,9 +14,9 @@ The website is built with [gatsby-theme-academic](https://www.npmjs.com/package/
 
 ## Building
 
-Here's a quick summary of the building guide from [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic).
+Here's a quick summary of the building guide from [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic):
 
-1. Clone the project and install dependencies.
+1. clone the project and install dependencies;
 
     ```bash
     > git clone https://github.com/tc-imba/greatest-gatsby-academic-template.git
@@ -24,10 +24,10 @@ Here's a quick summary of the building guide from [gatsby-theme-academic](https:
     > yarn
     ```
 
-2. Start developing.
+2. start developing;
 
     ```bash
     > yarn develop 
     ```
 
-3. Open your website with the URL `http://localhost:8000` to see a preview!
+3. open your website with the URL `http://localhost:8000` to see a preview!
