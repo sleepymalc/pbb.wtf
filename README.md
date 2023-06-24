@@ -30,4 +30,4 @@ Here's a quick summary of the building guide from [gatsby-theme-academic](https:
     > yarn develop 
     ```
 
-3. Use URL `http://localhost:8000` to see a preview.
+3. Use the URL `http://localhost:8000` to see a preview.
