@@ -14,7 +14,7 @@ The website is built with [gatsby-theme-academic](https://www.npmjs.com/package/
 
 ## Building
 
-Here's a quick summary of the building guide from [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic):
+Here's a quick summary guide from [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic):
 
 1. Clone the project and install dependencies.
 
