@@ -124,7 +124,7 @@ module.exports = {
           description: '**' +
             '[EECS475 (Introduction to Cryptography)](https://mahdi.ch/eecs475/)' +
             '**: ' +
-            'Collaborated with the teaching staff as an instructional aide of an 100+ student course on the main CS track. Hold discussion \& office hour weekly. [Note](../posts/Notes#introduction-to-cryptography-eecs475-umich-ta) are available.',
+            'Collaborated with the teaching staff as an instructional aide of an 100+ student course on the main CS track. Hold discussion \& office hour weekly. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-umich-ta) are available.',
           location: 'University of Michigan, U.S.A.',
         },
         {
@@ -133,7 +133,7 @@ module.exports = {
           description: '**' +
             '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
             '**: ' +
-            'Collaborated with the teaching staff as an instructional aide of an 70+ student course on the M.S. theory CS track. Hold discussion \& office hour weekly. [Note](../posts/Notes#randomness-and-computation-eecs572-umich-ta) are available.',
+            'Collaborated with the teaching staff as an instructional aide of an 70+ student course on the M.S. theory CS track. Hold discussion \& office hour weekly. [Notes](../posts/Notes#randomness-and-computation-eecs572-umich-ta) are available.',
           location: 'University of Michigan, U.S.A.',
         }, {
           date: 'Summer 2021',
