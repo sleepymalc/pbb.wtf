@@ -119,7 +119,7 @@ module.exports = {
       position: 'left',
       data: [
         {
-          date: 'Winter 2023',
+          date: 'Jan. 2023 - May 2023',
           title: 'Instructional Aide',
           description: '**' +
             '[EECS475 (Introduction to Cryptography)](https://mahdi.ch/eecs475/)' +
@@ -128,7 +128,7 @@ module.exports = {
           location: 'University of Michigan, U.S.A.',
         },
         {
-          date: 'Fall 2022',
+          date: 'Sep. 2022 - Dec. 2022',
           title: 'Instructional Aide',
           description: '**' +
             '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
@@ -136,7 +136,7 @@ module.exports = {
             'Collaborated with the teaching staff as an instructional aide of an 70+ student course on the M.S. theory CS track. Hold discussion \& office hour weekly. [Notes](../posts/Notes#randomness-and-computation-eecs572-umich-ta) are available.',
           location: 'University of Michigan, U.S.A.',
         }, {
-          date: 'Summer 2021',
+          date: 'May 2021 - Aug. 2021',
           title: 'Instructional Aide',
           description: '**' +
             '[VV285 (Honor Mathematics III)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
@@ -144,7 +144,7 @@ module.exports = {
             'Collaborated with the teaching staff as an instructional aide of a 150+ student course on the main B.S. ECE track. Hold discussion \& office hour weekly. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
           location: 'Shanghai Jiao Tong University, China',
         }, {
-          date: 'Fall 2020',
+          date: 'Sep. 2020 - Dec. 2020',
           title: 'Instructional Aide',
           description: '**' +
             '[VV186 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
@@ -159,7 +159,7 @@ module.exports = {
       position: 'right',
       data: [
         {
-          date: 'Summer 2022 - Present',
+          date: 'May 2022 - Present',
           title: 'Undergraduate Researcher',
           description: '**' +
             '[Fundamental Understanding of Deep Learning](../research/intrinsic-dim-est)' +
@@ -174,7 +174,7 @@ module.exports = {
       position: 'right',
       data: [
         {
-          date: 'Fall 2020 - Spring 2021',
+          date: 'Oct. 2020 - Jan. 2021',
           title: 'Backend Developer',
           description: '**' +
             'foodall' +
