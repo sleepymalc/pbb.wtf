@@ -69,23 +69,23 @@ module.exports = {
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   education: [
     {
-      date: '(incoming) Sept 2023',
+      date: '(incoming) Sep. 2023',
       icon: 'university',
       title: 'Ph.D. in Information Science',
       location: 'School of Information Science, University of Illinois Urbana-Champaign',
     },
     {
-      date: 'Sept 2021 - Apr 2022',
+      date: 'Sep. 2021 - Apr. 2022',
       icon: 'university',
       title: 'Bachelor in Computer Science',
       location: 'College of Engineering, University of Michigan',
     }, {
-      date: 'Sept 2021 - Apr 2022',
+      date: 'Sep. 2021 - Apr. 2022',
       icon: 'university',
       title: 'Minor in Mathematics',
       location: 'College of Literature, Science, and the Arts, University of Michigan',
     }, {
-      date: 'Sept 2019 - Present',
+      date: 'Sep. 2019 - Present',
       icon: 'university',
       title: 'Bachelor in Electrical Computer Engineering',
       location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
