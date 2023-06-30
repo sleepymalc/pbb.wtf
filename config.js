@@ -82,7 +82,7 @@ module.exports = {
     }, {
       date: 'Sep. 2021 - Apr. 2022',
       icon: 'university',
-      title: 'Minor in Mathematics',
+      title: 'Bachelor in Mathematics (Minor)',
       location: 'College of Literature, Science, and the Arts, University of Michigan',
     }, {
       date: 'Sep. 2019 - Present',
