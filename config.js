@@ -76,13 +76,8 @@ module.exports = {
     {
       date: 'Sep. 2021 - Apr. 2022',
       icon: 'university',
-      title: 'Bachelor in Computer Science',
-      location: 'College of Engineering, University of Michigan',
-    }, {
-      date: 'Sep. 2021 - Apr. 2022',
-      icon: 'university',
-      title: 'Bachelor in Mathematics (Minor)',
-      location: 'College of Literature, Science, and the Arts, University of Michigan',
+      title: 'Bachelor in Computer Science \& Mathematics (Minor)',
+      location: 'College of Engineering \& College of Literature, Science, and the Arts, University of Michigan',
     }, {
       date: 'Sep. 2019 - Present',
       icon: 'university',
