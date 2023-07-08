@@ -6,7 +6,7 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
   introduction: [
-    'Hi 👋! I\'m **Pingbang Hu 胡平邦** (*Hu, Pingˊ-Bongˉ*) from Taiwan 🇹🇼, a Ph.D.student at *University of Illinois Urbana-Champaign* 🌽 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) at *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳.',
+    'I\'m **Pingbang Hu 胡平邦** (*Hu, Pingˊ-Bongˉ*) from Taiwan 🇹🇼, a Ph.D.student at *University of Illinois Urbana-Champaign* 🌽 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) at *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳.',
     `I do **AI theory** and **TCS** with *math* on *graphs*. Specifically, I enjoy thinking about *graph neural networks* 🤖, various *algorithms* with their *computational complexity* 🧠, and *high dimensional statistic* 📊. I also do [*photography*](https://street.pbb.wtf/) 📷 and write [*blog posts*](./posts) 📝 in my spare time.`,
     '***Now***, I\'m: designing *fast graph algorithms*, exploring *machine unlearning theory*, and studying *graphings* (and try to learn guitar 🎸).',
   ],
