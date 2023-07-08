@@ -6,7 +6,7 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
   introduction: [
-    'Hi 👋! I\'m **Pingbang Hu 胡平邦** (*Hu, Pingˊ-Bongˉ*) from Taiwan 🇹🇼, an incoming Ph.D.student at *University of Illinois Urbana-Champaign* 🌽 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) at *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳.',
+    'Hi 👋! I\'m **Pingbang Hu 胡平邦** (*Hu, Pingˊ-Bongˉ*) from Taiwan 🇹🇼, a Ph.D.student at *University of Illinois Urbana-Champaign* 🌽 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) at *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳.',
     `In my spare time, I do [*photography*](https://street.pbb.wtf/) 📷 and write [*blog posts*](./posts) 📝; otherwise, I\'ll do **AI theory** and **TCS** on *graphs* with *math*. Specifically, I enjoy thinking about *graph neural networks* 🤖, various *algorithms* with their *computational complexity* 🧠, and *high dimensional statistic* 📊.`,
     '***Now***, I\'m: designing *fast graph algorithms*, exploring *machine unlearning theory*, and studying *graphings*.',
   ],
@@ -68,18 +68,18 @@ module.exports = {
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   education: [
     {
-      date: '(incoming) Sep. 2023',
+      date: 'Sep. 2023 - Present',
       icon: 'university',
       title: 'Ph.D. in Information Science',
       location: 'School of Information Science, University of Illinois Urbana-Champaign',
     },
     {
-      date: 'Sep. 2021 - Apr. 2022',
+      date: 'Sep. 2021 - Apr. 2023',
       icon: 'university',
       title: 'Bachelor in Computer Science \& Mathematics (Minor)',
       location: 'College of Engineering \& College of Literature, Science, and the Arts, University of Michigan',
     }, {
-      date: 'Sep. 2019 - Present',
+      date: 'Sep. 2019 - Aug. 2023',
       icon: 'university',
       title: 'Bachelor in Electrical Computer Engineering \& Computer Science (Minor)',
       location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
