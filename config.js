@@ -8,11 +8,11 @@ module.exports = {
   introduction: [
     'Hi 👋! I\'m **Pingbang Hu 胡平邦** (*Hu, Pingˊ-Bongˉ*) from Taiwan 🇹🇼, an incoming Ph.D.student in **Information Science** at *University of Illinois Urbana-Champaign* 🌽 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) in **Computer Science** (minor in **Mathematics**) at *University of Michigan* 〽️ and **Electrical Computer Engineering** (minor in Computer Science) at *Shanghai Jiao Tong University* 🇨🇳.',
     'My research interest is about *AI theory* and traditional *theoretical CS*, specialized on *graphs*. Specifically, I enjoy thinking about *graph neural networks* 🤖, various *algorithms* with their *computational complexity* 🧠, and *high dimensional statistic* 📊. ***Now***, I\'m: designing *fast graph algorithms*, exploring *machine unlearning theory*, and studying *graphings*.',
-    `In my spare time, I\'ll do [*photography*](https://street.pbb.wtf/) 📷 and write [*blog posts*](./posts) 📝. And FYI, I speak $\\TeX$`,
+    `In my spare time, I\'ll do [*photography*](https://street.pbb.wtf/) 📷 and write [*blog posts*](./posts) 📝.`,
   ],
   avatar: 'avatar.png',
   professions: [
-    'Mathematician'
+    'I speak TeX.'
   ],
   birthday: 'Nov. 10, 2000',
   location: 'United States',
