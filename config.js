@@ -15,7 +15,7 @@ module.exports = {
     'I speak TeX.'
   ],
   birthday: 'Nov. 10, 2000',
-  location: 'Taiwan 🇹🇼 ⇌ United States 🇺🇸',
+  location: '🇹🇼🛫🇨🇳🛬🇺🇸〽️🚂🌽',
   email: 'sleepymalc@gmail.com',
   tocMaxDepth: 2,
   excerptMaxLength: 500,
