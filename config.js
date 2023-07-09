@@ -76,12 +76,12 @@ module.exports = {
     {
       date: 'Sep. 2021 - Apr. 2023',
       icon: 'university',
-      title: 'Bachelor of Science in Computer Science \& Mathematics (Minor)',
+      title: 'B.Sc. in Computer Science \& Mathematics (Minor)',
       location: 'College of Engineering \& College of Literature, Science, and the Arts, University of Michigan',
     }, {
       date: 'Sep. 2019 - Aug. 2023',
       icon: 'university',
-      title: 'Bachelor of Engineering in Electrical Computer Engineering \& Computer Science (Minor)',
+      title: 'B.Eng. in Electrical Computer Engineering \& Computer Science (Minor)',
       location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
     }],
   interests: [
