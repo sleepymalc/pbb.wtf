@@ -8,7 +8,7 @@ module.exports = {
   introduction: [
     'I\'m **Pingbang Hu 胡平邦** (*Hu, Pingˊ-Bongˉ*) from Taiwan 🇹🇼, I do **AI theory** and **TCS** with *math* on *graphs*.',
     `Currently I\'m a Ph.D. student at *University of Illinois Urbana-Champaign* 🌽 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/). I hold [dual Bachelor degrees](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳. I enjoy thinking about *graph neural networks* 🤖, *algorithmic complexity* 🧠, and *high dimensional statistic* 📊. I also do [*photography*](https://street.pbb.wtf/) 📷 and write [*blog posts*](./posts) 📝 in my spare time.`,
-    '***Now***, I\'m: designing *fast graph algorithms*, exploring *machine unlearning*, and studying *graphings*. (and trying to learn guitar 🎸)',
+    '***Now***, I\'m: designing *fast graph algorithms*, exploring *machine unlearning*, and studying *graphings* (and learning guitar 🎸).',
   ],
   avatar: 'avatar.png',
   professions: [
