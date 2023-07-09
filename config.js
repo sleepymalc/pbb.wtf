@@ -6,8 +6,9 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
   introduction: [
-    'I do **AI theory** and **TCS** with *math* on *graphs* as a first year Ph.D. student at *University of Illinois Urbana-Champaign* 🌽 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/).',
-    `I hold a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳. I enjoy thinking about *graph neural networks* 🤖, *algorithmic complexity* 🧠, and *high dimensional statistic* 📊. I also do [*photography*](https://street.pbb.wtf/) 📷 and write [*blog posts*](./posts) 📝.`,
+    'A first year Ph.D. student at *University of Illinois Urbana-Champaign* 🌽 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/). I hold a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳.',
+    `I do **AI theory** and **TCS** with *math* on *graphs*.`,
+    `Specifically, I enjoy thinking about *graph neural networks* 🤖, *algorithmic complexity* 🧠, and *high dimensional statistic* 📊. I also do [*photography*](https://street.pbb.wtf/) 📷 and write [*blog posts*](./posts) 📝.`,
     '***Now***, I\'m: designing *fast graph algorithms*, exploring *machine unlearning*, and studying *graphings* (and learning guitar 🎸).',
   ],
   avatar: 'avatar.png',
