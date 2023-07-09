@@ -6,8 +6,8 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
   introduction: [
-    'I\'m **Pingbang Hu 胡平邦** (*Hu, Pingˊ-Bongˉ*) from Taiwan 🇹🇼, and I do **AI theory** and **TCS** with *math* on *graphs*.',
-    `I\'m a first year Ph.D. student at *University of Illinois Urbana-Champaign* 🌽 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/). I hold a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳. I enjoy thinking about *graph neural networks* 🤖, *algorithmic complexity* 🧠, and *high dimensional statistic* 📊. I also do [*photography*](https://street.pbb.wtf/) 📷 and write [*blog posts*](./posts) 📝 in my spare time.`,
+    'A first year Ph.D. student at *University of Illinois Urbana-Champaign* 🌽 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/), I do **AI theory** and **TCS** with *math* on *graphs*.',
+    `I hold a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳. I enjoy thinking about *graph neural networks* 🤖, *algorithmic complexity* 🧠, and *high dimensional statistic* 📊. I also do [*photography*](https://street.pbb.wtf/) 📷 and write [*blog posts*](./posts) 📝 in my spare time.`,
     '***Now***, I\'m: designing *fast graph algorithms*, exploring *machine unlearning*, and studying *graphings* (and learning guitar 🎸).',
   ],
   avatar: 'avatar.png',
@@ -15,7 +15,7 @@ module.exports = {
     'I speak TeX.'
   ],
   birthday: 'Nov. 10, 2000',
-  location: 'Illinois, United States',
+  location: 'Taiwan 🇹🇼 ⇌ United States 🇺🇸',
   email: 'sleepymalc@gmail.com',
   tocMaxDepth: 2,
   excerptMaxLength: 500,
@@ -76,12 +76,12 @@ module.exports = {
     {
       date: 'Sep. 2021 - Apr. 2023',
       icon: 'university',
-      title: 'Bachelor in Computer Science \& Mathematics (Minor)',
+      title: 'Bachelor of Science in Computer Science \& Mathematics (Minor)',
       location: 'College of Engineering \& College of Literature, Science, and the Arts, University of Michigan',
     }, {
       date: 'Sep. 2019 - Aug. 2023',
       icon: 'university',
-      title: 'Bachelor in Electrical Computer Engineering \& Computer Science (Minor)',
+      title: 'Bachelor of Engineering in Electrical Computer Engineering \& Computer Science (Minor)',
       location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
     }],
   interests: [
