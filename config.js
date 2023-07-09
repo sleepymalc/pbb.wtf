@@ -93,7 +93,7 @@ module.exports = {
       title: 'HHKB, the best',
     }, {
       icon: 'cat',
-      title: 'I want cats 😭',
+      title: 'I need cats',
     }, {
       icon: 'brain',
       title: 'Algorithm',
@@ -102,7 +102,7 @@ module.exports = {
       title: 'Topology',
     }, {
       icon: 'drum',
-      title: 'I love metalcore 🤘',
+      title: 'I love metalcore',
     }
   ],
   experience: [
