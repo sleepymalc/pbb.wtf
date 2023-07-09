@@ -102,7 +102,7 @@ module.exports = {
       title: 'Topology',
     }, {
       icon: 'drum',
-      title: 'I love metalcore',
+      title: 'Metalcore',
     }
   ],
   experience: [
