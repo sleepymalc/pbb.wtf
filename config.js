@@ -93,18 +93,16 @@ module.exports = {
       title: 'HHKB, the best',
     }, {
       icon: 'cat',
-      title: 'Who doesn\'t love cats?',
-    },
-    {
+      title: 'I want cats 😭',
+    }, {
       icon: 'brain',
       title: 'Algorithm',
     }, {
       icon: 'shapes',
       title: 'Topology',
-    },
-    {
+    }, {
       icon: 'drum',
-      title: 'Drum!',
+      title: 'I love metalcore 🤘',
     }
   ],
   experience: [
