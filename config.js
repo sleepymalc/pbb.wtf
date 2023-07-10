@@ -98,9 +98,6 @@ module.exports = {
       icon: 'camera-retro',
       title: 'Photography',
     }, {
-      icon: 'keyboard',
-      title: 'HHKB, the best',
-    }, {
       icon: 'cat',
       title: 'I need cats',
     }, {
