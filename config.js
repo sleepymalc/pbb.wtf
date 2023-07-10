@@ -7,8 +7,8 @@ module.exports = {
   authorAlternative: 'Write-The-Formula',
   introduction: [
     'A first year Ph.D. student at *University of Illinois Urbana-Champaign* 🌽 advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/). I hold a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳.',
-    `I do **AI theory** and **TCS** with *math* on *graphs*.`,
-    `Specifically, I enjoy thinking about *graph neural networks* 🤖, *algorithmic complexity* 🧠, and *high dimensional statistic* 📊. ***Currently***, I\'m designing *fast graph algorithms*, exploring *machine unlearning*, and studying *graphings*. I also do [*photography*](https://street.pbb.wtf/) 📷 and write [*blog posts*](./posts) 📝 in my spare time.`,
+    `I do **AI theory** and **TCS** with *math* on *graphs*. I also do [*photography*](https://street.pbb.wtf/) 📷 and write [*blog posts*](./posts) 📝 in my spare time.`,
+    `***Currently***, I\'m designing *fast graph algorithms*, exploring *machine unlearning*, and studying *graphings*.`,
   ],
   avatar: 'avatar.png',
   professions: [
@@ -86,6 +86,15 @@ module.exports = {
     }],
   interests: [
     {
+      icon: 'chart-network',
+      title: 'Graph neural networks',
+    }, {
+      icon: 'brain',
+      title: 'Algorithmic complexity',
+    }, {
+      icon: 'chart-candlestick',
+      title: 'High dimensional statistic',
+    }, {
       icon: 'camera-retro',
       title: 'Photography',
     }, {
@@ -94,12 +103,6 @@ module.exports = {
     }, {
       icon: 'cat',
       title: 'I need cats',
-    }, {
-      icon: 'brain',
-      title: 'Algorithm',
-    }, {
-      icon: 'shapes',
-      title: 'Topology',
     }, {
       icon: 'drum',
       title: 'Metalcore',
