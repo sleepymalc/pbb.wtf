@@ -87,13 +87,13 @@ module.exports = {
   interests: [
     {
       icon: 'chart-network',
-      title: 'Graph Neural Networks',
+      title: 'Graph Neural Network',
     }, {
       icon: 'brain',
       title: 'Algorithmic Complexity',
     }, {
       icon: 'chart-line',
-      title: 'High-Dim Statistic',
+      title: 'High-Dimensional Statistics',
     }, {
       icon: 'shapes',
       title: 'Geometry \& Topology',
