@@ -18,6 +18,12 @@ links:
 
 ## Introduction
 
+I stepped upon an interesting paper [Exact Combinatorial Optimization with Graph Convolutional Neural Networks](https://arxiv.org/abs/1906.01629) a while ago. In that work, a novel methodology for solving mixed integer linear programming with the help of machine learning. There are a bunch of similar works out there trying to achieve this, however, by the nature of machine learning algorithms, all of them fail to provide an exact solution. However, this work provides a different viewpoint: it leverages the insight of *it's okay to speed up only a part of the **exact** algorithm*.
+
+This idea is interesting enough, so I decided to implement it and turn it into a small project on a specific, well-known TCS problem: the traveling salesman problem, also known as *TSP*.
+
+### Preliminary
+
 The traveling salesman problem (TSP) can be described as follows: given a list of cities and the distances between each pair of cities, find the
 shortest route possible that visits each city *exactly once* then returns to the origin city.
 Specifically, given an **undirected weighted graph** $\mathcal{G} = (\mathcal{E}, \mathcal{V})$, with an ordered pair of nodes set $\mathcal{E}$
@@ -28,10 +34,7 @@ once while having the smallest cost.
 We will utilize GCNN (Graph Convolutional Neural Network), a particular kind of GNN, together with imitation learning to solve TSP in an interesting
 and inspiring way. In particular, we focus on the generalization ability of models trained on small-sized problem instances.
 
-### Preliminary
-
-We direct reader who is interested in technical details to the [paper](./TSP/paper.pdf) for the preliminary and technical part of this project. The following
-is just a very brief summary.
+We direct reader who is interested in technical details to the [paper](https://arxiv.org/abs/2210.05906) for the preliminary and technical part of this project. The following is just a very brief summary.
 
 #### Integer Linear Programming Formulation of TSP
 
@@ -100,7 +103,7 @@ We look at the walltime needed for the model trained on TSP10/TSP15 and tested o
 	<img src="./figures/result/tsp15/normal.png" width="50%"/>
 </div>
 
-If we zoom-in to the first 80 and last 20 instances, we have the following.
+If we zoom in to the first 80 and last 20 instances, we have the following.
 <div align="center">
 	<img src="./figures/result/tsp10/zoom-first80.png" width="50%"/>
 	<img src="./figures/result/tsp10/zoom-last20.png" width="50%"/>
