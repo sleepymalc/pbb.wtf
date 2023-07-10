@@ -18,7 +18,7 @@ links:
 
 ## Introduction
 
-I stepped upon an interesting paper: [*Exact Combinatorial Optimization with Graph Convolutional Neural Networks*](https://arxiv.org/abs/1906.01629) a while ago. In this work, the authors provided a novel methodology for solving mixed integer linear programming with the help of machine learning leveraging the insight of *it's okay to speed up only a part of the **exact** algorithm*.[^1]
+I stepped upon an interesting paper: [*Exact Combinatorial Optimization with Graph Convolutional Neural Networks*](https://arxiv.org/abs/1906.01629) a while ago. In this work, the authors provided a novel methodology for solving mixed integer linear programming with the help of machine learning leveraging the insight of *speeding up only a specific part of the **exact** algorithm might preserve exactness*.[^1]
 
 [^1]: There are a bunch of similar works out there trying to achieve this, however, by the nature of machine learning algorithms, all of them fail to provide an exact solution.
 
