@@ -103,18 +103,22 @@ If we zoom in to the first 80 and last 20 instances, we have the following.
 	<img src="./figures/result/tsp15/zoom-last20.png" width="50%"/>
 </div>
 
-### Discussion
-
-Here we list some selected discussions.
-
 #### Generalization Ability
 
-We observe that our TSP10 and TSP15 imitation models outperform the $\texttt{SCIP}$ solver on baseline test instances, and **successfully generalize to TSP15, TSP20, and TSP25**. They perform significantly better on average than $$\texttt{SCIP}$$ in difficult-to-solve TSPs as compared to easier instances. They also perform better in cases of larger test instances like TSP20 and TSP25 as compared to TSP10 and TSP15. This might be due to an inherent subset structure between TSP10 and TSP20 instances, and similarly, TSP15 and TSP25 instances which might not be the case for smaller test sizes. Unlike other problems, when we formulate TSP as an ILP, the problem size is growing **quadratically**. In other words, when we look at the model performance, the generalization ability from TSP10 to TSP25 is not a $2.5\times$, but rather a $6\times$ generalization in our formulation. By adapting this methodology to a more sophisticated algorithm that formulates TSP linearly, the generalization ability should remain, and the performance will be even better in terms of TSP sizes.
+We observe that our TSP10 and TSP15 imitation models outperform the $\texttt{SCIP}$ solver on baseline test instances, and **successfully generalize to TSP15, TSP20, and TSP25**. They perform significantly better on average than $$\texttt{SCIP}$$ in difficult-to-solve TSPs as compared to easier instances. They also perform better in cases of larger test instances like TSP20 and TSP25 as compared to TSP10 and TSP15. This might be due to an inherent subset structure between TSP10 and TSP20 instances, and similarly, TSP15 and TSP25 instances which might not be the case for smaller test sizes.[^3]
+
+[^3]: Unlike other problems, when we formulate TSP as an ILP, the problem size is growing **quadratically**. In other words, when we look at the model performance, the generalization ability from TSP10 to TSP25 is not a $2.5\times$, but rather a $6\times$ generalization in our formulation. By adapting this methodology to a more sophisticated algorithm that formulates TSP linearly, the generalization ability should remain, and the performance will be even better in terms of TSP sizes.
 
 #### Bottlenecks and Future Work
 
-There is a huge performance difference between our proposed model (also $\texttt{SCIP}$) and the SOTA TSP solver, $\texttt{Concorde}$. Since the proposed model's backbone is the branch and bound algorithm, by formulating TSP into an ILP, we lost some useful problem structures which can be further exploited by algorithms used in $\texttt{Concorde}$. But the existence of a similar pattern of growth in solving time for more difficult instances of larger TSP sizes even for $\texttt{Gurobi}$ and $\texttt{Concorde}$ is promising, as our imitation model applied to these solvers should lead to similar time improvements. A major bottleneck is that SOTA solvers like $\texttt{Gurobi}$, or $\texttt{Concorde}$, are often licensed, hence not open-sourced. This results in the difficulty of utilizing a stronger baseline and learning from which to get further improvement.
+There is a huge performance difference between our proposed model (also $\texttt{SCIP}$) and the SOTA TSP solver, $\texttt{Concorde}$. Since the proposed model's backbone is the branch and bound algorithm, by formulating TSP into an ILP, we lost some useful problem structures which can be further exploited by algorithms used in $\texttt{Concorde}$. But the existence of a similar pattern of growth in solving time for more difficult instances of larger TSP sizes even for $\texttt{Gurobi}$ and $\texttt{Concorde}$ is promising, as our imitation model applied to these solvers should lead to similar time improvements.[^4]
+
+[^4]: A major bottleneck is that SOTA solvers like $\texttt{Gurobi}$, or $\texttt{Concorde}$, are often licensed, hence not open-sourced. This results in the difficulty of utilizing a stronger baseline and learning from which to get further improvement.
 
 ### Conclusion
 
-Finding exact solutions to combinatorial optimization problems as fast as possible is a challenging avenue in modern theoretical CS. Our proposed method is a step toward this goal via machine learning. For nearly all exact optimization solving algorithms, there is some kind of *exhaustion* going on which usually involves decision-making when executing the algorithm. For example, the cutting plane algorithm also involves decision-making on variables when it needs to choose a variable to cut. We see that by using our model to replace several such algorithms, we can speed up the inference time while still retaining a high-quality decision strategy. Furthermore, our experimental results show that the model can effectively learn such strategies while using less time when inference, which is a promising strategy when applied to other such algorithms.
+For nearly all exact optimization solving algorithms, there is some kind of *exhaustion* going on, which usually involves decision-making when executing the algorithm.
+
+> For example, the cutting plane algorithm also involves decision-making on variables when it needs to choose a variable to cut.
+
+Hence, it's possible to generalize this methodology to not only the branch and bound algorithm but a wide range of the existing exact optimization algorithms.
