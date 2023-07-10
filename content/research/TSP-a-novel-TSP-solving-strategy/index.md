@@ -18,9 +18,11 @@ links:
 
 ## Introduction
 
-I stepped upon an interesting paper [Exact Combinatorial Optimization with Graph Convolutional Neural Networks](https://arxiv.org/abs/1906.01629) a while ago. In that work, a novel methodology for solving mixed integer linear programming with the help of machine learning. There are a bunch of similar works out there trying to achieve this, however, by the nature of machine learning algorithms, all of them fail to provide an exact solution. However, this work provides a different viewpoint: it leverages the insight of *it's okay to speed up only a part of the **exact** algorithm*.
+I stepped upon an interesting paper: [*Exact Combinatorial Optimization with Graph Convolutional Neural Networks*](https://arxiv.org/abs/1906.01629) a while ago. In this work, the authors provided a novel methodology for solving mixed integer linear programming with the help of machine learning leveraging the insight of *it's okay to speed up only a part of the **exact** algorithm*.[^1]
 
-This idea is interesting enough, so I decided to implement it and turn it into a small project on a specific, well-known TCS problem: the traveling salesman problem, also known as *TSP*. An incomplete [report](https://arxiv.org/abs/2210.05906) and the [code](https://github.com/sleepymalc/Travel-the-Same-Path) for this project is also available.
+[^1]: There are a bunch of similar works out there trying to achieve this, however, by the nature of machine learning algorithms, all of them fail to provide an exact solution.
+
+This idea is interesting enough, so I decided to implement it and turn it into a small project on a specific, well-known TCS problem: the traveling salesman problem, also known as *TSP*. An incomplete [report](https://arxiv.org/abs/2210.05906) and the [code](https://github.com/sleepymalc/Travel-the-Same-Path) for this project are available.
 
 ### Preliminary
 
