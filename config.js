@@ -68,7 +68,7 @@ module.exports = {
       date: 'Sep. 2021 - Apr. 2023',
       icon: 'university',
       title: 'B.Sc. in Computer Science minor in Mathematics',
-      location: 'College of Engineering \& College of Literature, Science, and the Arts, University of Michigan',
+      location: 'College of Engineering / Literature, Science, and the Arts, University of Michigan',
     }, {
       date: 'Sep. 2019 - Aug. 2023',
       icon: 'university',
