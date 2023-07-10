@@ -92,7 +92,7 @@ module.exports = {
       icon: 'brain',
       title: 'Algorithmic Complexity',
     }, {
-      icon: 'chart-column',
+      icon: 'chart-line',
       title: 'High-Dim Statistic',
     }, {
       icon: 'shapes',
