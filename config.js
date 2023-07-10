@@ -86,20 +86,23 @@ module.exports = {
     }],
   interests: [
     {
-      icon: 'chart-network',
-      title: 'Graph neural networks',
+      icon: 'circle-nodes',
+      title: 'Graph Neural Networks',
     }, {
       icon: 'brain',
-      title: 'Algorithmic complexity',
+      title: 'Algorithmic Complexity',
     }, {
       icon: 'chart-candlestick',
-      title: 'High dimensional statistic',
+      title: 'High-Dim Statistic',
+    }, {
+      icon: 'shapes',
+      title: 'Geometry \& Topology',
     }, {
       icon: 'camera-retro',
-      title: 'Photography',
+      title: 'Street Photography',
     }, {
       icon: 'cat',
-      title: 'I need cats',
+      title: 'I NEED CATS',
     }, {
       icon: 'drum',
       title: 'Metalcore',
