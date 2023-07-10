@@ -22,25 +22,15 @@ I stepped upon an interesting paper: [*Exact Combinatorial Optimization with Gra
 
 [^1]: There are a bunch of similar works out there trying to achieve this, however, by the nature of machine learning algorithms, all of them fail to provide an exact solution.
 
-This idea is interesting enough, so I decided to implement it and turn it into a small project on a specific, well-known TCS problem: the traveling salesman problem, also known as *TSP*. An incomplete [report](https://arxiv.org/abs/2210.05906) and the [code](https://github.com/sleepymalc/Travel-the-Same-Path) for this project are available.
+This idea is interesting enough, so I decided to implement it and turn it into a small project. I focused on a specific, well-known TCS problem: the [traveling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem), also known as *TSP*. An incomplete [report](https://arxiv.org/abs/2210.05906) and the [code](https://github.com/sleepymalc/Travel-the-Same-Path) for this project are available.
 
 ### Preliminary
 
-The traveling salesman problem (TSP) can be described as follows: given a list of cities and the distances between each pair of cities, find the
-shortest route possible that visits each city *exactly once* then returns to the origin city.
-Specifically, given an **undirected weighted graph** $\mathcal{G} = (\mathcal{E}, \mathcal{V})$, with an ordered pair of nodes set $\mathcal{E}$
-and an edge set $\mathcal{V}\subseteq \mathcal{E}\times\mathcal{E}$ where $\mathcal{G}$ is equipped with **spatial structure**. This means that
-each edge between nodes will have different weights and each node will have its coordinates, we want to find a simple cycle that visits every node exactly
-once while having the smallest cost.
-
-We will utilize GCNN (Graph Convolutional Neural Network), a particular kind of GNN, together with imitation learning to solve TSP in an interesting
-and inspiring way. In particular, we focus on the generalization ability of models trained on small-sized problem instances.
-
-We direct reader who is interested in technical details to the [paper](https://arxiv.org/abs/2210.05906) for the preliminary and technical part of this project. The following is just a very brief summary.
+We will utilize GCNN (Graph Convolutional Neural Network), a particular kind of GNN, together with imitation learning to solve TSP. In particular, we focus on the generalization ability of models trained on small-sized problem instances.
 
 #### Integer Linear Programming Formulation of TSP
 
-We first formulate TSP in terms of **Integer Linear Programming**. Given an undirected weighted group $\mathcal{G} = (\mathcal{E}, \mathcal{V})$,
+We first formulate TSP in terms of integer linear programming.[^2] Given an undirected weighted group $\mathcal{G} = (\mathcal{E}, \mathcal{V})$,
 we label the nodes with numbers $1, \ldots, n$ and define
 $$
 	x_{ij}\coloneqq \begin{dcases}
@@ -49,7 +39,7 @@ $$
 	\end{dcases}
 $$
 where $\mathcal{E}^\prime\subset \mathcal{E}$ is a variable which can be viewed as a compact representation of all variables $x_{ij}$, $\forall i, j$.
-Furthermore, we denote the weight on edge $(i, j)$ by $c_{ij}$, then for a particular TSP problem instance, we can formulate the problem as follows.
+Furthermore, we denote the weight on edge $(i, j)$ by $c_{ij}$, then for a particular TSP problem instance, we can formulate the problem as
 $$
 	\begin{aligned}
 \min & \sum_{i=1}^{n}\sum *{j\neq i,j=1}^{n}c*{ij}x_{ij} &  &                      \\
@@ -58,12 +48,12 @@ $$
 		     & u_{i}-u_{j}+nx_{ij}\leq n-1                        &  & 2\leq i\neq j\leq n; \\
 		     & 1\leq u_{i}\leq n-1                                &  & 2\leq i\leq n;       \\
 		     & x_{ij}\in \{0,1\}                                  &  & i,j=1,\ldots ,n;     \\
-		     & u_{i}\in \mathbb{Z}                                &  & i=2,\ldots ,n.
+		     & u_{i}\in \mathbb{Z}                                &  & i=2,\ldots ,n
 	\end{aligned}
 $$
+given by Miller-Tucker-Zemlin.
 
-This is the Miller-Tucker-Zemlin formulation\cite{MTZ-formulation}. Note that in our case, since we are solving TSP exactly, all variables are
-integers. This type of integer linear programming is sometimes known as **pure integer programming**.
+[^2]: The formation detail is omitted here.
 
 #### Branch and Bound
 
@@ -115,7 +105,7 @@ If we zoom in to the first 80 and last 20 instances, we have the following.
 
 ### Discussion
 
-Here we list some selected discussions. Again, please refer to the [paper](./TSP/paper.pdf) for completeness.
+Here we list some selected discussions.
 
 #### Generalization Ability
 
