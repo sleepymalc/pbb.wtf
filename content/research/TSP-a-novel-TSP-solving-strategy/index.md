@@ -6,7 +6,7 @@ tags:
 - "Optimization"
 date: Jan 2022 - April 2022
 path: "research/TSP-a-novel-TSP-solving-strategy"
-excerpt: "A novel approach to ***exactly*** solve the NP-hard combinatorial optimization problem by using *imitation learning*."
+excerpt: "Exploring a novel approach to ***exactly*** solve an NP-hard combinatorial optimization problem by using *imitation learning*."
 selected: true
 cover: "./preview.png"
 links:
@@ -30,7 +30,7 @@ and inspiring way. In particular, we focus on the generalization ability of mode
 
 ### Preliminary
 
-We direct reader who is interested in technical detailed to the [paper](./TSP/paper.pdf) for the preliminary and technical part of this project. The following
+We direct reader who is interested in technical details to the [paper](./TSP/paper.pdf) for the preliminary and technical part of this project. The following
 is just a very brief summary.
 
 #### Integer Linear Programming Formulation of TSP
@@ -47,7 +47,7 @@ where $\mathcal{E}^\prime\subset \mathcal{E}$ is a variable which can be viewed 
 Furthermore, we denote the weight on edge $(i, j)$ by $c_{ij}$, then for a particular TSP problem instance, we can formulate the problem as follows.
 $$
 	\begin{aligned}
-\min & \sum_{i=1}^{n}\sum _{j\neq i,j=1}^{n}c_{ij}x_{ij} &  &                      \\
+\min & \sum_{i=1}^{n}\sum *{j\neq i,j=1}^{n}c*{ij}x_{ij} &  &                      \\
 & \sum_{i=1,i\neq j}^{n}x_{ij}=1                    &  & j=1,\ldots ,n;       \\
 & \sum_{j=1,j\neq i}^{n}x_{ij}=1                    &  & i=1,\ldots ,n;       \\
 		     & u_{i}-u_{j}+nx_{ij}\leq n-1                        &  & 2\leq i\neq j\leq n; \\
@@ -63,7 +63,7 @@ integers. This type of integer linear programming is sometimes known as **pure i
 #### Branch and Bound
 
 We then solve TSP as the above ILP formulation by **branch and bound**. It's possible to do branch and bound sufficiently by choosing a good branch strategy,
-and since branching and bound involves *performing a series of branching strategy*, so we model this as **Markov Decision Process (MDP)** in its nature.
+and since branching and bound involves *performing a series of branching strategies*, we model this as **Markov Decision Process (MDP)** in its nature.
 
 Now, our goal is clear: We want to learn from an expert (in this case, a SOTA modern solver $\texttt{SCIP}$), which is typically called **imitating learning**.
 
@@ -80,15 +80,15 @@ use **Cross-Entropy Loss** to compare our prediction to the result produced by $
 
 #### Graph Convolutional Neural Network (GCNN)
 
-One may wonder where does the GNN involve in our methodology, is it used to model the topology of the nodes of a particular TSP instances?
+One may wonder where does the GNN involve in our methodology, is it used to model the topology of the nodes of a particular TSP instance?
 
-The answer is **no**. The GCNN is our model which learn how to perform branching given the state of the problem (e.g., given the current state of the explored
+The answer is **no**. The GCNN is our model which learns how to perform branching given the state of the problem (e.g., given the current state of the explored
 recursion tree of the branch and bound algorithm). Intuitively, in the pipeline graph above,
 
-* Top-left corresponds to TSP instances (red dots corresponding to actual cities in TSP problem).
+* Top-left corresponds to TSP instances (red dots corresponding to actual cities in the TSP problem).
 * Bottom-left corresponds to our model (black dots corresponding to a node in our GCNN).
 
-Now, it should clear that how we utilize GNN to help us to solve this TSP problem: We use GCNN to learn a
+Now, it should be clear how we utilize GNN to help us to solve this TSP problem: We use GCNN to learn a
 strong branching strategy and use it to do branching whenever needed.
 
 ### Experimental Result
@@ -110,33 +110,16 @@ If we zoom-in to the first 80 and last 20 instances, we have the following.
 
 ### Discussion
 
-Here we list some selected discussion. Again, please refer to the [paper](./TSP/paper.pdf) for completeness.
+Here we list some selected discussions. Again, please refer to the [paper](./TSP/paper.pdf) for completeness.
 
 #### Generalization Ability
 
-We observe that our TSP10 and TSP15 imitation models outperform the $\texttt{SCIP}$ solver on baseline test instances, and
-**successfully generalizes to TSP15, TSP20, and TSP25**. They perform significantly better on average than $$\texttt{SCIP}$$ in difficult-to-solve TSPs as
-compared to easier instances. They also perform better in cases of larger test instances like TSP20 and TSP25 as compared to TSP10 and TSP15.
-This might be due to an inherent subset structure between TSP10 and TSP20 instances, and similarly TSP15 and TSP25 instances which might not be the
-case for smaller test sizes. Unlike other problems, when we formulate TSP as an ILP, the problem size is growing **quadratically**.
-In other words, when we look at the model performance, the generalization ability from TSP10 to TSP25 is not a $2.5\times$, but rather a $6\times$
-generalization in our formulation. By adapting this methodology on a more sophisticated algorithm which formulates TSP linearly, the generalization
-ability should remain, and the performance will be even better in terms of TSP sizes.
+We observe that our TSP10 and TSP15 imitation models outperform the $\texttt{SCIP}$ solver on baseline test instances, and **successfully generalize to TSP15, TSP20, and TSP25**. They perform significantly better on average than $$\texttt{SCIP}$$ in difficult-to-solve TSPs as compared to easier instances. They also perform better in cases of larger test instances like TSP20 and TSP25 as compared to TSP10 and TSP15. This might be due to an inherent subset structure between TSP10 and TSP20 instances, and similarly, TSP15 and TSP25 instances which might not be the case for smaller test sizes. Unlike other problems, when we formulate TSP as an ILP, the problem size is growing **quadratically**. In other words, when we look at the model performance, the generalization ability from TSP10 to TSP25 is not a $2.5\times$, but rather a $6\times$ generalization in our formulation. By adapting this methodology to a more sophisticated algorithm that formulates TSP linearly, the generalization ability should remain, and the performance will be even better in terms of TSP sizes.
 
 #### Bottlenecks and Future Work
 
-There is a huge performance difference between our proposed model (also $\texttt{SCIP}$) and the SOTA TSP solver, $\texttt{Concorde}$. Since the proposed
-model's backbone is branch and bound algorithm, by formulating TSP into an ILP, we lost some useful problem structures which can be further exploited by
-algorithms used in $\texttt{Concorde}$. But the existence of a similar pattern of growth in solving time for more difficult instances of larger TSP sizes
-even for $\texttt{Gurobi}$ and $\texttt{Concorde}$ is promising, as our imitation model applied to these solvers should
-lead to similar time improvements. A major bottleneck is that SOTA solvers like $\texttt{Gurobi}$, or $\texttt{Concorde}$, are often licensed, hence not
-open-sourced. This results in the difficulty of utilizing a stronger baseline and learn from which to get a further improvement.
+There is a huge performance difference between our proposed model (also $\texttt{SCIP}$) and the SOTA TSP solver, $\texttt{Concorde}$. Since the proposed model's backbone is the branch and bound algorithm, by formulating TSP into an ILP, we lost some useful problem structures which can be further exploited by algorithms used in $\texttt{Concorde}$. But the existence of a similar pattern of growth in solving time for more difficult instances of larger TSP sizes even for $\texttt{Gurobi}$ and $\texttt{Concorde}$ is promising, as our imitation model applied to these solvers should lead to similar time improvements. A major bottleneck is that SOTA solvers like $\texttt{Gurobi}$, or $\texttt{Concorde}$, are often licensed, hence not open-sourced. This results in the difficulty of utilizing a stronger baseline and learning from which to get further improvement.
 
 ### Conclusion
 
-Finding exact solutions of combinatorial optimization problems as fast as possible is a challenging avenue in modern theoretical CS. Our proposed method
-is a step toward this goal via machine learning. For nearly all exact optimization solving algorithms, there is some kind of *exhaustion* going on
-which usually involves decisions-making when executing the algorithm. For example, the cutting plane algorithm also
-involves decisions-making on variables when it needs to choose a variable to cut. We see that by using our model to replace several such algorithms,
-we can speed up the inference time while still retaining a high-quality decision strategy. Furthermore, our experimental results show that the model can
-effectively learn such strategies while using less time when inference, which is a promising strategy when applied to other such algorithms.
+Finding exact solutions to combinatorial optimization problems as fast as possible is a challenging avenue in modern theoretical CS. Our proposed method is a step toward this goal via machine learning. For nearly all exact optimization solving algorithms, there is some kind of *exhaustion* going on which usually involves decision-making when executing the algorithm. For example, the cutting plane algorithm also involves decision-making on variables when it needs to choose a variable to cut. We see that by using our model to replace several such algorithms, we can speed up the inference time while still retaining a high-quality decision strategy. Furthermore, our experimental results show that the model can effectively learn such strategies while using less time when inference, which is a promising strategy when applied to other such algorithms.
