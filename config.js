@@ -38,24 +38,15 @@ module.exports = {
     }, {
       url: 'https://scholar.google.com/citations?user=TXqLUIAAAAAJ&hl=en&oi=ao',
       icon: ['fa', 'graduation-cap'],
-    },
-    {
+    }, {
       url: 'https://github.com/sleepymalc',
       icon: ['fab', 'github'],
     }, {
       url: 'https://www.linkedin.com/in/pingbang-hu-78a190215',
       icon: ['fab', 'linkedin'],
-    },
-    {
-      url: 'https://www.instagram.com/malc_q/',
-      icon: ['fab', 'instagram'],
     }, {
       url: 'https://twitter.com/PingbangHu',
       icon: ['fab', 'twitter'],
-    },
-    {
-      url: 'https://street.pbb.wtf/',
-      icon: ['fa', 'camera-retro'],
     },
   ],
   wakatime: {
@@ -93,7 +84,7 @@ module.exports = {
       title: 'Algorithmic Complexity',
     }, {
       icon: 'chart-line',
-      title: 'High-Dimensional Statistics',
+      title: 'High Dimensional Statistics',
     }, {
       icon: 'shapes',
       title: 'Geometry \& Topology',
