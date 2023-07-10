@@ -86,7 +86,7 @@ module.exports = {
     }],
   interests: [
     {
-      icon: 'project-diagram',
+      icon: 'chart-network',
       title: 'Graph Neural Networks',
     }, {
       icon: 'brain',
