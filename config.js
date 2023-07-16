@@ -12,7 +12,7 @@ module.exports = {
   ],
   avatar: 'avatar.png',
   professions: [
-    'I speak TeX.'
+    'I speak TeX'
   ],
   birthday: 'Nov. 10, 2000',
   location: 'Illinois, United States',
