@@ -66,12 +66,12 @@ module.exports = {
     }, {
       date: 'Sep. 2021 - Apr. 2023',
       icon: 'university',
-      title: 'B.Sc. in Computer Science (Summa Cum Laude) *minor in Mathematics*',
-      location: 'College of Engineering / *Literature, Science, and the Arts*, University of Michigan',
+      title: 'B.Sc. in Computer Science (Summa Cum Laude) / minor in Mathematics',
+      location: 'College of Engineering / Literature, Science, and the Arts, University of Michigan',
     }, {
       date: 'Sep. 2019 - Aug. 2023',
       icon: 'university',
-      title: 'B.Eng. in Electrical Computer Engineering *minor in Computer Science*',
+      title: 'B.Eng. in Electrical Computer Engineering / minor in Computer Science',
       location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
     }],
   interests: [
