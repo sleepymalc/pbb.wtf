@@ -173,19 +173,19 @@ module.exports = {
   awards: [
     {
       date: 'Oct. 2021',
-      title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship, SJTU',
+      title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship',
     },
     {
       date: 'Nov. 2020',
-      title: 'Undergraduate Excellent Scholarship, SJTU',
+      title: 'Undergraduate Excellent Scholarship',
     },
     {
       date: 'Jun. 2020',
-      title: 'Bao Gang Excellent Scholarship, SJTU',
+      title: 'Bao Gang Excellent Scholarship',
     },
     {
       date: 'Dec. 2019',
-      title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship, SJTU',
+      title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship',
     },
   ],
   tagColors: [
