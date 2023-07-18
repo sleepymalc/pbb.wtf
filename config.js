@@ -110,7 +110,7 @@ module.exports = {
             '[EECS475 (Introduction to Cryptography)](https://mahdi.ch/eecs475/)' +
             '**: ' +
             'An upper-level 100+ student course on the B.Sc. CS track. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-umich-ta) are available.',
-          location: 'University of Michigan, U.S.A.',
+          location: 'University of Michigan',
         },
         {
           date: 'Sep. 2022 - Dec. 2022',
@@ -119,7 +119,7 @@ module.exports = {
             '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
             '**: ' +
             'A graduate-level 70+ student course on the M.S. theory CS track. [Notes](../posts/Notes#randomness-and-computation-eecs572-umich-ta) are available.',
-          location: 'University of Michigan, U.S.A.',
+          location: 'University of Michigan',
         }, {
           date: 'May 2021 - Aug. 2021',
           title: 'Instructional Aide',
@@ -150,7 +150,7 @@ module.exports = {
             '[Fundamental Understanding of Deep Learning](../research/intrinsic-dim-est)' +
             '**: ' +
             'Develop various technique to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
-          location: 'University of Michigan, Michigan, U.S.A.',
+          location: 'University of Michigan, Michigan',
         },
       ],
     },
