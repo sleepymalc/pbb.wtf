@@ -109,7 +109,7 @@ module.exports = {
           description: '**' +
             '[EECS475 (Introduction to Cryptography)](https://mahdi.ch/eecs475/)' +
             '**: ' +
-            'Hold discussion \& office hour weekly for an upper-level 100+ student course on the main CS track. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-umich-ta) are available.',
+            'An upper-level 100+ student course on the B.Sc. CS track. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-umich-ta) are available.',
           location: 'University of Michigan, U.S.A.',
         },
         {
@@ -118,7 +118,7 @@ module.exports = {
           description: '**' +
             '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
             '**: ' +
-            'Hold discussion \& office hour weekly for a graduate-level 70+ student course on the M.S. theory CS track. [Notes](../posts/Notes#randomness-and-computation-eecs572-umich-ta) are available.',
+            'A graduate-level 70+ student course on the M.S. theory CS track. [Notes](../posts/Notes#randomness-and-computation-eecs572-umich-ta) are available.',
           location: 'University of Michigan, U.S.A.',
         }, {
           date: 'May 2021 - Aug. 2021',
@@ -126,7 +126,7 @@ module.exports = {
           description: '**' +
             '[VV285 (Honor Mathematics III)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
             '**: ' +
-            'Hold discussion \& office hour weekly for a graduate-level 70+ student course on the M.S. theory CS track. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
+            'A 200+ student rigorous analysis course on the B.Eng. ECE track. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
           location: 'Shanghai Jiao Tong University, China',
         }, {
           date: 'Sep. 2020 - Dec. 2020',
@@ -134,7 +134,7 @@ module.exports = {
           description: '**' +
             '[VV186 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
             '**: ' +
-            'Hold discussion \& office hour weekly for a 200+ student rigorous analysis course on the main B.Eng. ECE track.',
+            'A 200+ student rigorous analysis course on the B.Eng. ECE track.',
           location: 'Shanghai Jiao Tong University, China',
         },
       ],
