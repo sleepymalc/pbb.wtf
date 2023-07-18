@@ -3,7 +3,7 @@ title: "bool p = 0.8;"
 tags: ["math", "random"]
 date: 2022-05-28
 path: "posts/BertrandParadox"
-excerpt: "🧠 Extend logic logically: The right way of doing probability."
+excerpt: "🧠 Extend logic logically."
 cover: "./preview.png"
 ---
 

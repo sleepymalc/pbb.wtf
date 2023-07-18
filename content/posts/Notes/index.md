@@ -3,7 +3,7 @@ title: "$ ls ./Notes"
 tags: ["math", "notes", "LaTeX"]
 date: Updating
 path: "posts/Notes"
-excerpt: 📝 Notes for (mostly math) classes I took at the University of Michigan.
+excerpt: 📝 Notes I took.
 cover: "./preview.png"
 ---
 

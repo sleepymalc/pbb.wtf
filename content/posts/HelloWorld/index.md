@@ -3,7 +3,7 @@ title: "printf(\"Hello World\\n\");"
 tags: ["random"]
 date: 2022-02-25
 path: "posts/HelloWorld"
-excerpt: 🌎 My very first academic website with nearly 0 front-end knowledge.
+excerpt: 🌎 This is a website.
 cover: "./preview.png"
 ---
 

@@ -3,7 +3,7 @@ title: "$ open -a Marta"
 tags: ["macOS", "app"]
 date: 2022-02-27
 path: "posts/Marta"
-excerpt: ⌨️ Marta, a powerful keyboard-based [Finder](https://support.apple.com/en-us/HT201732) alternatives.
+excerpt: ⌨️ A [Finder](https://support.apple.com/en-us/HT201732) alternative.
 cover: "./preview.png"
 ---
 
