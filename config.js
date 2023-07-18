@@ -127,7 +127,7 @@ module.exports = {
             '[VV285 (Honor Mathematics III)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
             '**: ' +
             'A 200+ student rigorous analysis course on the B.Eng. ECE track. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
-          location: 'Shanghai Jiao Tong University, China',
+          location: 'Shanghai Jiao Tong University',
         }, {
           date: 'Sep. 2020 - Dec. 2020',
           title: 'Instructional Aide',
@@ -135,7 +135,7 @@ module.exports = {
             '[VV186 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
             '**: ' +
             'A 200+ student rigorous analysis course on the B.Eng. ECE track.',
-          location: 'Shanghai Jiao Tong University, China',
+          location: 'Shanghai Jiao Tong University',
         },
       ],
     },
@@ -165,7 +165,7 @@ module.exports = {
             'foodall' +
             '**: ' +
             'A food order platform in Taiwan, built with *Golang* and *Gin*, *MongoDB*, with RESTful API design.',
-          location: 'Virtual, Shanghai, China',
+          location: 'Virtual, Shanghai',
         },
       ],
     },
