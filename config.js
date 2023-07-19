@@ -7,7 +7,7 @@ module.exports = {
   authorAlternative: 'Write-The-Formula',
   introduction: [
     'A first year Ph.D. student at the *University of Illinois Urbana-Champaign* 🌽 holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from the *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳. I\'m grateful to be advised by Prof. [Jiaqi Ma](https://www.jiaqima.com/).',
-    `I do *AI* and *TCS* with **math** on **graphs**. Besides, I enjoy [*photography*](https://street.pbb.wtf/) 📷 and writing [*random posts*](./posts) 📝 in my spare time.`,
+    `I do *AI* and *TCS* with **math** on **graphs**. Besides, I enjoy [*photography*](https://street.pbb.wtf/) 📷 and writing [*random posts*](./posts) 📝.`,
     `***Currently***, I\'m designing *fast graph algorithms*, exploring *machine unlearning*, and studying *graphings*.`,
   ],
   avatar: 'avatar.png',
