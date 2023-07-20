@@ -15,4 +15,6 @@ links:
 
 ## Introduction
 
+In my last semester, I decided to take a course about algorithmic game theory (because this was the only CS theory course I was interested in). At the end of my long university journey, I did this fun, small project with [Henry Fleischmann](http://www-personal.umich.edu/~henryfl/index.html), where we actually managed to prove something *nontrivial*.
+
 ### Conclusion
