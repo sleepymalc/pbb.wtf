@@ -7,7 +7,7 @@ tags:
 date: Jan 2022 - April 2022
 path: "research/TSP-a-novel-TSP-solving-strategy"
 excerpt: "Exploring a novel approach to ***exactly*** solve an NP-hard combinatorial optimization problem by using *imitation learning*."
-selected: true
+selected: false
 cover: "./preview.png"
 links:
   - name: "GitHub"
