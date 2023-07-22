@@ -15,11 +15,11 @@ links:
 
 ## Introduction
 
-In the last semester of my bachelor's journey, I decided to take a course about algorithmic game theory. In the end, I did this fun, small project with [Henry Fleischmann](http://www-personal.umich.edu/~henryfl/index.html), where we managed to prove something *nontrivial* regarding *gerrymandering*.[^1] The ultimate goal is to design a voting mechanism (also referred to as *social-choice function*) that is ***fair***. The [report](./Modeling-Fair-Redistricting-Commissions.pdf) is available.
-
-[^1]: Not all redistricting plans are created equal; when the redistricting process is commandeered by partisan actors drawing maps to maximize their electoral gains, the act is colloquially referred to as *gerrymandering*.
+In the last semester of my bachelor's journey, I decided to take a course about algorithmic game theory. In the end, we did this fun, small project with [Henry Fleischmann](http://www-personal.umich.edu/~henryfl/index.html), where we managed to design a mechanism that addresses the *gerrymandering*[^1] problem, proving it has the desired properties. The [report](./Modeling-Fair-Redistricting-Commissions.pdf) is available.
 
 ## The Balanced Mechanism
+
+We now describe our model of this problem in a theoretical way. Recall that our goal is to design a *fair* rule to get a
 
 ### Social-Choice Function
 
