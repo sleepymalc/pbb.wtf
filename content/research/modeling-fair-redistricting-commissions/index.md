@@ -9,8 +9,10 @@ excerpt: "We resolved *Gerrymandering* by a simple (dumb) voting scheme..."
 selected: true
 cover: "./preview.png"
 links:
-  - name: "pdf"
+  - name: "Report"
     url: "./Modeling-Fair-Redistricting-Commissions/Report.pdf"
+   - name: "Poster"
+    url: "./Modeling-Fair-Redistricting-Commissions/Poster.pdf" 
 ---
 
 ## Introduction
