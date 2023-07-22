@@ -11,7 +11,7 @@ cover: "./preview.png"
 links:
   - name: "Report"
     url: "./Modeling-Fair-Redistricting-Commissions/Report.pdf"
-   - name: "Poster"
+  - name: "Poster"
     url: "./Modeling-Fair-Redistricting-Commissions/Poster.pdf" 
 ---
 
