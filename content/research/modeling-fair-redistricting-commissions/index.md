@@ -10,14 +10,14 @@ selected: true
 cover: "./preview.png"
 links:
   - name: "Report"
-    url: "./Research/Modeling-Fair-Redistricting-Commissions/paper.pdf"
+    url: "./Modeling-Fair-Redistricting-Commissions/paper.pdf"
   - name: "Poster"
-    url: "./Research/Modeling-Fair-Redistricting-Commissions/poster.pdf" 
+    url: "./Modeling-Fair-Redistricting-Commissions/poster.pdf" 
 ---
 
 ## Introduction
 
-In the last semester of my bachelor's journey, I decided to take a course about algorithmic game theory. In the end, we did this fun, small project with [Henry Fleischmann](http://www-personal.umich.edu/~henryfl/index.html), where we managed to design a mechanism that addresses the *gerrymandering*[^1] problem, proving it has the desired properties. The following is a quick summary of our project. The [report](./Research/Modeling-Fair-Redistricting-Commissions/paper.pdf) and the [poster](./Research/Modeling-Fair-Redistricting-Commissions/poster.pdf) for this project are available.
+In the last semester of my bachelor's journey, I decided to take a course about algorithmic game theory. In the end, we did this fun, small project with [Henry Fleischmann](http://www-personal.umich.edu/~henryfl/index.html), where we managed to design a mechanism that addresses the *gerrymandering*[^1] problem, proving it has the desired properties. The following is a quick summary of our project. The [report](./Modeling-Fair-Redistricting-Commissions/paper.pdf) and the [poster](./Modeling-Fair-Redistricting-Commissions/poster.pdf) for this project are available.
 
 ## The Model
 
