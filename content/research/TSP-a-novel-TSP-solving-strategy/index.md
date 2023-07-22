@@ -22,7 +22,9 @@ I stepped upon an interesting paper: [*Exact Combinatorial Optimization with Gra
 
 [^1]: There are a bunch of similar works out there trying to achieve this, however, by the nature of machine learning algorithms, all of them fail to provide an exact solution.
 
-This idea is interesting enough, so I decided to implement it and turn it into a small project. I focused on a specific, well-known TCS problem: the [traveling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem), also known as *TSP*. The [report](https://arxiv.org/abs/2210.05906) and the [code](https://github.com/sleepymalc/Travel-the-Same-Path) for this project are available.
+This idea is interesting enough, so I decided to implement it and turn it into a small project. I focused on a specific, well-known TCS problem: the [traveling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem), also known as *TSP*.
+
+> The [report](https://arxiv.org/abs/2210.05906) and the [code](https://github.com/sleepymalc/Travel-the-Same-Path) for this project are available.
 
 ### Preliminary
 
