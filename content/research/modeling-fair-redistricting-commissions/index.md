@@ -10,9 +10,9 @@ selected: true
 cover: "./preview.png"
 links:
   - name: "Paper"
-    url: "./Modeling-Fair-Redistricting-Commissions/paper.pdf"
+    url: "./research/Modeling-Fair-Redistricting-Commissions/paper.pdf"
   - name: "Poster"
-    url: "./Modeling-Fair-Redistricting-Commissions/poster.pdf" 
+    url: "./research/Modeling-Fair-Redistricting-Commissions/poster.pdf" 
 ---
 
 ## Introduction
