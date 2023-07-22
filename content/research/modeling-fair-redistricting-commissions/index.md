@@ -19,7 +19,7 @@ In the last semester of my bachelor's journey, I decided to take a course about 
 
 ## The Balanced Mechanism
 
-We now describe our model of this problem in a theoretical way. Recall that our goal is to design a *fair* rule to get a
+We now describe our model of this problem in a theoretical way. Recall that our goal is to design a *fair* rule to get a redistricting map based on a selected group of commissioners, while being aware that some group of commissioners might collude together, trying to manipulate the outcome.
 
 ### Social-Choice Function
 
