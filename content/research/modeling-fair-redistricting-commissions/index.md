@@ -15,7 +15,7 @@ links:
 
 ## Introduction
 
-In the last semester of my bachelor's journey, I decided to take a course about algorithmic game theory. In the end, I did this fun, small project with [Henry Fleischmann](http://www-personal.umich.edu/~henryfl/index.html), where we managed to prove something *nontrivial* regarding *gerrymandering*.[^1] The ultimate goal is to design a voting mechanism (also referred to as *social-choice function*) that is ***fair***.
+In the last semester of my bachelor's journey, I decided to take a course about algorithmic game theory. In the end, I did this fun, small project with [Henry Fleischmann](http://www-personal.umich.edu/~henryfl/index.html), where we managed to prove something *nontrivial* regarding *gerrymandering*.[^1] The ultimate goal is to design a voting mechanism (also referred to as *social-choice function*) that is ***fair***. The [report](./Modeling-Fair-Redistricting-Commissions.pdf) is available.
 
 [^1]: Not all redistricting plans are created equal; when the redistricting process is commandeered by partisan actors drawing maps to maximize their electoral gains, the act is colloquially referred to as *gerrymandering*.
 
@@ -30,6 +30,8 @@ The usual model of a voting scheme is known as the [*social-choice function*](ht
 As one might expect, defining *fairness* is not a trivial thing to do. In our example, we want to achieve at least the following:
 
 1. Group Strategy Proof: A generalized notion of [strategyproofness](https://en.wikipedia.org/wiki/Strategyproofness), where even if a group of voters colludes to misreport their preferences, there's no way they can improve their utility (i.e., achieving their goal such as selecting a map which is biased to a particular party). In other words, even if a group of people can collude, being truthful is the best strategy.
-2. Unbias: We want to always select an unbiased map, which we refer to as a *neutral map*.
+2. Unbiased: We want to always select an unbiased map such that no particular party benefits.  We refer to such an unbiased map as a *neutral map*.
+
+## The Unbalanced Mechanism
 
 ## Conclusion
