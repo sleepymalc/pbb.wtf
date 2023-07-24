@@ -1,7 +1,7 @@
 ---
 title: "Modeling Fair Redistricting Commissions"
 tags:
-- "Algorithmic Game Theory"
+- "Game Theory"
 - "Fairness"
 date: Jan 2023 - April 2023
 path: "research/modeling-fair-redistricting-commissions"

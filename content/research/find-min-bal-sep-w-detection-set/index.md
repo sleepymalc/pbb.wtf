@@ -1,7 +1,7 @@
 ---
 title: "Finding Minimal Balanced Separators with Detection Sets"
 tags:
-- "Theoretical Computer Science"
+- "Graph Theory"
 - "Computational Complexity"
 date: May 2022 - September 2022
 path: "research/find-min-bal-sep-w-detection-set"
