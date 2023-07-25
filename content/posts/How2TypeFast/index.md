@@ -55,7 +55,7 @@ I don't know any easy (i.e., 1-click) way to import setting from a profile with 
     <div align="center">
 		<img width="80%" src="figures/sourcecode-1.png"/>
 	</div>
-2. Copy [`Alone.json`](./Alone.json), [`Double.json`](./Double.json), [`Right-Cmd.json`](./Right-Cmd.json) into `.config/karabiner/assets/complex_modifications`.
+2. Copy [`Alone.json`](./How2TypeFast/Alone.json), [`Double.json`](./How2TypeFast/Double.json), [`Right-Cmd.json`](./How2TypeFast/Right-Cmd.json) into `.config/karabiner/assets/complex_modifications`.[^2]
     <div align="center">
 		<img width="80%" src="figures/sourcecode-2.png"/>
 	</div>
@@ -67,3 +67,5 @@ I don't know any easy (i.e., 1-click) way to import setting from a profile with 
 	<div align="center">
 		<img width="80%" src="figures/sourcecode-4.png"/>
 	</div>
+
+[^2]: If you came from [VSCode-LaTeX-Inkscape#Karabiner Elements](./VSCode-LaTeX-Inkscape#karabiner-elements), then you add [`inkscape.json`](./How2TypeFast/inkscape.json) into `.config/karabiner/assets/complex_modifications`.
