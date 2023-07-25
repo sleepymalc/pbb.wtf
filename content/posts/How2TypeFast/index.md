@@ -9,7 +9,9 @@ cover: "./preview.png"
 
 ## Introduction
 
-I have been optimizing my typesetting skill since my first Bachelor year, and four years later, I think I can share something interesting with you to help you type *even faster*.
+Do you think typing fast, i.e., achieving a high wpm (high word-per-minutes), is the only way to be efficient/productive? If you do, then this compact, 5-mins read post will blow your mind, making you *even faster*.[^1]
+
+[^1]: In the sense of efficiency, go without saying.
 
 ### Mentality
 
@@ -21,15 +23,13 @@ Before walking through my key remaps one by one, I want to give you the mentalit
 
 Let me ask you: *How do you typically delete a character?* If you
 
-<p style="text-align: center;"> use <code>delete</code> (<code>backspace</code>) with your right little finger traveling across 2 columns and 2 rows, </p>
+<p style="text-align: center;">use <code>delete</code> (<code>backspace</code>) with your right little finger traveling across 2 columns and 2 rows,</p>
 
 then you should keep reading.
 
 ### Tool matters
 
 First thing first, please get yourself a good keyboard. I use [HHKB](https://happyhackingkb.com/) Professional Hybrid Type-S personally. It's fast, elegant, and customizable.[^1]
-
-[^1]: If you're interested in [HHKB](https://happyhackingkb.com/) and want to learn more, see [hhkb.io](https://hhkb.io).
 
 ## Arrow Keys
 
