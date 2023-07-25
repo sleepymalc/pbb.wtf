@@ -618,7 +618,7 @@ Please download the above two apps.
 
 #### Karabiner Elements
 
-We'll need [Karabiner Elements](https://karabiner-elements.pqrs.org)' [Complex Modifications](https://karabiner-elements.pqrs.org/docs/json/root-data-structure/#custom-json-file-in-configkarabinerassetscomplex_modifications) to help us. The steps are the following.
+We'll need [Karabiner Elements](https://karabiner-elements.pqrs.org)' [Complex Modifications](https://karabiner-elements.pqrs.org/docs/json/root-data-structure/#custom-json-file-in-configkarabinerassetscomplex_modifications) to help us. The steps are the following (adapted from [️⌨ How to type?](./How2TypeFast#source-code)).
 
 1. Open [Karabiner-Elements](https://karabiner-elements.pqrs.org/), go to *Misc* and click on *Export & Import*.
     <div align="center">
