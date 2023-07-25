@@ -39,7 +39,7 @@ I will use macOS and [Karabiner-Elements](https://karabiner-elements.pqrs.org/) 
 	<img width="80%" src="figures/Karabiner-Elements.png"/>
 </div>
 
-You can easily import these using the [source code](#source-code) at the end, which can be used as your own setting's starting point. Now, let's walk through them one by one.
+You can easily import these settings [at the end](#import-settings), which can be used as your own setting's starting point. Now, let's walk through them one by one.
 
 ## Arrow Keys
 
@@ -47,7 +47,7 @@ You can easily import these using the [source code](#source-code) at the end, wh
 
 ## Escape, Left and Right Shift
 
-## Source Code
+## Import Settings
 
 I don't know any easy (i.e., 1-click) way to import setting from a profile with [Karabiner-Elements](https://karabiner-elements.pqrs.org/), but the basic steps are the following.
 
