@@ -3,7 +3,7 @@ title: "$ open -a Marta"
 tags: ["macOS", "app"]
 date: 2022-02-27
 path: "posts/Marta"
-excerpt: ⌨️ A [Finder](https://support.apple.com/en-us/HT201732) alternative.
+excerpt: 📂 A [Finder](https://support.apple.com/en-us/HT201732) alternative.
 cover: "./preview.png"
 ---
 
