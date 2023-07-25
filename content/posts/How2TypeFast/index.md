@@ -9,7 +9,9 @@ cover: "./preview.png"
 
 ## Introduction
 
-I have been optimizing my typesetting skill since my first Bachelor year, and four years later, I think I can share something interesting with you to help you type *even faster*. What I'm going to share is not about how you can be fast in regular typesetting, e.g., achieving wpm 150 in [monkeytype](https://monkeytype.com); rather, I want to share some of my keyboard settings (i.e., key remaps), which opens up a new world for typesetting.
+I have been optimizing my typesetting skill since my first Bachelor year, and four years later, I think I can share something interesting with you to help you type *even faster*. What I'm going to share is not about how you can be fast in regular typesetting, e.g., achieving wpm 150 in [monkeytype](https://monkeytype.com).
+
+Rather, if you have read the post about [VSCode-LaTeX-Inkscape](./VSCode-LaTeX-Inkscape) and are still wondering how I can typeset these [notes](./Notes) in class, then what I'm going to share is worth reading. The key, as you will soon see, is not only using snippets, but also the basic editing-related key remap I have done.
 
 > First thing first, please get yourself a good keyboard. I use [HHKB](https://happyhackingkb.com/) Professional Hybrid Type-S personally. It's fast, elegant, and customizable.[^1]
 
