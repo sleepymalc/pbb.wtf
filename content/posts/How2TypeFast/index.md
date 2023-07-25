@@ -1,5 +1,5 @@
 ---
-title: "int wpm = 130;"
+title: "assert wpm < efficiency"
 tags: ["random"]
 date: 2023-07-25
 path: "posts/How2TypeFast"
@@ -33,4 +33,10 @@ First thing first, please get yourself a good keyboard. I use [HHKB](https://hap
 
 ## Arrow Keys
 
+I will use macOS as the working example, but the same concept should be easily ported to other operating systems.
+
+## Math-Related Characters
+
 ## Escape, Left and Right Shift
+
+###
