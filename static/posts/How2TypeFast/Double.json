@@ -1,0 +1,33 @@
+{
+	"title": "Double Modify",
+	"rules": [
+		{
+			"description": "Double Right Shift as delete",
+			"manipulators": [
+				{
+					"conditions": [
+						{
+							"name": "right_shift pressed",
+							"type": "variable_if",
+							"value": 1
+						}
+					],
+					"from": {
+						"key_code": "right_shift",
+						"modifiers": {
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to_if_held_down": [
+						{
+							"key_code": "delete_or_backspace"
+						}
+					],
+					"type": "basic"
+				}
+			]
+		}
+	]
+}

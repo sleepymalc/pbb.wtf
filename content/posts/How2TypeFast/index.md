@@ -48,3 +48,22 @@ You can easily import these using the [source code](#source-code) at the end, wh
 ## Escape, Left and Right Shift
 
 ## Source Code
+
+I don't know any easy (i.e., 1-click) way to import setting from a profile with [Karabiner-Elements](https://karabiner-elements.pqrs.org/), but the basic steps are the following.
+
+1. Open [Karabiner-Elements](https://karabiner-elements.pqrs.org/), go to *Misc* and click on *Export & Import*.
+    <div align="center">
+		<img width="80%" src="figures/sourcecode-1.png"/>
+	</div>
+2. Copy [`Alone.json`](./Alone.json), [`Double.json`](./Double.json), [`Right-Cmd.json`](./Right-Cmd.json) into `.config/karabiner/assets/complex_modifications`.
+    <div align="center">
+		<img width="80%" src="figures/sourcecode-2.png"/>
+	</div>
+3. Again open [Karabiner-Elements](https://karabiner-elements.pqrs.org/), go to *Complex Modifications* and click on *Add rule*.
+	<div align="center">
+		<img width="80%" src="figures/sourcecode-3.png"/>
+	</div>
+4. You should be able to enable these rules easily.
+	<div align="center">
+		<img width="80%" src="figures/sourcecode-4.png"/>
+	</div>
