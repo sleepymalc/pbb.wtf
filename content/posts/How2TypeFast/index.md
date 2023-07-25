@@ -68,4 +68,4 @@ I don't know any easy (i.e., 1-click) way to import setting from a profile with 
 		<img width="80%" src="figures/sourcecode-4.png"/>
 	</div>
 
-[^2]: If you came from [VSCode-LaTeX-Inkscape#Karabiner Elements](./VSCode-LaTeX-Inkscape#karabiner-elements), then you add [`inkscape.json`](./How2TypeFast/inkscape.json) into `.config/karabiner/assets/complex_modifications`.
+[^2]: If you came from [VSCode-LaTeX-Inkscape#Karabiner Elements](./VSCode-LaTeX-Inkscape#karabiner-elements), then you add [`Inkscape.json`](./How2TypeFast/Inkscape.json) into `.config/karabiner/assets/complex_modifications`.
