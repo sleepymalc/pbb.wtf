@@ -618,20 +618,40 @@ Please download the above two apps.
 
 #### Karabiner Elements
 
-We'll first set up the following [complex_modifications](https://karabiner-elements.pqrs.org/docs/json/root-data-structure/#custom-json-file-in-configkarabinerassetscomplex_modifications) for [Karabiner Elements](https://karabiner-elements.pqrs.org/) using a [`jsonnet`](https://jsonnet.org) file.
-The file can be found [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/karabiner-inkscape.jsonnet), and the `jsonnet` tool can be installed via `> brew install jsonnet`.
+We'll need [Karabiner Elements](https://karabiner-elements.pqrs.org)' [Complex Modifications](https://karabiner-elements.pqrs.org/docs/json/root-data-structure/#custom-json-file-in-configkarabinerassetscomplex_modifications) to help us. The steps are the following.
 
-Converting the `.jsonnet` file into the json file for [Karabiner Elements](https://karabiner-elements.pqrs.org/) can be done as following
+1. Open [Karabiner-Elements](https://karabiner-elements.pqrs.org/), go to *Misc* and click on *Export & Import*.
+    <div align="center">
+		<img width="80%" src="figures/sourcecode-1.png"/>
+	</div>
+2. Copy [`inkscape.json`](./How2TypeFast/inkscape.json) into `.config/karabiner/assets/complex_modifications`.
+    <div align="center">
+		<img width="80%" src="figures/sourcecode-2.png"/>
+	</div>
+3. Again open [Karabiner-Elements](https://karabiner-elements.pqrs.org/), go to *Complex Modifications* and click on *Add rule*.
+	<div align="center">
+		<img width="80%" src="figures/sourcecode-3.png"/>
+	</div>
+4. Enable it.
+	<div align="center">
+		<img width="80%" src="figures/sourcecode-4.png"/>
+	</div>
+
+If you're interested in how [`inkscape.json`](./How2TypeFast/inkscape.json) is created, see the following.
+
+<details>
+
+<summary><b>Detail Explanation</b></summary>
+
+The [`inkscape.json`](./How2TypeFast/inkscape.json) is created by using a [`jsonnet`](https://jsonnet.org) file. The file can be found [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/karabiner-inkscape.jsonnet), and the `jsonnet` tool can be installed via `> brew install jsonnet`.
+
+Converting the `jsonnet` file into the `json` file for [Karabiner Elements](https://karabiner-elements.pqrs.org/) can be done as follows
 
 ```sh
 > jsonnet karabiner-inkscape.jsonnet > ~/.config/karabiner/assets/complex_modifications/karabiner-inkscape.json
 ```
 
-Then enable in [Karabiner Elements](https://karabiner-elements.pqrs.org/) UI the complex modifications.
-
-<div align="center">
-	<img src="./figures/Karabiner.png"/>
-</div>
+</details>
 
 #### Hammerspoon
 
@@ -639,7 +659,7 @@ Firstly, open the [Hammerspoon](https://www.hammerspoon.org/) console and run `h
 
 #### Reference Card for Key Chords
 
-As reference for the key chords I add the original picture from [the original blog](https://castel.dev/post/lecture-notes-2/) but with the key chords included in the picture.
+As a reference for the key chords I add the original picture from [the original blog](https://castel.dev/post/lecture-notes-2/) but with the key chords included in the picture.
 
 <div align="center">
 	<img src="./figures/inkscape_shortcut.png"/>
