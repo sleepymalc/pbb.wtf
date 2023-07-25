@@ -1,5 +1,5 @@
 ---
-title: "$ code -add LaTeX Inkscape"
+title: "$ code --add LaTeX Inkscape"
 tags: ["macOS", "LaTeX", "notes"]
 date: 2022-03-01
 path: "posts/VSCode-LaTeX-Inkscape"
