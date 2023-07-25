@@ -31,12 +31,20 @@ then you should keep reading.
 
 First thing first, please get yourself a good keyboard. I use [HHKB](https://happyhackingkb.com/) Professional Hybrid Type-S personally. It's fast, elegant, and customizable.[^1]
 
-## Arrow Keys
+### The Setup
 
-I will use macOS as the working example, but the same concept should be easily ported to other operating systems.
+I will use macOS and [Karabiner-Elements](https://karabiner-elements.pqrs.org/) as our working example, but the same concept should be easily ported to other operating systems. The following is a snapshot of my setting.
+
+<div align="center">
+	<img width="80%" src="figures/Karabiner-Elements.png"/>
+</div>
+
+You can easily import these using the [source code](#source-code) at the end, which can be used as your own setting's starting point. Now, let's walk through them one by one.
+
+## Arrow Keys
 
 ## Math-Related Characters
 
 ## Escape, Left and Right Shift
 
-###
+## Source Code
