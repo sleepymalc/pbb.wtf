@@ -1,5 +1,5 @@
 ---
-title: "printf(\"Hello World\\n\");"
+title: "printf(\"Hello World\");"
 tags: ["random"]
 date: 2022-02-25
 path: "posts/HelloWorld"

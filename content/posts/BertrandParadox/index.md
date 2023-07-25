@@ -1,5 +1,5 @@
 ---
-title: "bool p = 0.8;"
+title: "bool probability = 0.8;"
 tags: ["math", "random"]
 date: 2022-05-28
 path: "posts/BertrandParadox"
