@@ -106,9 +106,33 @@ So, should we directly remap `control` to `esc`? No! Observe that `control` is u
 
 Specifically, if I press `control` for less than a threshold called `alone threshold` (e.g., 0.15 seconds), then it'll be recognized as `esc`; and if I press `control` for more than a threshold called `hold-down threshold` (e.g., 0.04 seconds), then it'll be recognized as `control` and can then be used as a modifier.[^2]
 
-[^2]: You might notice that it's possible to have conflict, i.e., if you press `control` for 0.1 seconds, then it'll trigger both `control` and `esc`. However, it's fine since `control` is a modifier but is not combined with `esc`. You don't want your `hold-down threshold` to be too long (e.g., 0.15 seconds to avoid conflict) because then whenever you want to actually use `control` as a modifier combined with other keys to trigger a shortcut, you'll need to hold `control` for that long.
+[^2]: You might notice that it's possible to have conflict, i.e., if you press `control` for 0.1 seconds, then it'll trigger both `control` and `esc`. However, it's fine since `control` is a modifier but is not combined with `esc`. You don't want your `hold-down threshold` to be too long (e.g., 0.15 seconds to avoid conflict) because then whenever you want to use `control` as a modifier combined with other keys to trigger a shortcut, you'll need to hold `control` for that long.
 
-### Right Shift
+### Left and Right Shift
+
+Now we know we can use long press and single press separately, we can overload other modifiers in the same way as well! I do not go all the way to overload every modifier however; I only overload both `shift`s besides `control`.
+
+> You might not want to do this for every modifier such as `opt` and `cmd` to be honest... It's very possible that you will accidentally trigger them when you're trying out what shortcut you're going to use (e.g., when you're copying things using `cmd`+`c`, it's possible to press `cmd` alone and release it when you realize you don't want to actually copy the selected texts).
+
+For the `left shift`, I configure it as
+
+<p style="text-align: center;"><code>caps lock</code> when <code>left shift</code> is pressed alone.</p>
+
+This is because I'm bilingual, and I need to be able to switch the input language on the fly (actually the macOS default `caps lock` is the fastest way to switch the input language in my experience). So, I leave it as it is on the system level, and modify the `left shift` to be `caps lock` when it's pressed alone. It works quite well in practice.
+
+For the `right shift`, I do something more crazy:
+
+<p style="text-align: center;"><code>delete</code> when <code>right shift</code> is pressed alone,</p>
+
+and,
+
+<p style="text-align: center;">pressed-down <code>delete</code> when <code>right shift</code> is pressed twice and is held on the second press.</p>
+
+The first one is clear: I don't want to reach my little finger to the usual `delete` spot since it's far away[^3], and it's natural to remap `delete` to the `right shift` since it's an easy reach for my right little finger.
+
+[^3]: Also, on the [HHKB](https://happyhackingkb.com/) layout, the `delete` key is on the usual `|`/`\` key's spot, which is quite awkward for me. So I remap the `delete` on my [HHKB](https://happyhackingkb.com/) to `|`/`\` on the system level; this means, the `delete` key is now completely gone on my [HHKB](https://happyhackingkb.com/).
+
+But there's a problem: you now can't hold `delete` for a consecutive deletion since holding it is equivalent to holding the `right shift`.
 
 ## Import Settings
 
@@ -118,7 +142,7 @@ I don't know any easy (i.e., 1-click) way to import setting from a profile with 
     <div align="center">
 		<img width="80%" src="figures/sourcecode-1.png"/>
 	</div>
-2. Copy [`Alone.json`](./How2TypeFast/Alone.json), [`Double.json`](./How2TypeFast/Double.json), [`Right-Cmd.json`](./How2TypeFast/Right-Cmd.json) into `.config/karabiner/assets/complex_modifications`.[^3]
+2. Copy [`Alone.json`](./How2TypeFast/Alone.json), [`Double.json`](./How2TypeFast/Double.json), [`Right-Cmd.json`](./How2TypeFast/Right-Cmd.json) into `.config/karabiner/assets/complex_modifications`.[^VSCode-LaTeX-Inkscape]
     <div align="center">
 		<img width="80%" src="figures/sourcecode-2.png"/>
 	</div>
@@ -131,9 +155,9 @@ I don't know any easy (i.e., 1-click) way to import setting from a profile with 
 		<img width="80%" src="figures/sourcecode-4.png"/>
 	</div>
 
-[^3]: If you came from [VSCode-LaTeX-Inkscape](./VSCode-LaTeX-Inkscape#karabiner-elements), then you add [`Inkscape.json`](./How2TypeFast/Inkscape.json) into `.config/karabiner/assets/complex_modifications`.
+[^VSCode-LaTeX-Inkscape]: If you came from [VSCode-LaTeX-Inkscape](./VSCode-LaTeX-Inkscape#karabiner-elements), then you add [`Inkscape.json`](./How2TypeFast/Inkscape.json) into `.config/karabiner/assets/complex_modifications`.
 
-Finally, my you can also set up your *Parameters* as mine:
+Finally, you can also set up your *Parameters* as mine:
 
 <div align="center">
 	<img width="80%" src="figures/parameter.png"/>
