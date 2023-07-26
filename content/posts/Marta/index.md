@@ -13,7 +13,7 @@ cover: "./preview.png"
 	<img width="80%" src="figures/marta.png"/>
 </div>
 
-Though most of the native apps made by excellent Apple engineers are easy to use[^1], but [Finder](https://support.apple.com/en-us/HT201732) is different. I asked lots of my macOS friends, and nearly all of them think [Finder](https://support.apple.com/en-us/HT201732) is great, "*it's fast and easy to use.*" Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before.
+Though most of the native apps made by excellent Apple engineers are easy to use[^1], [Finder](https://support.apple.com/en-us/HT201732) is different. I asked lots of my macOS friends, and nearly all of them think [Finder](https://support.apple.com/en-us/HT201732) is great, "*it's fast and easy to use.*" Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before.
 > Although I can write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you, but sadly, while Apple is moving on to arm architecture, [TotalFinder](https://totalfinder.binaryage.com/) couldn't keep up with the pace to be compatible with Apple. Indeed, it stops updating and not maintained anymore.[^2]
 > <div align="center">
 > 	<img width="80%" src="figures/totalfinder.png"/>
@@ -30,15 +30,15 @@ Though most of the native apps made by excellent Apple engineers are easy to use
 <img src="figures/icon-hand-draw.png" align="right"/>
 </div>
 
-The fundamental difference between [TotalFinder](https://totalfinder.binaryage.com/) and [Finder](https://support.apple.com/en-us/HT201732) is the **multiple tabs support** with **double panels display**, which allows you to manage files *purely by keyboard*. If you're using Finder, you'll need multiple windows and probably with mouse to achieve this, but now you can do the same thing with only one active window.
+The fundamental difference between [TotalFinder](https://totalfinder.binaryage.com/) and [Finder](https://support.apple.com/en-us/HT201732) is the **multiple tabs support** with the **double-panel** feature, which allows you to manage files *purely by the keyboard*. If you're using Finder, you'll need multiple windows and probably a mouse to achieve this, but now you can do the same thing with only one active window.
 
-Though [TotalFinder](https://totalfinder.binaryage.com/) is no longer available for arm mac, [Marta](https://marta.sh/) appeared. It's better in some ways compared to [TotalFinder](https://totalfinder.binaryage.com/), but not that convenient in others. Nevertheless, it's *free*, *natively support*, and most importantly, *it's cute*! The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "this cute fox stands for quick and smart, just like [Marta](https://marta.sh/)".
+Though [TotalFinder](https://totalfinder.binaryage.com/) is no longer available for arm mac, [Marta](https://marta.sh/) appeared. It's better in some ways compared to [TotalFinder](https://totalfinder.binaryage.com/), but not that convenient in others. Nevertheless, it's *free*, *natively supported*, and most importantly, *it's cute*! The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "This cute fox stands for quick and smart, just like [Marta](https://marta.sh/)".
 
 > If you ask, "*Ok, so what? You can use arrow keys moving around in [Finder](https://support.apple.com/en-us/HT201732) too!*" Well, then in this case, [Finder](https://support.apple.com/en-us/HT201732) may be sufficient for your usage.
 
 ## Features
 
-I'm going to briefly introduce some basic but powerful features in [Marta](https://marta.sh/). For the full documentation, please check the official [docs](https://marta.sh/docs/) for reference. First, this is the basic look of your Marta window:
+I'm going to briefly introduce some basic but powerful features of [Marta](https://marta.sh/). For the full documentation, please check the official [docs](https://marta.sh/docs/) for reference. First, this is the basic look of your Marta window:
 
 <div align="center">
 	<img width="80%"src="figures/demo.png"/>
@@ -46,13 +46,13 @@ I'm going to briefly introduce some basic but powerful features in [Marta](https
 
 ### Actions
 
-The core functionality in [Marta](https://marta.sh/) is given as *action*, which can be realized as commands and can be triggered with shortcuts. There are enormous amounts of *actions* provided, and all of them can be arbitrarily combined to your favorite keybindings and triggered effortlessly.
+The core functionality in [Marta](https://marta.sh/) is given as *action*, which can be realized as commands and can be triggered with shortcuts. There are enormous amounts of *actions* provided, and all of them can be arbitrarily combined with your favorite keybindings and triggered effortlessly.
 
 ### Search Actions
 
-You might sometimes get lost when you are working with  [Marta](https://marta.sh/) since there are so many *actions* can be used, and you have many keybindings to each of them. But don't worry, there is a very nice feature provided natively in [Marta](https://marta.sh/) which helps you find any *action* in no time: that is the *Search Action*.
+You might sometimes get lost when you are working with [Marta](https://marta.sh/) since there are so many *actions* that can be used, and you have many keybindings to each of them. But don't worry, there is a very nice feature provided natively in [Marta](https://marta.sh/) that helps you find any *action* in no time: that is the *Search Action*.
 
-When you press `shift`+`cmd`+`p`, a search bar named *Search Action* will pop up, and you can search any *action* you want to use. For example, there is a built-in `Compress` *action* in [Marta](https://marta.sh/), but since I didn't compress files that often, hence I do not assign a keybinding to this. Do not panic if you suddenly want to compress some files! You can select files[^3] you want to zip and then press `shift`+`cmd`+`p`, search for `Compress` and use `enter` to trigger the action:
+When you press `shift`+`cmd`+`p`, a search bar named *Search Action* will pop up, and you can search for any *action* you want to use. For example, there is a built-in `Compress` *action* in [Marta](https://marta.sh/), but since I didn't compress files that often, hence I do not assign a keybinding to this. Do not panic if you suddenly want to compress some files! You can select files[^3] you want to zip and then press `shift`+`cmd`+`p`, search for `Compress` and use `enter` to trigger the action:
 
 [^3]: To select multiple files, you select them by using `shift`+`↑`/`↓` as expected.
 
@@ -67,17 +67,17 @@ Now, let's start binding some useful *actions* to your favorite keybindings!
 In Finder, you can use arrow keys to navigate through folders, namely
 
 * `←` : Move to the parent folder.
-* `→` : Move in the folder if the current focus is on a folder (otherwise do nothing).
+* `→` : Move to the folder if the current focus is on a folder (otherwise do nothing).
 * `↑` : Move up.
 * `↓` : Move down.
 
-You can do not only the same, but more with [Marta](https://marta.sh/)! The definition of the right key in [Marta](https://marta.sh/) in default is the `core.move.right` *action*
+You can do not only the same but more with [Marta](https://marta.sh/)! The definition of the right key in [Marta](https://marta.sh/) in default is the `core.move.right` *action*
 
 ```JSON
 "Right" "core.move.right"
 ```
 
-which essentially do the same thing as in Finder. But rather, you can redefine (yes, you can **completely redefine** all the keybindings) it into `core.open` *action* by
+which essentially does the same thing as in Finder. But rather, you can redefine (yes, you can **completely redefine** all the keybindings) it into `core.open` *action* by
 
 ```JSON
 "Right" "core.open"
@@ -92,11 +92,11 @@ One thing that is worth mentioning is that [Marta](https://marta.sh/) set `←` 
 "Left" "core.go.up"
 ```
 
-which essentially do the same thing as Finder.
+which essentially does the same thing as Finder.
 
 ### Create New Files & Folders
 
-By default, you can create folders and **any** types of file in [Marta](https://marta.sh/) by the following `new.folder` and `new.file` *actions*:
+By default, you can create folders and **any** type of file in [Marta](https://marta.sh/) by the following `new.folder` and `new.file` *actions*:
 
 ```JSON
 "F7" 		"core.new.folder"
@@ -118,7 +118,7 @@ while `shift`+`cmd`+`n` is the default shortcut to create a new folder in Finder
 
 ### Find
 
-A very clever move for [Marta](https://marta.sh/) is that they implemented some sort of fast searching. There are two kinds of search you can do in [Marta](https://marta.sh/), one is *local search*, another is *global search*.
+A very clever move for [Marta](https://marta.sh/) is that they implemented some sort of fast searching. There are two kinds of search you can do in [Marta](https://marta.sh/), one is *local search*, and another is *global search*.
 
 #### Local Search
 
@@ -133,7 +133,7 @@ This is extremely fast and clever!
 
 #### Global Search
 
-What if you want to go to other directories far from your current one? You can use the function `Look UP`, which is triggered by `cmd`+`p`. After you type this keybinding, a search bar will pop up, and you can search for the place you want to go to. Notice that it can be either a file or directory.
+What if you want to go to other directories far from your current one? You can use the function `Look UP`, which is triggered by `cmd`+`p`. After you type this keybinding, a search bar will pop up, and you can search for the place you want to go to. Notice that it can be either a file or a directory.
 
 <div align="center">
 	<img width="80%" src="gifs/global-search.gif"/>
@@ -147,7 +147,7 @@ As we mentioned before, we can open the file by `→`, but there is some subtly 
 
 #### Open With
 
-Interestingly, as you're going to see, [Marta](https://marta.sh/) let you go *directly in* a `.zip` file and see the content in it with the `core.open` *action*. What if you want to do something else about it? Like, open it by other apps to unzip?
+Interestingly, as you're going to see, [Marta](https://marta.sh/) let you go *directly in* a `.zip` file and see the content in it with the `core.open` *action*. What if you want to do something else about it? Like, open it by other apps to unzip it?
 
 Thankfully, we have the `core.open.with` *action* by default:
 
@@ -155,7 +155,7 @@ Thankfully, we have the `core.open.with` *action* by default:
 "Cmd`+`Return" "core.open.with"
 ```
 
-This allows you to open a file with different apps. Personally, I use [Keka](https://www.keka.io/en/), which is a portable, powerful but light-weight file archiver. Say I just zipped the newly created `text.txt` file and want to unzip it, I can press `cmd`+`Return`, and search for the app I want to open this file with. In this case, I want to open `test.txt.zip` with [Keka](https://www.keka.io/en/):
+This allows you to open a file with different apps. Personally, I use [Keka](https://www.keka.io/en/), which is a portable, powerful but lightweight file archiver. Say I just zipped the newly created `text.txt` file and want to unzip it, I can press `cmd`+`Return`, and search for the app I want to open this file with. In this case, I want to open `test.txt.zip` with [Keka](https://www.keka.io/en/):
 
 <div align="center">
 	<img width="80%" src="gifs/open.gif"/>
@@ -175,9 +175,9 @@ As you might already observe, I tend to define my keybinding with the keyword's 
 "Cmd+e" "core.edit"
 ```
 
-What `core.edit` is really doing is that after you specify a **text-editor**, which you can specify in the configuration file, it'll open whatever you're focusing on within that app.[^4] For example, I use [Visual Studio Code](https://code.visualstudio.com/) as my primarily IDE, so I define
+What `core.edit` is really doing is that after you specify a **text editor**, which you can specify in the configuration file, it'll open whatever you're focusing on within that app.[^4] For example, I use [Visual Studio Code](https://code.visualstudio.com/) as my primary editor, so I define
 
-[^4]: That's to say, you can also open a file with the **text-editor** you specified.
+[^4]: That's to say, you can also open a file with the **text editor** you specified.
 
 ```JSON
 environment {
@@ -203,7 +203,7 @@ You might already notice, [Marta](https://marta.sh/) doesn't provide rich suppor
 
 ### Double Panels
 
-If you follow all these until now, you might have one question: "So when the core feature - *Double Panels* comes into play?" Here it comes, it's useful in the following two ways
+If you follow all these until now, you might have one question: "So when does the core feature - *Double Panels* comes into play?" Here it comes, it's useful in the following two ways
 
 1. Tabs (Pages) support.
 2. ***Move your files around***.
@@ -222,7 +222,7 @@ Yes, it's simple but powerful! In the demo, I use `cmd`+`t` to create a new tab 
 
 #### Copy & Pasting
 
-The default behavior is just like any other file managers you familiar with, i.e., `cmd`+`c` for copying, and `cmd`+`v` for pasting. But I have done one tweak relates to copy: I assign `opt`+`cmd`+`c` to copy the *path* of the current focus file/folder by combining this keybinding with `core.path` as follows:
+The default behavior is just like any other file managers you are familiar with, i.e., `cmd`+`c` for copying, and `cmd`+`v` for pasting. But I have done one tweak related to copy: I assign `opt`+`cmd`+`c` to copy the *path* of the current focus file/folder by combining this keybinding with `core.path` as follows:
 
 ```JSON
 "Cmd+Opt+c" "core.path"
@@ -232,14 +232,14 @@ This is quite useful and fast!
 
 #### Move (Cut-like)
 
-In case some of you didn't know, [Finder](https://support.apple.com/en-us/HT201732) **do** provide the functionality `cut`. This is done by first using `cmd`+`c` like `copy`, and instead of using `cmd`+`v`, you use `Opt+cmd`+`v` to cut the selected content and past them to where you want.
->So basically, in Finder, you can first use `cmd`+`c` to copy the selected files, and then determine whether you want to past or cut them until the very end.
+In case some of you didn't know, [Finder](https://support.apple.com/en-us/HT201732) **does** provide the functionality `cut`. This is done by first using `cmd`+`c` like `copy`, and instead of using `cmd`+`v`, you use `Opt+cmd`+`v` to cut the selected content and paste them to where you want.
+> So basically, in Finder, you can first use `cmd`+`c` to copy the selected files, and then determine whether you want to past or cut them until the very end.
 
 [Marta](https://marta.sh/), on the other hand, **doesn't** provide such an *action*. It only provides `core.move`, and the way it's done is like following.
 
 1. Select the file you want to `core.move`.
 2. Press the keybinding you assign to `core.move` (default is `F6`, I reassign it to be `cmd`+`x`).
-3. Type the path you want to `core.move` the selected files (can include folders) to. The default path is ***another panel (current tab)'s path***.
+3. Type the path you want to `core.move` the selected files (can include folders). The default path is ***another panel (current tab)'s path***.
 
 For demonstration, say I want to move the created `Test/test.txt` to my `Test2` folder. The workflow should be like this:
 
@@ -249,7 +249,7 @@ For demonstration, say I want to move the created `Test/test.txt` to my `Test2` 
 
 #### Clone
 
-As you can see, [Marta](https://marta.sh/) want you to handle your file-reorganization by utilizing its **double panels** feature. So, there must be a way to create a tab to the other side of your panel quickly, maybe? Indeed! It's exactly the `clone`-related *actions*, which include four variations:
+As you can see, [Marta](https://marta.sh/) wants you to handle your file reorganization by utilizing its **double-panel** feature. So, there must be a way to create a tab on the other side of your panel quickly, maybe? Indeed! It's exactly the `clone`-related *actions*, which include four variations:
 
 1. `core.clone.left` (only works when you're at the *right* panel)
 
@@ -264,7 +264,7 @@ As you can see, [Marta](https://marta.sh/) want you to handle your file-reorgani
 
     Same as `core.clone.left.folder`, but reversed in an obvious way.
 
-Now, if you're moving files around under some parent folder, then you can use `core.clone` *action* to quickly set another panel to the similar path and `core.move` files around fast.
+Now, if you're moving files around under some parent folder, then you can use `core.clone` *action* to quickly set another panel to a similar path and `core.move` files around fast.
 
 ## Personal Configuration
 
@@ -342,7 +342,7 @@ etty {
 
 ## Theme
 
-One thing I didn't bring up is that there are actually different themes you can choose from, here is some from the [official document](https://marta.sh/docs/configuration/themes/):
+One thing I didn't bring up is that there are actually different themes you can choose from, here are some from the [official document](https://marta.sh/docs/configuration/themes/):
 
 1. Kon
 
@@ -368,7 +368,7 @@ One thing I didn't bring up is that there are actually different themes you can 
 	<img width="80%"src="figures/sakura.png"/>
 </div>
 
-I actually quite like the look of Sakura 🌸, but since I use dark mode as my main theme, hence I just give up on this... Definitely try it out! To change the theme, you can either just change the `tmeme` (the first line in my [personal configuration](#personal-configuration)) in the configuration file, or to search the `Switch Theme` *action*:
+I actually quite like the look of Sakura 🌸, but since I use dark mode as my main theme, hence I just give up on this... Try it out! To change the theme, you can either just change the `tmeme` (the first line in my [personal configuration](#personal-configuration)) in the configuration file, or search the `Switch Theme` *action*:
 
 <div align="center">
 	<img width="80%" src="gifs/switch-theme.gif"/>
@@ -380,7 +380,7 @@ Overall, I think [Marta](https://marta.sh/) provides excellent customization abi
 
 ## Alternatives
 
-Here, I'm going to list some alternatives of Finder, you can try them yourself!
+Here, I'm going to list some alternatives to Finder, you can try them yourself!
 
 1. [TotalFinder](https://totalfinder.binaryage.com/)
 
@@ -392,4 +392,4 @@ Here, I'm going to list some alternatives of Finder, you can try them yourself!
 
 2. [QSpaces](https://qspace.awehunt.com/en-us/index.html)
 
-    Another powerful [Finder](https://support.apple.com/en-us/HT201732) alternative. It basically can do what [Marta](https://marta.sh/) is capable of, but with a better (well, complicated) GUI. I still prefer [Marta](https://marta.sh/) after trying this, but definitely check it out if you're interested.
+    Another powerful [Finder](https://support.apple.com/en-us/HT201732) alternative. It basically can do what [Marta](https://marta.sh/) is capable of but with a better (well, complicated) GUI. I still prefer [Marta](https://marta.sh/) after trying this, but definitely check it out if you're interested.
