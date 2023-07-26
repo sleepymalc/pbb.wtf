@@ -49,6 +49,8 @@ You can easily import these settings [at the end](#import-settings), which can b
 
 ## Use `right cmd`
 
+Have you ever used your right `cmd`?
+
 ### Arrow Keys
 
 I hope you use [Vim](https://www.vim.org/), or at least heard about it. If you're introducing [Vim](https://www.vim.org/) to others, the first thing you might say is that
@@ -84,7 +86,29 @@ Here is my justification for this setup:
 
 ## Long and Short Press
 
-### Escape, Left and Right Shift
+If you notice that some keys are only designed for long-press but never exploit it, then keep reading.
+
+### Escape
+
+Again, if you use [Vim](https://www.vim.org/), then you will need to use `esc` intensively. Hence, some might suggest you go remap the `caps lock` to `esc`.
+
+However, in my case, I'm using [HHKB](https://happyhackingkb.com/), i.e., the usual position for `caps lock` is `control`.
+
+<div align="center">
+	<img width="80%" src="figures/hhkb-layout.png"/>
+</div>
+
+> To make thing consistent, I also remap `caps lock` on my MacBook to `control`.
+
+So, should we directly remap `control` to `esc`? No! Observe that `control` is used as a modifier, i.e., you never click `control` on its own. By exploiting this fact, we can
+
+<p style="text-align: center;">set <code>control</code> to be <code>esc</code> if it's pressed alone.</p>
+
+Specifically, if I press `control` for less than a threshold called `alone threshold` (e.g., 0.15 seconds), then it'll be recognized as `esc`; and if I press `control` for more than a threshold called `hold-down threshold` (e.g., 0.04 seconds), then it'll be recognized as `control` and can then be used as a modifier.[^2]
+
+[^2]: You might notice that it's possible to have conflict, i.e., if you press `control` for 0.1 seconds, then it'll trigger both `control` and `esc`. However, it's fine since `control` is a modifier but is not combined with `esc`. You don't want your `hold-down threshold` to be too long (e.g., 0.15 seconds to avoid conflict) because then whenever you want to actually use `control` as a modifier combined with other keys to trigger a shortcut, you'll need to hold `control` for that long.
+
+### Right Shift
 
 ## Import Settings
 
@@ -94,7 +118,7 @@ I don't know any easy (i.e., 1-click) way to import setting from a profile with 
     <div align="center">
 		<img width="80%" src="figures/sourcecode-1.png"/>
 	</div>
-2. Copy [`Alone.json`](./How2TypeFast/Alone.json), [`Double.json`](./How2TypeFast/Double.json), [`Right-Cmd.json`](./How2TypeFast/Right-Cmd.json) into `.config/karabiner/assets/complex_modifications`.[^2]
+2. Copy [`Alone.json`](./How2TypeFast/Alone.json), [`Double.json`](./How2TypeFast/Double.json), [`Right-Cmd.json`](./How2TypeFast/Right-Cmd.json) into `.config/karabiner/assets/complex_modifications`.[^3]
     <div align="center">
 		<img width="80%" src="figures/sourcecode-2.png"/>
 	</div>
@@ -107,4 +131,10 @@ I don't know any easy (i.e., 1-click) way to import setting from a profile with 
 		<img width="80%" src="figures/sourcecode-4.png"/>
 	</div>
 
-[^2]: If you came from [VSCode-LaTeX-Inkscape](./VSCode-LaTeX-Inkscape#karabiner-elements), then you add [`Inkscape.json`](./How2TypeFast/Inkscape.json) into `.config/karabiner/assets/complex_modifications`.
+[^3]: If you came from [VSCode-LaTeX-Inkscape](./VSCode-LaTeX-Inkscape#karabiner-elements), then you add [`Inkscape.json`](./How2TypeFast/Inkscape.json) into `.config/karabiner/assets/complex_modifications`.
+
+Finally, my you can also set up your *Parameters* as mine:
+
+<div align="center">
+	<img width="80%" src="figures/parameter.png"/>
+</div>
