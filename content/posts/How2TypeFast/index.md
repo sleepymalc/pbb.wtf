@@ -59,12 +59,26 @@ To address this, we simply adapt [Vim](https://www.vim.org/)'s solution, i.e., u
 
 You might notice that I use the `right cmd` instead of just `cmd`. This is because `cmd`+`h`/`j`/`k`/`l` might be your other shortcuts, and entirely overloading them to arrow keys is not ideal. Hence, by specifying only `right cmd`+`h`/`j`/`k`/`l` as arrow keys, it
 
-1. preserve the potential shortcuts; and
-2. `right cmd`+`h`/`j`/`k`/`l` only uses your right hand which is very natural (you just need to press the `right cmd` with your right thumb, and you can use arrow keys just like you're in [Vim](https://www.vim.org/) **wherever you are**).
+- preserve the potential shortcuts; and
+- `right cmd`+`h`/`j`/`k`/`l` only uses your right hand which is very natural (you just need to press the `right cmd` with your right thumb, and you can use arrow keys just like you're in [Vim](https://www.vim.org/) **wherever you are**).
 
 ## Math-Related Characters
 
-We saw that you can use your `right cmd` as a special modifier, and now we want to extend this theme.
+We saw that you can use your `right cmd` as a special modifier, and now we want to extend this theme. I typeset math-related characters quite often, e.g., `=`, `+`/`-`, `^`/`_`, `(`/`)`, `[`/`]`, and `{`/`}`. Most of them are on the top row and need a modifier (usually `shift`). And this is not very intuitive and still, some of them (e.g., `+`/`=` and `-`/`_`) are far from the main column (w.r.t. your little finger) and the main row. So, I use
+
+1. `right cmd`+`g` for `=`;
+2. `right cmd`+`e`/`c` for `+`/`-`;
+3. `right cmd`+`r`/`v` for `^`/`_`;
+4. `right cmd`+`d`/`f` for `(`/`)`;
+5. `right cmd`+`a`/`s` for `{`/`}`;
+6. `right cmd`+`q`/`w` for `[`/`]`;
+
+Here is my justification for this setup:
+
+- It's easy to type: All of them are around the main row of your left hand (and your right hand is only responsible for the `right`` cmd`).
+- It's easy to remember: They're quite symmetric (e.g., `^` is `right cmd`+`r` while `_` is `right cmd`+`v`, up and down, respectively).
+- It's more accurate: It's not easy to type `-`/`_` and `+`/`=` on the first try with your right little finger in the ordinary setup.
+- It's more comfortable: The most frequently used characters, i.e., `^`/`_` and `+`/`-`, are configured to your index finger and middle finger, respectively.
 
 ## Escape, Left and Right Shift
 
