@@ -77,7 +77,7 @@ We saw that you can use your `right cmd` as a special modifier, and now we want 
 
 Here is my justification for this setup:
 
-- It's easy to type: All of them are around the main row of your left hand (and your right hand is only responsible for the `right`` cmd`).
+- It's easy to type: All of them are around the main row of your left hand (and your right hand is only responsible for the `right cmd`).
 - It's easy to remember: They're quite symmetric (e.g., `^` is `right cmd`+`r` while `_` is `right cmd`+`v`, up and down, respectively).
 - It's more accurate: It's not easy to type `-`/`_` and `+`/`=` on the first try with your right little finger in the ordinary setup.
 - It's more comfortable: The most frequently used characters, i.e., `^`/`_` and `+`/`-`, are configured to your index finger and middle finger, respectively.
