@@ -132,11 +132,16 @@ The first one is clear: I don't want to reach my little finger to the usual `del
 
 [^3]: Also, on the [HHKB](https://happyhackingkb.com/) layout, the `delete` key is on the usual `|`/`\` key's spot, which is quite awkward for me. So I remap the `delete` on my [HHKB](https://happyhackingkb.com/) to `|`/`\` on the system level; this means, the `delete` key is now completely gone on my [HHKB](https://happyhackingkb.com/).
 
-But there's a problem: you now can't hold `delete` for a consecutive deletion since holding it is equivalent to holding the `right shift`.
+But there's a problem: you now can't hold `delete` for a consecutive deletion since holding it is equivalent to holding the `right shift`. To fix this, I come up with the above-mentioned solution, that is, you can trigger the hold-down action for `deletion` by
+
+1. pressing `right shift` alone first, and
+2. pressing `right shift` again and holding it.
+
+Intuitive, right? That's all I want to share.
 
 ## Import Settings
 
-I don't know any easy (i.e., 1-click) way to import setting from a profile with [Karabiner-Elements](https://karabiner-elements.pqrs.org/), but the basic steps are the following.
+To import others' settings in [Karabiner-Elements](https://karabiner-elements.pqrs.org/), I don't know any easy (i.e., 1-click) way to do it. But the basic steps are as follows.
 
 1. Open [Karabiner-Elements](https://karabiner-elements.pqrs.org/), go to *Misc* and click on *Export & Import*.
     <div align="center">
