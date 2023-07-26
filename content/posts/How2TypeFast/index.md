@@ -122,11 +122,11 @@ This is because I'm bilingual, and I need to be able to switch the input languag
 
 For the `right shift`, I do something more crazy:
 
-<p style="text-align: center;"><code>delete</code> when <code>right shift</code> is pressed alone,</p>
+<p style="text-align: center;">when <code>right shift</code> is pressed alone, it acts as <code>delete</code> is pressed alone</p>
 
 and,
 
-<p style="text-align: center;">pressed-down <code>delete</code> when <code>right shift</code> is pressed twice and is held on the second press.</p>
+<p style="text-align: center;">when <code>right shift</code> is pressed twice and is held on the second press, it acts as <code>delete</code> is held-down.</p>
 
 The first one is clear: I don't want to reach my little finger to the usual `delete` spot since it's far away[^3], and it's natural to remap `delete` to the `right shift` since it's an easy reach for my right little finger.
 
