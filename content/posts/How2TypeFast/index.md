@@ -51,15 +51,15 @@ You can easily import these settings [at the end](#import-settings), which can b
 
 I hope you use [Vim](https://www.vim.org/), or at least heard about it. If you're introducing [Vim](https://www.vim.org/) to others, the first thing you might say is that
 
-<p style="text-align: center;">instead of using <code>←</code>/<code>↓</code>/<code>↑</code>/<code>→</code>, we now use <code>h</code>/<code>j</code>/<code>k</code>/<code>l</code>!</p>
+<p style="text-align: center;">instead of using <code>←</code>/<code>↓</code>/<code>↑</code>/<code>→</code>, we now use <code>h</code>/<code>j</code>/<code>k</code>/<code>l</code> (in normal mode)!</p>
 
-Now the question is, ***WHY***? Well, imagine you're editing texts, and you realize you want to change something 3 characters before your cursor, what should you do? Using arrow keys would be a natural choice if you're not editing texts in [Vim](https://www.vim.org/). However, your arrow keys are far away from the ***main row*** of your keyboard.
+Now the question is, ***WHY***? Well, imagine you're editing texts, and want to change something 3 characters before the cursor, what should you do? Using arrow keys would be a natural choice if you're not in [Vim](https://www.vim.org/). But remember that your arrow keys are *far away* from the ***main row*** of your keyboard.
 
-To fix this, we simply adapt [Vim](https://www.vim.org/)'s solution, i.e., using `h`/`j`/`k`/`l` as arrow keys. However, unlike in [Vim](https://www.vim.org/) where we have normal mode and insert mode so using `h`/`j`/`k`/`l` as arrow keys in normal mode would not be a problem, we now need to maintain the ability to insert alphabets `h`/`j`/`k`/`l`. The solution is also simple: *use a modifier*. I use `right cmd`+`h`/`j`/`k`/`l` as `←`/`↓`/`↑`/`→`.
+To address this, we simply adapt [Vim](https://www.vim.org/)'s solution, i.e., using `h`/`j`/`k`/`l` as arrow keys. However, unlike in [Vim](https://www.vim.org/) where we have *normal mode* and *insert mode* so using `h`/`j`/`k`/`l` as arrow keys in *normal mode* would not be a problem. Contrarily, we now need to maintain the ability to insert alphabets `h`/`j`/`k`/`l`. The solution is also simple: *use a modifier*. I use `right cmd`+`h`/`j`/`k`/`l` as `←`/`↓`/`↑`/`→`.
 
 You might notice that I use the `right cmd` instead of just `cmd`. This is because `cmd`+`h`/`j`/`k`/`l` might be your other shortcuts, and entirely overloading them to arrow keys is not ideal. Hence, by specifying only `right cmd`+`h`/`j`/`k`/`l` as arrow keys, it
 
-1. preserve the potential shortcuts;
+1. preserve the potential shortcuts; and
 2. `right cmd`+`h`/`j`/`k`/`l` only uses your right hand which is very natural (you just need to press the `right cmd` with your right thumb, and you can use arrow keys just like you're in [Vim](https://www.vim.org/) **wherever you are**).
 
 ## Math-Related Characters
