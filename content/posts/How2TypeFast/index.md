@@ -47,7 +47,9 @@ I will use macOS and [Karabiner-Elements](https://karabiner-elements.pqrs.org/) 
 
 You can easily import these settings [at the end](#import-settings), which can be used as your own setting's starting point. Now, let's walk through them one by one.
 
-## Arrow Keys
+## Use `right cmd`
+
+### Arrow Keys
 
 I hope you use [Vim](https://www.vim.org/), or at least heard about it. If you're introducing [Vim](https://www.vim.org/) to others, the first thing you might say is that
 
@@ -62,7 +64,7 @@ You might notice that I use the `right cmd` instead of just `cmd`. This is becau
 - preserve the potential shortcuts; and
 - `right cmd`+`h`/`j`/`k`/`l` only uses your right hand which is very natural (you just need to press the `right cmd` with your right thumb, and you can use arrow keys just like you're in [Vim](https://www.vim.org/) **wherever you are**).
 
-## Math-Related Characters
+### Math-Related Characters
 
 We saw that you can use your `right cmd` as a special modifier, and now we want to extend this theme. I typeset math-related characters quite often, e.g., `=`, `+`/`-`, `^`/`_`, `(`/`)`, `[`/`]`, and `{`/`}`. Most of them are on the top row and need a modifier (usually `shift`). And this is not very intuitive and still, some of them (e.g., `+`/`=` and `-`/`_`) are far from the main column (w.r.t. your little finger) and the main row. So, I use
 
@@ -80,7 +82,9 @@ Here is my justification for this setup:
 - It's more accurate: It's not easy to type `-`/`_` and `+`/`=` on the first try with your right little finger in the ordinary setup.
 - It's more comfortable: The most frequently used characters, i.e., `^`/`_` and `+`/`-`, are configured to your index finger and middle finger, respectively.
 
-## Escape, Left and Right Shift
+## Long and Short Press
+
+### Escape, Left and Right Shift
 
 ## Import Settings
 
