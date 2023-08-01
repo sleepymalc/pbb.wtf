@@ -4,7 +4,7 @@ tags:
 - "Graph Theory"
 - "Computational Complexity"
 date: May 2022 - September 2022
-path: "research/fast-graph-algorithms-project"
+# path: "research/fast-graph-algorithms-project"
 excerpt: A project devoted to designing fast graph algorithms.
 selected: false
 cover: "./preview.png"
