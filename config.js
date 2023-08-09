@@ -122,7 +122,7 @@ module.exports = {
           location: 'University of Michigan',
         }, {
           date: 'May 2021 - Aug. 2021',
-          title: 'Instructional Aide',
+          title: 'Teaching Assistant',
           description: '**' +
             '[VV285 (Honor Mathematics III)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
             '**: ' +
@@ -130,7 +130,7 @@ module.exports = {
           location: 'Shanghai Jiao Tong University',
         }, {
           date: 'Sep. 2020 - Dec. 2020',
-          title: 'Instructional Aide',
+          title: 'Teaching Assistant',
           description: '**' +
             '[VV186 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
             '**: ' +
