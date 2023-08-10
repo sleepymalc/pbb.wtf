@@ -80,7 +80,13 @@ module.exports = {
       title: 'Graph Neural Network',
     }, {
       icon: 'brain',
-      title: 'Algorithmic Complexity',
+      title: 'Learning Theory',
+    }, {
+      icon: `laptop-code`,
+      title: `Computational Complexity`,
+    }, {
+      icon: `hands-usd`,
+      title: `Game Theory`,
     }, {
       icon: 'chart-line',
       title: 'High Dimensional Statistics',
@@ -88,14 +94,8 @@ module.exports = {
       icon: 'shapes',
       title: 'Geometry \& Topology',
     }, {
-      icon: 'camera-retro',
-      title: 'Street Photography',
-    }, {
-      icon: 'cat',
-      title: 'I NEED CATS',
-    }, {
-      icon: 'drum',
-      title: 'Metalcore',
+      icon: 'function',
+      title: 'Analysis',
     }
   ],
   experience: [
