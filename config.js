@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: '',
   siteUrl: 'https://pbb.wtf',
   title: 'Pingbang Hu',
-  description: 'Pingbang Hu\'s Personal Website',
+  description: 'Pingbang Hu\'s personal website.',
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
   introduction: [
