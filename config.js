@@ -109,7 +109,7 @@ module.exports = {
           description: '**' +
             '[EECS475 (Introduction to Cryptography)](https://mahdi.ch/eecs475/)' +
             '**: ' +
-            'An upper-level 100+ student course on the B.Sc. CS track. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-umich-ta) are available.',
+            'An upper-level 100+ student course on the B.Sc. CS track. [Notes](..posts/Notes#introduction-to-cryptography-eecs475-university-of-michigan-ta) are available.',
           location: 'University of Michigan',
         },
         {
@@ -118,7 +118,7 @@ module.exports = {
           description: '**' +
             '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
             '**: ' +
-            'A graduate-level 70+ student course on the M.S. theory CS track. [Notes](../posts/Notes#randomness-and-computation-eecs572-umich-ta) are available.',
+            'A graduate-level 70+ student course on the M.S. theory CS track. [Notes](../posts/Notes#randomness-and-computation-eecs572-university-of-michigan-ta) are available.',
           location: 'University of Michigan',
         }, {
           date: 'May 2021 - Aug. 2021',
