@@ -15,9 +15,9 @@ All notes are written in modern style $\LaTeX$ with explicit definition/theorem 
 
 > Due to the privacy policy, notes from classes I am/was teaching, the source code is unavailable.
 
-## Junior Year
+## Junior @University of Michigan
 
-### Fall 2021 @University of Michigan
+### Fall 2021
 
 #### Linear Programming (MATH561/IOE510/TO518)
 
@@ -69,7 +69,7 @@ This is the graduate-level real analysis course taught by [Jinho Baik](http://ww
 
 > This course is pretty rigorous and well-structured and acts as a pre-requests for [functional analysis (MATH 602)](#functional-analysis-math602-umich). It's self-contained enough, and only need some previous exposure of mathematical analysis.
 
-## Senior Year @University of Michigan
+## Senior @University of Michigan
 
 ### Fall 2022[^1]
 
@@ -111,7 +111,7 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 
 > A rigorous course giving you the needed tools for analyzing function spaces. It'll give you a solid understanding on infinite dimensional vector spaces and how to deal with operators over these spaces.
 
-### Winter 2023 @University of Michigan
+### Winter 2023
 
 #### Introduction to Cryptography ([EECS475](https://mahdi.ch/eecs475/), TA)
 
@@ -149,7 +149,7 @@ This is the advanced graduate-level differential geometry course focused on Riem
 
 > I always want to have a solid understanding on differential geometry since the recent advances in machine learning theory relying on related concepts quite heavily in some particular branches such as optimization and the well-known [manifold hypothesis](https://en.wikipedia.org/wiki/Manifold_hypothesis), or even more practical, manifold learning.
 
-## First Year in Ph.D. @University of Illinois Urbana-Champaign
+## First Year Ph.D. @University of Illinois Urbana-Champaign
 
 ### Fall 2023
 
