@@ -161,4 +161,4 @@ This is the advanced graduate-level statistics course focused on empirical proce
 
 [\[pdf\]](./Notes/EmpProcess.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/STAT576-Empirical-Process-Theory)
 
->
+> No comment right now. If I need to give one, the only thing I will say is this course is HARD.
