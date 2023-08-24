@@ -154,7 +154,7 @@ This is the advanced graduate-level differential geometry course focused on Riem
 #### Empirical Process Theory (STAT576 @University of Illinois Urbana-Champaign)
 
 <div>
-	<img src="./figures/MATH635.png" align="right" width="18%"/>
+	<img src="./figures/STAT576.png" align="right" width="18%"/>
 </div>
 
 This is the advanced graduate-level statistics course focused on empirical process theory taught by [Sabyasachi Chatterjee](https://sabyasachi.web.illinois.edu/). Topics include the uniform law of large numbers, the uniform central limit theorem and their applications, and weak convergence.
