@@ -81,7 +81,7 @@ This is the graduate-level real analysis course taught by [Jinho Baik](http://ww
 	<img src="./figures/EECS572.png" align="right" width="18%"/>
 </div>
 
-This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various randomized algorithms, Randomized Complexity, Markov Chains, Random Walks, Expander Graphs, Pseudo-random Generators, and Hardness v.s. Randomness.
+This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various **randomized algorithms**, **Randomized Complexity**, **Markov Chains**, **Random Walks**, **Expander Graphs**, **Pseudo-random Generators**, and **Hardness v.s. Randomness**.
 
 [\[pdf\]](./Notes/RandComp.pdf)
 
@@ -119,7 +119,7 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 	<img src="./figures/EECS475.png" align="right" width="18%"/>
 </div>
 
-This is the upper-level theory course on formal cryptography and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various historic ciphers, perfect secrecy, symmetric encryption (including pseudorandom generators, stream ciphers, pseudorandom functions and permutations), message authentication, cryptographic hash functions, and public key encryption.
+This is the upper-level theory course on formal cryptography and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various **historic ciphers**, **perfect secrecy**, **symmetric encryption** (including pseudo-random generators, stream ciphers, pseudo-random functions and permutations), **message authentication**, **cryptographic hash functions**, and **public key encryption**.
 
 [\[pdf\]](./Notes/Crypto.pdf)
 
@@ -131,7 +131,7 @@ This is the upper-level theory course on formal cryptography and related topics 
 	<img src="./figures/MATH681.png" align="right" width="18%"/>
 </div>
 
-This is the graduate-level mathematical logic course taught by [Matthew Harrison-Trainor](http://www-personal.umich.edu/~matthhar/), aiming to obtain insights into all other branches of mathematics, such as algebraic geometry, analysis, etc. Specifically, we will cover model theory beyond the basic foundational ideas of logic.
+This is the graduate-level mathematical logic course taught by [Matthew Harrison-Trainor](http://www-personal.umich.edu/~matthhar/), aiming to obtain insights into all other branches of mathematics, such as algebraic geometry, analysis, etc. Specifically, we will cover **model theory** beyond the **basic foundational ideas of logic**.
 
 [\[pdf\]](./Notes/Logic.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH681-Mathematical-Logic)
 
@@ -159,7 +159,7 @@ This is the advanced graduate-level differential geometry course focused on Riem
 	<img src="./figures/STAT576.png" align="right" width="18%"/>
 </div>
 
-This is the advanced graduate-level statistics course focused on empirical process theory taught by [Sabyasachi Chatterjee](https://sabyasachi.web.illinois.edu/). Topics include the uniform law of large numbers, the uniform central limit theorem and their applications, and weak convergence.
+This is the advanced graduate-level statistics course focused on empirical process theory taught by [Sabyasachi Chatterjee](https://sabyasachi.web.illinois.edu/). Topics include the **Uniform Law of Large Numbers** and the **Uniform Central Limit Theorem** with their applications, and **Weak Convergence**.
 
 [\[pdf\]](./Notes/EmpProcess.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/STAT576-Empirical-Process-Theory)
 
