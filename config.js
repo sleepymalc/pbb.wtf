@@ -109,7 +109,7 @@ module.exports = {
           description: '**' +
             '[EECS475 (Introduction to Cryptography)](https://mahdi.ch/eecs475/)' +
             '**: ' +
-            'An upper-level 100+ student course on the B.Sc. CS track. [Notes](..posts/Notes#introduction-to-cryptography-eecs475-university-of-michigan-ta) are available.',
+            'An upper-level 100+ student course on the B.Sc. CS track. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-university-of-michigan-ta) are available.',
           location: 'University of Michigan',
         },
         {
