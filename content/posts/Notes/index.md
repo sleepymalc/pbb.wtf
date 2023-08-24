@@ -15,11 +15,11 @@ All notes are written in modern style $\LaTeX$ with explicit definition/theorem 
 
 > Due to the privacy policy, notes from classes I am/was teaching, the source code is unavailable.
 
-## Junior
+## Junior Year
 
-### Fall 2021
+### Fall 2021 @University of Michigan
 
-#### Linear Programming (MATH561/IOE510/TO518 @University of Michigan)
+#### Linear Programming (MATH561/IOE510/TO518)
 
 <div>
 	<img src="./figures/MATH561.png" align="right" width="18%"/>
@@ -31,7 +31,7 @@ This is the first course in the series of graduate-level, large-scale and rigoro
 
 > This course is not intended to teach you how to *hand-solve small-scale* linear programming problems, rather, it's intended to give a rigorous foundation of solving *large-scale* linear programming problems in an algorithmic way. We rely on `python` and `Gurobi` for examples to solve various problems in the assignments.
 
-#### Analysis of Social Networks (EECS544/EECS444 @University of Michigan)
+#### Analysis of Social Networks (EECS544/EECS444)
 
 <div>
 	<img src="./figures/EECS544.png" align="right" width="18%"/>
@@ -45,7 +45,7 @@ This is a graduate-level course about social network analysis taught by [Vijay G
 
 ### Winter 2022
 
-#### Algebraic Topology (MATH592 @University of Michigan)
+#### Algebraic Topology (MATH592)
 
 <div>
 	<img src="./figures/MATH592.png" align="right" width="18%"/>
@@ -57,7 +57,7 @@ This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.
 
 > Some topology and abstract algebra background is required, especially group theory. But other than that, the course is self-contained enough.
 
-#### Real Analysis (MATH597 @University of Michigan)
+#### Real Analysis (MATH597)
 
 <div>
 	<img src="./figures/MATH597.png" align="right" width="18%"/>
@@ -69,13 +69,13 @@ This is the graduate-level real analysis course taught by [Jinho Baik](http://ww
 
 > This course is pretty rigorous and well-structured and acts as a pre-requests for [functional analysis (MATH 602)](#functional-analysis-math602-umich). It's self-contained enough, and only need some previous exposure of mathematical analysis.
 
-## Senior
+## Senior Year @University of Michigan
 
 ### Fall 2022[^1]
 
 [^1]: I also took Nonlinear Programming (MATH663/IOE611), but the professor provided excellent lecture slides, so I won't bother scribing it myself.
 
-#### Randomness and Computation ([EECS572](https://mahdi.ch/eecs572/) @University of Michigan, TA)
+#### Randomness and Computation ([EECS572](https://mahdi.ch/eecs572/), TA)
 
 <div>
 	<img src="./figures/EECS572.png" align="right" width="18%"/>
@@ -87,7 +87,7 @@ This is the advanced graduate-level theory course focused on randomized complexi
 
 > Overall a rigorous course covering all background knowledge one might need to do research in the related fields. I'm grateful to be a teaching assistant for this course together with Neophytos Charalambides as an undergrad.
 
-#### Approximation Algorithms and Hardness of Approximation (EECS598-001 @University of Michigan)
+#### Approximation Algorithms and Hardness of Approximation (EECS598-001)
 
 <div>
 	<img src="./figures/EECS598-001.png" align="right" width="18%"/>
@@ -99,7 +99,7 @@ This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web
 
 > This is one of the most exciting courses I have taken: algorithmic design, hardness of approximation and fancy topics such as *SoS hierarchy*, *PCP*, *UGC* are all fun to learn, especially the approximated complexity theory part.
 
-#### Functional Analysis (MATH602 @University of Michigan)
+#### Functional Analysis (MATH602)
 
 <div>
 	<img src="./figures/MATH602.png" align="right" width="18%"/>
@@ -111,9 +111,9 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 
 > A rigorous course giving you the needed tools for analyzing function spaces. It'll give you a solid understanding on infinite dimensional vector spaces and how to deal with operators over these spaces.
 
-### Winter 2023
+### Winter 2023 @University of Michigan
 
-#### Introduction to Cryptography ([EECS475](https://mahdi.ch/eecs475/) @University of Michigan, TA)
+#### Introduction to Cryptography ([EECS475](https://mahdi.ch/eecs475/), TA)
 
 <div>
 	<img src="./figures/EECS475.png" align="right" width="18%"/>
@@ -125,7 +125,7 @@ This is the upper-level theory course on formal cryptography and related topics 
 
 > An interesting foray to theoretical cryptography. I'm grateful to be a teaching assistant for this course together with Nikhil Shagrithaya as an undergrad.
 
-#### Mathematical Logic (MATH681 @University of Michigan)
+#### Mathematical Logic (MATH681)
 
 <div>
 	<img src="./figures/MATH681.png" align="right" width="18%"/>
@@ -137,7 +137,7 @@ This is the graduate-level mathematical logic course taught by [Matthew Harrison
 
 > "Learn some fundamental stuffs and show-off to your friends" is basically my mind-set when taking this course 🤪 But seriously, learning something fundamental at this level is a new experience and challenge for me, but hey, it's the last semester, so might just relax and see how it goes!
 
-#### Riemannian Geometry (MATH635 @University of Michigan)
+#### Riemannian Geometry (MATH635)
 
 <div>
 	<img src="./figures/MATH635.png" align="right" width="18%"/>
@@ -149,9 +149,11 @@ This is the advanced graduate-level differential geometry course focused on Riem
 
 > I always want to have a solid understanding on differential geometry since the recent advances in machine learning theory relying on related concepts quite heavily in some particular branches such as optimization and the well-known [manifold hypothesis](https://en.wikipedia.org/wiki/Manifold_hypothesis), or even more practical, manifold learning.
 
+## First Year in Ph.D. @University of Illinois Urbana-Champaign
+
 ### Fall 2023
 
-#### Empirical Process Theory (STAT576 @University of Illinois Urbana-Champaign)
+#### Empirical Process Theory (STAT576)
 
 <div>
 	<img src="./figures/STAT576.png" align="right" width="18%"/>
