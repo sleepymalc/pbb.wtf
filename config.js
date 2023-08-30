@@ -71,7 +71,7 @@ module.exports = {
     }, {
       date: 'Sep. 2019 - Aug. 2023',
       icon: 'university',
-      title: 'B.Eng. in Electrical Computer Engineering & minor in Computer Science',
+      title: 'B.Eng. in Electrical and Computer Engineering & minor in Computer Science',
       location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
     }],
   interests: [
