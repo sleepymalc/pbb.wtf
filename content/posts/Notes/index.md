@@ -67,7 +67,7 @@ This is the graduate-level real analysis course taught by [Jinho Baik](http://ww
 
 [\[pdf\]](./Notes/ReAnalysis.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
 
-> This course is pretty rigorous and well-structured and acts as a pre-requests for [functional analysis (MATH 602)](#functional-analysis-math602-umich). It's self-contained enough, and only need some previous exposure of mathematical analysis.
+> This course is pretty rigorous and well-structured and acts as a pre-requests for [functional analysis (MATH 602)](#functional-analysis-math602). It's self-contained enough, and only need some previous exposure of mathematical analysis.
 
 ## Senior @University of Michigan
 
