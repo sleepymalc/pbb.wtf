@@ -107,7 +107,7 @@ This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web
 
 This is the graduate-level functional analysis course taught by [Joseph Conlon](http://www.math.lsa.umich.edu/~conlon/). The focus of this course is rather standard, including **Banach and Hilbert Spaces Theory**, **Bounded Linear, Compact, and Self-Adjoint Operators Theorem**, **Representation, Hahn-Banach, Open Mapping Theorem**, and **Spectral Theory**. We also covered some point-set topology along the way.
 
-[\[pdf\]](./Notes/ReAnalysisII.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
+[\[pdf\]](./Notes/ReAnalysis-II.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
 
 > A rigorous course giving you the needed tools for analyzing function spaces. It'll give you a solid understanding on infinite dimensional vector spaces and how to deal with operators over these spaces.
 
@@ -145,7 +145,7 @@ This is the graduate-level mathematical logic course taught by [Matthew Harrison
 
 This is the advanced graduate-level differential geometry course focused on Riemannian geometry taught by [Lydia Bieri](http://www-personal.umich.edu/~lbieri/). Topics include local and global aspects of differential geometry and the relation with the underlying topology.
 
-[\[pdf\]](./Notes/DiffGeo.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH635-Riemannian-Geometry)
+[\[pdf\]](./Notes/RiemGeo.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH635-Riemannian-Geometry)
 
 > I always want to have a solid understanding on differential geometry since the recent advances in machine learning theory relying on related concepts quite heavily in some particular branches such as optimization and the well-known [manifold hypothesis](https://en.wikipedia.org/wiki/Manifold_hypothesis), or even more practical, manifold learning.
 
