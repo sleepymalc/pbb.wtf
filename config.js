@@ -8,7 +8,7 @@ module.exports = {
   introduction: [
     'A first year Ph.D. student at *University of Illinois Urbana-Champaign* 🌽 holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳. I am fortunate enough to be advised by [Jiaqi Ma](https://www.jiaqima.com/).',
     `I do *AI* and *TCS* with **math** on **graphs**. In general, I try to *theoretically* understand algorithms on graphs with their provable guarantee on, e.g., *robustness*, *fairness*, etc.`,
-    `I **work** on many problems, such as designing *unlearning approximation algorithms* and characterizing *topologies of graph limits*; I also **think** about many problems, while some of them haunt me more than others, e.g., ***What** is the analogous theory of computational complexity theory for modern graph learning problems?*, i.e., how much can we say something about the *hardness* of a graph learning problem?`,
+    `I **work** on many problems, such as designing *unlearning approximation algorithms* and characterizing *topologies of graph limits*; I also **think** about many problems, while some of them haunt me more than others, e.g., *What is the analogy of **computational complexity theory** for modern graph learning problems?*, i.e., how much can we say about the *hardness* of a graph learning problem?`,
     `In my spare time, I enjoy [*photography*](https://street.pbb.wtf/) 📷, writing [*random posts*](./posts) 📝, and staying up late 🌌.`
   ],
   avatar: 'avatar.png',
