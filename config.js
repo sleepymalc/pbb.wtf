@@ -6,8 +6,8 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
   introduction: [
-    'A first year Ph.D. student at *University of Illinois Urbana-Champaign* 🌽 holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳. I am fortunate enough to be advised by [Jiaqi Ma](https://www.jiaqima.com/).',
-    `I do *AI* and *TCS* with **math** on **graphs**. In general, I try to design and understand algorithms by *theoretically* proving its, e.g., *robustness*, *fairness*, etc. I'm currently focusing on *unlearning problems* and *sparse graph limits*.`,
+    'I\'m a first year Ph.D. student at *University of Illinois Urbana-Champaign* 🌽, holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳. I\'m fortunate enough to be advised by [Jiaqi Ma](https://www.jiaqima.com/).',
+    `I do *AI* and *TCS* with **math** on **graphs**. In general, I try to design and understand algorithms by *theoretically* proving its *robustness*, *fairness*, etc. I'm currently focusing on *unlearning problems* and *sparse graph limits*.`,
     `I think about many problems, while a particular one of them haunts me more than others: *What is the analogy of **computational complexity theory** for modern learning problems?* I.e., can we say something about the *hardness* of deep learning problems?`,
     `In my spare time, I enjoy [*photography*](https://street.pbb.wtf/) 📷, writing [*random posts*](./posts) 📝, and staying up late 🌌.`
   ],
