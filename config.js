@@ -7,7 +7,7 @@ module.exports = {
   authorAlternative: 'Write-The-Formula',
   introduction: [
     'I\'m a first year Ph.D. student at *University of Illinois Urbana-Champaign* 🌽 advised by [Jiaqi Ma](https://www.jiaqima.com/), holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳. *I do **AI** and **TCS** with **math** on **graphs***.',
-    `In general, I try to design and understand algorithms by proving its *robustness*, *fairness*, etc. I think about many problems, and a particular one of them haunts me more than others is the *analogy of **computational complexity theory** for modern learning problems*, i.e., how to establish a *hardness* hierarchy of deep learning problems? When I\'m not thinking about all the above, I\'ll do [*photography*](https://street.pbb.wtf/) 📷, write [*random posts*](./posts) 📝, and stay up late 🌌.`,
+    `In general, I try to design and understand algorithms by proving its *robustness*, *fairness*, etc. I\'m interested in the *hardness* of deep learning problems, although currently this is not my focus. When I\'m not thinking about all the above, I\'ll do [*photography*](https://street.pbb.wtf/) 📷, write [*random posts*](./posts) 📝, and stay up late 🌌.`,
     `***I'm currently looking for 2024 Summer internship in theoretical AI!***`
   ],
   avatar: 'avatar.png',
