@@ -8,8 +8,10 @@ module.exports = {
   introduction: [
     'I\'m a first year Ph.D. student at *University of Illinois Urbana-Champaign* 🌽 advised by [Jiaqi Ma](https://www.jiaqima.com/), holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from *University of Michigan* 〽️ and *Shanghai Jiao Tong University* 🇨🇳.',
     `I do **AI** and **TCS** with **math** on **graphs**. In general, I try to design fast algorithms and understand them by proving their *robustness*, *fairness*, etc. I\'m also interested in the *hardness* aspect of deep learning problems, although currently this is not my focus.`,
-    `In my spare time, I\'ll do [*photography*](https://street.pbb.wtf/) 📷, write [*random posts*](./posts) 📝, and stay up late 🌌.`,
-    `🔔 ***I'm currently looking for 2024 Summer internship in theoretical AI!***`
+    ``,
+    `🔔 **I'm currently looking for 2024 Summer internship in theoretical AI!**`,
+    ``,
+    `Some misc: I do [*street photography*](https://street.pbb.wtf/) 📷 in my free time, and are constantly writing [*course notes*](./posts/Notes) 📝.`,
   ],
   avatar: 'avatar.png',
   professions: [
