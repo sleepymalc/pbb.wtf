@@ -119,7 +119,7 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 	<img src="./figures/EECS475.png" align="right" width="18%"/>
 </div>
 
-This is the upper-level theory course on formal cryptography and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various **historic ciphers**, **perfect secrecy**, **symmetric encryption** (including pseudo-random generators, stream ciphers, pseudo-random functions and permutations), **message authentication**, **cryptographic hash functions**, and **public key encryption**.
+This is the upper-level theory course on formal cryptography and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various **Historic Ciphers**, **Perfect Secrecy**, **Symmetric Encryption** (including pseudo-random generators, stream ciphers, pseudo-random functions and permutations), **Message Authentication**, **Cryptographic Hash Functions**, and **Public Key Encryption**.
 
 [\[pdf\]](./Notes/Crypto.pdf)
 
@@ -131,7 +131,7 @@ This is the upper-level theory course on formal cryptography and related topics 
 	<img src="./figures/MATH681.png" align="right" width="18%"/>
 </div>
 
-This is the graduate-level mathematical logic course taught by [Matthew Harrison-Trainor](http://www-personal.umich.edu/~matthhar/), aiming to obtain insights into all other branches of mathematics, such as algebraic geometry, analysis, etc. Specifically, we will cover **model theory** beyond the **basic foundational ideas of logic**.
+This is the graduate-level mathematical logic course taught by [Matthew Harrison-Trainor](http://www-personal.umich.edu/~matthhar/), aiming to obtain insights into all other branches of mathematics, such as algebraic geometry, analysis, etc. Specifically, we will cover **Model Theory** beyond the basic foundational **Ideas of Logic**.
 
 [\[pdf\]](./Notes/Logic.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH681-Mathematical-Logic)
 

@@ -34,7 +34,7 @@ module.exports = {
   },
   social: [
     {
-      url: '/resume.pdf',
+      url: '/cv.pdf',
       icon: ['ai', 'cv'],
     }, {
       url: 'https://scholar.google.com/citations?user=lPlQpqoAAAAJ&hl=en',
@@ -148,9 +148,18 @@ module.exports = {
           date: 'May 2022 - Present',
           title: 'Undergraduate Researcher',
           description: '**' +
-            '[Fundamental Understanding of Deep Learning](../research/intrinsic-dim-est)' +
+            'Deep Learning Foundation' +
             '**: ' +
-            'Develop various technique to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
+            'Develop various techniques to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
+          location: 'University of Michigan, Michigan',
+        },
+        {
+          date: 'Mar. 2022 - Present',
+          title: 'Undergraduate Researcher',
+          description: '**' +
+            '[Finding Minimal Balanced Separators with Detection Sets](../research/detection-set)' +
+            '**: ' +
+            'Design the first almost linear time algorithm on finding minimal balanced separator.',
           location: 'University of Michigan, Michigan',
         },
       ],
