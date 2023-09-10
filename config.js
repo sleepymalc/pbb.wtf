@@ -151,7 +151,7 @@ module.exports = {
             'Deep Learning Foundation' +
             '**: ' +
             'Develop various techniques to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
-          location: 'University of Michigan, Michigan',
+          location: 'University of Michigan',
         },
         {
           date: 'Mar. 2022 - Present',
@@ -160,7 +160,7 @@ module.exports = {
             '[Finding Minimal Balanced Separators with Detection Sets](../research/minimal-balanced-separator)' +
             '**: ' +
             'Design the first almost linear time algorithm on finding minimal balanced separator.',
-          location: 'University of Michigan, Michigan',
+          location: 'University of Michigan',
         },
       ],
     },
