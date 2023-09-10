@@ -159,7 +159,7 @@ module.exports = {
           description: '**' +
             '[Finding Minimal Balanced Separators with Detection Sets](../research/minimal-balanced-separator)' +
             '**: ' +
-            'Design the first almost linear time algorithm on finding minimal balanced separator.',
+            'Design the first almost linear time algorithm on finding minimal balanced separator advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/)',
           location: 'University of Michigan',
         },
       ],
