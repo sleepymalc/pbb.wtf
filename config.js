@@ -145,21 +145,21 @@ module.exports = {
       position: 'right',
       data: [
         {
-          date: 'May 2022 - Present',
-          title: 'Undergraduate Researcher',
-          description: '**' +
-            'Deep Learning Foundation' +
-            '**: ' +
-            'Develop various techniques to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
-          location: 'University of Michigan',
-        },
-        {
           date: 'Mar. 2022 - Present',
           title: 'Undergraduate Researcher',
           description: '**' +
             '[Finding Minimal Balanced Separators with Detection Sets](../research/minimal-balanced-separator)' +
             '**: ' +
             'Design the first almost linear time algorithm on finding minimal balanced separator advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/)',
+          location: 'University of Michigan',
+        },
+        {
+          date: 'May 2022 - Apr. 2023',
+          title: 'Undergraduate Researcher',
+          description: '**' +
+            'Deep Learning Foundation' +
+            '**: ' +
+            'Develop various techniques to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
           location: 'University of Michigan',
         },
       ],
