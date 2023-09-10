@@ -157,7 +157,7 @@ module.exports = {
           date: 'Mar. 2022 - Present',
           title: 'Undergraduate Researcher',
           description: '**' +
-            '[Finding Minimal Balanced Separators with Detection Sets](../research/detection-set)' +
+            '[Finding Minimal Balanced Separators with Detection Sets](../research/minimal-balanced-separator)' +
             '**: ' +
             'Design the first almost linear time algorithm on finding minimal balanced separator.',
           location: 'University of Michigan, Michigan',
