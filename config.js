@@ -1,37 +1,23 @@
 module.exports = {
+  avatar: 'avatar.png',
   pathPrefix: '',
+  tocMaxDepth: 2,
+  excerptMaxLength: 500,
+  postsForArchivePage: 3,
   siteUrl: 'https://pbb.wtf',
   title: 'Pingbang Hu',
   description: 'Pingbang Hu\'s personal website.',
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
-  introduction: [
-    'A first-year Ph.D. student at [*UIUC*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://www.jiaqima.com/), holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*UMich*](https://umich.edu/) 〽️ and [*SJTU*](https://en.sjtu.edu.cn/) 🇨🇳.',
-    `*I do **AI** and **TCS** with **math** on **graphs***. In general, I design fast algorithms, understand them by proving their *robustness* and *fairness*, develop new theories and define new problems, and eventually apply them to make a social impact.`,
-    `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and are constantly writing [*course notes*](./posts/Notes) 📝.`,
-    `🔔 **I'm currently looking for a 2024 Summer internship in theoretical AI!**`,
-  ],
-  avatar: 'avatar.png',
   professions: [
     'I speak TeX'
   ],
-  birthday: 'Nov. 10, 2000',
-  location: 'Illinois, United States',
-  email: 'sleepymalc@gmail.com',
-  tocMaxDepth: 2,
-  excerptMaxLength: 500,
-  postsForArchivePage: 3,
-  defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT
-    || 'https://tc-imba.disqus.com/embed.js',
-  pages: {
-    home: '/',
-    posts: 'posts',
-    contact: 'contact',
-    resume: 'resume',
-    tags: 'tags',
-    research: 'research',
-  },
+  introduction: [
+    'A first-year Ph.D. student at [*UIUC*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://www.jiaqima.com/), holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*UMich*](https://umich.edu/) 〽️ and [*SJTU*](https://en.sjtu.edu.cn/) 🇨🇳.',
+    `*I do **AI** and **TCS** with **math** on **graphs***. In general, I design fast algorithms, understand them by proving their *robustness*, *fairness*, etc., develop theories and define new problems, and eventually apply them to make a social impact.`,
+    `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and are constantly writing [*course notes*](./posts/Notes) 📝.`,
+    `🔔 **I'm currently looking for a 2024 Summer internship in theoretical AI!**`,
+  ],
   social: [
     {
       url: '/cv.pdf',
@@ -50,14 +36,17 @@ module.exports = {
       icon: ['fab', 'twitter'],
     },
   ],
-  wakatime: {
-    username: 'sleepymalc',
-    activity: 'eb201619-dfe8-485e-b683-11ce3475ad61',
-    language: 'cccb943f-2bfc-47e5-b218-c56b858c1a90',
+  birthday: 'Nov. 10, 2000',
+  location: 'Illinois, United States',
+  email: 'sleepymalc@gmail.com',
+  pages: {
+    home: '/',
+    posts: 'posts',
+    contact: 'contact',
+    resume: 'resume',
+    tags: 'tags',
+    research: 'research',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT
-    || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   education: [
     {
       date: 'Aug. 2023 - Present',
@@ -259,4 +248,15 @@ module.exports = {
     },
 
   ],
+  defaultLanguage: 'en',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT
+    || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
+  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
+  disqusScript: process.env.DISQUS_SCRIPT
+    || 'https://tc-imba.disqus.com/embed.js',
+  wakatime: {
+    username: 'sleepymalc',
+    activity: 'eb201619-dfe8-485e-b683-11ce3475ad61',
+    language: 'cccb943f-2bfc-47e5-b218-c56b858c1a90',
+  },
 };
