@@ -13,10 +13,28 @@ module.exports = {
     'I speak TeX'
   ],
   introduction: [
-    'A first-year Ph.D. student at [*UIUC*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://www.jiaqima.com/), holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*UMich*](https://umich.edu/) 〽️ and [*SJTU*](https://en.sjtu.edu.cn/) 🇨🇳.',
-    `*I do **AI** and **TCS** with **math** on **graphs***. In general, I design fast algorithms, understand them by proving their *robustness*, *fairness*, etc., develop theories and define new problems, and eventually apply them to make a social impact.`,
+    'A first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://www.jiaqima.com/), holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://en.sjtu.edu.cn/) 🇨🇳.',
+    `*I do **AI** and **TCS** with **math** on **graphs***. In general, I design *fast*, *robust*, and *fair* algorithms, develop theories, define new problems, and eventually apply them to make a social impact.`,
     `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and are constantly writing [*course notes*](./posts/Notes) 📝.`,
     `🔔 **I'm currently looking for a 2024 Summer internship in theoretical AI!**`,
+  ],
+  education: [
+    {
+      date: 'Aug. 2023 - Present',
+      icon: 'university',
+      title: 'Ph.D. in Information Science',
+      location: 'School of Information Science, University of Illinois Urbana-Champaign',
+    }, {
+      date: 'Sep. 2021 - Apr. 2023',
+      icon: 'university',
+      title: 'B.Sc. in Computer Science & minor in Mathematics',
+      location: 'College of Engineering & Literature, Science, and the Arts, University of Michigan',
+    }, {
+      date: 'Sep. 2019 - Aug. 2023',
+      icon: 'university',
+      title: 'B.Eng. in Electrical and Computer Engineering & minor in Computer Science',
+      location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
+    }
   ],
   social: [
     {
@@ -47,23 +65,6 @@ module.exports = {
     tags: 'tags',
     research: 'research',
   },
-  education: [
-    {
-      date: 'Aug. 2023 - Present',
-      icon: 'university',
-      title: 'Ph.D. in Information Science',
-      location: 'School of Information Science, University of Illinois Urbana-Champaign',
-    }, {
-      date: 'Sep. 2021 - Apr. 2023',
-      icon: 'university',
-      title: 'B.Sc. in Computer Science & minor in Mathematics',
-      location: 'College of Engineering & Literature, Science, and the Arts, University of Michigan',
-    }, {
-      date: 'Sep. 2019 - Aug. 2023',
-      icon: 'university',
-      title: 'B.Eng. in Electrical and Computer Engineering & minor in Computer Science',
-      location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
-    }],
   interests: [
     {
       icon: 'chart-network',
