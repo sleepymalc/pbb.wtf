@@ -169,7 +169,7 @@ module.exports = {
       position: 'right',
       data: [
         {
-          date: 'Oct. 2020 - Jan. 2021',
+          date: 'Oct. 2020 - Jun. 2021',
           title: 'Backend Developer',
           description: '**' +
             'foodall' +
