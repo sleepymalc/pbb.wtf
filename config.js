@@ -6,8 +6,8 @@ module.exports = {
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
   introduction: [
-    'I\'m a first year Ph.D. student at [*UIUC*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://www.jiaqima.com/), holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*UMich*](https://umich.edu/) 〽️ and [*SJTU*](https://en.sjtu.edu.cn/) 🇨🇳. I have been working with [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/) since I was an undergrad.',
-    `*I do **AI** and **TCS** with **math** on **graphs***. In general, I try to design fast algorithms and understand them by proving their *robustness*, *fairness*, etc. I\'m also interested in the *hardness* aspect of deep learning problems, although currently, this is not my focus.`,
+    'A first-year Ph.D. student at [*UIUC*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://www.jiaqima.com/), holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*UMich*](https://umich.edu/) 〽️ and [*SJTU*](https://en.sjtu.edu.cn/) 🇨🇳.',
+    `*I do **AI** and **TCS** with **math** on **graphs***. In general, I try to design fast algorithms and understand them by proving their *robustness* and *fairness*, and also develop new theories and new problems, eventually apply them to make a social impact.`,
     `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and are constantly writing [*course notes*](./posts/Notes) 📝.`,
     `🔔 **I'm currently looking for a 2024 Summer internship in theoretical AI!**`,
   ],
