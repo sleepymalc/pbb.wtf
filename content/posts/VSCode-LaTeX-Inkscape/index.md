@@ -774,4 +774,6 @@ Again, thanks to Gilles Castel, this workflow fits my style. Although it origina
 6. [chipsenkbeil/choose](https://github.com/chipsenkbeil/choose)
 7. [varkor/quiver](https://github.com/varkor/quiver)
 
-[//]: # (<Gist url='https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/3cb7d9f4af1227d8ed956129696a547d7889052e/VSCode-setting/keybindings.json#L1-L133' />)
+[//]: # (<script src="https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/3cb7d9f4af1227d8ed956129696a547d7889052e/VSCode-setting/keybindings.json#L1-L133"></script>)
+
+<!-- <https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/3cb7d9f4af1227d8ed956129696a547d7889052e/VSCode-setting/settings.json> -->
