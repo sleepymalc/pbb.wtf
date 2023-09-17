@@ -6,7 +6,7 @@ module.exports = {
   postsForArchivePage: 3,
   siteUrl: 'https://pbb.wtf',
   title: 'Pingbang Hu',
-  description: 'Pingbang Hu\'s personal website.',
+  description: 'Pingbang Hu\'s website.',
   author: 'Pingbang Hu',
   authorAlternative: 'Write-The-Formula',
   professions: [
