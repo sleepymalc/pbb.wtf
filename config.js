@@ -50,8 +50,8 @@ module.exports = {
       url: 'https://www.linkedin.com/in/pingbang-hu-78a190215',
       icon: ['fab', 'linkedin'],
     }, {
-      url: 'https://twitter.com/PingbangHu',
-      icon: ['fab', 'twitter'],
+      url: 'https://X.com/PingbangHu',
+      icon: ['fab', 'x-twitter'],
     },
   ],
   birthday: 'Nov. 10, 2000',
