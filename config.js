@@ -13,7 +13,7 @@ module.exports = {
     'I speak TeX'
   ],
   introduction: [
-    'A first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/), holding a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://en.sjtu.edu.cn/) 🇨🇳.',
+    'A first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I hold a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://en.sjtu.edu.cn/) 🇨🇳.',
     `*I do **AI** and **TCS** with **math** on **graphs***. In general, I design *fast*, *robust*, and *fair* algorithms, develop theories, define new problems, and eventually apply them to make a social impact.`,
     `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and are constantly writing [*course notes*](./posts/Notes) 📝.`,
     `🔔 **I'm currently looking for 2024 Summer internships in theoretical AI!**`,
