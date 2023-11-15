@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/sleepymalc/pbb.wtf#readme",
   "dependencies": {
-    "gatsby": "^3.14.0",
-    "gatsby-theme-academic": "^2.0.3",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "gatsby": "^5.12.9",
+    "gatsby-theme-academic": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
