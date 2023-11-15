@@ -1,22 +1,13 @@
 {
-  "name": "pbb.wtf",
+  "private": true,
+  "name": "example",
   "version": "1.0.0",
-  "description": "",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "clean": "gatsby clean"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sleepymalc/pbb.wtf"
-  },
-  "author": "sleepymalc",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sleepymalc/pbb.wtf/issues"
-  },
-  "homepage": "https://github.com/sleepymalc/pbb.wtf#readme",
   "dependencies": {
     "gatsby": "^5.12.9",
     "gatsby-theme-academic": "*",
