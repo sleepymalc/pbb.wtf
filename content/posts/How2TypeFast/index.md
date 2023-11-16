@@ -90,7 +90,7 @@ If you notice that some keys are only designed for long-press but never exploit 
 
 ### Escape
 
-Again, if you use [Vim](https://www.vim.org/), then you will need to use `esc` intensively. Hence, some might suggest you go remap the `caps lock` to `esc`.
+Again, if you use [Vim](https://www.vim.org/), then you will need to use `esc` intensively. Hence, some might suggest you remap the `caps lock` to `esc`.
 
 However, in my case, I'm using [HHKB](https://happyhackingkb.com/), i.e., the usual position for `caps lock` is `control`.
 
@@ -126,7 +126,7 @@ For the `right shift`, I do something more crazy:
 
 and,
 
-<p style="text-align: center;">when <code>right shift</code> is pressed twice and is held on the second press, it acts as <code>delete</code> is held-down.</p>
+<p style="text-align: center;">when <code>right shift</code> is pressed twice and is held on the second press, it acts as <code>delete</code> is held down.</p>
 
 The first one is clear: I don't want to reach my little finger to the usual `delete` spot since it's far away[^3], and it's natural to remap `delete` to the `right shift` since it's an easy reach for my right little finger.
 
@@ -147,7 +147,7 @@ To import others' settings in [Karabiner-Elements](https://karabiner-elements.pq
     <div align="center">
 		<img width="80%" src="figures/sourcecode-1.png"/>
 	</div>
-2. Copy [`Alone.json`](./How2TypeFast/Alone.json), [`Double.json`](./How2TypeFast/Double.json), [`Right-Cmd.json`](./How2TypeFast/Right-Cmd.json) into `.config/karabiner/assets/complex_modifications`.[^5]
+2. Copy [`Alone.json`](./Alone.json), [`Double.json`](./Double.json), [`Right-Cmd.json`](./Right-Cmd.json) into `.config/karabiner/assets/complex_modifications`.[^5]
     <div align="center">
 		<img width="80%" src="figures/sourcecode-2.png"/>
 	</div>
@@ -160,7 +160,7 @@ To import others' settings in [Karabiner-Elements](https://karabiner-elements.pq
 		<img width="80%" src="figures/sourcecode-4.png"/>
 	</div>
 
-[^5]: If you came from [VSCode-LaTeX-Inkscape](./VSCode-LaTeX-Inkscape#karabiner-elements), then you add [`Inkscape.json`](./How2TypeFast/Inkscape.json) into `.config/karabiner/assets/complex_modifications`.
+[^5]: If you came from [VSCode-LaTeX-Inkscape](../VSCode-LaTeX-Inkscape#karabiner-elements), then you add [`Inkscape.json`](./Inkscape.json) into `.config/karabiner/assets/complex_modifications`.
 
 Finally, you can also set up your *Parameters* as mine:
 
