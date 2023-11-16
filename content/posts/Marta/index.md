@@ -30,9 +30,9 @@ Though most of the native apps made by excellent Apple engineers are easy to use
 <img src="figures/icon-hand-draw.png" align="right"/>
 </div>
 
-The fundamental difference between [TotalFinder](https://totalfinder.binaryage.com/) and [Finder](https://support.apple.com/en-us/HT201732) is the **multiple tabs support** with the **double-panel** feature, which allows you to manage files *purely by the keyboard*. If you're using Finder, you'll need multiple windows and probably a mouse to achieve this, but now you can do the same thing with only one active window.
+The fundamental difference between [TotalFinder](https://totalfinder.binaryage.com/) and [Finder](https://support.apple.com/en-us/HT201732) is the **multiple tabs support** and the **double-panel** feature, which allows you to manage files *purely by the keyboard*. If you're using Finder, you'll need multiple windows and probably a mouse to achieve this, but now you can do the same thing with only one active window.
 
-Though [TotalFinder](https://totalfinder.binaryage.com/) is no longer available for arm mac, [Marta](https://marta.sh/) appeared. It's better in some ways compared to [TotalFinder](https://totalfinder.binaryage.com/), but not that convenient in others. Nevertheless, it's *free*, *natively supported*, and most importantly, *it's cute*! The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "This cute fox stands for quick and smart, just like [Marta](https://marta.sh/)".
+Though [TotalFinder](https://totalfinder.binaryage.com/) is no longer available for Arm Mac, [Marta](https://marta.sh/) appeared. It's better in some ways compared to [TotalFinder](https://totalfinder.binaryage.com/), but not that convenient in others. Nevertheless, it's *free*, *natively supported*, and most importantly, *it's cute*! The author of [Marta](https://marta.sh/) [Yan Zhulanow](https://yanex.org/): "This cute fox stands for quick and smart, just like [Marta](https://marta.sh/)".
 
 > If you ask, "*Ok, so what? You can use arrow keys moving around in [Finder](https://support.apple.com/en-us/HT201732) too!*" Well, then in this case, [Finder](https://support.apple.com/en-us/HT201732) may be sufficient for your usage.
 
@@ -52,7 +52,7 @@ The core functionality in [Marta](https://marta.sh/) is given as *action*, which
 
 You might sometimes get lost when you are working with [Marta](https://marta.sh/) since there are so many *actions* that can be used, and you have many keybindings to each of them. But don't worry, there is a very nice feature provided natively in [Marta](https://marta.sh/) that helps you find any *action* in no time: that is the *Search Action*.
 
-When you press `shift`+`cmd`+`p`, a search bar named *Search Action* will pop up, and you can search for any *action* you want to use. For example, there is a built-in `Compress` *action* in [Marta](https://marta.sh/), but since I didn't compress files that often, hence I do not assign a keybinding to this. Do not panic if you suddenly want to compress some files! You can select files[^3] you want to zip and then press `shift`+`cmd`+`p`, search for `Compress` and use `enter` to trigger the action:
+When you press `shift`+`cmd`+`p`, a search bar named *Search Action* will pop up, and you can search for any *action* you want to use. For example, there is a built-in `Compress` *action* in [Marta](https://marta.sh/), but since I didn't compress files that often, I do not assign a keybinding to this. Do not panic if you suddenly want to compress some files! You can select files[^3] you want to zip and then press `shift`+`cmd`+`p`, search for `Compress` and use `enter` to trigger the action:
 
 [^3]: To select multiple files, you select them by using `shift`+`↑`/`↓` as expected.
 
@@ -86,7 +86,7 @@ which essentially does the same thing as in Finder. But rather, you can redefine
 which can not only bring you into that folder, but if your current focus is on a file, you can also open it! This makes life much easier.
 > If you want to open a file in Finder, you'll need to use `cmd`+`o` instead.
 
-One thing that is worth mentioning is that [Marta](https://marta.sh/) set `←` as `core.move.left`, which is a bit awkward if you are used to Finder. So instead, I change it to
+One thing that is worth mentioning is that [Marta](https://marta.sh/) set `←` as `core.move.left`, which is a bit awkward if you are used to Finder. So instead, I changed it to
 
 ```JSON
 "Left" "core.go.up"
@@ -103,7 +103,7 @@ By default, you can create folders and **any** type of file in [Marta](https://m
 "Shift+F7" 	"core.new.file"
 ```
 
-You can bind it to your favorite keybindings to match your own habits. For me, since [TotalFinder](https://totalfinder.binaryage.com/) follows the same shortcut as Finder, hence I change it to
+You can bind it to your favorite keybindings to match your own habits. For me, since [TotalFinder](https://totalfinder.binaryage.com/) follows the same shortcut as Finder, I changed it to
 
 ```JSON
 "Shift+Cmd+n"   "core.new.folder"
@@ -147,7 +147,7 @@ As we mentioned before, we can open the file by `→`, but there is some subtly 
 
 #### Open With
 
-Interestingly, as you're going to see, [Marta](https://marta.sh/) let you go *directly in* a `.zip` file and see the content in it with the `core.open` *action*. What if you want to do something else about it? Like, open it by other apps to unzip it?
+Interestingly, as you're going to see, [Marta](https://marta.sh/) lets you go *directly into* a `.zip` file and see the content in it with the `core.open` *action*. What if you want to do something else about it? Like, open it by other apps to unzip it?
 
 Thankfully, we have the `core.open.with` *action* by default:
 
@@ -193,7 +193,7 @@ So, if you now want to open a project, you can simply press `cmd`+`e`, then it'l
 
 #### Preview
 
-You might already notice, [Marta](https://marta.sh/) doesn't provide rich support of figures as your visual tool for file organization. But as in Finder, you can always press `space` to open/close a quick *preview* (it's formally called *quick look*) to see what this file is. This works like this.
+You might already notice, that [Marta](https://marta.sh/) doesn't provide rich support of figures as your visual tool for file organization. But as in Finder, you can always press `space` to open/close a quick *preview* (it's formally called *quick look*) to see what this file is. This works like this.
 
 <div align="center">
 	<img src="gifs/quick-look.gif"/>
@@ -203,7 +203,7 @@ You might already notice, [Marta](https://marta.sh/) doesn't provide rich suppor
 
 ### Double Panels
 
-If you follow all these until now, you might have one question: "So when does the core feature - *Double Panels* comes into play?" Here it comes, it's useful in the following two ways
+If you have followed all these until now, you might have one question: "So when does the core feature - *Double Panels* come into play?" Here it comes, it's useful in the following two ways
 
 1. Tabs (Pages) support.
 2. ***Move your files around***.
@@ -212,7 +212,7 @@ This is the most complex section, hence I leave it to the very end. We start by 
 
 #### Tabs
 
-For short, you can open several tabs in *each* panel. And with one of the essential shortcuts to navigate in [Marta](https://marta.sh/), `tab`, which essentially will send you to another panel, you can achieve the following.
+For short, you can open several tabs in *each* panel. And with one of the essential shortcuts to navigate in the [Marta](https://marta.sh/), `tab``, which essentially will send you to another panel, you can achieve the following.
 
 <div align="center">
 	<img width="80%" src="gifs/tabs.gif"/>
@@ -368,7 +368,7 @@ One thing I didn't bring up is that there are actually different themes you can 
 	<img width="80%"src="figures/sakura.png"/>
 </div>
 
-I actually quite like the look of Sakura 🌸, but since I use dark mode as my main theme, hence I just give up on this... Try it out! To change the theme, you can either just change the `tmeme` (the first line in my [personal configuration](#personal-configuration)) in the configuration file, or search the `Switch Theme` *action*:
+I actually quite like the look of Sakura 🌸, but since I use dark mode as my main theme, I just give up on this... Try it out! To change the theme, you can either just change the `tmeme` (the first line in my [personal configuration](#personal-configuration)) in the configuration file, or search the `Switch Theme` *action*:
 
 <div align="center">
 	<img width="80%" src="gifs/switch-theme.gif"/>
@@ -376,7 +376,7 @@ I actually quite like the look of Sakura 🌸, but since I use dark mode as my m
 
 ## Conclusion
 
-Overall, I think [Marta](https://marta.sh/) provides excellent customization abilities, while still easy enough for simple use. If you think you need an extra boost of productivity, or even just want to try out new applications, [Marta](https://marta.sh/) is definitely worth giving a shot!
+Overall, I think [Marta](https://marta.sh/) provides excellent customization abilities, while still being easy enough for simple use. If you think you need an extra boost of productivity, or even just want to try out new applications, [Marta](https://marta.sh/) is definitely worth giving a shot!
 
 ## Alternatives
 
@@ -384,7 +384,7 @@ Here, I'm going to list some alternatives to Finder, you can try them yourself!
 
 1. [TotalFinder](https://totalfinder.binaryage.com/)
 
-   Just find out that the [TotalFinder](https://totalfinder.binaryage.com/) is back! See the [discussion thread](https://discuss.binaryage.com/t/update-discussion-totalfinder-1-14-2-for-apple-silicon-and-intel/8364) to see how to download it!
+   Just found out that the [TotalFinder](https://totalfinder.binaryage.com/) is back! See the [discussion thread](https://discuss.binaryage.com/t/update-discussion-totalfinder-1-14-2-for-apple-silicon-and-intel/8364) to see how to download it!
    >But a big *caveat* is that: It still requires you to disable [SIP](https://en.wikipedia.org/wiki/System_Integrity_Protection), see [this](https://totalfinder.binaryage.com/apple-silicon). I genuinely **don't care**, but now things are different: in arm mac, disable [SIP](https://en.wikipedia.org/wiki/System_Integrity_Protection) will cause some problem, see [here](https://totalfinder.binaryage.com/apple-silicon#mark-important-disabling-sip-in-any-capacity-even-partially-will-also).
    > <div align="center">
    >    <img src="figures/SIP.png"/>
