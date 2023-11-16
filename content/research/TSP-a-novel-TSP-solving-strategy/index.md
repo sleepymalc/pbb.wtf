@@ -76,7 +76,7 @@ use **Cross-Entropy Loss** to compare our prediction to the result produced by $
 
 #### Graph Convolutional Neural Network (GCNN)
 
-One may wonder where does the GNN involve in our methodology, is it used to model the topology of the nodes of a particular TSP instance?
+One may wonder where the GNN is involved in our methodology, is it used to model the topology of the nodes of a particular TSP instance?
 
 The answer is **no**. The GCNN is our model which learns how to perform branching given the state of the problem (e.g., given the current state of the explored
 recursion tree of the branch and bound algorithm). Intuitively, in the pipeline graph above,
@@ -84,7 +84,7 @@ recursion tree of the branch and bound algorithm). Intuitively, in the pipeline 
 * Top-left corresponds to TSP instances (red dots corresponding to actual cities in the TSP problem).
 * Bottom-left corresponds to our model (black dots corresponding to a node in our GCNN).
 
-Now, it should be clear how we utilize GNN to help us to solve this TSP problem: We use GCNN to learn a
+Now, it should be clear how we utilize GNN to help us solve this TSP problem: We use GCNN to learn a
 strong branching strategy and use it to do branching whenever needed.
 
 ### Experimental Result
@@ -112,7 +112,7 @@ We observe that our TSP10 and TSP15 imitation models outperform the $\texttt{SCI
 
 #### Bottlenecks and Future Work
 
-There is a huge performance difference between our proposed model (also $\texttt{SCIP}$) and the SOTA TSP solver, $\texttt{Concorde}$. Since the proposed model's backbone is the branch and bound algorithm, by formulating TSP into an ILP, we lost some useful problem structures which can be further exploited by algorithms used in $\texttt{Concorde}$. But the existence of a similar pattern of growth in solving time for more difficult instances of larger TSP sizes even for $\texttt{Gurobi}$ and $\texttt{Concorde}$ is promising, as our imitation model applied to these solvers should lead to similar time improvements.[^4]
+There is a huge performance difference between our proposed model (also $\texttt{SCIP}$) and the SOTA TSP solver, $\texttt{Concorde}$. Since the proposed model's backbone is the branch and bound algorithm, by formulating TSP into an ILP, we lost some useful problem structures that can be further exploited by algorithms used in $\texttt{Concorde}$. But the existence of a similar pattern of growth in solving time for more difficult instances of larger TSP sizes even for $\texttt{Gurobi}$ and $\texttt{Concorde}$ is promising, as our imitation model applied to these solvers should lead to similar time improvements.[^4]
 
 [^4]: A major bottleneck is that SOTA solvers like $\texttt{Gurobi}$, or $\texttt{Concorde}$, are often licensed, hence not open-sourced. This results in the difficulty of utilizing a stronger baseline and learning from which to get further improvement.
 
