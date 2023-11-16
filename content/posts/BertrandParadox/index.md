@@ -21,7 +21,7 @@ is true, and one of them must be true, but not both.
 
 [^1]: Regardless of $A$ and $B$, which depend on the content (i.e., under ZF-set theory or HoTT).
 
-Now, someone comes in and said: "*What if our information is not **complete**? At least I can deduce how **true** $P\colon A\implies B$ is if I have some information about $A$ and $B$?*" The idea of *probability* then kicks in: We try to *assign* a real value $p\in[0,1]$ between $0$ and $1$ to *measure*[^2] how true something is with some slackness.
+Now, someone comes in and says: "*What if our information is not **complete**? At least I can deduce how **true** $P\colon A\implies B$ is if I have some information about $A$ and $B$?*" The idea of *probability* then kicks in: We try to *assign* a real value $p\in[0,1]$ between $0$ and $1$ to *measure*[^2] how true something is with some slackness.
 
 [^2]: The word *measure* is chosen since Measure Theory is the underlying backbone of probability theory.
 
