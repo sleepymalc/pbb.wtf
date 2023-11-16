@@ -11,9 +11,9 @@ cover: "./preview.png"
 
 I use $\LaTeX$ heavily for both academic work and professional work, and I think I'm quite proficient in terms of typing things out in $\LaTeX$. But when I see the mind-blowing blog posts from **Gilles Castel (RIP)**-[How I'm able to take notes in mathematics lectures using $\LaTeX$ and Vim](https://castel.dev/post/lecture-notes-1/) and also [How I draw figures for my mathematical lecture notes using Inkscape](https://castel.dev/post/lecture-notes-2/), I realize that I'm still far from *fast*, so I decided to adapt the whole setup from Linux-Vim to macOS-VS Code.[^1]
 
-If you still don't know what to expect, please check out my [Notes](./Notes) taken in this setup.
+If you still don't know what to expect, please check out my [Notes](../Notes) taken in this setup.
 
-[^1]: This setup is universal for VS Code users indeed. The only part that'll be macOS-specific is the Inkscape part ([Inkscape-figure-manager](#inkscape-figure-manager) and [Inkscape-shortcut-manager](#inkscape-shortcut-manager)). While the first part can be replaced by [super-figure](https://github.com/Joao-Peterson/super-figure) (while I still prefer my setup, you can still try it out even if you're in macOS), and you can certainly achieve a similar result in Windows as in my [Notes](./Notes), the drawing speed will be slower without the shortcut manager. Just keep that in mind.
+[^1]: This setup is universal for VS Code users indeed. The only part that'll be macOS-specific is the Inkscape part ([Inkscape-figure-manager](#inkscape-figure-manager) and [Inkscape-shortcut-manager](#inkscape-shortcut-manager)). While the first part can be replaced by [super-figure](https://github.com/Joao-Peterson/super-figure) (while I still prefer my setup, you can still try it out even if you're in macOS), and you can certainly achieve a similar result in Windows as in my [Notes](../Notes), the drawing speed will be slower without the shortcut manager. Just keep that in mind.
 
 If you still don't know what to expect, please check out my [Notes](https://github.com/sleepymalc/Notes) taken in this setup. Also, due to the VS Code recent update (1.76.1), we have the [profile](https://code.visualstudio.com/docs/editor/profiles) functionality available. Specifically, this is [my current minimal profile](https://vscode.dev/profile/github/70b175ba903a4f1cc5dcd271ce8fcb51) for $\LaTeX$ I'm currently using, but since some configurations are not included in the [profile](https://code.visualstudio.com/docs/editor/profiles), you should still read through everything.
 
@@ -59,7 +59,7 @@ To achieve a similar result as in Gilles Castel's setup, there is an extension c
 	<img src="./figures/conceal.png"/>
 </div>
 
-Note that I set the `"conceal.revealOn"` to `"active-line"`, which is why you will see the source code in line 51. There are other options you can choose, see the original repo for details. 
+Note that I set the `"conceal.revealOn"` to `"active-line"`, which is why you will see the source code in line 51. There are other options you can choose, see the original repo for details.
 
 ### HyperSnips
 
@@ -281,7 +281,7 @@ Now, the first part is over. Let's go to the next truly beautiful, elegant, and 
 	<img src="./figures/inkscape_example.png"/>
 </div>
 
-For more examples, check out the original blog. Or for more figures I draw, you can check out [Note](./Notes).
+For more examples, check out the original blog. Or for more figures I draw, you can check out [Note](../Notes).
 
 One last thing is that I'll assume you have already installed [VS Code Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim). While this is not required, if you don't want to use it, then you'll need to assign different keybinding. Anyway, you'll see what I mean until then!
 
@@ -624,13 +624,13 @@ Please download the above two apps.
 
 #### Karabiner Elements
 
-We'll need [Karabiner Elements](https://karabiner-elements.pqrs.org)' [Complex Modifications](https://karabiner-elements.pqrs.org/docs/json/root-data-structure/#custom-json-file-in-configkarabinerassetscomplex_modifications) to help us. The steps are the following (adapted from [️⌨ How to type?](./How2TypeFast#import-settings)).
+We'll need [Karabiner Elements](https://karabiner-elements.pqrs.org)' [Complex Modifications](https://karabiner-elements.pqrs.org/docs/json/root-data-structure/#custom-json-file-in-configkarabinerassetscomplex_modifications) to help us. The steps are the following (adapted from [️⌨ How to type?](../How2TypeFast#import-settings)).
 
 1. Open [Karabiner-Elements](https://karabiner-elements.pqrs.org/), go to *Misc* and click on *Export & Import*.
     <div align="center">
 		<img width="80%" src="figures/sourcecode-1.png"/>
 	</div>
-2. Copy [`Inkscape.json`](./How2TypeFast/Inkscape.json) into `.config/karabiner/assets/complex_modifications`.
+2. Copy [`Inkscape.json`](../How2TypeFast/Inkscape.json) into `.config/karabiner/assets/complex_modifications`.
     <div align="center">
 		<img width="80%" src="figures/sourcecode-2.png"/>
 	</div>
@@ -643,13 +643,13 @@ We'll need [Karabiner Elements](https://karabiner-elements.pqrs.org)' [Complex M
 		<img width="80%" src="figures/sourcecode-4.png"/>
 	</div>
 
-If you're interested in how [`Inkscape.json`](./How2TypeFast/Inkscape.json) is created, see the following.
+If you're interested in how [`Inkscape.json`](../How2TypeFast/Inkscape.json) is created, see the following.
 
 <details>
 
 <summary><b>Detail Explanation</b></summary>
 
-The [`Inkscape.json`](./How2TypeFast/Inkscape.json) is created by using a [`jsonnet`](https://jsonnet.org) file. The file can be found [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/karabiner-Inkscape.jsonnet), and the `jsonnet` tool can be installed via `> brew install jsonnet`.
+The [`Inkscape.json`](../How2TypeFast/Inkscape.json) is created by using a [`jsonnet`](https://jsonnet.org) file. The file can be found [here](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape/blob/main/Inkscape-setting/Inkscape-shortcut-manager/karabiner-Inkscape.jsonnet), and the `jsonnet` tool can be installed via `> brew install jsonnet`.
 
 Converting the `jsonnet` file into the `json` file for [Karabiner Elements](https://karabiner-elements.pqrs.org/) can be done as follows
 
