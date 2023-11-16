@@ -56,7 +56,7 @@ module.exports = {
   ],
   birthday: 'Nov. 10, 2000',
   location: 'Illinois, United States',
-  email: 'pbb@illinois.edu',
+  email: 'sleepymalc@gmail.com',
   pages: {
     home: '/',
     posts: 'posts',
