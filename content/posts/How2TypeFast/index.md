@@ -29,13 +29,13 @@ then you should keep reading.
 
 ### Tool matters
 
-First thing first, please get yourself a good keyboard. I use [HHKB](https://happyhackingkb.com/) Professional Hybrid Type-S personally. It's fast, elegant, and customizable. Moreover, the revolutionary layout is awesome.[^hhkb]
+First thing first, please get yourself a good keyboard. I use [HHKB](https://happyhackingkb.com/) Professional Hybrid Type-S personally. It's fast, elegant, and customizable. Moreover, the revolutionary layout is awesome.[^2]
 
 <div align="center">
 	<img src="figures/hhkb.png"/>
 </div>
 
-[^hhkb]: If you're interested in learning more about [HHKB](https://happyhackingkb.com/), go to [hhkb.io](https://hhkb.io).
+[^2]: If you're interested in learning more about [HHKB](https://happyhackingkb.com/), go to [hhkb.io](https://hhkb.io).
 
 ### The Setup
 
@@ -59,7 +59,7 @@ I hope you use [Vim](https://www.vim.org/), or at least heard about it. If you'r
 
 Now the question is, ***WHY***? Well, imagine you're editing texts, and want to change something 3 characters before the cursor, what should you do? Using arrow keys would be a natural choice if you're not in [Vim](https://www.vim.org/). But remember that your arrow keys are *far away* from the ***main row*** of your keyboard.
 
-To address this, we simply adapt [Vim](https://www.vim.org/)'s solution, i.e., using `h`/`j`/`k`/`l` as arrow keys. However, unlike in [Vim](https://www.vim.org/) where we have *normal mode* and *insert mode* so using `h`/`j`/`k`/`l` as arrow keys in *normal mode* would not be a problem. Contrarily, we now need to maintain the ability to insert alphabets `h`/`j`/`k`/`l`. The solution is also simple: *use a modifier*. I use `right cmd`+`h`/`j`/`k`/`l` as `←`/`↓`/`↑`/`→`.
+To address this, we simply adapt [Vim](https://www.vim.org/)'s solution, i.e., using `h`/`j`/`k`/`l` as arrow keys. However, unlike in [Vim](https://www.vim.org/) where we have *normal mode* and *insert mode*, using `h`/`j`/`k`/`l` as arrow keys in *normal mode* would not be a problem. Contrarily, we now need to maintain the ability to insert alphabets `h`/`j`/`k`/`l`. The solution is also simple: *use a modifier*. I use `right cmd`+`h`/`j`/`k`/`l` as `←`/`↓`/`↑`/`→`.
 
 You might notice that I use the `right cmd` instead of just `cmd`. This is because `cmd`+`h`/`j`/`k`/`l` might be your other shortcuts, and entirely overloading them to arrow keys is not ideal. Hence, by specifying only `right cmd`+`h`/`j`/`k`/`l` as arrow keys, it
 
@@ -104,9 +104,9 @@ So, should we directly remap `control` to `esc`? No! Observe that `control` is u
 
 <p style="text-align: center;">set <code>control</code> to be <code>esc</code> if it's pressed alone.</p>
 
-Specifically, if I press `control` for less than a threshold called `alone threshold` (e.g., 0.15 seconds), then it'll be recognized as `esc`; and if I press `control` for more than a threshold called `hold-down threshold` (e.g., 0.04 seconds), then it'll be recognized as `control` and can then be used as a modifier.[^2]
+Specifically, if I press `control` for less than a threshold called `alone threshold` (e.g., 0.15 seconds), then it'll be recognized as `esc`; and if I press `control` for more than a threshold called `hold-down threshold` (e.g., 0.04 seconds), then it'll be recognized as `control` and can then be used as a modifier.[^3]
 
-[^2]: You might notice that it's possible to have conflict, i.e., if you press `control` for 0.1 seconds, then it'll trigger both `control` and `esc`. However, it's fine since `control` is a modifier but is not combined with `esc`. You don't want your `hold-down threshold` to be too long (e.g., 0.15 seconds to avoid conflict) because then whenever you want to use `control` as a modifier combined with other keys to trigger a shortcut, you'll need to hold `control` for that long.
+[^3]: You might notice that it's possible to have conflict, i.e., if you press `control` for 0.1 seconds, then it'll trigger both `control` and `esc`. However, it's fine since `control` is a modifier but is not combined with `esc`. You don't want your `hold-down threshold` to be too long (e.g., 0.15 seconds to avoid conflict) because then whenever you want to use `control` as a modifier combined with other keys to trigger a shortcut, you'll need to hold `control` for that long.
 
 ### Left and Right Shift
 
@@ -128,9 +128,9 @@ and,
 
 <p style="text-align: center;">when <code>right shift</code> is pressed twice and is held on the second press, it acts as <code>delete</code> is held down.</p>
 
-The first one is clear: I don't want to reach my little finger to the usual `delete` spot since it's far away[^3], and it's natural to remap `delete` to the `right shift` since it's an easy reach for my right little finger.
+The first one is clear: I don't want to reach my little finger to the usual `delete` spot since it's far away[^4], and it's natural to remap `delete` to the `right shift` since it's an easy reach for my right little finger.
 
-[^3]: Also, on the [HHKB](https://happyhackingkb.com/) layout, the `delete` key is on the usual `|`/`\` key's spot, which is quite awkward for me. So I remap the `delete` on my [HHKB](https://happyhackingkb.com/) to `|`/`\` on the system level; this means, the `delete` key is now completely gone on my [HHKB](https://happyhackingkb.com/).
+[^4]: Also, on the [HHKB](https://happyhackingkb.com/) layout, the `delete` key is on the usual `|`/`\` key's spot, which is quite awkward for me. So I remap the `delete` on my [HHKB](https://happyhackingkb.com/) to `|`/`\` on the system level; this means, the `delete` key is now completely gone on my [HHKB](https://happyhackingkb.com/).
 
 But there's a problem: you now can't hold `delete` for a consecutive deletion since holding it is equivalent to holding the `right shift`. To fix this, I come up with the above-mentioned solution, that is, you can trigger the hold-down action for `deletion` by
 
