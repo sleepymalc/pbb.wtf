@@ -19,7 +19,7 @@ links:
 
 In the last semester of my bachelor's journey, I decided to take a course about algorithmic game theory. In the end, we did this fun, small project with [Henry Fleischmann](http://www-personal.umich.edu/~henryfl/index.html), where we managed to design a mechanism that addresses the *gerrymandering*[^1] problem, proving it has the desired properties. The following is a quick summary of our project.
 
-> The [report](./Modeling-Fair-Redistricting-Commissions/paper.pdf) and the [poster](./Modeling-Fair-Redistricting-Commissions/poster.pdf) for this project are available.
+> The [report](./paper.pdf) and the [poster](./poster.pdf) for this project are available.
 
 ## The Model
 
@@ -48,7 +48,7 @@ We see that by combining group strategyproofness and unbiased map property, ther
 
 ## Positional-Scoring Rule
 
-Now we describe our technical contribution.  Assuming that we have three maps, biased toward Democrats, Replibicxans, and neutral respectively. Then, by considering a simple [positional-scoring rule](https://en.wikipedia.org/wiki/Positional_voting) with score $\langle 1, 0, -1\rangle$ on commissioners' preference on these three types of maps, we prove the following.
+Now we describe our technical contribution.  Assuming that we have three maps, biased toward Democrats, Republicans, and neutral respectively. Then, by considering a simple [positional-scoring rule](https://en.wikipedia.org/wiki/Positional_voting) with score $\langle 1, 0, -1\rangle$ on commissioners' preference on these three types of maps, we prove the following.
 
 ### Main Theorem
 
@@ -58,4 +58,4 @@ Now we describe our technical contribution.  Assuming that we have three maps, b
 
 The equal number of Democrats and Republicans is referred to as the *balanced* case.[^3]
 
-[^3]: It's possible to relax the result to the unbalanced case with some adjustments of the scoring. See the paper for details.
+[^3]: It's possible to relax the result to the unbalanced case with some adjustments to the scoring. See the paper for details.
