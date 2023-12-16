@@ -27,7 +27,7 @@ module.exports = {
     }, {
       date: 'Sep. 2021 - Apr. 2023',
       icon: 'university',
-      title: 'B.Sc. in Computer Science & minor in Mathematics (Summa Cum Laude)',
+      title: 'B.Sc. in Computer Science (Summa Cum Laude) & minor in Mathematics',
       location: 'College of Engineering & Literature, Science, and the Arts, University of Michigan',
     }, {
       date: 'Sep. 2019 - Aug. 2023',
