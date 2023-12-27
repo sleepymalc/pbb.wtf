@@ -15,7 +15,7 @@ module.exports = {
   introduction: [
     'A first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I hold a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://en.sjtu.edu.cn/) 🇨🇳.',
     `*I do **ML** and **TCS** with **math** on **graphs***. In general, I design *fast*, *robust*, and *fair* algorithms, develop theories, define new problems, and eventually apply them to make social impacts.`,
-    `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and are constantly writing [*course notes*](./posts/Notes) 📝. I also enjoy reading abstract nonsenses (i.e., research-unrelated math) just to keep my brain fresh.`,
+    `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and are constantly writing [*course notes*](./posts/Notes) 📝.`,
     `🔔 **I'm looking for 2024 Summer research internships!**`,
   ],
   education: [
