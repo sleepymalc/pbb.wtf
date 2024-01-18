@@ -81,7 +81,7 @@ This is a graduate-level real analysis course taught by [Jinho Baik](http://www.
 	<img src="./figures/EECS572.png" align="right" width="18%"/>
 </div>
 
-This is the advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various **randomized algorithms**, **Randomized Complexity**, **Markov Chains**, **Random Walks**, **Expander Graphs**, **Pseudo-random Generators**, and **Hardness v.s. Randomness**.
+This is an advanced graduate-level theory course focused on randomized complexity and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various **randomized algorithms**, **Randomized Complexity**, **Markov Chains**, **Random Walks**, **Expander Graphs**, **Pseudo-random Generators**, and **Hardness v.s. Randomness**.
 
 [\[pdf\]](./RandComp.pdf)
 
@@ -119,7 +119,7 @@ This is a graduate-level functional analysis course taught by [Joseph Conlon](ht
 	<img src="./figures/EECS475.png" align="right" width="18%"/>
 </div>
 
-This is a upper-level theory course on formal cryptography and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various **Historic Ciphers**, **Perfect Secrecy**, **Symmetric Encryption** (including pseudo-random generators, stream ciphers, pseudo-random functions, and permutations), **Message Authentication**, **Cryptographic Hash Functions**, and **Public Key Encryption**.
+This is an upper-level theory course on formal cryptography and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various **Historic Ciphers**, **Perfect Secrecy**, **Symmetric Encryption** (including pseudo-random generators, stream ciphers, pseudo-random functions, and permutations), **Message Authentication**, **Cryptographic Hash Functions**, and **Public Key Encryption**.
 
 [\[pdf\]](./Crypto.pdf)
 
