@@ -173,8 +173,8 @@ This is the advanced graduate-level statistics course focused on empirical proce
 	<img src="./figures/STAT575.png" align="right" width="18%"/>
 </div>
 
-This is a graduate-level theoretical statistics course taught by [Georgios Fellouris](https://publish.illinois.edu/fellouri/) at University of Illinois Urbana-Champaign, aiming to provide an introduction to the asymptotic analysis of various statistical methods, including **Weak Convergence**, **Lindeberg-Feller CLT**, **Asymptotic Relative Efficiency**, etc.
+This is a graduate-level theoretical statistics course taught by [Georgios Fellouris](https://publish.illinois.edu/fellouri/), aiming to provide an introduction to the asymptotic analysis of various statistical methods, including **Weak Convergence**, **Lindeberg-Feller CLT**, **Asymptotic Relative Efficiency**, etc.
 
-[\[pdf\]](./LargeSample.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/STAT575-Large-SAmple-Theory)
+[\[pdf\]](./LargeSample.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/STAT575-Large-Sample-Theory)
 
 > No comment yet...
