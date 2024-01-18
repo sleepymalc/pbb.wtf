@@ -63,7 +63,7 @@ This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.
 	<img src="./figures/MATH597.png" align="right" width="18%"/>
 </div>
 
-This is the graduate-level real analysis course taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Topics include **Measure Theory**, **Hilbert Spaces**, **Banach Spaces**, **$L^p$ Spaces**, and some **Fourier Analyses**. While focusing on real measures, we did discuss signed and complex measures for completeness.
+This is a graduate-level real analysis course taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Topics include **Measure Theory**, **Hilbert Spaces**, **Banach Spaces**, **$L^p$ Spaces**, and some **Fourier Analyses**. While focusing on real measures, we did discuss signed and complex measures for completeness.
 
 [\[pdf\]](./ReAnalysis.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH597-AnalysisII)
 
@@ -93,7 +93,7 @@ This is the advanced graduate-level theory course focused on randomized complexi
 	<img src="./figures/EECS598-001.png" align="right" width="18%"/>
 </div>
 
-This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web.eecs.umich.edu/~euiwoong/), which focuses on methods of designing and analyzing approximation algorithms, together with the theoretical background on showing the hardness of approximation. Topics include **Covering**, **Clustering**, **Network Design**, and **CSP**. We also discussed **Lasserre (SoS) Hierarchy**, **Unique Game Conjecture**, and **Probabilistic Checkable Proofs**.
+This is a graduate-level algorithm course taught by [Euiwoong Lee](https://web.eecs.umich.edu/~euiwoong/), which focuses on methods of designing and analyzing approximation algorithms, together with the theoretical background on showing the hardness of approximation. Topics include **Covering**, **Clustering**, **Network Design**, and **CSP**. We also discussed **Lasserre (SoS) Hierarchy**, **Unique Game Conjecture**, and **Probabilistic Checkable Proofs**.
 
 [\[pdf\]](./AppxAlgo.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/EECS598-001-Approximation-Algorithms-and-Hardness-of-Approximation)
 
@@ -105,7 +105,7 @@ This is the graduate-level algorithm course taught by [Euiwoong Lee](https://web
 	<img src="./figures/MATH602.png" align="right" width="18%"/>
 </div>
 
-This is the graduate-level functional analysis course taught by [Joseph Conlon](http://www.math.lsa.umich.edu/~conlon/). The focus of this course is rather standard, including **Banach and Hilbert Spaces Theory**, **Bounded Linear, Compact, and Self-Adjoint Operators Theorem**, **Representation, Hahn-Banach, Open Mapping Theorem**, and **Spectral Theory**. We also covered some point-set topology along the way.
+This is a graduate-level functional analysis course taught by [Joseph Conlon](http://www.math.lsa.umich.edu/~conlon/). The focus of this course is rather standard, including **Banach and Hilbert Spaces Theory**, **Bounded Linear, Compact, and Self-Adjoint Operators Theorem**, **Representation, Hahn-Banach, Open Mapping Theorem**, and **Spectral Theory**. We also covered some point-set topology along the way.
 
 [\[pdf\]](./ReAnalysis-II.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH602-Real-Analysis-II)
 
@@ -119,7 +119,7 @@ This is the graduate-level functional analysis course taught by [Joseph Conlon](
 	<img src="./figures/EECS475.png" align="right" width="18%"/>
 </div>
 
-This is the upper-level theory course on formal cryptography and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various **Historic Ciphers**, **Perfect Secrecy**, **Symmetric Encryption** (including pseudo-random generators, stream ciphers, pseudo-random functions, and permutations), **Message Authentication**, **Cryptographic Hash Functions**, and **Public Key Encryption**.
+This is a upper-level theory course on formal cryptography and related topics taught by [Mahdi Cheraghchi](https://mahdi.ch/). Topics include various **Historic Ciphers**, **Perfect Secrecy**, **Symmetric Encryption** (including pseudo-random generators, stream ciphers, pseudo-random functions, and permutations), **Message Authentication**, **Cryptographic Hash Functions**, and **Public Key Encryption**.
 
 [\[pdf\]](./Crypto.pdf)
 
@@ -131,7 +131,7 @@ This is the upper-level theory course on formal cryptography and related topics 
 	<img src="./figures/MATH681.png" align="right" width="18%"/>
 </div>
 
-This is the graduate-level mathematical logic course taught by [Matthew Harrison-Trainor](http://www-personal.umich.edu/~matthhar/), aiming to obtain insights into all other branches of mathematics, such as algebraic geometry, analysis, etc. Specifically, we will cover **Model Theory** beyond the basic foundational **Ideas of Logic**.
+This is a graduate-level mathematical logic course taught by [Matthew Harrison-Trainor](http://www-personal.umich.edu/~matthhar/), aiming to obtain insights into all other branches of mathematics, such as algebraic geometry, analysis, etc. Specifically, we will cover **Model Theory** beyond the basic foundational **Ideas of Logic**.
 
 [\[pdf\]](./Logic.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH681-Mathematical-Logic)
 
@@ -164,3 +164,17 @@ This is the advanced graduate-level statistics course focused on empirical proce
 [\[pdf\]](./EmpProcess.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/STAT576-Empirical-Process-Theory)
 
 > This is one of the hardest courses I have taken due to how messy some calculations are and the common tricks used in theoretical statistics which I'm not familiar with. However, this is quite relevant to modern generalization theory for deep learning (actually a foundation), so I actually quite enjoy learning this course.
+
+### Spring 2024
+
+#### Large Sample Theory (STAT575)
+
+<div>
+	<img src="./figures/STAT575.png" align="right" width="18%"/>
+</div>
+
+This is a graduate-level theoretical statistics course taught by [Georgios Fellouris](https://publish.illinois.edu/fellouri/) at University of Illinois Urbana-Champaign, aiming to provide an introduction to the asymptotic analysis of various statistical methods, including **Weak Convergence**, **Lindeberg-Feller CLT**, **Asymptotic Relative Efficiency**, etc.
+
+[\[pdf\]](./LargeSample.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/STAT575-Large-SAmple-Theory)
+
+> No comment yet...
