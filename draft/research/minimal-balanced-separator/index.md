@@ -1,12 +1,12 @@
 ---
-title: "Finding Minimal Balanced Separators with Detection Sets"
+title: "Finding Minimal Balanced Cuts with Detection Sets"
 tags:
 - "Graph Theory"
 - "Fast Algorithm"
 date: Mar. 2022 - Present
-path: "research/minimal-balanced-separator"
-excerpt: "We design the first almost linear time algorithm on finding minimal balanced separator."
-selected: true
+path: "research/minimal-balanced-cuts"
+excerpt: "N/A"
+selected: false
 cover: "./preview.png"
 links:
   # - name: "Paper"
