@@ -135,6 +135,15 @@ module.exports = {
       position: 'right',
       data: [
         {
+          date: 'May. 2024 - Aug. 2024',
+          title: 'Research Intern',
+          description: '**' +
+            'Untitled' +
+            '**: ' +
+            'N/A advised by [Mahito Sugiyama](https://mahito.info/index_e.html)',
+          location: 'National Institute of Informatics',
+        },
+        {
           date: 'Mar. 2022 - Dec. 2022',
           title: 'Undergraduate Researcher',
           description: '**' +
