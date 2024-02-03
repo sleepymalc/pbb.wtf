@@ -163,7 +163,7 @@ This is the advanced graduate-level statistics course focused on empirical proce
 
 [\[pdf\]](./EmpProcess.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/STAT576-Empirical-Process-Theory)
 
-> This is one of the hardest courses I have taken due to how messy some calculations are and the common tricks used in theoretical statistics which I'm not familiar with. However, this is quite relevant to modern generalization theory for deep learning (actually a foundation), so I actually quite enjoy learning this course.
+> This is one of the hardest courses I have taken due to how messy some calculations are and the common tricks used in theoretical statistics which I'm not familiar with. However, this is quite relevant to modern generalization theory for deep learning (actually a foundation), so I enjoy learning this course quite a lot.
 
 ### Spring 2024
 
