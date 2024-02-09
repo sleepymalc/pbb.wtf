@@ -14,7 +14,7 @@ module.exports = {
   ],
   introduction: [
     'I\'m a first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I obtained a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://en.sjtu.edu.cn/) 🇨🇳.',
-    `*I do **AI** and **TCS** with **math** on **graphs***. In general, I define new problems and find existing problems, design corresponding *fast*, *robust*, and *fair* algorithms, develop their theories, and eventually apply them to make social impacts.`,
+    `*I do **Artificial Intelligence** and **Machine Learning** with **math** on **graphs***. In general, I define new problems and find existing problems, design corresponding *fast*, *robust*, and *fair* algorithms, develop their theories, and eventually apply them to make social impacts. I also enjoy working on **TCS** problems, especially fast graph algorithms.`,
     `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I'm constantly writing [*course notes*](./posts/Notes) 📝.`,
     `🔔 **I'm visiting [National Institute of Informatics](https://www.nii.ac.jp/en/) this summer as an research intern!**`,
   ],
