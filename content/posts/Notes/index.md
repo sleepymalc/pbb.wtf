@@ -147,7 +147,7 @@ This is the advanced graduate-level differential geometry course focused on Riem
 
 [\[pdf\]](./RiemGeo.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/MATH635-Riemannian-Geometry)
 
-> I always wanted to have a solid understanding of differential geometry since the recent advances in machine learning theory rely on related concepts quite heavily in some particular branches such as optimization and the well-known [manifold hypothesis](https://en.wikipedia.org/wiki/Manifold_hypothesis), or even more practical, manifold learning.
+> I always wanted to have a solid understanding of differential geometry since the recent advances in machine learning theory rely on related concepts quite heavily in some particular branches such as optimization and the well-known [manifold hypothesis](https://en.wikipedia.org/wiki/Manifold_hypothesis), or information geometry.
 
 ## First Year Ph.D. @University of Illinois Urbana-Champaign
 
