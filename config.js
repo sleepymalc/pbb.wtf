@@ -131,6 +131,21 @@ module.exports = {
       ],
     },
     {
+      title: 'Software Development',
+      position: 'left',
+      data: [
+        {
+          date: 'Oct. 2020 - Jun. 2021',
+          title: 'Backend Developer',
+          description: '**' +
+            'foodall' +
+            '**: ' +
+            'A food order platform in Taiwan, built with *Golang* and *Gin*, *MongoDB*, with RESTful API design.',
+          location: 'Virtual, Shanghai',
+        },
+      ],
+    },
+    {
       title: 'Selected Research',
       position: 'right',
       data: [
@@ -164,17 +179,15 @@ module.exports = {
       ],
     },
     {
-      title: 'Software Development',
+      title: 'Professional Activity',
       position: 'right',
       data: [
         {
-          date: 'Oct. 2020 - Jun. 2021',
-          title: 'Backend Developer',
-          description: '**' +
-            'foodall' +
-            '**: ' +
-            'A food order platform in Taiwan, built with *Golang* and *Gin*, *MongoDB*, with RESTful API design.',
-          location: 'Virtual, Shanghai',
+          // date: 'Oct. 2020 - Jun. 2021',
+          title: 'Conference Reviewer',
+          description:
+            'IEEE BigData2023, ICML 2024'
+          // location: '',
         },
       ],
     },
