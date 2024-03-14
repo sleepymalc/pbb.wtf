@@ -183,11 +183,11 @@ module.exports = {
       position: 'right',
       data: [
         {
-          // date: 'Oct. 2020 - Jun. 2021',
+          date: '',
           title: 'Conference Reviewer',
           description:
-            'IEEE BigData2023, ICML 2024'
-          // location: '',
+            'IEEE BigData2023, ICML 2024',
+          location: '',
         },
       ],
     },
