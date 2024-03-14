@@ -183,11 +183,11 @@ module.exports = {
       position: 'right',
       data: [
         {
-          date: '',
+          date: '2023 - Current',
           title: 'Conference Reviewer',
           description:
-            'IEEE BigData2023, ICML 2024',
-          location: '',
+            'IEEE BigData 2023, ICML 2024',
+          location: 'University of Illinois Urbana-Champaign',
         },
       ],
     },
