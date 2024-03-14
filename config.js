@@ -95,23 +95,24 @@ module.exports = {
       position: 'left',
       data: [
         {
-          date: 'Jan. 2023 - May 2023',
           title: 'Instructional Aide',
+          date: 'Jan. 2023 - May 2023',
+          location: 'University of Michigan',
           description: '**' +
             '[EECS475 (Introduction to Cryptography)](https://mahdi.ch/eecs475/)' +
             '**: ' +
             'An upper-level 100+ student course on the B.Sc. CS track. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-university-of-michigan-ta) are available.',
-          location: 'University of Michigan',
         },
         {
-          date: 'Sep. 2022 - Dec. 2022',
           title: 'Instructional Aide',
+          date: 'Sep. 2022 - Dec. 2022',
+          location: 'University of Michigan',
           description: '**' +
             '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
             '**: ' +
             'A graduate-level 70+ student course on the M.S. theory CS track. [Notes](../posts/Notes#randomness-and-computation-eecs572-university-of-michigan-ta) are available.',
-          location: 'University of Michigan',
-        }, {
+        },
+        {
           date: 'May 2021 - Aug. 2021',
           title: 'Teaching Assistant',
           description: '**' +
@@ -119,14 +120,15 @@ module.exports = {
             '**: ' +
             'A 200+ student rigorous analysis course on the B.Eng. ECE track. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
           location: 'Shanghai Jiao Tong University',
-        }, {
-          date: 'Sep. 2020 - Dec. 2020',
+        },
+        {
           title: 'Teaching Assistant',
+          date: 'Sep. 2020 - Dec. 2020',
+          location: 'Shanghai Jiao Tong University',
           description: '**' +
             '[VV186 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
             '**: ' +
             'A 200+ student rigorous analysis course on the B.Eng. ECE track.',
-          location: 'Shanghai Jiao Tong University',
         },
       ],
     },
@@ -135,46 +137,46 @@ module.exports = {
       position: 'left',
       data: [
         {
-          date: 'Oct. 2020 - Jun. 2021',
           title: 'Backend Developer',
+          date: 'Oct. 2020 - Jun. 2021',
+          location: 'Virtual, Shanghai',
           description: '**' +
             'foodall' +
             '**: ' +
             'A food order platform in Taiwan, built with *Golang* and *Gin*, *MongoDB*, with RESTful API design.',
-          location: 'Virtual, Shanghai',
         },
       ],
     },
     {
-      title: 'Selected Research',
+      title: 'Research Experience',
       position: 'right',
       data: [
         {
-          date: 'May. 2024 - Aug. 2024',
           title: 'Research Intern',
+          date: 'May. 2024 - Aug. 2024',
+          location: 'National Institute of Informatics',
           description: '**' +
             'Untitled' +
             '**: ' +
-            'N/A advised by [Mahito Sugiyama](https://mahito.info/index_e.html)',
-          location: 'National Institute of Informatics',
+            'Advised by [Mahito Sugiyama](https://mahito.info/index_e.html)',
         },
         {
-          date: 'Mar. 2022 - Dec. 2022',
           title: 'Undergraduate Researcher',
+          date: 'Mar. 2022 - Dec. 2022',
+          location: 'University of Michigan',
           description: '**' +
             '[Finding Minimal Balanced Separators with Detection Sets](../research/minimal-balanced-separator)' +
             '**: ' +
-            'Design the first almost linear time algorithm on finding minimal balanced separators advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/)',
-          location: 'University of Michigan',
+            'Design the first almost linear time algorithm on finding minimal balanced cuts advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/)',
         },
         {
-          date: 'May 2022 - Apr. 2023',
           title: 'Undergraduate Researcher',
+          date: 'May 2022 - Apr. 2023',
+          location: 'University of Michigan',
           description: '**' +
             'Deep Learning Foundation' +
             '**: ' +
             'Develop various techniques to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
-          location: 'University of Michigan',
         },
       ],
     },
@@ -183,11 +185,11 @@ module.exports = {
       position: 'right',
       data: [
         {
-          date: '2023 - Current',
           title: 'Conference Reviewer',
+          date: '2023 - Current',
+          location: 'NA',
           description:
-            'IEEE BigData 2023, ICML 2024',
-          location: 'University of Illinois Urbana-Champaign',
+            'IEEE BigData *2023*, ICML *2024*',
         },
       ],
     },
