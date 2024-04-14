@@ -165,7 +165,7 @@ module.exports = {
           date: 'Mar. 2022 - Dec. 2022',
           location: 'University of Michigan',
           description: '**' +
-            '[Finding Minimal Balanced Separators with Detection Sets](../research/minimal-balanced-separator)' +
+            'Finding Minimal Balanced Separators with Detection Sets' +
             '**: ' +
             'Design the first almost linear time algorithm on finding minimal balanced cuts advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/)',
         },
