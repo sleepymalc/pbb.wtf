@@ -200,9 +200,9 @@ module.exports = {
           location: 'University of Illinois Urbana-Champaign',
           description:
             '**' +
-            `Learning Theory` +
+            `Statistical Learning Theory` +
             `**: ` +
-            `A thorough reading on [Roman Vershynin](https://www.math.uci.edu/~rvershyn/)'s [High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html), focusing on learning theory.`,
+            `A thorough reading on [Roman Vershynin](https://www.math.uci.edu/~rvershyn/)'s [High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html), focusing on statistical learning theory.`,
         },
       ],
     },
