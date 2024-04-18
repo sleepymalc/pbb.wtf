@@ -6,7 +6,7 @@ tags:
 - "Game Theory"
 date: Jan. 2024 - Apr. 2024
 path: "research/Unlearning-Sample-Inference-Game"
-excerpt: "Yiwen Tu, **Pingbang Hu**, Jiaqi Ma"
+excerpt: "Yiwen Tu\*, **Pingbang Hu**\*, Jiaqi Ma"
 selected: true
 cover: "./preview.png"
 links:
