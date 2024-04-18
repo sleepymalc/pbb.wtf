@@ -5,7 +5,7 @@ tags:
 - "Fairness"
 date: Jan. 2023 - Apr. 2023
 path: "research/Modeling-Fair-Redistricting-Commissions"
-excerpt: "**Pingbang Hu**, Henry Fleischmann"
+excerpt: "We resolved *Gerrymandering* by a simple (dumb) voting scheme..."
 selected: false
 cover: "./preview.png"
 links:
@@ -19,7 +19,7 @@ links:
 
 In the last semester of my bachelor's journey, I decided to take a course about algorithmic game theory. In the end, we did this fun, small project with [Henry Fleischmann](https://hfleischmann3.github.io./), where we managed to design a mechanism that addresses the *gerrymandering*[^1] problem, proving it has the desired properties. The following is a quick summary of our project.
 
-> The [report](./paper.pdf) and the [poster](./poster.pdf) for this project are available.
+> The [report](./paper.pdf) and the [poster](./poster.pdf) for this project are available. Joint work with [Henry Fleischmann](https://hfleischmann3.github.io./).
 
 ## The Model
 
