@@ -5,14 +5,14 @@ tags:
 - "Fairness"
 date: Jan. 2023 - Apr. 2023
 path: "research/Modeling-Fair-Redistricting-Commissions"
-excerpt: "We resolved *Gerrymandering* by a simple (dumb) voting scheme..."
+excerpt: "**Pingbang Hu**, Henry Fleischmann"
 selected: true
 cover: "./preview.png"
 links:
   - name: "Paper"
     url: "./research/Modeling-Fair-Redistricting-Commissions/paper.pdf"
   - name: "Poster"
-    url: "./research/Modeling-Fair-Redistricting-Commissions/poster.pdf" 
+    url: "./research/Modeling-Fair-Redistricting-Commissions/poster.pdf"
 ---
 
 ## Introduction
