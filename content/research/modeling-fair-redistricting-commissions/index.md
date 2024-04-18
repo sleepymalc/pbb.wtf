@@ -6,7 +6,7 @@ tags:
 date: Jan. 2023 - Apr. 2023
 path: "research/Modeling-Fair-Redistricting-Commissions"
 excerpt: "**Pingbang Hu**, Henry Fleischmann"
-selected: true
+selected: false
 cover: "./preview.png"
 links:
   - name: "Paper"
