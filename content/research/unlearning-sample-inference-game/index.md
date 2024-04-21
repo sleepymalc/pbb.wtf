@@ -22,6 +22,12 @@ Despite the fast-paced development of the *machine unlearning* community, the ev
 
 > The [paper](https://arxiv.org/abs/2404.11577) is available. Joint work with [Yiwen Tu](https://www.linkedin.com/in/%E4%B9%89%E6%96%87-%E6%B6%82-5951a124b/), [Jiaqi Ma](https://jiaqima.github.io/).
 
-<!-- <div align="center">
+## Unlearning Sample Inference Game
+
+The idea is simple: you split the data into three parts called *retain* set, *forget* set, and *test* set, and request the defender to learn on the retain set plus the forget set, and then unlearn the forget set at the end. On the other hand, you throw a bunch of data to the adversary from either only the forget set or the test set, and let the adversary guess which set we're using. Intuitively, if the forget set's information is left in the unlearned model, then the adversary can just feed the data we throw to it to the unlearned model, and infer something non-trivial.
+
+<div align="center">
 	<img src="./figures/flow.png"/>
-</div> -->
+</div>
+
+### Nice Properties
