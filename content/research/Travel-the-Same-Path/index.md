@@ -16,7 +16,7 @@ links:
   - name: "arXiv"
     url: "https://arxiv.org/abs/2210.05906"
 authors:
-  - "**Pingbang Hu***"
+  - name: "**Pingbang Hu**"
 ---
 
 ## Introduction
