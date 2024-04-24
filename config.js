@@ -69,20 +69,20 @@ module.exports = {
   },
   interests: [
     {
-      icon: 'chart-network',
-      title: 'Graph Neural Network',
+      icon: 'chart-line',
+      title: 'High Dimensional Statistics',
     }, {
       icon: 'brain',
       title: 'Learning Theory',
+    }, {
+      icon: 'chart-network',
+      title: 'Graph Neural Network',
     }, {
       icon: `laptop-code`,
       title: `Computational Complexity`,
     }, {
       icon: `hands-usd`,
       title: `Game Theory`,
-    }, {
-      icon: 'chart-line',
-      title: 'High Dimensional Statistics',
     }, {
       icon: 'shapes',
       title: 'Geometry \& Topology',
