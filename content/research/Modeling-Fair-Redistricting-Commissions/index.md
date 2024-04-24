@@ -14,11 +14,12 @@ links:
     url: "./research/Modeling-Fair-Redistricting-Commissions/paper.pdf"
   - name: "Poster"
     url: "./research/Modeling-Fair-Redistricting-Commissions/poster.pdf"
+authors:
+  - name: "**Pingbang Hu**\*"
+  - name: "Henry Fleischmann\*"
+    url: "https://hfleischmann3.github.io./"
 ---
 
-> **Pingbang Hu**\*, [Henry Fleischmann](https://hfleischmann3.github.io./)\*.[^1] | \[[Report](paper.pdf)\] \[[Poster](./poster.pdf)\]
-
-[^1]: \*: Equal contribution.
 
 ## Introduction
 
