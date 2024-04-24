@@ -20,7 +20,7 @@ authors:
   - name: "Yiwen Tu*"
     url: "https://openreview.net/profile?id=~Yiwen_Tu1"
   - name: "**Pingbang Hu***"
-    url: "https://www.pbb.wtf/"
+    url: "https://pbb.wtf/"
   - name: Jiaqi Ma
     url: "https://jiaqima.github.io/"
 ---
