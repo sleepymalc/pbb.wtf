@@ -23,7 +23,7 @@ I stepped upon an interesting paper: [*Exact Combinatorial Optimization with Gra
 
 This idea is interesting enough, so I decided to implement it and turn it into a small project. I focused on a specific, well-known TCS problem: the [traveling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem), also known as *TSP*.
 
-> \[[ArXiv](https://arxiv.org/abs/2210.05906)\] \[[Code](https://github.com/sleepymalc/Travel-the-Same-Path)\]
+> \[[arXiv](https://arxiv.org/abs/2210.05906)\] \[[Code](https://github.com/sleepymalc/Travel-the-Same-Path)\]
 
 ### Preliminary
 
