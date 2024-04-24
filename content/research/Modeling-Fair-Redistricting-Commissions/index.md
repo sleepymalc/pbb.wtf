@@ -15,10 +15,9 @@ links:
     url: "./research/Modeling-Fair-Redistricting-Commissions/paper.pdf"
   - name: "Poster"
     url: "./research/Modeling-Fair-Redistricting-Commissions/poster.pdf"
-# authors:
-#   - name: "**Pingbang Hu**\*"
-#   - name: "Henry Fleischmann\*"
-#     url: "https://hfleischmann3.github.io./"
+authors:
+  - "**Pingbang Hu**\*"
+  - "[Henry Fleischmann](https://hfleischmann3.github.io./)\*"
 ---
 
 
