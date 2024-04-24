@@ -4,8 +4,9 @@ tags:
 - "Deep Learning"
 - "Unlearning"
 - "Game Theory"
-date: Jan. 2024 - Apr. 2024
-path: "research/202404-Unlearning-Sample-Inference-Game"
+date: 2024-04-17
+# Jan. 2024 - Apr. 2024
+path: "research/Unlearning-Sample-Inference-Game"
 excerpt: "We design the first game-theoretic efficient machine unlearning evaluation metric with provable properties."
 selected: true
 cover: "./preview.png"
