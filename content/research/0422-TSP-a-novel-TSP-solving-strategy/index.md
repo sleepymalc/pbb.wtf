@@ -15,7 +15,7 @@ links:
     url: "https://arxiv.org/abs/2210.05906"
 ---
 
-> \[[arXiv](https://arxiv.org/abs/2210.05906)\] \[[Code](https://github.com/sleepymalc/Travel-the-Same-Path)\]
+> **Pingbang Hu**. | \[[arXiv](https://arxiv.org/abs/2210.05906)\] \[[Code](https://github.com/sleepymalc/Travel-the-Same-Path)\]
 
 ## Introduction
 

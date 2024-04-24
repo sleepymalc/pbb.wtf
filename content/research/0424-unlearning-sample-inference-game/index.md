@@ -16,7 +16,7 @@ links:
     url: "https://arxiv.org/abs/2404.11577"
 ---
 
-> Authors: [Yiwen Tu](https://www.linkedin.com/in/%E4%B9%89%E6%96%87-%E6%B6%82-5951a124b/)\*, **Pingbang Hu**\*, [Jiaqi Ma](https://jiaqima.github.io/).[^1] | \[[arXiv](https://arxiv.org/abs/2404.11577)\]
+> [Yiwen Tu](https://www.linkedin.com/in/%E4%B9%89%E6%96%87-%E6%B6%82-5951a124b/)\*, **Pingbang Hu**\*, [Jiaqi Ma](https://jiaqima.github.io/).[^1] | \[[arXiv](https://arxiv.org/abs/2404.11577)\]
 
 [^1]: \*: Equal contribution.
 
