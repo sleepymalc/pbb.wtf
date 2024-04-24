@@ -17,8 +17,8 @@ module.exports = {
     `*I do **Trustworthy Machine Learning Theory** with **math** on **graphs** (sometimes)*. In particular, I enjoy designing *fast*, *robust*, and *fair* algorithms, and developing their theories. Recently, I moved my focus slightly away from **Theoretical Computer Science**, specifically, fast graph algorithms. But still hold a strong interest!`,
     `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I'm constantly writing [*course notes*](./posts/Notes) 📝.`,
     `### News`,
-    `1. 🆕 We publish a [preprint 📜](./research/Unlearning-Sample-Inference-Game) on *Machine Unlearning Evaluation*!\n
-    2. 🆕 I\'m visiting [National Institute of Informatics 🇯🇵](https://www.nii.ac.jp/en/) this summer as a research intern!`,
+    `1. 🎉 We publish a [preprint 📜](./research/Unlearning-Sample-Inference-Game) on *Machine Unlearning Evaluation*!
+    2. 🔔 I\'m visiting [National Institute of Informatics 🇯🇵](https://www.nii.ac.jp/en/) this summer as a research intern!`,
   ],
   education: [
     {
