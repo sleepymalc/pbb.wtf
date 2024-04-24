@@ -5,7 +5,7 @@ tags:
 - "Optimization"
 date: 2022-10-12
 # Aug. 2022 - Oct. 2022
-priority: 20221012
+priority: -20221012
 path: "research/Travel-the-Same-Path"
 excerpt: "Exploring a novel approach to ***exactly*** solve an NP-hard combinatorial optimization problem by using *imitation learning*."
 selected: false
