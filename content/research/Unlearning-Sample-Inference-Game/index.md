@@ -18,7 +18,7 @@ links:
     url: "https://arxiv.org/abs/2404.11577"
 authors:
   - name: "Yiwen Tu*"
-    url: "https://www.linkedin.com/in/%E4%B9%89%E6%96%87-%E6%B6%82-5951a124b/"
+    url: "https://openreview.net/profile?id=~Yiwen_Tu1"
   - name: "**Pingbang Hu***"
     url: "https://www.pbb.wtf/"
   - name: Jiaqi Ma
