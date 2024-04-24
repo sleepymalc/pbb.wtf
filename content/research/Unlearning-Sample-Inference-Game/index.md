@@ -18,7 +18,7 @@ links:
     url: "https://arxiv.org/abs/2404.11577"
 authors:
   - "**Pingbang Hu***"
-  - "[Yiwen Tu](https://www.linkedin.com/in/%E4%B9%89%E6%96%87-%E6%B6%82-5951a124b/)\*"
+  - "[Yiwen Tu](https://www.linkedin.com/in/%E4%B9%89%E6%96%87-%E6%B6%82-5951a124b/)*"
   - "[Jiaqi Ma](https://jiaqima.github.io/)"
 ---
 
