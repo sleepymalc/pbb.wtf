@@ -15,8 +15,8 @@ links:
     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2210.05906"
-authors:
-  - name: "**Pingbang Hu**\*"
+# authors:
+#   - name: "**Pingbang Hu**\*"
 ---
 
 ## Introduction
