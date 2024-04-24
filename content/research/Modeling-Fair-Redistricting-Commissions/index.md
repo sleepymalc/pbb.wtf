@@ -5,6 +5,7 @@ tags:
 - "Fairness"
 date: 2023-04-12
 # Jan. 2023 - Apr. 2023
+priority: 20230412
 path: "research/Modeling-Fair-Redistricting-Commissions"
 excerpt: "We resolved *Gerrymandering* by a simple (dumb) voting scheme..."
 selected: false
