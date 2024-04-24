@@ -4,7 +4,7 @@ tags:
 - "Game Theory"
 - "Fairness"
 date: Jan. 2023 - Apr. 2023
-path: "research/Modeling-Fair-Redistricting-Commissions"
+path: "research/202304-Modeling-Fair-Redistricting-Commissions"
 excerpt: "We resolved *Gerrymandering* by a simple (dumb) voting scheme..."
 selected: false
 cover: "./preview.png"
