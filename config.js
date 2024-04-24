@@ -210,7 +210,7 @@ module.exports = {
       ],
     },
     {
-      title: 'Professional Activity',
+      title: 'Professional Service',
       position: 'right',
       data: [
         {
