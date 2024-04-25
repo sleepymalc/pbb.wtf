@@ -18,7 +18,7 @@ module.exports = {
 \>I moved my focus slightly away from **Theoretical Computer Science**, specifically, fast graph algorithms. But I still hold a strong interest!`,
     `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I'm constantly writing [*course notes*](./posts/Notes) 📝.`,
     `### 🗞️ News\n
-* 🎉 We publish a [preprint 📜](./research/Unlearning-Sample-Inference-Game) on *Machine Unlearning Evaluation*!\n
+* 🎉 We publish a [preprint 📜](https://arxiv.org/abs/2404.11577) on *Machine Unlearning Evaluation*!\n
 * 🔔 I\'m visiting [National Institute of Informatics 🇯🇵](https://www.nii.ac.jp/en/) this summer as a research intern!`,
   ],
   education: [
