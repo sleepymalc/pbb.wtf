@@ -177,4 +177,4 @@ This is a graduate-level theoretical statistics course taught by [Georgios Fello
 
 [\[pdf\]](./LargeSample.pdf) [\[$\LaTeX$\]](https://github.com/sleepymalc/Notes/tree/main/STAT575-Large-Sample-Theory)
 
-> No comment yet...
+> Feel sometimes overwhelmed by all the unfamiliar probabilistic intuitions, but overall this course covers a great deal of topics that I feel important and commonly seen but not well-understood. Overall, quite a joy to learn asymptotic theory rigorously.
