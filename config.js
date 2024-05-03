@@ -21,7 +21,7 @@ module.exports = {
     `* 🎉 We publish a [preprint 📜](https://arxiv.org/abs/2404.11577) on *Machine Unlearning Evaluation*!`,
     `* 🔔 I\'m visiting [National Institute of Informatics 🇯🇵](https://www.nii.ac.jp/en/) this summer as a research intern!`,
     `### 🔖 Misc`,
-    `I\'m from Taiwan 🇹🇼, and my Chinese name is 胡平邦 (the pronunciation of my first name is Pingˊ-Bong⁻).`
+    `I\'m from Taiwan 🇹🇼, and my Chinese name is 胡平邦.`
   ],
   education: [
     {
