@@ -14,8 +14,8 @@ module.exports = {
   ],
   introduction: [
     'I\'m a first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I obtained a [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Ciao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
-    `*I do **Trustworthy Machine Learning Theory** with **math** on **graphs** (sometimes)*. In particular, I enjoy designing *fast*, *robust*, and *fair* algorithms, and developing *practical* theory for them.\n
-\>I moved my focus slightly away from **Theoretical Computer Science**, specifically, fast graph algorithms. But I still hold a strong interest!`,
+    `*I do **Trustworthy Machine Learning Theory** with **math** on **graphs** (sometimes)*. In particular, I enjoy designing *fast*, *robust*, and *fair* algorithms, and developing *practical* theories for them.`,
+    `\>I moved my focus slightly away from **Theoretical Computer Science**, specifically, fast graph algorithms. But I still hold a strong interest!`,
     `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I'm constantly writing [*course notes*](./posts/Notes) 📝.`,
     `### 🗞️ News`,
     `* 🎉 We publish a [preprint 📜](https://arxiv.org/abs/2404.11577) on *Machine Unlearning Evaluation*!`,
