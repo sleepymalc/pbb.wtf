@@ -18,8 +18,8 @@ module.exports = {
     `\>I moved my focus slightly away from **Theoretical Computer Science**, specifically, fast graph algorithms. But I still hold a strong interest!`,
     `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I'm constantly writing [*course notes*](./posts/Notes) 📝.`,
     `### 🗞️ News`,
-    `* 🎉 We publish a [preprint 📜](https://arxiv.org/abs/2404.11577) on *Machine Unlearning Evaluation*!`,
-    `* 🔔 I\'m visiting [National Institute of Informatics 🇯🇵](https://www.nii.ac.jp/en/) this summer as a research intern!`,
+    `* 🎉 We publish a [preprint](https://arxiv.org/abs/2404.11577) 📜 on *Machine Unlearning Evaluation*!`,
+    `* 🔔 I\'m visiting [National Institute of Informatics](https://www.nii.ac.jp/en/) 🇯🇵 this summer as a research intern!`,
     `### 🔖 Misc`,
     `I\'m from Taiwan 🇹🇼, and my Chinese name is 胡平邦.`
   ],
