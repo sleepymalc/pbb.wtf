@@ -16,7 +16,7 @@ cover: "./preview.png"
 Though most of the native apps made by excellent Apple engineers are easy to use[^1], [Finder](https://support.apple.com/en-us/HT201732) is different. I asked lots of my macOS friends, and nearly all of them think [Finder](https://support.apple.com/en-us/HT201732) is great, "*it's fast and easy to use.*" Every time I heard about this, I doubt they haven't seen [TotalFinder](https://totalfinder.binaryage.com/) before.
 > Although I can write another paragraph introducing [TotalFinder](https://totalfinder.binaryage.com/) to you, but sadly, while Apple is moving on to arm architecture, [TotalFinder](https://totalfinder.binaryage.com/) couldn't keep up with the pace to be compatible with Apple. Indeed, it stops updating and not maintained anymore.[^2]
 > <div align="center">
-> 	<img width="80%" src="figures/totalfinder.png"/>
+> <img width="80%" src="figures/totalfinder.png"/>
 > </div>
 >
 > *~~Things can be changed!!! See this [post](https://twitter.com/akemin_dayo/status/1467946268181753859) and [this](https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879/12)~~ Things just changed!!! See [here](#alternatives)!*
@@ -274,13 +274,13 @@ Let's see the configuration file. To open the configuration file, you can simply
 ```JSON
 behavior {
     theme "Kon"
-    
+
     actions {
         core.trash.confirm false
-        
+
         core.lookup.mode "substring"
     }
-    
+
     table {
         circularSelection true
         iconSize 24
@@ -291,18 +291,18 @@ keyBindings {
     "Return"        "core.rename"
     "Right"         "core.open"
     "Left"          "core.go.up"
-    
+
     "Shift+Cmd+n"   "core.new.folder"
     "Shift+Cmd+f"   "core.new.file"
-    
+
     "Cmd+e"         "core.edit"
     "Shift+Cmd+x"   "core.move.inactive"
     "Cmd+o"         "core.open"
     "Cmd+x"         "core.move"
     "Cmd+Opt+c"     "core.path"
-    
+
     "Shift+Cmd+t"   "core.terminal.activate"
-    
+
     "F4"            null
     "F6"            null
     "F7"            null
@@ -310,7 +310,7 @@ keyBindings {
     "F8"            null
     "Cmd+y"         null
     "Backspace"     null
-    
+
     "Cmd+Opt+Right" "core.tab.next"
     "Cmd+Opt+Left"  "core.tab.previous"
 }
@@ -347,25 +347,25 @@ One thing I didn't bring up is that there are actually different themes you can 
 1. Kon
 
 <div align="center">
-	<img width="80%"src="figures/kon.png"/>
+	<img width="80%" src="figures/kon.png"/>
 </div>
 
 2. Dark
 
 <div align="center">
-	<img width="80%"src="figures/dark.png"/>
+	<img width="80%" src="figures/dark.png"/>
 </div>
 
 3. Classic
 
 <div align="center">
-	<img width="80%"src="figures/classic.png"/>
+	<img width="80%" src="figures/classic.png"/>
 </div>
 
 4. Sakura 🌸
 
 <div align="center">
-	<img width="80%"src="figures/sakura.png"/>
+	<img width="80%" src="figures/sakura.png"/>
 </div>
 
 I actually quite like the look of Sakura 🌸, but since I use dark mode as my main theme, I just give up on this... Try it out! To change the theme, you can either just change the `tmeme` (the first line in my [personal configuration](#personal-configuration)) in the configuration file, or search the `Switch Theme` *action*:
@@ -387,7 +387,7 @@ Here, I'm going to list some alternatives to Finder, you can try them yourself!
    Just found out that the [TotalFinder](https://totalfinder.binaryage.com/) is back! See the [discussion thread](https://discuss.binaryage.com/t/update-discussion-totalfinder-1-14-2-for-apple-silicon-and-intel/8364) to see how to download it!
    >But a big *caveat* is that: It still requires you to disable [SIP](https://en.wikipedia.org/wiki/System_Integrity_Protection), see [this](https://totalfinder.binaryage.com/apple-silicon). I genuinely **don't care**, but now things are different: in arm mac, disable [SIP](https://en.wikipedia.org/wiki/System_Integrity_Protection) will cause some problem, see [here](https://totalfinder.binaryage.com/apple-silicon#mark-important-disabling-sip-in-any-capacity-even-partially-will-also).
    > <div align="center">
-   >    <img src="figures/SIP.png"/>
+   > <img src="figures/SIP.png"/>
    > </div>
 
 2. [QSpaces](https://qspace.awehunt.com/en-us/index.html)
