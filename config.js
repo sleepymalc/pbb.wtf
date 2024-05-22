@@ -28,17 +28,17 @@ module.exports = {
       date: 'Aug. 2023 - Present',
       icon: 'university',
       title: 'Ph.D. in Information Science',
-      location: 'School of Information Science, University of Illinois Urbana-Champaign',
+      location: 'University of Illinois Urbana-Champaign',
     }, {
       date: 'Sep. 2021 - Apr. 2023',
       icon: 'university',
       title: 'B.Sc. in Computer Science (Summa Cum Laude) & minor in Mathematics',
-      location: 'College of Engineering & Literature, Science, and the Arts, University of Michigan',
+      location: 'University of Michigan',
     }, {
       date: 'Sep. 2019 - Aug. 2023',
       icon: 'university',
       title: 'B.Eng. in Electrical and Computer Engineering & minor in Computer Science',
-      location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
+      location: 'Shanghai Jiao Tong University',
     }
   ],
   social: [
