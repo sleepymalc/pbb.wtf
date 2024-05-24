@@ -37,4 +37,8 @@ The idea is simple: you split the data into three parts called *retain* set, *fo
 	<img src="./figures/flow.png"/>
 </div>
 
-### Nice Properties
+### Advantage and Unlearning Quality
+
+### Provable Properties
+
+We established several provable properties of our game.
