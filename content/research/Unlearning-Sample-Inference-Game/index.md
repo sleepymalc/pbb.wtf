@@ -41,4 +41,4 @@ The idea is simple: you split the data into three parts called *retain* set, *fo
 
 ### Provable Properties
 
-We established several provable properties of our game.
+We established several provable properties of our unlearning evaluation metric.
