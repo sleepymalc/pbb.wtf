@@ -39,6 +39,8 @@ The idea is simple: you split the data into three parts called *retain* set, *fo
 
 ### Advantage and Unlearning Quality
 
+In various cryptographic-inspired games, we **advantage** in characterizing the adversary's performance in such games. Oftentimes, our goal is to prove that in such a game, if the defender satisfies some pre-specified properties, then the advantage of any efficient adversary will be *negligible*. This is an asymptotic statement, and in real life, this just means the advantage is small enough to ignore.
+
 ### Provable Properties
 
 We established several provable properties of our unlearning evaluation metric.
