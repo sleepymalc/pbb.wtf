@@ -16,6 +16,7 @@ links:
   #   url: "https://arxiv.org/abs/2404.11577"
 authors:
   - name: "Yuzheng Hu*"
+    url: "https://scholar.google.com/citations?user=cVVimVcAAAAJ&hl=en"
   - name: "**Pingbang Hu***"
     url: "https://pbb.wtf/"
   - name: Han Zhao
