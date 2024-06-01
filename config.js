@@ -138,56 +138,8 @@ module.exports = {
       ],
     },
     {
-      title: 'Software Development',
-      position: 'left',
-      data: [
-        {
-          title: 'Backend Developer',
-          date: 'Oct. 2020 - Jun. 2021',
-          location: 'Virtual, Shanghai',
-          description: '**' +
-            'foodall' +
-            '**: ' +
-            'A food order platform in Taiwan, built with *Golang* and *Gin*, *MongoDB*, with RESTful API design.',
-        },
-      ],
-    },
-    {
-      title: 'Research Experience',
-      position: 'right',
-      data: [
-        {
-          title: 'Research Intern',
-          date: 'May. 2024 - Aug. 2024',
-          location: 'National Institute of Informatics',
-          description: '**' +
-            'Untitled' +
-            '**: ' +
-            'Advised by [Mahito Sugiyama](https://mahito.info/index_e.html)',
-        },
-        {
-          title: 'Undergraduate Researcher',
-          date: 'Mar. 2022 - Dec. 2022',
-          location: 'University of Michigan',
-          description: '**' +
-            'Finding Minimal Balanced Separators with Detection Sets' +
-            '**: ' +
-            'Design the first almost linear time algorithm on finding minimal balanced cuts advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/)',
-        },
-        {
-          title: 'Undergraduate Researcher',
-          date: 'May 2022 - Apr. 2023',
-          location: 'University of Michigan',
-          description: '**' +
-            'Deep Learning Foundation' +
-            '**: ' +
-            'Develop various techniques to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
-        },
-      ],
-    },
-    {
       title: 'Reading Group',
-      position: 'right',
+      position: 'left',
       data: [
         {
           title: 'Leader',
@@ -212,6 +164,39 @@ module.exports = {
       ],
     },
     {
+      title: 'Research Experience',
+      position: 'right',
+      data: [
+        {
+          title: 'Research Intern',
+          date: 'May. 2024 - Aug. 2024',
+          location: 'National Institute of Informatics',
+          description: '**' +
+            'Information Geometry-Formulated ML' +
+            '**: ' +
+            'Advised by [Mahito Sugiyama](https://mahito.info/index_e.html)',
+        },
+        {
+          title: 'Undergraduate Researcher',
+          date: 'Mar. 2022 - Dec. 2022',
+          location: 'University of Michigan',
+          description: '**' +
+            'Finding Minimal Balanced Separators with Detection Sets' +
+            '**: ' +
+            'Design the first almost linear time algorithm on finding minimal balanced cuts advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/)',
+        },
+        {
+          title: 'Undergraduate Researcher',
+          date: 'May 2022 - Apr. 2023',
+          location: 'University of Michigan',
+          description: '**' +
+            'Deep Learning Foundation' +
+            '**: ' +
+            'Develop various techniques to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
+        },
+      ],
+    },
+    {
       title: 'Professional Service',
       position: 'right',
       data: [
@@ -221,6 +206,21 @@ module.exports = {
           location: 'NA',
           description:
             'IEEE BigData *2023*, ICML *2024*',
+        },
+      ],
+    },
+    {
+      title: 'Software Development',
+      position: 'right',
+      data: [
+        {
+          title: 'Backend Developer',
+          date: 'Oct. 2020 - Jun. 2021',
+          location: 'Virtual, Shanghai',
+          description: '**' +
+            'foodall' +
+            '**: ' +
+            'A food order platform in Taiwan, built with *Golang* and *Gin*, *MongoDB*, with RESTful API design.',
         },
       ],
     },
