@@ -3,6 +3,7 @@ title: "Most Influential Subset Selection: Challenges, Promises, and Beyond"
 tags:
 - "Learning Theory"
 - "Data Attribution"
+- "Optimization"
 date: 2024-05-22
 priority: -20240522
 path: "research/MISS"

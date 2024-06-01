@@ -1,7 +1,7 @@
 ---
 title: "Towards Reliable Empirical Machine Unlearning Evaluation: A Game-Theoretic View"
 tags:
-- "Deep Learning"
+- "Privacy"
 - "Unlearning"
 - "Game Theory"
 date: 2024-04-17
