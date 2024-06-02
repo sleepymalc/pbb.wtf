@@ -1,8 +1,8 @@
 ---
 title: "Modeling Fair Redistricting Commissions"
 tags:
+- "Trustworthy"
 - "Game Theory"
-- "Fairness"
 date: 2023-04-12
 # Jan. 2023 - Apr. 2023
 priority: -20230412

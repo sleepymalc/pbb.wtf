@@ -1,7 +1,7 @@
 ---
 title: "Most Influential Subset Selection: Challenges, Promises, and Beyond"
 tags:
-- "Learning Theory"
+- "Trustworthy"
 - "Data Attribution"
 - "Optimization"
 date: 2024-05-22

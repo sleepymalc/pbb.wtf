@@ -1,7 +1,7 @@
 ---
 title: "Travel the Same Path: A Novel TSP Solving Strategy"
 tags:
-- "Deep Learning"
+- "Application"
 - "Optimization"
 date: 2022-10-12
 # Aug. 2022 - Oct. 2022

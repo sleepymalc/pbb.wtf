@@ -1,7 +1,8 @@
 ---
 title: "Towards Reliable Empirical Machine Unlearning Evaluation: A Game-Theoretic View"
 tags:
-- "Privacy"
+- "Trustworthy"
+- "Data Attribution"
 - "Unlearning"
 - "Game Theory"
 date: 2024-04-17
