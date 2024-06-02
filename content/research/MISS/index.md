@@ -7,7 +7,7 @@ tags:
 date: 2024-05-22
 priority: -20240522
 path: "research/MISS"
-excerpt: "We identify various failure modes of the greedy-based influential subset selection problem used by the community, and prove that being \"adaptive\" helps in a non-obvious way."
+excerpt: "We consider the *most influential subset selection* (MISS) problem and identify various failure modes of the greedy-based algorithm used by the community, and prove that being \"adaptive\" helps in a non-obvious way."
 selected: true
 cover: "./preview.png"
 links:
@@ -26,4 +26,4 @@ authors:
     url: "https://jiaqima.github.io/"
 ---
 
-## Introduction
+## Brief Summary
