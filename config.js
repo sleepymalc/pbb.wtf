@@ -203,7 +203,7 @@ module.exports = {
         {
           title: 'Conference Reviewer',
           date: '2023 - Current',
-          location: 'NA',
+          location: 'Virtual',
           description:
             'IEEE BigData *2023*, ICML *2024*',
         },
@@ -216,11 +216,11 @@ module.exports = {
         {
           title: 'Backend Developer',
           date: 'Oct. 2020 - Jun. 2021',
-          location: 'Virtual, Shanghai',
+          location: 'Virtual',
           description: '**' +
             'foodall' +
             '**: ' +
-            'A food order platform in Taiwan, built with *Golang* and *Gin*, *MongoDB*, with RESTful API design.',
+            'A food order platform in Taiwan, built with *Golang*, *Gin*, and *MongoDB*, with RESTful API design.',
         },
       ],
     },
