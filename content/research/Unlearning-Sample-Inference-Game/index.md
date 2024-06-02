@@ -25,22 +25,27 @@ authors:
     url: "https://jiaqima.github.io/"
 ---
 
-## Introduction
+## Brief Summary
 
 Despite the fast-paced development of the *machine unlearning* community, the evaluation of the performance of machine unlearning algorithms remains a big open problem due to the lack of a unified framework and rigorous justification. In this work, we theoretically formalized the *unlearning sample inference game* for provable and reliable empirical evaluation of machine unlearning algorithms, tackling one of the most foundational problems in this field.
 
-## Unlearning Sample Inference Game
+### Unlearning Sample Inference Game
 
-The idea is simple: you split the data into three parts called *retain* set, *forget* set, and *test* set, and request the defender to learn on the retain set plus the forget set, and then unlearn the forget set at the end. On the other hand, you throw a bunch of data to the adversary from either only the forget set or the test set, and let the adversary guess which set we're using. Intuitively, if the forget set's information is left in the unlearned model, then the adversary can just feed the data we throw to it to the unlearned model, and infer something non-trivial.
+The idea is simple: we split the data into three parts called *retain* set, *forget* set, and *test* set, and request the defender to learn on the retain set plus the forget set, and then unlearn the forget set at the end. On the other hand, we throw a bunch of data to the adversary from either only the forget set or the test set, and let the adversary guess which set we're using. Intuitively, if the forget set's information is left in the unlearned model, then the adversary can just feed the data we throw to it to the unlearned model, and infer something non-trivial.
 
 <div align="center">
 	<img src="./figures/flow.png"/>
 </div>
 
-### Advantage and Unlearning Quality
+It turns out that using the idea of **advantage**, we can formalize a natural metric called *Unlearning Quality* $\mathcal{Q}$ that measures the quality of the unlearning algorithm. We then prove that
 
-In various cryptographic-inspired games, we **advantage** in characterizing the adversary's performance in such games. Oftentimes, our goal is to prove that in such a game, if the defender satisfies some pre-specified properties, then the advantage of any efficient adversary will be *negligible*. This is an asymptotic statement, and in real life, this just means the advantage is small enough to ignore.
+1. For the gold-standard unlearning method, i.e., the retraining method, we always have $\mathcal{Q} = 1$.
+2. For some *$(\epsilon , \delta )$-certified removal method*,[^1] we always have $\mathcal{Q} \geq \frac{4 - 4 \delta }{e^{\epsilon } + 1} - 1$.
 
-### Provable Properties
+[^1]: <https://arxiv.org/abs/1911.03030>
 
-We established several provable properties of our unlearning evaluation metric.
+To our knowledge, this is the first unlearning performance metric that achieves such formal guarantees.
+
+### Practical Evaluation
+
+However, we admit that in practice, $\mathcal{Q}$ is impossible to evaluate due to the complexity it requires. Hence, we further propose an efficient approximation algorithm to compute $\mathcal{Q}$, and demonstrate the efficacy on real-life datasets.
