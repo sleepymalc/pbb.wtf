@@ -49,4 +49,4 @@ To our knowledge, this is the first unlearning performance metric that achieves 
 
 ### Practical Evaluation
 
-However, we admit that in practice, $\mathcal{Q}$ is impossible to evaluate due to the complexity it requires. Hence, we further propose an efficient approximation algorithm to compute $\mathcal{Q}$, and demonstrate the efficacy on real-life datasets.
+In practice, $\mathcal{Q}$ is impossible to evaluate due to the complexity. Hence, we further propose an efficient approximation algorithm to compute $\mathcal{Q}$, and demonstrate the efficacy on real-life datasets.
