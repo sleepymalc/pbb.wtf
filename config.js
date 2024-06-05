@@ -115,7 +115,7 @@ module.exports = {
           description: '**' +
             '[EECS572 Randomness and Computation](https://mahdi.ch/eecs572/) (Graduate)' +
             '**: ' +
-            'A course about randomness in modern computations on the M.S. theory CS track. [Notes](../posts/Notes#randomness-and-computation-eecs572-university-of-michigan-ta) are available.',
+            'A course about randomness in modern computations on the M.S. CS theory track. [Notes](../posts/Notes#randomness-and-computation-eecs572-university-of-michigan-ta) are available.',
         },
         {
           date: 'May 2021 - Aug. 2021',
