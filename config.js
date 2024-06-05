@@ -38,7 +38,7 @@ module.exports = {
       date: 'Sep. 2019 - Aug. 2023',
       icon: 'university',
       title: 'B.Eng. in Electrical and Computer Engineering & minor in Computer Science',
-      location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
+      location: 'UM-SJTU Joint Institute, Shanghai Ciao Tong University',
     }
   ],
   social: [
@@ -104,26 +104,26 @@ module.exports = {
           date: 'Jan. 2023 - May 2023',
           location: 'University of Michigan',
           description: '**' +
-            '[EECS475 (Introduction to Cryptography)](https://mahdi.ch/eecs475/)' +
+            '[EECS475 Introduction to Cryptography](https://mahdi.ch/eecs475/) (Undergraduate)' +
             '**: ' +
-            'An upper-level 100+ student course on the B.Sc. CS track. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-university-of-michigan-ta) are available.',
+            'An introduction to the theoretical cryptography on the B.Sc. CS track. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-university-of-michigan-ta) are available.',
         },
         {
           title: 'Instructional Aide',
           date: 'Sep. 2022 - Dec. 2022',
           location: 'University of Michigan',
           description: '**' +
-            '[EECS572 (Randomness and Computation)](https://mahdi.ch/eecs572/)' +
+            '[EECS572 Randomness and Computation](https://mahdi.ch/eecs572/) (Graduate)' +
             '**: ' +
-            'A graduate-level 70+ student course on the M.S. theory CS track. [Notes](../posts/Notes#randomness-and-computation-eecs572-university-of-michigan-ta) are available.',
+            'A course about randomness in modern computations on the M.S. theory CS track. [Notes](../posts/Notes#randomness-and-computation-eecs572-university-of-michigan-ta) are available.',
         },
         {
           date: 'May 2021 - Aug. 2021',
           title: 'Teaching Assistant',
           description: '**' +
-            '[VV285 (Honor Mathematics III)](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)' +
+            '[VV285 Honor Mathematics III](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html) (Undergraduate)' +
             '**: ' +
-            'A 200+ student rigorous analysis course on the B.Eng. ECE track. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
+            'A follow-up course of VV186 on the B.Eng. ECE track. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
           location: 'Shanghai Jiao Tong University',
         },
         {
@@ -131,9 +131,9 @@ module.exports = {
           date: 'Sep. 2020 - Dec. 2020',
           location: 'Shanghai Jiao Tong University',
           description: '**' +
-            '[VV186 (Honor Mathematics II)](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)' +
+            '[VV186 Honor Mathematics II](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html) (Undergraduate)' +
             '**: ' +
-            'A 200+ student rigorous analysis course on the B.Eng. ECE track.',
+            'The first rigorous analysis course on the B.Eng. ECE track.',
         },
       ],
     },
