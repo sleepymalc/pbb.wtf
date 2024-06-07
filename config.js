@@ -117,7 +117,7 @@ module.exports = {
           date: 'May 2021 - Aug. 2021',
           title: 'Teaching Assistant',
           description: '**[VV285 Honor Mathematics III](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)** (Undergraduate): ' +
-            'A follow-up course of VV186 on the B.Eng. ECE track. We also holds the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
+            'A follow-up course of VV186 on the B.Eng. ECE track. We also hold the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
           location: 'Shanghai Jiao Tong University',
         },
         {
@@ -151,7 +151,7 @@ module.exports = {
             '**' +
             `Statistical Learning Theory` +
             `**: ` +
-            `A thorough reading on [Roman Vershynin](https://www.math.uci.edu/~rvershyn/)'s [High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html), focusing on statistical learning theory.`,
+            `A thorough reading on [Roman Vershynin](https://www.math.uci.edu/~rvershyn/)'s [High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html), focusing on statistical learning theory. [Solution](../else/HDP_solution.pdf) is available.`,
         },
       ],
     },
