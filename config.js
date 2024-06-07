@@ -134,23 +134,19 @@ module.exports = {
       position: 'left',
       data: [
         {
-          title: 'Leader',
+          title: 'Organizer',
           date: 'May. 2023 - Dec. 2023',
           location: 'University of Illinois Urbana-Champaign',
           description:
-            '**' +
-            `Sparse Graph Limit Theory` +
-            `**: ` +
+            `**Sparse Graph Limit Theory**: ` +
             `A thorough reading on [László Lovász](https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lov%C3%A1sz)'s [Large networks and graph limits](https://lovasz.web.elte.hu//bookxx/hombook-almost.final.pdf), focusing on Chapter 18 and onwards.`,
         },
         {
-          title: 'Leader',
+          title: 'Organizer',
           date: 'Jan. 2024 - Current',
           location: 'University of Illinois Urbana-Champaign',
           description:
-            '**' +
-            `Statistical Learning Theory` +
-            `**: ` +
+            `**Statistical Learning Theory**: ` +
             `A thorough reading on [Roman Vershynin](https://www.math.uci.edu/~rvershyn/)'s [High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html), focusing on statistical learning theory. [Solution](../else/HDP_solution.pdf) is available.`,
         },
       ],
@@ -163,27 +159,24 @@ module.exports = {
           title: 'Research Intern',
           date: 'May. 2024 - Aug. 2024',
           location: 'National Institute of Informatics',
-          description: '**' +
-            'Information Geometry-Formulated ML' +
-            '**: ' +
+          description:
+            '**Information Geometry-Formulated ML**: ' +
             'Advised by [Mahito Sugiyama](https://mahito.info/index_e.html)',
         },
         {
           title: 'Undergraduate Researcher',
           date: 'Mar. 2022 - Dec. 2022',
           location: 'University of Michigan',
-          description: '**' +
-            'Finding Minimal Balanced Separators with Detection Sets' +
-            '**: ' +
+          description:
+            '**Detection Sets**: ' +
             'Design the first almost linear time algorithm on finding minimal balanced cuts advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/)',
         },
         {
           title: 'Undergraduate Researcher',
           date: 'May 2022 - Apr. 2023',
           location: 'University of Michigan',
-          description: '**' +
-            'Deep Learning Foundation' +
-            '**: ' +
+          description:
+            '**Deep Learning Foundation**: ' +
             'Develop various techniques to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
         },
       ],
@@ -209,9 +202,8 @@ module.exports = {
           title: 'Backend Developer',
           date: 'Oct. 2020 - Jun. 2021',
           location: 'Virtual',
-          description: '**' +
-            'foodall' +
-            '**: ' +
+          description:
+            '**foodall**: ' +
             'A food order platform in Taiwan, built with *Golang*, *Gin*, and *MongoDB*, with RESTful API design.',
         },
       ],
