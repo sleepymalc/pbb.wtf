@@ -135,19 +135,19 @@ module.exports = {
       data: [
         {
           title: 'Organizer',
-          date: 'May. 2023 - Dec. 2023',
-          location: 'University of Illinois Urbana-Champaign',
-          description:
-            `**Sparse Graph Limit Theory**: ` +
-            `A thorough reading on [László Lovász](https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lov%C3%A1sz)'s [Large networks and graph limits](https://lovasz.web.elte.hu//bookxx/hombook-almost.final.pdf), focusing on Chapter 18 and onwards.`,
-        },
-        {
-          title: 'Organizer',
           date: 'Jan. 2024 - Current',
           location: 'University of Illinois Urbana-Champaign',
           description:
             `**Statistical Learning Theory**: ` +
             `A thorough reading on [Roman Vershynin](https://www.math.uci.edu/~rvershyn/)'s [High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html), focusing on statistical learning theory. [Solution](../else/HDP_solution.pdf) is available.`,
+        },
+        {
+          title: 'Organizer',
+          date: 'May. 2023 - Dec. 2023',
+          location: 'University of Illinois Urbana-Champaign',
+          description:
+            `**Sparse Graph Limit Theory**: ` +
+            `A thorough reading on [László Lovász](https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lov%C3%A1sz)'s [Large networks and graph limits](https://lovasz.web.elte.hu//bookxx/hombook-almost.final.pdf), focusing on Chapter 18 and onwards.`,
         },
       ],
     },
