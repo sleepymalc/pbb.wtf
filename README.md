@@ -14,7 +14,7 @@ The website is built with [gatsby-theme-academic](https://www.npmjs.com/package/
 
 ## Building
 
-Here's a quick summary guide from [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic):
+Here's a quick guide from [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic):
 
 1. Clone the project and install dependencies.
 
@@ -27,7 +27,7 @@ Here's a quick summary guide from [gatsby-theme-academic](https://www.npmjs.com/
 2. Start developing.
 
     ```bash
-    > yarn develop 
+    > yarn develop
     ```
 
 3. Use the URL `http://localhost:8000` to see a preview.
