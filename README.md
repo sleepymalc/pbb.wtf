@@ -16,7 +16,7 @@ The website is built with [gatsby-theme-academic](https://www.npmjs.com/package/
 
 Here's a quick guide from [gatsby-theme-academic](https://www.npmjs.com/package/gatsby-theme-academic):
 
-1. Clone the project and install dependencies.
+1. Clone the project and install dependencies by:
 
     ```bash
     > git clone https://github.com/tc-imba/greatest-gatsby-academic-template.git
@@ -24,7 +24,7 @@ Here's a quick guide from [gatsby-theme-academic](https://www.npmjs.com/package/
     > yarn
     ```
 
-2. Start developing.
+2. Start developing by:
 
     ```bash
     > yarn develop
