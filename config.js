@@ -8,7 +8,7 @@ module.exports = {
   title: 'Pingbang Hu',
   description: 'Pingbang Hu\'s website.',
   author: 'Pingbang Hu',
-  authorAlternative: 'Write-The-Formula',
+  authorAlternative: '胡平邦',
   professions: [
     'I speak TeX'
   ],
@@ -16,12 +16,11 @@ module.exports = {
     'I\'m a first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
     `*I do **Trustworthy Machine Learning Theory** with **math** on **graphs** (sometimes)*. In particular, I enjoy designing *fast*, *robust*, and *fair* algorithms, and developing their theories.`,
     `\>I moved my focus slightly away from **Theoretical Computer Science** on fast graph algorithms. But I still hold a strong interest!`,
-    `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I'm constantly writing [*course notes*](./posts/Notes) 📝.`,
     `### 🗞️ News`,
     `* 🎉 We publish a [preprint](https://arxiv.org/abs/2404.11577) 📜 on *Machine Unlearning Evaluation*!`,
     `* 🔔 I\'m visiting [National Institute of Informatics](https://www.nii.ac.jp/en/) 🇯🇵 this summer as a research intern!`,
     `### 🔖 Misc`,
-    `I\'m from Taiwan 🇹🇼, and my Chinese name is 胡平邦.`
+    `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I'm constantly writing [*course notes*](./posts/Notes) 📝.`
   ],
   education: [
     {
