@@ -55,7 +55,7 @@ module.exports = {
       icon: ['fab', 'linkedin'],
     }, {
       url: 'https://X.com/PingbangHu',
-      icon: ['fab', 'x-twitter'],
+      icon: ['fab', 'twitter'],
     },
   ],
   birthday: 'Nov. 10, 2000',
