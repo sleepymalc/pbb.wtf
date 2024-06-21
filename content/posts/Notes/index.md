@@ -9,11 +9,10 @@ cover: "./preview.png"
 
 ## What's in here?
 
-These are the lecture notes I took, and if you're interested in the $\LaTeX$ code, have a look on [GitHub](https://github.com/sleepymalc/Notes). If you're interested in my setup, look at this [GitHub repo](https://github.com/sleepymalc/VSCode-LaTeX-Inkscape) or just [here](../VSCode-LaTeX-Inkscape).
-
-All notes are written in a modern style $\LaTeX$ with explicit definition/theorem references and hyperlinks. Also, the drawing is done professionally and cleanly.
-
+These are the lecture notes I took. All notes are written in a modern style $\LaTeX$ with explicit definition/theorem references and hyperlinks. Also, the drawing is done professionally and cleanly. If you're interested in my setup, take a look [here](../VSCode-LaTeX-Inkscape).
 > Due to the privacy policy, for those notes from classes I am/was teaching, the corresponding source codes are not available.
+
+Clicking 📝 directly opens the PDF while clicking $\LaTeX$ will lead you to the $\LaTeX$ source code under the main [GitHub repo](https://github.com/sleepymalc/Notes).
 
 ## Junior @University of Michigan
 
