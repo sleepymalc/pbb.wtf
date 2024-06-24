@@ -14,7 +14,7 @@ module.exports = {
   ],
   introduction: [
     'I\'m a first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
-    `*I do **Machine Learning Theory** with **math** on **graphs** (sometimes)*, and focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I'm actively working on data attribution and machine unlearning recently.`,
+    `*I do **Machine Learning Theory** with **math** on **graphs** (sometimes)*, and focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I've been actively working on data attribution and machine unlearning recently.`,
     `\>I moved my focus away from **Theoretical Computer Science** on fast graph algorithms. But I still hold a strong interest!`,
     `### 🗞️ News`,
     `* 🔔 *May 12, 2024*: I\'m visiting [National Institute of Informatics](https://www.nii.ac.jp/en/) 🇯🇵 as a summer research intern!`,
