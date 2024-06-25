@@ -8,7 +8,7 @@ module.exports = {
   title: 'Pingbang Hu',
   description: 'Pingbang Hu\'s website.',
   author: 'Pingbang Hu',
-  authorAlternative: '胡平邦',
+  authorAlternative: '**胡**平邦',
   professions: [
     'I speak TeX'
   ],
