@@ -17,6 +17,7 @@ module.exports = {
     `*I do **machine learning theory** with **math** on **graphs** (sometimes)*, focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I've been actively working on ***data attribution*** and ***machine unlearning***.`,
     `\>I moved my focus away from **Theoretical Computer Science**, although I still hold a strong interest!`,
     `### 🗞️ News`,
+    `* 📚 *Jun. 23, 2024*: We are organizing the [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) this summer.`,
     `* 🔔 *May 12, 2024*: I\'m visiting [National Institute of Informatics](https://www.nii.ac.jp/en/) 🇯🇵 as a summer research intern!`,
     `* 🎉 *Apr. 17, 2024*: We publish a [preprint](https://arxiv.org/abs/2404.11577) 📜 on *Machine Unlearning Evaluation*!`,
     `### 🔖 Misc`,
