@@ -18,17 +18,17 @@ module.exports = {
     '\>I moved my focus away from **Theoretical Computer Science**, although I still hold a strong interest!',
     '### 🗞️ News',
     '* 📚 We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) (*Jun. 23, 2024*). [➡️](./experience/)',
-    '* 🔔 I\'m visiting the [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵 as a summer research intern (*May 12, 2024*). [➡️](./experience/)',
+    '* 🔔 I\'m visiting the [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵 as a summer research intern (*May. 12, 2024*). [➡️](./experience/)',
     '* 🎉 We released a [preprint](https://arxiv.org/abs/2404.11577) 📜 on **Machine Unlearning Evaluation** (*Apr. 17, 2024*). [➡️](./research/Unlearning-Sample-Inference-Game/)',
     '* 📚  I initiated the ongoing *Statistical Learning Theory* Reading Group (*Jan. 12, 2024*). [➡️](./experience/)',
     // `\n```markdown < details > ```,
     // `\n```markdown < summary > more news...</summary > ```\n`,
     '\n\<details\>\n',
     '\n\<summary\>more news...\<\/summary\>\n',
-    '* 📚 I led a * Large Graph Limit * Reading Group, which has now concluded(* May 2, 2023 *). [➡️](./ experience /)',
+    '* 📚 I led a * Large Graph Limit * Reading Group, which has now concluded(* May. 2, 2023 *). [➡️](./ experience /)',
     '* 🧑🏻‍🏫 I taught[* Introduction to Cryptography *](https://mahdi.ch/eecs475/) (undergrad-level) during the Winter 2023 semester (*Jan. 4, 2023*). [➡️](./experience/)',
     '* 🧑🏻‍🏫 I taught [*Randomness and Computation*](https://mahdi.ch/eecs572/) (graduate-level) during the Fall 2022 semester (*Aug. 29, 2022*). [➡️](./experience/)',
-    '* 🧑🏻‍🏫 I taught [*Honor Mathematics III*](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html) (undergrad-level) during the Summer 2021 semester (*May 1, 2021*). [➡️](./experience/)',
+    '* 🧑🏻‍🏫 I taught [*Honor Mathematics III*](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html) (undergrad-level) during the Summer 2021 semester (*May. 1, 2021*). [➡️](./experience/)',
     '* 🧑🏻‍🏫 I taught [*Honor Mathematics II*](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html) (undergrad-level) during the Fall 2020 semester (*Sep. 7, 2020*). [➡️](./experience/)',
     '\n\<\/details\>\n',
     // `\n```html </details > ```\n`,
@@ -113,7 +113,7 @@ module.exports = {
       data: [
         {
           title: 'Instructional Aide',
-          date: 'Jan. 2023 - May 2023',
+          date: 'Jan. 2023 - May. 2023',
           location: 'University of Michigan',
           description: '**[EECS475 Introduction to Cryptography](https://mahdi.ch/eecs475/)** (Undergraduate): ' +
             'An introduction to the theoretical cryptography on the B.Sc. CS track. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-university-of-michigan-ta) are available.',
@@ -126,7 +126,7 @@ module.exports = {
             'A course about randomness in modern computations on the M.S. CS theory track. [Notes](../posts/Notes#randomness-and-computation-eecs572-university-of-michigan-ta) are available.',
         },
         {
-          date: 'May 2021 - Aug. 2021',
+          date: 'May. 2021 - Aug. 2021',
           title: 'Teaching Assistant',
           description: '**[VV285 Honor Mathematics III](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)** (Undergraduate): ' +
             'A follow-up course of VV186 on the B.Eng. ECE track. We also hold the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
@@ -174,7 +174,7 @@ module.exports = {
       data: [
         {
           title: 'Research Intern',
-          date: 'May 2024 - Aug. 2024',
+          date: 'May. 2024 - Aug. 2024',
           location: 'National Institute of Informatics',
           description:
             '**Information Geometry-Formulated ML**: ' +
@@ -190,7 +190,7 @@ module.exports = {
         },
         {
           title: 'Undergraduate Researcher',
-          date: 'May 2022 - Apr. 2023',
+          date: 'May. 2022 - Apr. 2023',
           location: 'University of Michigan',
           description:
             '**Deep Learning Foundation**: ' +
@@ -220,7 +220,7 @@ module.exports = {
         },
         {
           title: 'Organizer',
-          date: 'May 2023 - Dec. 2023',
+          date: 'May. 2023 - Dec. 2023',
           location: 'University of Illinois Urbana-Champaign',
           description:
             `**Sparse Graph Limit Theory**: ` +
@@ -311,7 +311,7 @@ module.exports = {
   defaultLanguage: 'en',
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT
     || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
+  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'G-ZK3P43DY6M',
   disqusScript: process.env.DISQUS_SCRIPT
     || 'https://tc-imba.disqus.com/embed.js',
   wakatime: {
