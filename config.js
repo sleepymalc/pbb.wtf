@@ -14,7 +14,8 @@ module.exports = {
   ],
   introduction: [
     'I\'m a first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jami Ma](https://jiaqima.github.io/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Ciao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
-    '*I do **machine learning theory** with **math** on **graphs** (sometimes)*, focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I\'ve been actively working on ***data attribution*** and ***machine unlearning***. In addition, while I moved my focus away from **Theoretical Computer Science**, I still hold a strong interest and am thinking about them from time to time!',
+    '*I do **machine learning theory** with **math** on **graphs** (sometimes)*, focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I\'ve been actively working on ***data attribution*** and ***machine unlearning***.',
+    'Additionally, while I moved my focus away from **Theoretical Computer Science**, I still hold a strong interest and am thinking about them from time to time!',
     '### 🗞️ News',
     '\> Here you\'ll find only the latest news from the past year. For more, please visit the [Experience Page](./experience/).',
     '* 📚 We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) (*Jun. 23, 2024*).',
