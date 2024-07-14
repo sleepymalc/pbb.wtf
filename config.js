@@ -14,7 +14,7 @@ module.exports = {
   ],
   introduction: [
     'I\'m a first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jami Ma](https://jiaqima.github.io/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Ciao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
-    '*I do **machine learning theory** with **math** on **graphs** (sometimes)*, focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I\'ve been actively working on *** data attribution *** and *** machine unlearning ***.',
+    '*I do **machine learning theory** with **math** on **graphs** (sometimes)*, focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I\'ve been actively working on ***data attribution*** and ***machine unlearning***.',
     '\>I moved my focus away from **Theoretical Computer Science**, although I still hold a strong interest!',
     '### 🗞️ News',
     '* 📚 We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) (*Jun. 23, 2024*). [➡️](./experience/)',
@@ -25,7 +25,7 @@ module.exports = {
     // `\n```markdown < summary > more news...</summary > ```\n`,
     '\n\<details\>\n',
     '\n\<summary\>more news...\<\/summary\>\n',
-    '* 📚 I led a * Large Graph Limit * Reading Group, which has now concluded(* May. 2, 2023 *). [➡️](./ experience /)',
+    '* 📚 I led a * Large Graph Limit * Reading Group, which has now concluded(*May. 2, 2023*). [➡️](./ experience /)',
     '* 🧑🏻‍🏫 I taught[* Introduction to Cryptography *](https://mahdi.ch/eecs475/) (undergrad-level) during the Winter 2023 semester (*Jan. 4, 2023*). [➡️](./experience/)',
     '* 🧑🏻‍🏫 I taught [*Randomness and Computation*](https://mahdi.ch/eecs572/) (graduate-level) during the Fall 2022 semester (*Aug. 29, 2022*). [➡️](./experience/)',
     '* 🧑🏻‍🏫 I taught [*Honor Mathematics III*](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html) (undergrad-level) during the Summer 2021 semester (*May. 1, 2021*). [➡️](./experience/)',
