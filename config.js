@@ -22,6 +22,7 @@ module.exports = {
     `* 🎉 *Apr. 17, 2024*: We released a [preprint](https://arxiv.org/abs/2404.11577) 📜 on **Machine Unlearning Evaluation**.`,
     `* 📚 *Jan. 12, 2024*:  I initiated the ongoing **Statistical Learning Theory** Reading Group.`,
     `For more information, please visit our [Experience](./experience) page.`,
+    '',
     `\<details\>`,
     `\<summary\>more news...\<\/summary\>`,
     `* 📚 *May 2, 2023*: I led a **Large Graph Limit** Reading Group, which has now concluded.`,
@@ -30,6 +31,7 @@ module.exports = {
     `* 🧑🏻‍🏫 *May 1, 2021*: I taught [**Honor Mathematics III**](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html) (undergraduate-level) during the Summer 2021 semester.`,
     `* 🧑🏻‍🏫 *Sep. 7, 2020*: I taught [**Honor Mathematics II**](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html) (undergraduate-level) during the Fall 2020 semester.`,
     `\<\/details\>`,
+    '',
     `### 🔖 Misc`,
     `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I'm constantly writing [*course notes*](./posts/Notes) 📝.`
   ],
