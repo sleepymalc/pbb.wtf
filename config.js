@@ -311,7 +311,7 @@ module.exports = {
   defaultLanguage: 'en',
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT
     || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'G-ZK3P43DY6M',
+  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'G-E81WRSW5CN',
   disqusScript: process.env.DISQUS_SCRIPT
     || 'https://tc-imba.disqus.com/embed.js',
   wakatime: {
