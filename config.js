@@ -137,7 +137,7 @@ module.exports = {
       data: [
         {
           title: 'Conference Reviewer',
-          date: '2023 - Current',
+          date: '2023 - Present',
           location: 'Virtual',
           description:
             'IEEE BigData *2023*, ICML *2024*',
@@ -194,7 +194,7 @@ module.exports = {
       data: [
         {
           title: 'Organizer',
-          date: 'Jun. 2024 - Current',
+          date: 'Jun. 2024 - Present',
           location: 'University of Illinois Urbana-Champaign',
           description:
             `**Data Attribution Reading Group**: ` +
@@ -202,7 +202,7 @@ module.exports = {
         },
         {
           title: 'Organizer',
-          date: 'Jan. 2024 - Current',
+          date: 'Jan. 2024 - Present',
           location: 'University of Illinois Urbana-Champaign',
           description:
             `**Statistical Learning Theory**: ` +
