@@ -36,7 +36,13 @@ module.exports = {
     ``,
     `### 🔖 Misc`,
     `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I'm constantly writing [*course notes*](./posts/Notes) 📝.`,
-    `test <b>test</b> \<b\>test\</b\> \<b\>test\<\/b\>`
+    `test <b>test</b> \<b\>test\</b\> \<b\>test\<\/b\>`,
+    `\<b\>`,
+    `test`,
+    `\<\/b\>`,
+    `\<b\>`,
+    `test`,
+    `\</b\>`
   ],
   education: [
     {
