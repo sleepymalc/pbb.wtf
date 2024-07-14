@@ -25,7 +25,7 @@ module.exports = {
     '',
     `\<details\>`,
     '',
-    `\<summary\>more news...\</summary\>`,
+    `\<summary\>more news...\<\/summary\>`,
     '',
     `* 📚 *May 2, 2023*: I led a **Large Graph Limit** Reading Group, which has now concluded.`,
     `* 🧑🏻‍🏫 *Jan. 4, 2023*: I taught [**Introduction to Cryptography**](https://mahdi.ch/eecs475/) (undergraduate-level) during the Winter 2023 semester.`,
@@ -33,7 +33,7 @@ module.exports = {
     `* 🧑🏻‍🏫 *May 1, 2021*: I taught [**Honor Mathematics III**](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html) (undergraduate-level) during the Summer 2021 semester.`,
     `* 🧑🏻‍🏫 *Sep. 7, 2020*: I taught [**Honor Mathematics II**](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html) (undergraduate-level) during the Fall 2020 semester.`,
     '',
-    `\</details\>`,
+    `\<\/details\>`,
     '',
     `### 🔖 Misc`,
     `In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I'm constantly writing [*course notes*](./posts/Notes) 📝.`
