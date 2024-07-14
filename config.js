@@ -26,7 +26,7 @@ module.exports = {
     '\n\<details\>\n',
     '\n\<summary\>more news...\<\/summary\>\n',
     '* 📚 I led a *Large Graph Limit* Reading Group, which has now concluded(*May. 2, 2023*). [➡️](./experience/)',
-    '* 🧑🏻‍🏫 I taught[*Introduction to Cryptography*](https://mahdi.ch/eecs475/) (undergrad-level) during the Winter 2023 semester (*Jan. 4, 2023*). [➡️](./experience/)',
+    '* 🧑🏻‍🏫 I taught [*Introduction to Cryptography*](https://mahdi.ch/eecs475/) (undergrad-level) during the Winter 2023 semester (*Jan. 4, 2023*). [➡️](./experience/)',
     '* 🧑🏻‍🏫 I taught [*Randomness and Computation*](https://mahdi.ch/eecs572/) (graduate-level) during the Fall 2022 semester (*Aug. 29, 2022*). [➡️](./experience/)',
     '* 🧑🏻‍🏫 I taught [*Honor Mathematics III*](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html) (undergrad-level) during the Summer 2021 semester (*May. 1, 2021*). [➡️](./experience/)',
     '* 🧑🏻‍🏫 I taught [*Honor Mathematics II*](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html) (undergrad-level) during the Fall 2020 semester (*Sep. 7, 2020*). [➡️](./experience/)',
