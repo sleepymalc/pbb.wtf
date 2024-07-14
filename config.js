@@ -14,8 +14,7 @@ module.exports = {
   ],
   introduction: [
     'I\'m a first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jami Ma](https://jiaqima.github.io/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Ciao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
-    '*I do **machine learning theory** with **math** on **graphs** (sometimes)*, focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I\'ve been actively working on ***data attribution*** and ***machine unlearning***.',
-    '\>I moved my focus away from **Theoretical Computer Science**, although I still hold a strong interest!',
+    '*I do **machine learning theory** with **math** on **graphs** (sometimes)*, focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I\'ve been actively working on ***data attribution*** and ***machine unlearning***. In addition, while I moved my focus away from **Theoretical Computer Science**, I still hold a strong interest and am thinking about them from time to time!',
     '### 🗞️ News',
     '\> Here you\'ll find only the latest news from the past year. For more, please visit the [Experience Page](./experience/).',
     '* 📚 We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) (*Jun. 23, 2024*).',
@@ -23,7 +22,7 @@ module.exports = {
     '* 🎉 We released a [preprint](https://arxiv.org/abs/2404.11577) 📜 on the [*Machine Unlearning Evaluation* Project](./research/Unlearning-Sample-Inference-Game/) (*Apr. 17, 2024*).',
     '* 📚  I initiated the ongoing *Statistical Learning Theory* Reading Group (*Jan. 12, 2024*).',
     '### 🔖 Misc',
-    'In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I\'m constantly writing[*course notes*](./posts/Notes) 📝.',
+    'In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I\'m constantly writing [*course notes*](./posts/Notes) 📝.',
   ],
   education: [
     {
