@@ -7,8 +7,8 @@ excerpt: 🇯🇵 Intern @ NII
 cover: "./preview.png"
 ---
 
-## 2024 Summer Intern at NII
+## How did it all start?
 
-At the end of my first year of Ph.D., I got the chance to go to the [National Institute of Informatics](https://www.nii.ac.jp/en/) in Tokyo 🇯🇵 under the wonderful host [Mahito Sugiyama](https://mahito.nii.ac.jp/).
+At the end of my first year of Ph.D., I got the chance to go to the [National Institute of Informatics](https://www.nii.ac.jp/en/) in Tokyo 🇯🇵 under the wonderful host [Mahito Sugiyama](https://mahito.nii.ac.jp/) as a summer intern researcher.
 
 > To be update...
