@@ -209,6 +209,14 @@ module.exports = {
             `A thorough reading on [Roman Vershynin](https://www.math.uci.edu/~rvershyn/)'s [High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html), focusing on statistical learning theory. [Solution](../else/HDP_solution.pdf) is available.`,
         },
         {
+          title: 'Presenter',
+          date: 'Oct. 2023 - Jul. 2024',
+          location: 'Virtual',
+          description:
+            `**[VIDA Reading Group](https://wanghh7.github.io/VIDY-paper-reading-group/)**: ` +
+            `A reading group focuses on recent advances in graph machine learning, and also the foundational theory for statistical learning.`,
+        },
+        {
           title: 'Organizer',
           date: 'May. 2023 - Dec. 2023',
           location: 'University of Illinois Urbana-Champaign',
