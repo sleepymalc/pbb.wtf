@@ -163,7 +163,7 @@ module.exports = {
     },
     {
       title: 'Reading Group',
-      position: 'left',
+      position: 'right',
       data: [
         {
           title: 'Organizer',
