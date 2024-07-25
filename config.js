@@ -132,42 +132,15 @@ module.exports = {
       ],
     },
     {
-      title: 'Professional Service',
-      position: 'left',
-      data: [
-        {
-          title: 'Conference Reviewer',
-          date: '2023 - Present',
-          location: 'Virtual',
-          description:
-            'IEEE BigData *2023*, ICML *2024*',
-        },
-      ],
-    },
-    {
-      title: 'Software Development',
-      position: 'left',
-      data: [
-        {
-          title: 'Backend Developer',
-          date: 'Oct. 2020 - Jun. 2021',
-          location: 'Virtual',
-          description:
-            '**foodall**: ' +
-            'A food order platform in Taiwan, built with *Golang*, *Gin*, and *MongoDB*, with RESTful API design.',
-        },
-      ],
-    },
-    {
       title: 'Research Experience',
-      position: 'right',
+      position: 'left',
       data: [
         {
           title: 'Research Intern',
           date: 'May. 2024 - Aug. 2024',
           location: 'National Institute of Informatics',
           description:
-            '**Information Geometry-Formulated ML**: ' +
+            '**Synthetic Data Generation via Information Geometry**: ' +
             'Advised by [Mahito Sugiyama](https://mahito.info/index_e.html)',
         },
         {
@@ -190,7 +163,7 @@ module.exports = {
     },
     {
       title: 'Reading Group',
-      position: 'right',
+      position: 'left',
       data: [
         {
           title: 'Organizer',
@@ -223,6 +196,33 @@ module.exports = {
           description:
             `**Sparse Graph Limit Theory**: ` +
             `A thorough reading on [László Lovász](https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lov%C3%A1sz)'s [Large networks and graph limits](https://lovasz.web.elte.hu//bookxx/hombook-almost.final.pdf), focusing on Chapter 18 and onwards.`,
+        },
+      ],
+    },
+    {
+      title: 'Professional Service',
+      position: 'right',
+      data: [
+        {
+          title: 'Conference Reviewer',
+          date: '2023 - Present',
+          location: 'Virtual',
+          description:
+            'IEEE BigData *2023*, ICML *2024*',
+        },
+      ],
+    },
+    {
+      title: 'Software Development',
+      position: 'right',
+      data: [
+        {
+          title: 'Backend Developer',
+          date: 'Oct. 2020 - Jun. 2021',
+          location: 'Virtual',
+          description:
+            '**foodall**: ' +
+            'A food order platform in Taiwan, built with *Golang*, *Gin*, and *MongoDB*, with RESTful API design.',
         },
       ],
     },
