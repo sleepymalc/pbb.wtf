@@ -13,7 +13,7 @@ module.exports = {
     'I speak TeX'
   ],
   introduction: [
-    'I\'m a first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Ciao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
+    'I\'m a first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
     '*I do **machine learning theory** with **math** on **graphs** (sometimes)*, focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I\'ve been actively working on ***data attribution*** and ***machine unlearning***.',
     'Additionally, while I moved my focus away from **Theoretical Computer Science**, I still hold a strong interest and am thinking about them from time to time!',
     '### 🗞️ News',
@@ -40,7 +40,7 @@ module.exports = {
       date: 'Sep. 2019 - Aug. 2023',
       icon: 'university',
       title: 'B.Eng. in Electrical and Computer Engineering & minor in Computer Science',
-      location: 'UM-SJTU Joint Institute, Shanghai Ciao Tong University',
+      location: 'UM-SJTU Joint Institute, Shanghai Jiao Tong University',
     }
   ],
   social: [
