@@ -17,8 +17,8 @@ module.exports = {
     '*I do **machine learning theory** with **math** on **graphs** (sometimes)*, focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I\'ve been actively working on ***data attribution*** and ***machine unlearning***.',
     '\>Additionally, I hold a strong interest in **Theoretical Computer Science**, especially fast graph algorithms.',
     '### 🗞️ News',
-    '* 📚 We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) (*Jun. 23, 2024*).',
-    '* 🔔 I\'m visiting the [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵 as a summer research intern (*May. 12, 2024*).',
+    '* 📚 We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) (*June 23, 2024*).',
+    '* 🔔 I\'m visiting the [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵 as a summer research intern (*May 12, 2024*).',
     '* 🎉 We released a [preprint](https://arxiv.org/abs/2404.11577) 📜 on the [*Machine Unlearning Evaluation* Project](./research/Unlearning-Sample-Inference-Game/) (*Apr. 17, 2024*).',
     '* 📚  I initiated the ongoing *Statistical Learning Theory* Reading Group (*Jan. 12, 2024*).',
     '\> Only the latest news from the past year is listed. For more, please visit the [Experience Page](./experience/).',
@@ -103,7 +103,7 @@ module.exports = {
       data: [
         {
           title: 'Instructional Aide',
-          date: 'Jan. 2023 - May. 2023',
+          date: 'Jan. 2023 - May 2023',
           location: 'University of Michigan',
           description: '**[EECS475 Introduction to Cryptography](https://mahdi.ch/eecs475/)** (Undergraduate): ' +
             'An introduction to the theoretical cryptography on the B.Sc. CS track. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-university-of-michigan-ta) are available.',
@@ -116,7 +116,7 @@ module.exports = {
             'A course about randomness in modern computations on the M.S. CS theory track. [Notes](../posts/Notes#randomness-and-computation-eecs572-university-of-michigan-ta) are available.',
         },
         {
-          date: 'May. 2021 - Aug. 2021',
+          date: 'May 2021 - Aug. 2021',
           title: 'Teaching Assistant',
           description: '**[VV285 Honor Mathematics III](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)** (Undergraduate): ' +
             'A follow-up course of VV186 on the B.Eng. ECE track. We also hold the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
@@ -137,7 +137,7 @@ module.exports = {
       data: [
         {
           title: 'Research Intern',
-          date: 'May. 2024 - Aug. 2024',
+          date: 'May 2024 - Aug. 2024',
           location: 'National Institute of Informatics',
           description:
             '**Synthetic Data Generation via Information Geometry**: ' +
@@ -153,7 +153,7 @@ module.exports = {
         },
         {
           title: 'Undergraduate Researcher',
-          date: 'May. 2022 - Apr. 2023',
+          date: 'May 2022 - Apr. 2023',
           location: 'University of Michigan',
           description:
             '**Deep Learning Foundation**: ' +
@@ -167,7 +167,7 @@ module.exports = {
       data: [
         {
           title: 'Organizer',
-          date: 'Jun. 2024 - Present',
+          date: 'June 2024 - Present',
           location: 'University of Illinois Urbana-Champaign',
           description:
             `**Data Attribution Reading Group**: ` +
@@ -191,7 +191,7 @@ module.exports = {
         },
         {
           title: 'Organizer',
-          date: 'May. 2023 - Dec. 2023',
+          date: 'May 2023 - Dec. 2023',
           location: 'University of Illinois Urbana-Champaign',
           description:
             `**Sparse Graph Limit Theory**: ` +
@@ -218,7 +218,7 @@ module.exports = {
       data: [
         {
           title: 'Backend Developer',
-          date: 'Oct. 2020 - Jun. 2021',
+          date: 'Oct. 2020 - June 2021',
           location: 'Virtual',
           description:
             '**foodall**: ' +
@@ -237,7 +237,7 @@ module.exports = {
       title: 'Undergraduate Excellent Scholarship',
     },
     {
-      date: 'Jun. 2020',
+      date: 'June 2020',
       title: 'Bao Gang Excellent Scholarship',
     },
     {
