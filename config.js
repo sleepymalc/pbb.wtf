@@ -81,7 +81,7 @@ module.exports = {
       title: 'Learning Theory',
     }, {
       icon: 'chart-network',
-      title: 'Graph Neural Network',
+      title: 'Graph Theory',
     }, {
       icon: `laptop-code`,
       title: `Computational Complexity`,
