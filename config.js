@@ -208,7 +208,7 @@ module.exports = {
           date: '2023 - Present',
           location: 'Virtual',
           description:
-            'IEEE BigData *2023*, ICML *2024*',
+            'IEEE BigData *2023*, ICML *2024*, ICLR *2025*',
         },
       ],
     },
