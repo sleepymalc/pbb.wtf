@@ -105,28 +105,32 @@ module.exports = {
           title: 'Instructional Aide',
           date: 'Jan. 2023 - May 2023',
           location: 'University of Michigan',
-          description: '**[EECS475 Introduction to Cryptography](https://mahdi.ch/eecs475/)** (Undergraduate): ' +
+          description:
+            '**[EECS475 Introduction to Cryptography](https://mahdi.ch/eecs475/)** (Undergraduate): ' +
             'An introduction to the theoretical cryptography on the B.Sc. CS track. [Notes](../posts/Notes#introduction-to-cryptography-eecs475-university-of-michigan-ta) are available.',
         },
         {
           title: 'Instructional Aide',
           date: 'Aug. 2022 - Dec. 2022',
           location: 'University of Michigan',
-          description: '**[EECS572 Randomness and Computation](https://mahdi.ch/eecs572/)** (Graduate): ' +
+          description:
+            '**[EECS572 Randomness and Computation](https://mahdi.ch/eecs572/)** (Graduate): ' +
             'A course about randomness in modern computations on the M.S. CS theory track. [Notes](../posts/Notes#randomness-and-computation-eecs572-university-of-michigan-ta) are available.',
         },
         {
           date: 'May 2021 - Aug. 2021',
           title: 'Teaching Assistant',
-          description: '**[VV285 Honor Mathematics III](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)** (Undergraduate): ' +
-            'A follow-up course of VV186 on the B.Eng. ECE track. We also hold the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
           location: 'Shanghai Jiao Tong University',
+          description:
+            '**[VV285 Honor Mathematics III](https://umji.sjtu.edu.cn/~horst/teaching/vv285.html)** (Undergraduate): ' +
+            'A follow-up course of VV186 on the B.Eng. ECE track. We also hold the first [*JIntegration Bee* competition](https://github.com/sleepymalc/JIntegrationBee)!',
         },
         {
           title: 'Teaching Assistant',
           date: 'Sep. 2020 - Dec. 2020',
           location: 'Shanghai Jiao Tong University',
-          description: '**[VV186 Honor Mathematics II](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)** (Undergraduate): ' +
+          description:
+            '**[VV186 Honor Mathematics II](https://umji.sjtu.edu.cn/~horst/teaching/vv186.html)** (Undergraduate): ' +
             'The first rigorous analysis course on the B.Eng. ECE track.',
         },
       ],
@@ -140,8 +144,9 @@ module.exports = {
           date: 'May 2024 - Aug. 2024',
           location: 'National Institute of Informatics',
           description:
-            '**Synthetic Data Generation via Information Geometry**: ' +
-            'Advised by [Mahito Sugiyama](https://mahito.info/index_e.html)',
+            '**Interpretable Geometric Machine Learning via Information Geometry**: ' +
+            'Applying information geometry to interpretable geometric machine learning advised by [Mahito Sugiyama](https://mahito.info/index_e.html). ' +
+            '**Excellent Internship Evaluation**.',
         },
         {
           title: 'Undergraduate Researcher',
@@ -149,7 +154,7 @@ module.exports = {
           location: 'University of Michigan',
           description:
             '**Detection Sets**: ' +
-            'Design the first almost linear time algorithm on finding minimal balanced cuts advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/)',
+            'Design the first almost linear time algorithm on finding minimal balanced cuts advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/).',
         },
         {
           title: 'Undergraduate Researcher',
