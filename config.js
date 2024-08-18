@@ -144,8 +144,8 @@ module.exports = {
           date: 'May 2024 - Aug. 2024',
           location: 'National Institute of Informatics',
           description:
-            '**Interpretable Geometric Machine Learning via Information Geometry**: ' +
-            'Applying information geometry to interpretable geometric machine learning advised by [Mahito Sugiyama](https://mahito.info/index_e.html). ' +
+            '**Interpretable Geometric Machine Learning**: ' +
+            'Applying log-linear model on posets from information geometry to geometric machine learning advised by [Mahito Sugiyama](https://mahito.info/index_e.html). ' +
             '**Excellent Internship Evaluation**.',
         },
         {
