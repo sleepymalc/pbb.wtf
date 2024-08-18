@@ -234,6 +234,10 @@ module.exports = {
   ],
   awards: [
     {
+      date: 'Aug. 2024',
+      title: 'Excellent Internship Evaluation at National Institute of Informatics',
+    },
+    {
       date: 'Oct. 2021',
       title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship',
     },
