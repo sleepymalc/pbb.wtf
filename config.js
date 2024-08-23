@@ -13,7 +13,7 @@ module.exports = {
     'I speak TeX'
   ],
   introduction: [
-    'I\'m a first-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
+    'I\'m a second-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
     '*I do **machine learning theory** with **math** on **graphs** (sometimes)*, focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I\'ve been actively working on ***data attribution*** and ***machine unlearning***.',
     '\>Additionally, I hold a strong interest in **Theoretical Computer Science**, especially fast graph algorithms.',
     '### 🗞️ News',
