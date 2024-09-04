@@ -144,9 +144,9 @@ module.exports = {
           date: 'May 2024 - Aug. 2024',
           location: 'National Institute of Informatics',
           description:
-            '**Interpretable Geometric Machine Learning**: ' +
-            'Applying log-linear model on posets from information geometry to geometric machine learning advised by [Mahito Sugiyama](https://mahito.info/index_e.html). ' +
-            '**Excellent Internship Evaluation**.',
+            '**Pseudo-Non-Linear Data Augmentation**: ' +
+            'Develop a non-linear data augmentation framework with the log-linear model on posets from information geometry advised by [Mahito Sugiyama](https://mahito.info/index_e.html). ' +
+            'Won the **Excellent Internship Evaluation**.',
         },
         {
           title: 'Undergraduate Researcher',
