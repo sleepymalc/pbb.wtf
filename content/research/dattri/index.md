@@ -17,7 +17,7 @@ links:
 authors:
   - name: "Junwei Deng*"
     url: "https://theaperdeng.github.io/"
-  - name: "Ting-Wei Li"
+  - name: "Ting-Wei Li*"
     url: "https://tingwl0122.github.io/"
   - name: "Shiyuan Zhang"
     url: "https://seanzh30.github.io/"
