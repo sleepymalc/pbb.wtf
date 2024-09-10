@@ -12,8 +12,8 @@ cover: "./preview.png"
 links:
 #   - name: "GitHub"
 #     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
-  # - name: "arXiv"
-  #   url: "https://arxiv.org/abs/2404.11577"
+  - name: "arXiv"
+    url: "https://arxiv.org/abs/2409.05657"
 authors:
   - name: "Xinhe Wang"
     # url: ""
