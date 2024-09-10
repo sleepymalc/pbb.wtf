@@ -27,7 +27,7 @@ authors:
     # url:
   - name: "Xinhe Wang"
     # url:
-  - name: "Pingbang Hu"
+  - name: "**Pingbang Hu**"
     url: "https://pbb.wtf"
   - name: "Xingjian Zhang"
     url: "https://sites.google.com/umich.edu/xingjian-zhang/"
