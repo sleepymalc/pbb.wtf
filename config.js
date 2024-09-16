@@ -136,7 +136,7 @@ module.exports = {
       ],
     },
     {
-      title: 'Research Experience',
+      title: 'Research and Industry Experience',
       position: 'left',
       data: [
         {
