@@ -5,7 +5,7 @@ tags:
 - "Data Attribution"
 - "Optimization"
 date: 2024-05-22
-priority: -20240522
+priority: -20240925
 path: "research/MISS"
 excerpt: "We consider the *most influential subset selection* (MISS) problem and identify various failure modes of the greedy-based algorithm used by the community, and prove that being \"adaptive\" helps in a non-obvious way."
 selected: true
