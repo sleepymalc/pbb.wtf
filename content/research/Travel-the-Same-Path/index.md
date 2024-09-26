@@ -11,10 +11,10 @@ excerpt: "Exploring a novel approach to ***exactly*** solve an NP-hard combinato
 selected: false
 cover: "./preview.png"
 links:
-  - name: "GitHub"
-    url: "https://github.com/sleepymalc/Travel-the-Same-Path"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2210.05906"
+  - name: "GitHub"
+    url: "https://github.com/sleepymalc/Travel-the-Same-Path"
 authors:
   - name: "**Pingbang Hu**"
     url: "https://pbb.wtf/"
