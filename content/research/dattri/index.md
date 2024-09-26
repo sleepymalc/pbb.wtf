@@ -10,10 +10,10 @@ excerpt: "We developed a efficient library for data attribution, aiming to strea
 selected: false
 cover: "./preview.png"
 links:
-#   - name: "GitHub"
-#     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
-  # - name: "arXiv"
-  #   url: "https://arxiv.org/abs/2404.11577"
+  - name: "GitHub"
+    url: "https://github.com/TRAIS-Lab/dattri"
+  - name: "NeurIPS 2024 Dataset and Benchmark **(Spotlight)**"
+    # url: "https://arxiv.org/abs/2404.11577"
 authors:
   - name: "Junwei Deng*"
     url: "https://theaperdeng.github.io/"
