@@ -1,8 +1,6 @@
 ---
 title: "Adversarial Attack on Data Attribution"
-tags:
-	- "Trustworthy"
-	- "Data Attribution"
+tags: ["Trustworthy", "Data Attribution"]
 date: 2024-09-09 00:00:00 -0500
 priority: -20240909
 path: "research/Adversarial-Attack-on-Data-Attribution"

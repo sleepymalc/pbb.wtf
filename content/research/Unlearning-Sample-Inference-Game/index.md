@@ -1,10 +1,6 @@
 ---
 title: "Towards Reliable Empirical Machine Unlearning Evaluation: A Game-Theoretic View"
-tags:
-	- "Trustworthy"
-	- "Data Attribution"
-	- "Unlearning"
-	- "Game Theory"
+tags: ["Trustworthy", "Data Attribution", "Unlearning", "Game Theory"]
 date: 2024-04-17 00:00:00 -0500
 priority: -20240417
 path: "research/Unlearning-Sample-Inference-Game"

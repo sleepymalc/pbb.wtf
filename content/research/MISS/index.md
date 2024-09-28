@@ -1,9 +1,6 @@
 ---
 title: "Most Influential Subset Selection: Challenges, Promises, and Beyond"
-tags:
-	- "Trustworthy"
-	- "Data Attribution"
-	- "Optimization"
+tags: ["Trustworthy", "Data Attribution", "Optimization"]
 date: 2024-09-25 00:00:00 -0500
 priority: -20240925
 path: "research/MISS"

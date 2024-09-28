@@ -1,8 +1,6 @@
 ---
 title: "Pseudo-Non-Linear Data Augmentation via Energy Minimization"
-tags:
-	- "Information Geometry"
-	- "Data Augmentation"
+tags: ["Information Geometry", "Data Augmentation"]
 date: 2024-09-07 00:00:00 -0500
 priority: -20240907
 path: "research/Pseudo-Non-Linear-Data-Augmentation-via-Energy-Minimization"

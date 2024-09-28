@@ -1,8 +1,6 @@
 ---
 title: "Travel the Same Path: A Novel TSP Solving Strategy"
-tags:
-	- "Application"
-	- "Optimization"
+tags: ["Application", "Optimization"]
 date: 2022-10-12 00:00:00 -0500
 priority: -20221012
 path: "research/Travel-the-Same-Path"

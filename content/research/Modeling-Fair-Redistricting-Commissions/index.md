@@ -1,8 +1,6 @@
 ---
 title: "Modeling Fair Redistricting Commissions"
-tags:
-	- "Trustworthy"
-	- "Game Theory"
+tags: ["Trustworthy", "Game Theory"]
 date: 2023-04-12 00:00:00 -0500
 priority: -20230412
 path: "research/Modeling-Fair-Redistricting-Commissions"
