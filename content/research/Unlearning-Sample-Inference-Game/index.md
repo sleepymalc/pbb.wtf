@@ -5,8 +5,7 @@ tags:
 - "Data Attribution"
 - "Unlearning"
 - "Game Theory"
-date: 2024-04-17
-# Jan. 2024 - Apr. 2024
+date: 2024-04-17 -0500
 priority: -20240417
 path: "research/Unlearning-Sample-Inference-Game"
 excerpt: "We design the first game-theoretic efficient machine unlearning evaluation metric with provable properties."

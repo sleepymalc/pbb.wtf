@@ -3,7 +3,7 @@ title: "dattri: A Library for Efficient Data Attribution"
 tags:
 - "Data Attribution"
 - "Open Source Library"
-date: 2024-09-26
+date: 2024-09-26 -0500
 priority: -20240926
 path: "research/dattri"
 excerpt: "We developed a efficient library for data attribution, aiming to streamline the development of data attribution algorithms"
