@@ -10,9 +10,8 @@ excerpt: "We developed a efficient library for data attribution, aiming to strea
 selected: false
 cover: "./preview.png"
 links:
-  - name: "NeurIPS 2024 (D&B)"
-    # url: "https://arxiv.org/abs/2404.11577"
-  - name: "Spotlight"
+  - name: "NeurIPS 2024 D&B (Spotlight)"
+    url: "https://neurips.cc/virtual/2024/poster/97763"
   - name: "GitHub"
     url: "https://github.com/TRAIS-Lab/dattri"
 authors:

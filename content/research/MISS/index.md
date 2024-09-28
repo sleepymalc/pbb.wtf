@@ -14,7 +14,7 @@ links:
 #   - name: "GitHub"
 #     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
   - name: "NeurIPS 2024"
-    # url: "https://arxiv.org/abs/2404.11577"
+    url: "https://nips.cc/virtual/2024/poster/93494"
 authors:
   - name: "Yuzheng Hu"
     url: "https://scholar.google.com/citations?user=cVVimVcAAAAJ&hl=en"
