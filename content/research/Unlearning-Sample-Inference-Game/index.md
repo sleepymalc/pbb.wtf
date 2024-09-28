@@ -1,10 +1,10 @@
 ---
 title: "Towards Reliable Empirical Machine Unlearning Evaluation: A Game-Theoretic View"
 tags:
-- "Trustworthy"
-- "Data Attribution"
-- "Unlearning"
-- "Game Theory"
+	- "Trustworthy"
+	- "Data Attribution"
+	- "Unlearning"
+	- "Game Theory"
 date: 2024-04-17 00:00:00 -0500
 priority: -20240417
 path: "research/Unlearning-Sample-Inference-Game"
@@ -14,15 +14,15 @@ cover: "./preview.png"
 links:
 #   - name: "GitHub"
 #     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
-  - name: "arXiv"
-    url: "https://arxiv.org/abs/2404.11577"
+    - name: "arXiv"
+      url: "https://arxiv.org/abs/2404.11577"
 authors:
-  - name: "Yiwen Tu*"
-    url: "https://openreview.net/profile?id=~Yiwen_Tu1"
-  - name: "**Pingbang Hu***"
-    url: "https://pbb.wtf/"
-  - name: Jiaqi Ma
-    url: "https://jiaqima.github.io/"
+    - name: "Yiwen Tu*"
+      url: "https://openreview.net/profile?id=~Yiwen_Tu1"
+    - name: "**Pingbang Hu***"
+      url: "https://pbb.wtf/"
+    - name: Jiaqi Ma
+      url: "https://jiaqima.github.io/"
 ---
 
 ## Brief Summary

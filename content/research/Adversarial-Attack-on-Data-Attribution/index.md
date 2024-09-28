@@ -1,8 +1,8 @@
 ---
 title: "Adversarial Attack on Data Attribution"
 tags:
-- "Trustworthy"
-- "Data Attribution"
+	- "Trustworthy"
+	- "Data Attribution"
 date: 2024-09-09 00:00:00 -0500
 priority: -20240909
 path: "research/Adversarial-Attack-on-Data-Attribution"
@@ -12,17 +12,17 @@ cover: "./preview.png"
 links:
 #   - name: "GitHub"
 #     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
-  - name: "arXiv"
-    url: "https://arxiv.org/abs/2409.05657"
+    - name: "arXiv"
+      url: "https://arxiv.org/abs/2409.05657"
 authors:
-  - name: "Xinhe Wang"
-    # url: ""
-  - name: "**Pingbang Hu**"
-    url: "https://pbb.wtf/"
-  - name: Junwei Deng
-    url: "https://theaperdeng.github.io/"
-  - name: Jiaqi Ma
-    url: "https://jiaqima.github.io/"
+    - name: "Xinhe Wang"
+      # url: ""
+    - name: "**Pingbang Hu**"
+      url: "https://pbb.wtf/"
+    - name: Junwei Deng
+      url: "https://theaperdeng.github.io/"
+    - name: Jiaqi Ma
+      url: "https://jiaqima.github.io/"
 ---
 
 ## Brief Summary

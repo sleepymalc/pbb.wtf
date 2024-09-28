@@ -1,9 +1,9 @@
 ---
 title: "Most Influential Subset Selection: Challenges, Promises, and Beyond"
 tags:
-- "Trustworthy"
-- "Data Attribution"
-- "Optimization"
+	- "Trustworthy"
+	- "Data Attribution"
+	- "Optimization"
 date: 2024-09-25 00:00:00 -0500
 priority: -20240925
 path: "research/MISS"
@@ -13,17 +13,17 @@ cover: "./preview.png"
 links:
 #   - name: "GitHub"
 #     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
-  - name: "NeurIPS 2024"
-    url: "https://nips.cc/virtual/2024/poster/93494"
+    - name: "NeurIPS 2024"
+      url: "https://nips.cc/virtual/2024/poster/93494"
 authors:
-  - name: "Yuzheng Hu"
-    url: "https://scholar.google.com/citations?user=cVVimVcAAAAJ&hl=en"
-  - name: "**Pingbang Hu**"
-    url: "https://pbb.wtf/"
-  - name: Han Zhao
-    url: "https://hanzhaoml.github.io/"
-  - name: Jiaqi Ma
-    url: "https://jiaqima.github.io/"
+    - name: "Yuzheng Hu"
+      url: "https://scholar.google.com/citations?user=cVVimVcAAAAJ&hl=en"
+    - name: "**Pingbang Hu**"
+      url: "https://pbb.wtf/"
+    - name: Han Zhao
+      url: "https://hanzhaoml.github.io/"
+    - name: Jiaqi Ma
+      url: "https://jiaqima.github.io/"
 ---
 
 ## Brief Summary
