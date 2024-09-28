@@ -79,7 +79,7 @@ Observe that if the other chord endpoint lies on the arc between the endpoints o
 
 <div align="center">
  	<img src="figures/1.png" />
-	 <figcaption>If the second endpoint lies on the purple arc, it's shorter; otherwise (cyan), it's longer.</figcaption>
+	<figcaption>If the second endpoint lies on the purple arc, it's shorter; otherwise (cyan), it's longer.</figcaption>
 </div>
 
 The length of the arc is one-third of the circumference of the circle. Therefore the probability that a random chord is longer than a side of the inscribed triangle is

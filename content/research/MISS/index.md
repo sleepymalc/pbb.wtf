@@ -13,10 +13,10 @@ cover: "./preview.png"
 links:
 #   - name: "GitHub"
 #     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
-    - name: "NeurIPS 2024"
-      url: "https://nips.cc/virtual/2024/poster/93494"
+	- name: "NeurIPS 2024"
+	  url: "https://nips.cc/virtual/2024/poster/93494"
 authors:
-    - name: "Yuzheng Hu"
+	- name: "Yuzheng Hu"
       url: "https://scholar.google.com/citations?user=cVVimVcAAAAJ&hl=en"
     - name: "**Pingbang Hu**"
       url: "https://pbb.wtf/"

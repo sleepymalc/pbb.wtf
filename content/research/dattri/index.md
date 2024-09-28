@@ -10,14 +10,14 @@ excerpt: "We developed a efficient library for data attribution, aiming to strea
 selected: false
 cover: "./preview.png"
 links:
-    - name: "NeurIPS 2024 D&B (Spotlight)"
-      url: "https://nips.cc/virtual/2024/poster/97763"
-    - name: "GitHub"
-      url: "https://github.com/TRAIS-Lab/dattri"
+	- name: "NeurIPS 2024 D&B (Spotlight)"
+	  url: "https://nips.cc/virtual/2024/poster/97763"
+	- name: "GitHub"
+	  url: "https://github.com/TRAIS-Lab/dattri"
 authors:
-    - name: "Junwei Deng*"
+	- name: "Junwei Deng*"
       url: "https://theaperdeng.github.io/"
-    - name: "Ting-Wei Li*"
+	- name: "Ting-Wei Li*"
       url: "https://tingwl0122.github.io/"
     - name: "Shiyuan Zhang"
       url: "https://seanzh30.github.io/"

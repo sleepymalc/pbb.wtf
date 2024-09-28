@@ -10,12 +10,12 @@ excerpt: "We resolved *Gerrymandering* by a simple (dumb) voting scheme..."
 selected: false
 cover: "./preview.png"
 links:
-    - name: "Paper"
-      url: "./research/Modeling-Fair-Redistricting-Commissions/paper.pdf"
-    - name: "Poster"
+	- name: "Paper"
+	  url: "./research/Modeling-Fair-Redistricting-Commissions/paper.pdf"
+	- name: "Poster"
       url: "./research/Modeling-Fair-Redistricting-Commissions/poster.pdf"
 authors:
-    - name: "**Pingbang Hu**"
+	- name: "**Pingbang Hu**"
       url: "https://pbb.wtf/"
     - name: "Henry Fleischmann"
       url: "https://hfleischmann3.github.io./"

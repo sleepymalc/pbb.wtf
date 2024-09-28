@@ -10,19 +10,16 @@ excerpt: "We consider the *adversarial attack* on training data attribution meth
 selected: true
 cover: "./preview.png"
 links:
-#   - name: "GitHub"
-#     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
-    - name: "arXiv"
-      url: "https://arxiv.org/abs/2409.05657"
+	- name: "arXiv"
+	  url: "https://arxiv.org/abs/2409.05657"
 authors:
-    - name: "Xinhe Wang"
-      # url: ""
-    - name: "**Pingbang Hu**"
-      url: "https://pbb.wtf/"
-    - name: Junwei Deng
-      url: "https://theaperdeng.github.io/"
-    - name: Jiaqi Ma
-      url: "https://jiaqima.github.io/"
+	- name: "Xinhe Wang"
+	- name: "**Pingbang Hu**"
+	  url: "https://pbb.wtf/"
+	- name: Junwei Deng
+	  url: "https://theaperdeng.github.io/"
+	- name: Jiaqi Ma
+	  url: "https://jiaqima.github.io/"
 ---
 
 ## Brief Summary
