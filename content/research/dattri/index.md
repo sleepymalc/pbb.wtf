@@ -11,7 +11,7 @@ selected: false
 cover: "./preview.png"
 links:
   - name: "NeurIPS 2024 D&B (Spotlight)"
-    url: "https://neurips.cc/virtual/2024/poster/97763"
+    url: "https://nips.cc/virtual/2024/poster/97763"
   - name: "GitHub"
     url: "https://github.com/TRAIS-Lab/dattri"
 authors:
