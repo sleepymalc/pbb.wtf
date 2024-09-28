@@ -1,8 +1,8 @@
 ---
 title: "Adversarial Attack on Data Attribution"
 tags:
-- "Trustworthy"
-- "Data Attribution"
+	- "Trustworthy"
+	- "Data Attribution"
 date: 2024-09-09 00:00:00 -0500
 priority: -20240909
 path: "research/Adversarial-Attack-on-Data-Attribution"
@@ -10,20 +10,16 @@ excerpt: "We consider the *adversarial attack* on training data attribution meth
 selected: true
 cover: "./preview.png"
 links:
-- name: "arXiv"
-  url: "https://arxiv.org/abs/2409.05657"
+	- name: "arXiv"
+	  url: "https://arxiv.org/abs/2409.05657"
 authors:
-- name: "Xinhe Wang"
-- name: "**Pingbang Hu**"
- url: "https://pbb.wtf/"
-- name: Junwei Deng
- url: "https://theaperdeng.github.io/"
-- name: Jiaqi Ma
- url: "https://jiaqima.github.io/"
+	- name: "Xinhe Wang"
+    - name: "**Pingbang Hu***"
+      url: "https://pbb.wtf/"
+	- name: "Junwei Deng*"
+	  url: "https://theaperdeng.github.io/"
+    - name: Jiaqi Ma
+      url: "https://jiaqima.github.io/"
 ---
 
 ## Brief Summary
-<!--
-How can we attribute the behaviors of machine learning models to their training data? While the classic *influence function*[^1] sheds light on the impact of individual samples, it often fails to capture the more complex and pronounced collective influence of a set of samples. To tackle this challenge, we study the Most Influential Subset Selection (MISS) problem, which aims to identify a subset of training samples with the greatest collective influence. We conduct a comprehensive analysis of the prevailing approaches in MISS, elucidating their strengths and weaknesses. Our findings reveal that influence-based greedy heuristics, a dominant class of algorithms in MISS, can provably fail even in linear regression. We delineate the failure modes, including the errors of influence function and the non-additive structure of the collective influence. Conversely, we demonstrate that an adaptive version of these heuristics which applies them iteratively, can effectively capture the interactions among samples and thus partially address the issues. Experiments on real-world datasets corroborate these theoretical findings, and further demonstrate that the merit of adaptivity can extend to more complex scenarios such as classification tasks and non-linear neural networks. We conclude our analysis by highlighting the inherent trade-off between performance and computational efficiency, and providing a range of discussions.
-
-[^1]: <https://arxiv.org/abs/1703.04730> -->
