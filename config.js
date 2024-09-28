@@ -17,7 +17,7 @@ module.exports = {
     '*I do **machine learning theory** with **math** on **graphs** (sometimes)*, focus on *efficiency*, *robustness*, and *trustworthiness*. In particular, I\'ve been actively working on ***data attribution*** and ***machine unlearning***.',
     '\>Additionally, I hold a strong interest in **Theoretical Computer Science**, especially fast graph algorithms.',
     '### 🗞️ News',
-    '* 🍻 One [paper](./research/dattri) accepted by *NeurIPS 2024 D\&B Track* (***spotlight***) (*Sep. 26, 2024*).',
+    '* 🍻 One [paper](./research/dattri) accepted by *NeurIPS 2024 D\&B Track* (***Spotlight***) (*Sep. 26, 2024*).',
     '* 🍻 One [paper](./research/MISS/) accepted by *NeurIPS 2024* (*Sep. 25, 2024*).',
     '* 🎉 A [preprint](https://arxiv.org/abs/2409.05657) 📜 on the [*Adversarial Attack on Data Attribution* Project](./research/Adversarial-Attack-on-Data-Attribution/) released (*Sep. 9, 2024*).',
     '* 📚 We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) (*June 23, 2024*).',
