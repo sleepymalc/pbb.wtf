@@ -7,9 +7,10 @@ path: "research/MISS"
 excerpt: "We consider the *most influential subset selection* (MISS) problem and identify various failure modes of the greedy-based algorithm used by the community, and prove that being \"adaptive\" helps in a non-obvious way."
 selected: true
 cover: "./preview.png"
+venue: "NeurIPS 2024"
 links:
-	- name: "NeurIPS 2024"
-	  url: "https://nips.cc/virtual/2024/poster/93494"
+	# - name: "NeurIPS 2024"
+	#   url: "https://nips.cc/virtual/2024/poster/93494"
 authors:
 	- name: "Yuzheng Hu"
 	  url: "https://scholar.google.com/citations?user=cVVimVcAAAAJ&hl=en"
