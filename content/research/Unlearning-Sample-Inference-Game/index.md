@@ -8,11 +8,11 @@ excerpt: "We design the first game-theoretic efficient machine unlearning evalua
 selected: true
 cover: "./preview.png"
 links:
-	- name: "arXiv"
-	  url: "https://arxiv.org/abs/2404.11577"
+    - name: "arXiv"
+      url: "https://arxiv.org/abs/2404.11577"
 authors:
-	- name: "Yiwen Tu*"
-	  url: "https://openreview.net/profile?id=~Yiwen_Tu1"
+    - name: "Yiwen Tu*"
+      url: "https://openreview.net/profile?id=~Yiwen_Tu1"
     - name: "**Pingbang Hu***"
       url: "https://pbb.wtf/"
     - name: Jiaqi Ma
