@@ -9,8 +9,8 @@ selected: true
 cover: "./preview.png"
 venue: "NeurIPS 2024"
 links:
-	# - name: "NeurIPS 2024"
-	#   url: "https://nips.cc/virtual/2024/poster/93494"
+	- name: "arXiv"
+	  url: "https://arxiv.org/abs/2409.18153"
 authors:
     - name: "Yuzheng Hu"
       url: "https://scholar.google.com/citations?user=cVVimVcAAAAJ&hl=en"
