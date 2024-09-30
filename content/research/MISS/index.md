@@ -4,7 +4,7 @@ tags: ["Trustworthy", "Data Attribution", "Optimization"]
 date: 2024-09-25 00:00:00 -0500
 priority: -20240925
 path: "research/MISS"
-excerpt: " We provide a comprehensive study of the common practices in the Most Influential Subset Selection (MISS) problem."
+excerpt: "We provide a comprehensive study of the common practices in the Most Influential Subset Selection (MISS) problem."
 selected: true
 cover: "./preview.png"
 venue: "NeurIPS 2024"
