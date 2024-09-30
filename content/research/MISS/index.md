@@ -9,17 +9,17 @@ selected: true
 cover: "./preview.png"
 venue: "NeurIPS 2024"
 links:
-	- name: "arXiv"
-	  url: "https://arxiv.org/abs/2409.18153"
+    - name: "arXiv"
+      url: "https://arxiv.org/abs/2409.18153"
 authors:
-	- name: "Yuzheng Hu"
-	  url: "https://scholar.google.com/citations?user=cVVimVcAAAAJ&hl=en"
-	- name: "**Pingbang Hu***"
-	  url: "https://pbb.wtf/"
-	- name: Han Zhao
-	  url: "https://hanzhaoml.github.io/"
-	- name: Jiaqi Ma
-	  url: "https://jiaqima.github.io/"
+    - name: "Yuzheng Hu"
+      url: "https://scholar.google.com/citations?user=cVVimVcAAAAJ&hl=en"
+    - name: "**Pingbang Hu***"
+      url: "https://pbb.wtf/"
+    - name: Han Zhao
+      url: "https://hanzhaoml.github.io/"
+    - name: Jiaqi Ma
+      url: "https://jiaqima.github.io/"
 ---
 
 ## Brief Summary

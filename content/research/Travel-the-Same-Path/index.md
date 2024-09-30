@@ -34,23 +34,23 @@ We will utilize GCNN (Graph Convolutional Neural Network), a particular kind of 
 We first formulate TSP in terms of integer linear programming.[^2] Given an undirected weighted group $\mathcal{G} = (\mathcal{E}, \mathcal{V})$,
 we label the nodes with numbers $1, \ldots, n$ and define
 $$
-	x_{ij}\coloneqq \begin{dcases}
-		1, & \text{if }(i, j)\in \mathcal{E}^\prime                       \\
-		0, & \text{if } (i, j)\in \mathcal{E}\setminus\mathcal{E}^\prime,
-	\end{dcases}
+    x_{ij}\coloneqq \begin{dcases}
+        1, & \text{if }(i, j)\in \mathcal{E}^\prime                       \\
+        0, & \text{if } (i, j)\in \mathcal{E}\setminus\mathcal{E}^\prime,
+    \end{dcases}
 $$
 where $\mathcal{E}^\prime\subset \mathcal{E}$ is a variable which can be viewed as a compact representation of all variables $x_{ij}$, $\forall i, j$.
 Furthermore, we denote the weight on edge $(i, j)$ by $c_{ij}$, then for a particular TSP problem instance, we can formulate the problem as
 $$
-	\begin{aligned}
+    \begin{aligned}
 \min & \sum_{i=1}^{n}\sum *{j\neq i,j=1}^{n}c*{ij}x_{ij} &  &                      \\
 & \sum_{i=1,i\neq j}^{n}x_{ij}=1                    &  & j=1,\ldots ,n;       \\
 & \sum_{j=1,j\neq i}^{n}x_{ij}=1                    &  & i=1,\ldots ,n;       \\
-		     & u_{i}-u_{j}+nx_{ij}\leq n-1                        &  & 2\leq i\neq j\leq n; \\
-		     & 1\leq u_{i}\leq n-1                                &  & 2\leq i\leq n;       \\
-		     & x_{ij}\in \{0,1\}                                  &  & i,j=1,\ldots ,n;     \\
-		     & u_{i}\in \mathbb{Z}                                &  & i=2,\ldots ,n
-	\end{aligned}
+             & u_{i}-u_{j}+nx_{ij}\leq n-1                        &  & 2\leq i\neq j\leq n; \\
+             & 1\leq u_{i}\leq n-1                                &  & 2\leq i\leq n;       \\
+             & x_{ij}\in \{0,1\}                                  &  & i,j=1,\ldots ,n;     \\
+             & u_{i}\in \mathbb{Z}                                &  & i=2,\ldots ,n
+    \end{aligned}
 $$
 given by Miller-Tucker-Zemlin.
 
@@ -71,7 +71,7 @@ Our GNN model produces a set of actions with the probability corresponding to ea
 use **Cross-Entropy Loss** to compare our prediction to the result produced by $\texttt{SCIP}$ and complete one iteration.
 
 <div align="center">
-	<img src="./figures/pipeline.png"/>
+    <img src="./figures/pipeline.png"/>
 </div>
 
 #### Graph Convolutional Neural Network (GCNN)
@@ -92,16 +92,16 @@ strong branching strategy and use it to do branching whenever needed.
 We look at the walltime needed for the model trained on TSP10/TSP15 and tested on TSP25 for 100 instances (ordered by the walltime of $\texttt{SCIP}$).
 
 <div align="center">
-	<img src="./figures/result/tsp10/normal.png" width="50%"/>
-	<img src="./figures/result/tsp15/normal.png" width="50%"/>
+    <img src="./figures/result/tsp10/normal.png" width="50%"/>
+    <img src="./figures/result/tsp15/normal.png" width="50%"/>
 </div>
 
 If we zoom in to the first 80 and last 20 instances, we have the following.
 <div align="center">
-	<img src="./figures/result/tsp10/zoom-first80.png" width="50%"/>
-	<img src="./figures/result/tsp10/zoom-last20.png" width="50%"/>
-	<img src="./figures/result/tsp15/zoom-first80.png" width="50%"/>
-	<img src="./figures/result/tsp15/zoom-last20.png" width="50%"/>
+    <img src="./figures/result/tsp10/zoom-first80.png" width="50%"/>
+    <img src="./figures/result/tsp10/zoom-last20.png" width="50%"/>
+    <img src="./figures/result/tsp15/zoom-first80.png" width="50%"/>
+    <img src="./figures/result/tsp15/zoom-last20.png" width="50%"/>
 </div>
 
 #### Generalization Ability

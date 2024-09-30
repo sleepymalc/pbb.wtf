@@ -9,24 +9,24 @@ selected: false
 cover: "./preview.png"
 venue: "NeurIPS 2024 D&B (Spotlight)"
 links:
-	- name: "GitHub"
-	  url: "https://github.com/TRAIS-Lab/dattri"
+    - name: "GitHub"
+      url: "https://github.com/TRAIS-Lab/dattri"
 authors:
-	- name: "Junwei Deng*"
-	  url: "https://theaperdeng.github.io/"
-	- name: "Ting-Wei Li*"
-	  url: "https://tingwl0122.github.io/"
-	- name: "Shiyuan Zhang"
-	  url: "https://seanzh30.github.io/"
-	- name: "Yijun Pan"
-	- name: "Hao Huang"
-	- name: "Xinhe Wang"
-	- name: "**Pingbang Hu***"
-	  url: "https://pbb.wtf/"
-	- name: "Xingjian Zhang"
-	  url: "https://sites.google.com/umich.edu/xingjian-zhang/"
-	- name: Jiaqi Ma
-	  url: "https://jiaqima.github.io/"
+    - name: "Junwei Deng*"
+      url: "https://theaperdeng.github.io/"
+    - name: "Ting-Wei Li*"
+      url: "https://tingwl0122.github.io/"
+    - name: "Shiyuan Zhang"
+      url: "https://seanzh30.github.io/"
+    - name: "Yijun Pan"
+    - name: "Hao Huang"
+    - name: "Xinhe Wang"
+    - name: "**Pingbang Hu***"
+      url: "https://pbb.wtf/"
+    - name: "Xingjian Zhang"
+      url: "https://sites.google.com/umich.edu/xingjian-zhang/"
+    - name: Jiaqi Ma
+      url: "https://jiaqima.github.io/"
 ---
 
 ## Brief Summary
