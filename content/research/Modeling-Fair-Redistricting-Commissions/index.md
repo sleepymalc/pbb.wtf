@@ -19,6 +19,8 @@ authors:
       url: "https://hfleischmann3.github.io./"
 ---
 
+> [Paper](./paper.pdf) | [Poster](./poster.pdf)
+
 ## Introduction
 
 In the last semester of my bachelor's journey, I decided to take a course about algorithmic game theory. In the end, we did this fun, small project with [Henry Fleischmann](https://hfleischmann3.github.io./), where we managed to design a mechanism that addresses the *gerrymandering* problem, proving it has the desired properties. The following is a quick summary of our project.

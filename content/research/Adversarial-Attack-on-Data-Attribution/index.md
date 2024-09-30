@@ -20,4 +20,6 @@ authors:
       url: "https://jiaqima.github.io/"
 ---
 
+> [arXiv](https://arxiv.org/abs/2409.05657)
+
 ## Brief Summary

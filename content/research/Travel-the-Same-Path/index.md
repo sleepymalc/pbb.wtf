@@ -17,6 +17,8 @@ authors:
       url: "https://pbb.wtf/"
 ---
 
+> [arXiv](https://arxiv.org/abs/2210.05906) | [GitHub](https://github.com/sleepymalc/Travel-the-Same-Path)
+
 ## Introduction
 
 I stepped upon an interesting paper: [*Exact Combinatorial Optimization with Graph Convolutional Neural Networks*](https://arxiv.org/abs/1906.01629) a while ago. In this work, the authors provided a novel methodology for solving mixed integer linear programming with the help of machine learning leveraging the insight of *speeding up only a specific part of the **exact** algorithm might preserve exactness*.[^1]

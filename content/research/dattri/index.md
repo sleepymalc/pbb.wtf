@@ -29,4 +29,6 @@ authors:
       url: "https://jiaqima.github.io/"
 ---
 
+> [GitHub](https://github.com/TRAIS-Lab/dattri)
+
 ## Brief Summary

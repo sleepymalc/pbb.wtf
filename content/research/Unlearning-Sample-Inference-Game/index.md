@@ -19,6 +19,8 @@ authors:
       url: "https://jiaqima.github.io/"
 ---
 
+> [arXiv](https://arxiv.org/abs/2404.11577)
+
 ## Brief Summary
 
 Despite the fast-paced development of the *machine unlearning* community, the evaluation of the performance of machine unlearning algorithms remains a big open problem due to the lack of a unified framework and rigorous justification. In this work, we theoretically formalized the *unlearning sample inference game* for provable and reliable empirical evaluation of machine unlearning algorithms, tackling one of the most foundational problems in this field.
