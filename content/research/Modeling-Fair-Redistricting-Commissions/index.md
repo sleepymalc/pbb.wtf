@@ -1,6 +1,6 @@
 ---
 title: "Modeling Fair Redistricting Commissions"
-tags: ["Trustworthy", "Game Theory"]
+tags: ["Side Project", "Trustworthy", "Game Theory"]
 date: 2023-04-12 00:00:00 -0500
 priority: -20230412
 path: "research/Modeling-Fair-Redistricting-Commissions"
@@ -8,15 +8,15 @@ excerpt: "We resolved *Gerrymandering* by a simple (dumb) voting scheme..."
 selected: false
 cover: "./preview.png"
 links:
-    - name: "Paper"
-      url: "./research/Modeling-Fair-Redistricting-Commissions/paper.pdf"
-    - name: "Poster"
-      url: "./research/Modeling-Fair-Redistricting-Commissions/poster.pdf"
+- name: "Paper"
+  url: "./research/Modeling-Fair-Redistricting-Commissions/paper.pdf"
+- name: "Poster"
+  url: "./research/Modeling-Fair-Redistricting-Commissions/poster.pdf"
 authors:
-    - name: "**Pingbang Hu**"
-      url: "https://pbb.wtf/"
-    - name: "Henry Fleischmann"
-      url: "https://hfleischmann3.github.io./"
+- name: "**Pingbang Hu**"
+  url: "https://pbb.wtf/"
+- name: "Henry Fleischmann"
+  url: "https://hfleischmann3.github.io./"
 ---
 
 > [Paper](./paper.pdf) | [Poster](./poster.pdf)

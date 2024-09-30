@@ -1,6 +1,6 @@
 ---
 title: "Travel the Same Path: A Novel TSP Solving Strategy"
-tags: ["Application", "Optimization"]
+tags: ["Side Project", "Optimization"]
 date: 2022-10-12 00:00:00 -0500
 priority: -20221012
 path: "research/Travel-the-Same-Path"
@@ -8,13 +8,13 @@ excerpt: "Exploring a novel approach to ***exactly*** solve an NP-hard combinato
 selected: false
 cover: "./preview.png"
 links:
-    - name: "arXiv"
-      url: "https://arxiv.org/abs/2210.05906"
-    - name: "GitHub"
-      url: "https://github.com/sleepymalc/Travel-the-Same-Path"
+- name: "arXiv"
+  url: "https://arxiv.org/abs/2210.05906"
+- name: "GitHub"
+  url: "https://github.com/sleepymalc/Travel-the-Same-Path"
 authors:
-    - name: "**Pingbang Hu**"
-      url: "https://pbb.wtf/"
+- name: "**Pingbang Hu**"
+  url: "https://pbb.wtf/"
 ---
 
 > [arXiv](https://arxiv.org/abs/2210.05906) | [GitHub](https://github.com/sleepymalc/Travel-the-Same-Path)
