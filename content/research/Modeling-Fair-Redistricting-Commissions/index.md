@@ -1,12 +1,13 @@
 ---
 title: "Modeling Fair Redistricting Commissions"
-tags: ["Side Project", "Trustworthy", "Game Theory"]
+tags: ["Trustworthy", "Game Theory"]
 date: 2023-04-12 00:00:00 -0500
 priority: -20230412
 path: "research/Modeling-Fair-Redistricting-Commissions"
 excerpt: "We resolved *Gerrymandering* by a simple (dumb) voting scheme..."
 selected: false
 cover: "./preview.png"
+venue: "Side Project"
 links:
 - name: "Paper"
   url: "./research/Modeling-Fair-Redistricting-Commissions/paper.pdf"

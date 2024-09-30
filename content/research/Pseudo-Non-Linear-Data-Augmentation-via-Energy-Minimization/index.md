@@ -7,6 +7,7 @@ path: "research/Pseudo-Non-Linear-Data-Augmentation-via-Energy-Minimization"
 excerpt: "We propose a new non-linear data augmentation framework powered by information geometry."
 selected: true
 cover: "./preview.png"
+venue: "In Submission"
 links:
 #   - name: "GitHub"
 #     url: "https://github.com/sleepymalc/Travel-the-Same-Path"

@@ -7,6 +7,7 @@ path: "research/Unlearning-Sample-Inference-Game"
 excerpt: "We design the first efficient machine unlearning evaluation metric with provable guarantees."
 selected: true
 cover: "./preview.png"
+venue: "In Submission"
 links:
 - name: "arXiv"
   url: "https://arxiv.org/abs/2404.11577"
