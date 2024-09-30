@@ -46,13 +46,13 @@ where $\mathcal{E}^\prime\subset \mathcal{E}$ is a variable which can be viewed 
 Furthermore, we denote the weight on edge $(i, j)$ by $c_{ij}$, then for a particular TSP problem instance, we can formulate the problem as
 $$
     \begin{aligned}
-\min & \sum_{i=1}^{n}\sum *{j\neq i,j=1}^{n}c*{ij}x_{ij} &  &                      \\
-& \sum_{i=1,i\neq j}^{n}x_{ij}=1                    &  & j=1,\ldots ,n;       \\
-& \sum_{j=1,j\neq i}^{n}x_{ij}=1                    &  & i=1,\ldots ,n;       \\
-             & u_{i}-u_{j}+nx_{ij}\leq n-1                        &  & 2\leq i\neq j\leq n; \\
-             & 1\leq u_{i}\leq n-1                                &  & 2\leq i\leq n;       \\
-             & x_{ij}\in \{0,1\}                                  &  & i,j=1,\ldots ,n;     \\
-             & u_{i}\in \mathbb{Z}                                &  & i=2,\ldots ,n
+		\min & \sum_{i=1}^{n}\sum *{j\neq i,j=1}^{n}c*{ij}x_{ij} &  &                      \\
+		& \sum_{i=1,i\neq j}^{n}x_{ij}=1                    &  & j=1,\ldots ,n;       \\
+		& \sum_{j=1,j\neq i}^{n}x_{ij}=1                    &  & i=1,\ldots ,n;       \\
+					& u_{i}-u_{j}+nx_{ij}\leq n-1                        &  & 2\leq i\neq j\leq n; \\
+					& 1\leq u_{i}\leq n-1                                &  & 2\leq i\leq n;       \\
+					& x_{ij}\in \{0,1\}                                  &  & i,j=1,\ldots ,n;     \\
+					& u_{i}\in \mathbb{Z}                                &  & i=2,\ldots ,n,
     \end{aligned}
 $$
 given by Miller-Tucker-Zemlin.
