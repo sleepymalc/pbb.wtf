@@ -13,10 +13,10 @@ links:
   # - name: "arXiv"
   #   url: "https://arxiv.org/abs/2404.11577"
 authors:
-    - name: "**Pingbang Hu**"
-      url: "https://pbb.wtf/"
-    - name: Mahito Sugiyama
-      url: "https://mahito.info/index_e.html"
+	- name: "**Pingbang Hu**"
+	  url: "https://pbb.wtf/"
+	- name: Mahito Sugiyama
+	  url: "https://mahito.info/index_e.html"
 ---
 
 ## Brief Summary
