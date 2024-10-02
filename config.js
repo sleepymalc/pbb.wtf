@@ -148,8 +148,8 @@ module.exports = {
 					date: 'May 2024 - Aug. 2024',
 					location: 'National Institute of Informatics',
 					description:
-						'**Pseudo-Non-Linear Data Augmentation**: ' +
-						'Develop a non-linear data augmentation framework with the log-linear model on posets from information geometry advised by [Mahito Sugiyama](https://mahito.info/index_e.html). ' +
+						'[**Pseudo-Non-Linear Data Augmentation**](./research/Pseudo-Non-Linear-Data-Augmentation-via-Energy-Minimization/): ' +
+						'Develop an interpretable and information-geometric data augmentation algorithm advised by [Mahito Sugiyama](https://mahito.info/index_e.html). ' +
 						'Won the **Excellent Internship Evaluation**.',
 				},
 				{
