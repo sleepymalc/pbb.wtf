@@ -18,6 +18,8 @@ authors:
   url: "https://mahito.info/index_e.html"
 ---
 
+> [arXiv](https://arxiv.org/abs/2410.00718)
+
 ## Brief Summary
 
 We propose a novel and interpretable *data augmentation* method based on *energy-based modeling and principles from *information geometry*. Unlike black-box generative models, which rely on deep neural networks, our approach replaces these non-interpretable transformations with explicit, theoretically grounded ones, ensuring interpretability and strong guarantees such as energy minimization. Central to our method is the introduction of the *backward projection* algorithm, which reverses dimension reduction to generate new data. Empirical results demonstrate that our method achieves competitive performance with black-box generative models while offering greater transparency and interpretability.
