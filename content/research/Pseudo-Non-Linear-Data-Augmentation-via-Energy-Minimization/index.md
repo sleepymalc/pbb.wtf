@@ -9,10 +9,8 @@ selected: true
 cover: "./preview.png"
 venue: "In Submission"
 links:
-#   - name: "GitHub"
-#     url: "https://github.com/sleepymalc/Travel-the-Same-Path"
-  # - name: "arXiv"
-  #   url: "https://arxiv.org/abs/2404.11577"
+- name: "arXiv"
+  url: "https://arxiv.org/abs/2410.00718"
 authors:
 - name: "**Pingbang Hu**"
   url: "https://pbb.wtf/"
