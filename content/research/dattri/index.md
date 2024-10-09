@@ -31,7 +31,7 @@ authors:
   url: "https://jiaqima.github.io/"
 ---
 
-> [GitHub](https://github.com/TRAIS-Lab/dattri)
+> [GitHub](https://github.com/TRAIS-Lab/dattri) | [arXiv](https://arxiv.org/abs/2410.04555)
 
 ## Brief Summary
 
