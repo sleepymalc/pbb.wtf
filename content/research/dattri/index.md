@@ -11,6 +11,8 @@ venue: "NeurIPS 2024 D&B (Spotlight)"
 links:
 - name: "GitHub"
   url: "https://github.com/TRAIS-Lab/dattri"
+- name: "arXiv"
+  url: "https://arxiv.org/abs/2410.04555"
 authors:
 - name: "Junwei Deng*"
   url: "https://theaperdeng.github.io/"
