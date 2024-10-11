@@ -237,11 +237,15 @@ module.exports = {
 			data: [
 				{
 					title: 'Conference Reviewer',
+					date: 'NA',
+					location: 'Virtual',
 					description:
 						'IEEE BigData *2023*, ICML *2024*, ICLR *2025*',
 				},
 				{
 					title: 'Program Committee',
+					date: 'NA',
+					location: 'Virtual',
 					description:
 						'AAAI *2025*',
 				},
