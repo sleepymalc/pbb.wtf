@@ -9,6 +9,17 @@ module.exports = {
 	description: 'Pingbang Hu\'s website.',
 	author: 'Pingbang Hu',
 	authorAlternative: '胡平邦',
+	birthday: 'Nov. 10, 2000',
+	location: 'Illinois, United States',
+	email: 'pbb@illinois.edu',
+	pages: {
+		home: '/',
+		posts: 'posts',
+		contact: 'contact',
+		resume: 'resume',
+		tags: 'tags',
+		research: 'research',
+	},
 	professions: [
 		'I speak TeX'
 	],
@@ -62,17 +73,32 @@ module.exports = {
 			icon: ['fab', 'twitter'],
 		},
 	],
-	birthday: 'Nov. 10, 2000',
-	location: 'Illinois, United States',
-	email: 'pbb@illinois.edu',
-	pages: {
-		home: '/',
-		posts: 'posts',
-		contact: 'contact',
-		resume: 'resume',
-		tags: 'tags',
-		research: 'research',
-	},
+	awards: [
+		{
+			date: 'Oct. 2024',
+			title: 'NeurIPS 2024 Scholar Award',
+		},
+		{
+			date: 'Aug. 2024',
+			title: 'Excellent Internship Evaluation at National Institute of Informatics',
+		},
+		{
+			date: 'Oct. 2021',
+			title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship',
+		},
+		{
+			date: 'Nov. 2020',
+			title: 'Undergraduate Excellent Scholarship',
+		},
+		{
+			date: 'June 2020',
+			title: 'Bao Gang Excellent Scholarship',
+		},
+		{
+			date: 'Dec. 2019',
+			title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship',
+		},
+	],
 	interests: [
 		{
 			icon: 'chart-line',
@@ -231,28 +257,6 @@ module.exports = {
 						'A food order platform in Taiwan, built with *Golang*, *Gin*, and *MongoDB*, with RESTful API design.',
 				},
 			],
-		},
-	],
-	awards: [
-		{
-			date: 'Aug. 2024',
-			title: 'Excellent Internship Evaluation at National Institute of Informatics',
-		},
-		{
-			date: 'Oct. 2021',
-			title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship',
-		},
-		{
-			date: 'Nov. 2020',
-			title: 'Undergraduate Excellent Scholarship',
-		},
-		{
-			date: 'June 2020',
-			title: 'Bao Gang Excellent Scholarship',
-		},
-		{
-			date: 'Dec. 2019',
-			title: 'Hong Kong, Macao and Taiwan Overseas Chinese Student Scholarship',
 		},
 	],
 	tagColors: [
