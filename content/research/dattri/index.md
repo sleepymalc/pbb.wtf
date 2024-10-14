@@ -9,10 +9,10 @@ selected: false
 cover: "./preview.png"
 venue: "NeurIPS 2024 D&B (Spotlight)"
 links:
-- name: "GitHub"
-  url: "https://github.com/TRAIS-Lab/dattri"
 - name: "arXiv"
   url: "https://arxiv.org/abs/2410.04555"
+- name: "GitHub"
+  url: "https://github.com/TRAIS-Lab/dattri"
 authors:
 - name: "Junwei Deng*"
   url: "https://theaperdeng.github.io/"
