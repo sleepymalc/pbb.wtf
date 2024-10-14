@@ -11,6 +11,8 @@ venue: "NeurIPS 2024"
 links:
 - name: "arXiv"
   url: "https://arxiv.org/abs/2409.18153"
+- name: "GitHub"
+  url: "https://github.com/sleepymalc/MISS"
 authors:
 - name: "Yuzheng Hu"
   url: "https://scholar.google.com/citations?user=cVVimVcAAAAJ&hl=en"
