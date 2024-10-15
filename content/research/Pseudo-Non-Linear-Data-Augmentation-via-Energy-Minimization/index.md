@@ -20,7 +20,7 @@ authors:
   url: "https://mahito.info/index_e.html"
 ---
 
-> [arXiv](https://arxiv.org/abs/2410.00718)
+> [arXiv](https://arxiv.org/abs/2410.00718) | [GitHub](https://github.com/sleepymalc/IG-Augmentation)
 
 ## Brief Summary
 

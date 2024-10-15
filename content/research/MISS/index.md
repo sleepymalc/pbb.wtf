@@ -24,7 +24,7 @@ authors:
   url: "https://jiaqima.github.io/"
 ---
 
-> [arXiv](https://arxiv.org/abs/2409.18153)
+> [arXiv](https://arxiv.org/abs/2409.18153) | [GitHub](https://github.com/sleepymalc/MISS)
 
 ## Brief Summary
 
