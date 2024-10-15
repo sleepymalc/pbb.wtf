@@ -11,6 +11,8 @@ venue: "In Submission"
 links:
 - name: "arXiv"
   url: "https://arxiv.org/abs/2410.00718"
+- name: "GitHub"
+  url: "https://github.com/sleepymalc/IG-Augmentation"
 authors:
 - name: "**Pingbang Hu**"
   url: "https://pbb.wtf/"
