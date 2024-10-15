@@ -23,7 +23,7 @@ authors:
 - name: "Yijun Pan"
 - name: "Hao Huang"
 - name: "Xinhe Wang"
-- name: "**Pingbang Hu***"
+- name: "**Pingbang Hu**"
   url: "https://pbb.wtf/"
 - name: "Xingjian Zhang"
   url: "https://sites.google.com/umich.edu/xingjian-zhang/"
