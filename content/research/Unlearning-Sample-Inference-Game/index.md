@@ -46,3 +46,14 @@ To our knowledge, this is the first unlearning performance metric that achieves 
 ### Practical Evaluation
 
 In practice, $\mathcal{Q}$ is impossible to evaluate due to the complexity. Hence, we further propose an efficient approximation algorithm to compute $\mathcal{Q}$, and demonstrate the efficacy on real-life datasets.
+
+## Citation
+
+```bibtex
+@article{tu2024towards,
+  title   = {Towards Reliable Empirical Machine Unlearning Evaluation: A Game-Theoretic View},
+  author  = {Tu, Yiwen and Hu, Pingbang and Ma, Jiaqi},
+  journal = {arXiv preprint arXiv:2404.11577},
+  year    = {2024}
+}
+```
