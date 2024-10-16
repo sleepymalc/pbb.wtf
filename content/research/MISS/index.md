@@ -7,7 +7,7 @@ path: "research/MISS"
 excerpt: "We provide a comprehensive study of the common practices in the Most Influential Subset Selection (MISS) problem."
 selected: true
 cover: "./preview.png"
-venue: ["NeurIPS 2024", "ATTRIB Workshop @NeurIPS"]
+venue: "NeurIPS 2024 / ATTRIB Workshop @NeurIPS 2024"
 links:
 - name: "arXiv"
   url: "https://arxiv.org/abs/2409.18153"
