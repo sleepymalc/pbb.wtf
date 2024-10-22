@@ -31,7 +31,7 @@ module.exports = {
 		'* 🏆 Received the **NeurIPS 2024 Scholar Award**, see you in Vancouver (*Oct. 11, 2024*)!',
 		'* 🍻 Two papers 📝 accepted by *NeurIPS 2024* with one ***Spotlight*** (*Sep. 26, 2024*).',
 		'* 📚 We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) (*June 23, 2024*).',
-		'* 🚀 Interning @ [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵 (*May 12, 2024*).',
+		'* 🚀 Interning @[*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵 (*May 12, 2024*).',
 		'* 📚 I initiated the ongoing *Statistical Learning Theory* Reading Group (*Jan. 12, 2024*).',
 		'\> Only the latest news from the past year is listed. For more, please visit the [Experience](./experience/) and [Research](./research/).',
 		'### 🔖 Misc',
