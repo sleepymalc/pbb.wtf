@@ -129,6 +129,14 @@ module.exports = {
 			position: 'left',
 			data: [
 				{
+					title: 'Graduate Teaching Assistant',
+					date: 'Jan. 2025 - May 2025',
+					location: 'University of Illinois Urbana-Champaign',
+					description:
+						'**[IS 527 Network Analysis](https://ischool.illinois.edu/degrees-programs/courses/is527)** (Graduate): ' +
+						'An introduction to the theory and applications of social network analysis on the M.S. IS track.',
+				},
+				{
 					title: 'Instructional Aide',
 					date: 'Jan. 2023 - May 2023',
 					location: 'University of Michigan',
