@@ -171,33 +171,36 @@ module.exports = {
 			],
 		},
 		{
-			title: 'Research and Industry Experience',
+			title: 'Professional Service',
 			position: 'left',
 			data: [
 				{
-					title: 'Research Intern',
-					date: 'May 2024 - Aug. 2024',
-					location: 'National Institute of Informatics',
+					title: 'Conference Reviewer',
+					date: 'NA',
+					location: 'Virtual',
 					description:
-						'[**Pseudo-Non-Linear Data Augmentation**](../research/Pseudo-Non-Linear-Data-Augmentation-via-Energy-Minimization/): ' +
-						'Develop an interpretable and information-geometric data augmentation algorithm advised by [Mahito Sugiyama](https://mahito.info/index_e.html). ' +
-						'Won the **Excellent Internship Evaluation**.',
+						'IEEE BigData *2023*, ICML *2024*, ICLR *2025*',
 				},
 				{
-					title: 'Undergraduate Researcher',
-					date: 'Mar. 2022 - Dec. 2022',
-					location: 'University of Michigan',
+					title: 'Program Committee',
+					date: 'NA',
+					location: 'Virtual',
 					description:
-						'**Detection Sets**: ' +
-						'Design the first almost linear time algorithm on finding minimal balanced cuts advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/).',
+						'AAAI *2025*',
 				},
+			],
+		},
+		{
+			title: 'Software Development',
+			position: 'left',
+			data: [
 				{
-					title: 'Undergraduate Researcher',
-					date: 'May 2022 - Apr. 2023',
-					location: 'University of Michigan',
+					title: 'Backend Developer',
+					date: 'Oct. 2020 - June 2021',
+					location: 'Virtual',
 					description:
-						'**Deep Learning Foundation**: ' +
-						'Develop various techniques to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
+						'**foodall**: ' +
+						'A food order platform in Taiwan, built with *Golang*, *Gin*, and *MongoDB*, with RESTful API design.',
 				},
 			],
 		},
@@ -240,36 +243,33 @@ module.exports = {
 			],
 		},
 		{
-			title: 'Professional Service',
+			title: 'Research and Industry Experience',
 			position: 'right',
 			data: [
 				{
-					title: 'Conference Reviewer',
-					date: 'NA',
-					location: 'Virtual',
+					title: 'Research Intern',
+					date: 'May 2024 - Aug. 2024',
+					location: 'National Institute of Informatics',
 					description:
-						'IEEE BigData *2023*, ICML *2024*, ICLR *2025*',
+						'[**Pseudo-Non-Linear Data Augmentation**](../research/Pseudo-Non-Linear-Data-Augmentation-via-Energy-Minimization/): ' +
+						'Develop an interpretable and information-geometric data augmentation algorithm advised by [Mahito Sugiyama](https://mahito.info/index_e.html). ' +
+						'Won the **Excellent Internship Evaluation**.',
 				},
 				{
-					title: 'Program Committee',
-					date: 'NA',
-					location: 'Virtual',
+					title: 'Undergraduate Researcher',
+					date: 'Mar. 2022 - Dec. 2022',
+					location: 'University of Michigan',
 					description:
-						'AAAI *2025*',
+						'**Detection Sets**: ' +
+						'Design the first almost linear time algorithm on finding minimal balanced cuts advised by [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/).',
 				},
-			],
-		},
-		{
-			title: 'Software Development',
-			position: 'right',
-			data: [
 				{
-					title: 'Backend Developer',
-					date: 'Oct. 2020 - June 2021',
-					location: 'Virtual',
+					title: 'Undergraduate Researcher',
+					date: 'May 2022 - Apr. 2023',
+					location: 'University of Michigan',
 					description:
-						'**foodall**: ' +
-						'A food order platform in Taiwan, built with *Golang*, *Gin*, and *MongoDB*, with RESTful API design.',
+						'**Deep Learning Foundation**: ' +
+						'Develop various techniques to understand deep neural networks advised by [Wei Hu](https://weihu.me/) under the [SURE Program](https://sure.engin.umich.edu/).',
 				},
 			],
 		},
