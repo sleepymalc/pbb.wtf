@@ -24,7 +24,7 @@ module.exports = {
 		'I speak TeX'
 	],
 	introduction: [
-		'I\'m a second-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
+		'I\'m a second-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳. During my PhD, I\'ve had the immense delight of interning with [Mahito Sugiyama](https://mahito.info/index_e.html) at [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵.',
 		'*I do **machine learning theory** with **math** on **graphs** (sometimes)*, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desireable properties (e.g., *efficiency*, *robustness*, and *fairness*).',
 		'\>Additionally, I hold a strong interest in **Theoretical Computer Science**, especially fast graph algorithms.',
 		'### 🗞️ News',
