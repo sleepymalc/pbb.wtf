@@ -13,7 +13,7 @@ links:
   url: "https://arxiv.org/abs/2409.05657"
 authors:
 - name: "Xinhe Wang"
-- name: "**Pingbang Hu**"
+- name: "***Pingbang Hu***"
   url: "https://pbb.wtf/"
 - name: "Junwei Deng"
   url: "https://theaperdeng.github.io/"

@@ -14,7 +14,7 @@ links:
 authors:
 - name: "Yiwen Tu*"
   url: "https://openreview.net/profile?id=~Yiwen_Tu1"
-- name: "**Pingbang Hu***"
+- name: "***Pingbang Hu****"
   url: "https://pbb.wtf/"
 - name: "Jiaqi Ma"
   url: "https://jiaqima.github.io/"

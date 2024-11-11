@@ -16,7 +16,7 @@ links:
 authors:
 - name: "Yuzheng Hu"
   url: "https://scholar.google.com/citations?user=cVVimVcAAAAJ&hl=en"
-- name: "**Pingbang Hu**"
+- name: "***Pingbang Hu***"
   url: "https://pbb.wtf/"
 - name: Han Zhao
   url: "https://hanzhaoml.github.io/"
