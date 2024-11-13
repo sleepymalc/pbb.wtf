@@ -75,6 +75,10 @@ module.exports = {
 	],
 	awards: [
 		{
+			date: 'Nov. 2024',
+			title: 'Graduate Conference Travel Award',
+		},
+		{
 			date: 'Oct. 2024',
 			title: 'NeurIPS 2024 Scholar Award',
 		},
