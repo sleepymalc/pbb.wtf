@@ -9,7 +9,7 @@ module.exports = {
 	description: 'Pingbang Hu\'s website.',
 	author: 'Pingbang Hu',
 	authorAlternative: '胡平邦',
-	birthday: 'Nov. 10, 2000',
+	// birthday: 'Nov. 10, 2000',
 	location: 'Illinois, United States',
 	email: 'pbb@illinois.edu',
 	pages: {
@@ -28,6 +28,7 @@ module.exports = {
 		'*I do **machine learning theory** with **math** on **graphs** (sometimes)*, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desireable properties (e.g., *efficiency*, *robustness*, and *fairness*).',
 		'\>Additionally, I hold a strong interest in **Theoretical Computer Science**, especially fast graph algorithms.',
 		'### 🗞️ News',
+		'* 🏆 Received the **Graduate Conference Travel Award** from UIUC (*Nov. 13, 2024*)!',
 		'* 🏆 Received the **NeurIPS 2024 Scholar Award**, see you in Vancouver (*Oct. 11, 2024*)!',
 		'* 🍻 Two papers 📝 accepted by *NeurIPS 2024* with one ***Spotlight*** (*Sep. 26, 2024*).',
 		'* 📚 We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) (*June 23, 2024*).',
