@@ -84,7 +84,7 @@ module.exports = {
 		},
 		{
 			date: 'Aug. 2024',
-			title: 'Excellent Internship Evaluation at National Institute of Informatics',
+			title: 'Excellent Internship Award at National Institute of Informatics',
 		},
 		{
 			date: 'Oct. 2021',
