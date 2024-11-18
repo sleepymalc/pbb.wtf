@@ -34,7 +34,7 @@ module.exports = {
 		'* 📚 We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) (*June 23, 2024*).',
 		'* 🚀 Interning @[*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵 (*May 12, 2024*).',
 		'* 📚 I initiated the ongoing *Statistical Learning Theory* Reading Group (*Jan. 12, 2024*).',
-		'\> Only the latest news from the past year is listed. For more, please visit the [Experience](./experience/) and [Research](./research/).',
+		'\>Only the latest news from the past year is listed. For more, please visit the [Experience](./experience/) and [Research](./research/).',
 		'### 🔖 Misc',
 		'In my spare time, I do [*street photography*](https://street.pbb.wtf/) 📷 and I\'m constantly writing [*course notes*](./posts/Notes) 📝.',
 	],
