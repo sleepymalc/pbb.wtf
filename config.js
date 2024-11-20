@@ -42,8 +42,8 @@ module.exports = {
 		{
 			date: 'Aug. 2023 - Present',
 			icon: 'university',
-			title: 'Ph.D. in Information Science',
-			location: 'School of Information Science, University of Illinois Urbana-Champaign',
+			title: 'Ph.D. in Information Science & minor in Statistics',
+			location: 'School of Information Science & College of Liberal Arts & Sciences, University of Illinois Urbana-Champaign',
 		}, {
 			date: 'Sep. 2021 - Apr. 2023',
 			icon: 'university',
