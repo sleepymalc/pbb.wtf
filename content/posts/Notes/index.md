@@ -14,7 +14,7 @@ These are the lecture notes I took, all written in $\LaTeX$ with explicit defini
 
 Clicking 📝 directly opens the PDF while clicking $\LaTeX$ will lead you to the $\LaTeX$ source code under the main [GitHub repo](https://github.com/sleepymalc/Notes).
 
-## Junior @University of Michigan
+## @University of Michigan
 
 ### Fall 2021
 
@@ -55,8 +55,6 @@ This is a graduate-level course taught by [Jennifer Wilson](http://www.math.lsa.
 
 This is a graduate-level real analysis course taught by [Jinho Baik](http://www.math.lsa.umich.edu/~baik/Welcome.html). Topics include **Measure Theory**, **Hilbert Spaces**, **Banach Spaces**, **$L^p$ Spaces**, and some **Fourier Analyses**. While focusing on real measures, we did discuss signed and complex measures for completeness.
 > This course is pretty rigorous and well-structured and acts as a pre-request for [functional analysis (MATH 602)](#functional-analysis-math602). It's self-contained enough and only needs some previous exposure to mathematical analysis.
-
-## Senior @University of Michigan
 
 ### Fall 2022[^1]
 
@@ -118,7 +116,7 @@ This is a graduate-level mathematical logic course taught by [Matthew Harrison-T
 This is the advanced graduate-level differential geometry course focused on Riemannian geometry taught by [Lydia Bieri](http://www-personal.umich.edu/~lbieri/). Topics include local and global aspects of differential geometry and the relation with the underlying topology.
 > I always wanted to have a solid understanding of differential geometry since the recent advances in machine learning theory rely on related concepts quite heavily in some particular branches such as optimization and the well-known [manifold hypothesis](https://en.wikipedia.org/wiki/Manifold_hypothesis), or information geometry.
 
-## First Year Ph.D. @University of Illinois Urbana-Champaign
+## @University of Illinois Urbana-Champaign
 
 ### Fall 2023
 
@@ -142,8 +140,6 @@ This is the advanced graduate-level statistics course focused on empirical proce
 This is a graduate-level theoretical statistics course taught by [Georgios Fellouris](https://publish.illinois.edu/fellouri/), aiming to provide an introduction to the asymptotic analysis of various statistical methods, including **Weak Convergence**, **Lindeberg-Feller CLT**, **Asymptotic Relative Efficiency**, etc.
 > Feel sometimes overwhelmed by all the unfamiliar probabilistic intuitions, but overall this course covers a great deal of topics that I feel important and commonly seen but not well-understood. Overall, quite a joy to learn asymptotic theory rigorously.
 
-## Second Year Ph.D. @University of Illinois Urbana-Champaign
-
 ### Fall 2024
 
 #### Topics in Graph Algorithms (CS598) \[[📝](./GraphAlgo.pdf) | [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/CS598-Topics-in-Graph-Algorithms)\]
@@ -153,4 +149,4 @@ This is a graduate-level theoretical statistics course taught by [Georgios Fello
 </div>
 
 This is a graduate-level theory course taught by [Chandra Chekuri](https://chekuri.cs.illinois.edu/), aiming to cover selection of topics in graph algorithms with an emphasis on recent developments on **fast algorithms** for a variety of problems such as *shortest paths*, *flows*, *cuts*, and *matchings*. Structural results and connections to past ideas and results will also be discussed.
-> I now feel bad of the past self as I thought I know graph algorithms before taking this class. Such a gem. This class contains a wide range of classical/contemporary and necessary tools you need for conducting graph algorithm research.
+> I feel bad by saying that I know graph algorithms before taking this class. Such a gem. This class contains a wide range of classical/contemporary and necessary tools you need for conducting graph algorithm research.
