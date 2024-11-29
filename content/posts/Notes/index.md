@@ -142,6 +142,8 @@ This is the advanced graduate-level statistics course focused on empirical proce
 This is a graduate-level theoretical statistics course taught by [Georgios Fellouris](https://publish.illinois.edu/fellouri/), aiming to provide an introduction to the asymptotic analysis of various statistical methods, including **Weak Convergence**, **Lindeberg-Feller CLT**, **Asymptotic Relative Efficiency**, etc.
 > Feel sometimes overwhelmed by all the unfamiliar probabilistic intuitions, but overall this course covers a great deal of topics that I feel important and commonly seen but not well-understood. Overall, quite a joy to learn asymptotic theory rigorously.
 
+## Second Year Ph.D. @University of Illinois Urbana-Champaign
+
 ### Fall 2024
 
 #### Topics in Graph Algorithms (CS598) \[[📝](./GraphAlgo.pdf) | [$\LaTeX$](https://github.com/sleepymalc/Notes/tree/main/CS598-Topics-in-Graph-Algorithms)\]
@@ -151,4 +153,4 @@ This is a graduate-level theoretical statistics course taught by [Georgios Fello
 </div>
 
 This is a graduate-level theory course taught by [Chandra Chekuri](https://chekuri.cs.illinois.edu/), aiming to cover selection of topics in graph algorithms with an emphasis on recent developments on **fast algorithms** for a variety of problems such as *shortest paths*, *flows*, *cuts*, and *matchings*. Structural results and connections to past ideas and results will also be discussed.
-> TBA
+> I now feel bad of the past self as I thought I know graph algorithms before taking this class. Such a gem. This class contains a wide range of classical/contemporary and necessary tools you need for conducting graph algorithm research.
