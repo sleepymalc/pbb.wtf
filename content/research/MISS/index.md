@@ -11,6 +11,8 @@ venue: "NeurIPS 2024 / ATTRIB Workshop @NeurIPS 2024"
 links:
 - name: "arXiv"
   url: "https://arxiv.org/abs/2409.18153"
+- name: "Poster"
+  url: "./research/MISS/poster.pdf"
 - name: "GitHub"
   url: "https://github.com/sleepymalc/MISS"
 authors:
