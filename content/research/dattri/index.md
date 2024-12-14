@@ -11,6 +11,8 @@ venue: "NeurIPS 2024 D&B (Spotlight) / ATTRIB Workshop @NeurIPS 2024"
 links:
 - name: "arXiv"
   url: "https://arxiv.org/abs/2410.04555"
+- name: "Poster"
+  url: "./research/dattri/poster.pdf"
 - name: "GitHub"
   url: "https://github.com/TRAIS-Lab/dattri"
 authors:
