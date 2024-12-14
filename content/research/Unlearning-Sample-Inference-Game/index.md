@@ -1,6 +1,6 @@
 ---
 title: "Towards Reliable Empirical Machine Unlearning Evaluation: A Game-Theoretic View"
-tags: ["Trustworthy", "Data Attribution", "Unlearning", "Game Theory"]
+tags: ["Trustworthy", "Data Attribution", "Unlearning"]
 date: 2024-04-17 00:00:00 -0500
 priority: -20240417
 path: "research/Unlearning-Sample-Inference-Game"
@@ -16,7 +16,7 @@ authors:
   url: "https://openreview.net/profile?id=~Yiwen_Tu1"
 - name: "***Pingbang Hu****"
   url: "https://pbb.wtf/"
-- name: "Jiaqi Ma"
+- name: "Jiaqi W. Ma"
   url: "https://jiaqima.github.io/"
 ---
 
