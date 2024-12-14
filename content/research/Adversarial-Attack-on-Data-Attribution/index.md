@@ -11,6 +11,8 @@ venue: "ATTRIB Workshop @NeurIPS 2024"
 links:
 - name: "arXiv"
   url: "https://arxiv.org/abs/2409.05657"
+- name: "Poster"
+  url: "./research/Adversarial-Attack-on-Data-Attribution/poster.pdf"
 authors:
 - name: "Xinhe Wang"
 - name: "***Pingbang Hu***"
