@@ -7,19 +7,13 @@ excerpt: 🎨 Coloring a 3-colorable graph.
 cover: "./preview.png"
 ---
 
-## Coloring a 3-Colorable Graph
+## A Little Background Story
 
 In the Fall 2024 semester, I took an advanced graph algorithm course at University of Illinois Urbana-Champaign just for fun. The space here is too little, so I'll ask you to move to my [note](../Notes/#fall-2024) to get a better idea of the course. Here, I want to share something more specific: the final project I and [Sean Liu](https://zhxnliu.me/about/) worked on, which is basically a literature review of a cute line of work about **graph coloring**.
 
-## The Problem
+## Coloring a 3-Colorable Graph
 
-Given an undirected $3$-colorable graph $G = (V, E)$, we would like to color $G$ with the least number of colors efficiently. Recently, Professor [Kawarabayashi](https://kklab.nii.ac.jp/en/), who I know during my intern at NII, worked on this problem extensively and got several exciting results on this problem, where they are able to break the natural barrier of $\widetilde{O} (n^{0.2})$ colors down to $\widetilde{O} (n^{0.19747})$ colors \[[KTY24](https://arxiv.org/abs/2406.00357)\].
-
-In this blog post, we will review the literature and try to grasp the high level idea of the history of the problem and how the breakthrough is made. The complete [report](./Coloring.pdf) version is also available.
-
-### Background
-
-This problem was first proposed by Wigderson \[[Wig83](https://dl.acm.org/doi/10.1145/2157.2158)\], and we shall see how balancing combinatorial with semi-definite programming (SDP) methods leads to a natural $O(n^{0.5})$ bound, and how this was first broken \[[KT17](https://dl.acm.org/doi/10.1145/3001582)\]. We focus on the combinatorial side, specifically Blum's contributions \[[Blu94](https://dl.acm.org/doi/10.1145/176584.176586)\] that laid the groundwork for most of Kawarabayashi etal.'s later breakthroughs \[[KT12](https://arxiv.org/abs/1205.1254),[KT17](https://dl.acm.org/doi/10.1145/3001582),[KTY24](https://arxiv.org/abs/2406.00357)\].
+Given an undirected $3$-colorable graph $G = (V, E)$, we would like to color $G$ with the least number of colors efficiently. Recently, Professor [Kawarabayashi](https://kklab.nii.ac.jp/en/), who I know during my intern at NII, worked on this problem extensively and got several exciting results on this problem, where they are able to break the natural barrier of $\widetilde{O} (n^{0.2})$ colors down to $\widetilde{O} (n^{0.19747})$ colors \[[KTY24](https://arxiv.org/abs/2406.00357)\]. This problem was first proposed by Wigderson \[[Wig83](https://dl.acm.org/doi/10.1145/2157.2158)\], and we shall see how balancing combinatorial with semi-definite programming (SDP) methods leads to a natural $O(n^{0.5})$ bound, and how this was first broken \[[KT17](https://dl.acm.org/doi/10.1145/3001582)\]. We focus on the combinatorial side, specifically Blum's contributions \[[Blu94](https://dl.acm.org/doi/10.1145/176584.176586)\] that laid the groundwork for most of Kawarabayashi etal.'s later breakthroughs \[[KT12](https://arxiv.org/abs/1205.1254),[KT17](https://dl.acm.org/doi/10.1145/3001582),[KTY24](https://arxiv.org/abs/2406.00357)\].
 
 ### General Strategy
 
@@ -52,3 +46,7 @@ A more careful treatment of balancing different regimes finally leads to a break
 >**Theorem (\[[KTY24](https://arxiv.org/abs/2406.00357)\]).** For any $3$-colorable graph with $\Delta_{\min} > n^{0.5}$, we can make progress towards a $k$-coloring for some $k = 2^{(\log \log n)^2} \sqrt{n/\Delta_{\min}}$ in polynomial time.
 
 Combining the above theorem with the best SDP bound \[[Chl07](https://ieeexplore.ieee.org/document/4389537)\] at $\Delta_{\min} = n^{0.605073}$, an $\widetilde{O}(n^{0.19747})$-coloring can also be found in polynomial time.
+
+## Conclusion
+
+In this blog post, we review the literature and try to grasp the high level idea of the history of the problem and how the breakthrough is made. The complete and detailed [report](./Coloring.pdf) is available.
