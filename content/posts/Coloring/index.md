@@ -1,5 +1,5 @@
 ---
-title: "G.color()"
+title: "color(3_colorable_graph);"
 tags: ["math", "random"]
 date: 2024-12-19
 path: "posts/Coloring"
