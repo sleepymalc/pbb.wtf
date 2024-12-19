@@ -14,7 +14,7 @@ links:
 - name: "GitHub"
   url: "https://github.com/sleepymalc/IG-Augmentation"
 authors:
-- name: "***Pingbang Hu***"
+- name: "**Pingbang Hu**"
   url: "https://pbb.wtf/"
 - name: "Mahito Sugiyama"
   url: "https://mahito.info/index_e.html"

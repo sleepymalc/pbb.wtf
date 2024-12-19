@@ -14,7 +14,7 @@ links:
 - name: "GitHub"
   url: "https://github.com/sleepymalc/Travel-the-Same-Path"
 authors:
-- name: "***Pingbang Hu***"
+- name: "**Pingbang Hu**"
   url: "https://pbb.wtf/"
 ---
 

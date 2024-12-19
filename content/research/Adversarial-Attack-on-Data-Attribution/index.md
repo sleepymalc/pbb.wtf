@@ -15,7 +15,7 @@ links:
   url: "./research/Adversarial-Attack-on-Data-Attribution/poster.pdf"
 authors:
 - name: "Xinhe Wang"
-- name: "***Pingbang Hu***"
+- name: "**Pingbang Hu**"
   url: "https://pbb.wtf/"
 - name: "Junwei Deng"
   url: "https://theaperdeng.github.io/"
