@@ -9,21 +9,21 @@ cover: "./preview.png"
 
 ## Coloring a 3-Colorable Graph
 
-In the Fall 2024 semester, I took an advanced graph algorithm course at University of Illinois Urbana-Champaign just for fun. The space here is too little, so I'll ask you to move to my [note](../Notes/#fall-2024) to get a better idea of the course.
-
-### Background
-
-Here, I want to share something more specific: the final project I and [Sean Liu](https://zhxnliu.me/about/) work on, which is basically a literature review of a cute line of work about **graph coloring**. The problem is as follows: *given a 3-colorable graph, in polynomial time, color this graph using as few colors as possible*. In particular, we're interested in the number of colors we need. Recently, Professor [Kawarabayashi](https://kklab.nii.ac.jp/en/), who I know during my intern at NII, worked on this problem extensively and got several exciting results on this problem, where they are able to break the natural barrier of $\widetilde{O} (n^{0.2})$ colors down to $\widetilde{O} (n^{0.19747})$ colors[^KTY24].
-
->We take this opportunity and review the literature, try to grasp the idea of the overall algorithms that leads to this breakthrough. The [typesetted report](./Coloring.pdf) version is also available.
+In the Fall 2024 semester, I took an advanced graph algorithm course at University of Illinois Urbana-Champaign just for fun. The space here is too little, so I'll ask you to move to my [note](../Notes/#fall-2024) to get a better idea of the course. Here, I want to share something more specific: the final project I and [Sean Liu](https://zhxnliu.me/about/) work on, which is basically a literature review of a cute line of work about **graph coloring**.
 
 ## The Problem
 
-Given an undirected $3$-colorable graph $G = (V, E)$, we would like to color $G$ with the least number of colors efficiently. This problem was first proposed by Wigderson[^Wig83], and we shall see how balancing combinatorial with semi-definite programming (SDP) methods leads to a natural $O(n^{0.5})$ bound, and how this was first broken[^KT17]. We focus on the combinatorial side, specifically Blum's contributions[^Blu94] that laid the groundwork for most of Kawarabayashi etal.'s later breakthroughs[^KT12^KT17^KTY24].
+Given an undirected $3$-colorable graph $G = (V, E)$, we would like to color $G$ with the least number of colors efficiently. Recently, Professor [Kawarabayashi](https://kklab.nii.ac.jp/en/), who I know during my intern at NII, worked on this problem extensively and got several exciting results on this problem, where they are able to break the natural barrier of $\widetilde{O} (n^{0.2})$ colors down to $\widetilde{O} (n^{0.19747})$ colors[^KTY24].
+
+In this blog post, we will review the literature and try to grasp the high level idea of the history of the problem and how the breakthrough is made. The complete [report](./Coloring.pdf) version is also available.
+
+### Background
+
+This problem was first proposed by Wigderson[^Wig83], and we shall see how balancing combinatorial with semi-definite programming (SDP) methods leads to a natural $O(n^{0.5})$ bound, and how this was first broken[^KT17]. We focus on the combinatorial side, specifically Blum's contributions[^Blu94] that laid the groundwork for most of Kawarabayashi etal.'s later breakthroughs[^KT12] [^KT17] [^KTY24].
 
 ### General Strategy
 
-One of the most important notions in this line of work originates from Blum's *progress towards $k$-coloring*[^Blu94]. While deferring the exact definition, the general idea is that if it is always possible to make progress (towards some fixed $k$) for any $3$-colorable graph, then we can $\widetilde{O}(k)$-color any $3$-colorable graph in polynomial time. An interesting aspect of this line of work is that, under different regimes, two different approaches dominate one another. The best bound is obtained by balancing between them via choosing an appropriate $\Delta$: specifically, for any parameter $\Delta$, it suffices to make progress under either a minimum degree $\Delta = \Delta_{\min}$ or maximum degree $\Delta = \Delta_{\max}$ constraint[^AC06^BK97^KT17].
+One of the most important notions in this line of work originates from Blum's *progress towards $k$-coloring*[^Blu94]. While deferring the exact definition, the general idea is that if it is always possible to make progress (towards some fixed $k$) for any $3$-colorable graph, then we can $\widetilde{O}(k)$-color any $3$-colorable graph in polynomial time. An interesting aspect of this line of work is that, under different regimes, two different approaches dominate one another. The best bound is obtained by balancing between them via choosing an appropriate $\Delta$: specifically, for any parameter $\Delta$, it suffices to make progress under either a minimum degree $\Delta = \Delta_{\min}$ or maximum degree $\Delta = \Delta_{\max}$ constraint[^AC06] [^BK97] [^KT17].
 
 ## Known Results
 
