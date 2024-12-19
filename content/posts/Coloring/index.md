@@ -9,7 +9,7 @@ cover: "./preview.png"
 
 ## Coloring a 3-Colorable Graph
 
-In the Fall 2024 semester, I took an advanced graph algorithm course at University of Illinois Urbana-Champaign just for fun. The space here is too little, so I'll ask you to move to my [note](../Notes/#fall-2024) to get a better idea of the course. Here, I want to share something more specific: the final project I and [Sean Liu](https://zhxnliu.me/about/) work on, which is basically a literature review of a cute line of work about **graph coloring**.
+In the Fall 2024 semester, I took an advanced graph algorithm course at University of Illinois Urbana-Champaign just for fun. The space here is too little, so I'll ask you to move to my [note](../Notes/#fall-2024) to get a better idea of the course. Here, I want to share something more specific: the final project I and [Sean Liu](https://zhxnliu.me/about/) worked on, which is basically a literature review of a cute line of work about **graph coloring**.
 
 ## The Problem
 
