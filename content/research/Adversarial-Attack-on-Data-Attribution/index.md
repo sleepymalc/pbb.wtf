@@ -7,7 +7,7 @@ path: "research/Adversarial-Attack-on-Data-Attribution"
 excerpt: "We consider the *adversarial attack* on training data attribution methods."
 selected: true
 cover: "./preview.png"
-venue: "ATTRIB Workshop @NeurIPS 2024"
+venue: "ATTRIB 2024 @NeurIPS"
 links:
 - name: "arXiv"
   url: "https://arxiv.org/abs/2409.05657"

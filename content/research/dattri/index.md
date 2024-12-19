@@ -7,7 +7,7 @@ path: "research/dattri"
 excerpt: "We developed a efficient library for data attribution, aiming to streamline the development of data attribution algorithms."
 selected: false
 cover: "./preview.png"
-venue: "NeurIPS 2024 D&B (Spotlight) / ATTRIB Workshop @NeurIPS 2024"
+venue: "NeurIPS 2024 D&B (Spotlight) / ATTRIB 2024 @NeurIPS"
 links:
 - name: "arXiv"
   url: "https://arxiv.org/abs/2410.04555"
