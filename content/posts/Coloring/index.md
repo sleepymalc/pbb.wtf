@@ -17,4 +17,4 @@ Here, I want to share something more specific: the final project I and [Sean Liu
 
 [^1]: <https://arxiv.org/abs/2406.00357>
 
-We take this opportunity and review the literature, try to grasp the idea of the overall algorithms that leads to this breakthrough. The [report](./report.pdf) is available, which is self-contained enough as a starter.
+We take this opportunity and review the literature, try to grasp the idea of the overall algorithms that leads to this breakthrough. The [report](./Coloring.pdf) is available, which is self-contained enough as a starter.
