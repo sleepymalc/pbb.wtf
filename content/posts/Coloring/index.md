@@ -1,6 +1,6 @@
 ---
 title: "G.color()"
-tags: [["math", "random"]]
+tags: ["math", "random"]
 date: 2024-12-19
 path: "posts/Coloring"
 excerpt: 🎨 Coloring a 3-colorable graph.
