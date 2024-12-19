@@ -1,5 +1,5 @@
 ---
-title: "$ color G"
+title: "G.color()"
 tags: ["math", "random"]
 date: 2024-12-19
 path: "posts/Coloring"
