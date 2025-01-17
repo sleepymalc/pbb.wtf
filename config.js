@@ -25,8 +25,8 @@ module.exports = {
 	],
 	introduction: [
 		'I\'m a second-year Ph.D. student at [*University of Illinois Urbana-Champaign*](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/) from Taiwan 🇹🇼. During my PhD, I\'ve had the immense delight of interning with [Mahito Sugiyama](https://mahito.info/index_e.html) at [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵. Previously, I obtained my [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
-		'My current research focus is on **trustworthy ML** and **data-centric AI**, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*. Previously I have worked on graph neural networks and fast graph algorithm.',
-		'>I also hold a strong interest in **Theoretical Computer Science**',
+		'My current research focus is on **trustworthy ML** and **data-centric AI**, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*.',
+		'Previously I have worked on *graph neural networks*, *game theory*, and *fast graph algorithm*. I also hold a strong interest in **Theoretical Computer Science**.',
 		'### 🗞️ News',
 		'* 🏆 Received the **Graduate Conference Travel Award** from UIUC (*Nov. 13, 2024*)!',
 		'* 🏆 Received the **NeurIPS 2024 Scholar Award**, see you in Vancouver (*Oct. 11, 2024*)!',
