@@ -39,7 +39,7 @@ It turns out that using the idea of **advantage**, we can formalize a natural me
 1. For the gold-standard unlearning method, i.e., the retraining method, we always have $\mathcal{Q} = 1$.
 2. For some *$(\epsilon , \delta )$-certified removal method*,[^1] we always have $\mathcal{Q} \geq \frac{4 - 4 \delta }{e^{\epsilon } + 1} - 1$.
 
-[^1]: <https://arxiv.org/abs/1911.03030>
+[^1]: [https://arxiv.org/abs/1911.03030](https://arxiv.org/abs/1911.03030)
 
 To our knowledge, this is the first unlearning performance metric that achieves such formal guarantees.
 
