@@ -36,15 +36,18 @@ We will utilize GCNN (Graph Convolutional Neural Network), a particular kind of 
 
 We first formulate TSP in terms of integer linear programming.[^2] Given an undirected weighted group $\mathcal{G} = (\mathcal{E}, \mathcal{V})$,
 we label the nodes with numbers $1, \ldots, n$ and define
-$$
+
+```math
     x_{ij}\coloneqq \begin{dcases}
         1, & \text{if }(i, j)\in \mathcal{E}^\prime                       \\
         0, & \text{if } (i, j)\in \mathcal{E}\setminus\mathcal{E}^\prime,
     \end{dcases}
-$$
+```
+
 where $\mathcal{E}^\prime\subset \mathcal{E}$ is a variable which can be viewed as a compact representation of all variables $x_{ij}$, $\forall i, j$.
 Furthermore, we denote the weight on edge $(i, j)$ by $c_{ij}$, then for a particular TSP problem instance, we can formulate the problem as
-$$
+
+```math
     \begin{aligned}
 		\min & \sum_{i=1}^{n}\sum *{j\neq i,j=1}^{n}c*{ij}x_{ij} &  &                      \\
 		& \sum_{i=1,i\neq j}^{n}x_{ij}=1                    &  & j=1,\ldots ,n;       \\
@@ -54,7 +57,8 @@ $$
 					& x_{ij}\in \{0,1\}                                  &  & i,j=1,\ldots ,n;     \\
 					& u_{i}\in \mathbb{Z}                                &  & i=2,\ldots ,n,
     \end{aligned}
-$$
+```
+
 given by Miller-Tucker-Zemlin.
 
 [^2]: The formation detail is omitted here.
