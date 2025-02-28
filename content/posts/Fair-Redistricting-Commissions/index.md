@@ -3,7 +3,7 @@ title: "redistricting.fair()"
 tags: ["math", "random"]
 date: 2023-04-12 00:00:00 -0500
 path: "posts/Fair-Redistricting-Commissions"
-excerpt: "We resolved *Gerrymandering* by a simple (dumb) voting scheme..."
+excerpt: 🗺️ Resolving *Gerrymandering*
 cover: "./preview.png"
 ---
 
