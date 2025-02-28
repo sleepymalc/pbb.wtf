@@ -23,3 +23,23 @@ Before walking through my key remaps one by one, I want to give you the mentalit
 
 Let me ask you: *How do you typically delete a character?* If you use `delete` (`backspace`) with your right little finger traveling across 2 columns and 2 rows, then you should keep reading.
 
+### Tool matters
+
+First thing first, please get yourself a good keyboard. I use [HHKB](https://happyhackingkb.com/) Professional Hybrid Type-S personally. It's fast, elegant, and customizable. Moreover, the revolutionary layout is awesome.[^2]
+
+<div align="center">
+	<img src="figures/hhkb.png"/>
+</div>
+
+[^2]: If you're interested in learning more about [HHKB](https://happyhackingkb.com/), go to [hhkb.io](https://hhkb.io).
+
+### The Setup
+
+I will use macOS and [Karabiner-Elements](https://karabiner-elements.pqrs.org/) as our working example, but the same concept should be easily ported to other operating systems. The following is a snapshot of my setting.
+
+<div align="center">
+	<img width="80%" src="figures/Karabiner-Elements.png"/>
+</div>
+
+You can easily import these settings [at the end](#import-settings), which can be used as your own setting's starting point. Now, let's walk through them one by one.
+
