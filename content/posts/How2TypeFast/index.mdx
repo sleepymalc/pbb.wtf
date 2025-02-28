@@ -1,7 +1,7 @@
 ---
 title: "assert wpm < efficiency"
 tags: ["random", "macOS"]
-date: 2023-07-25
+date: 2023-07-25 00:00:00 -0500
 path: "posts/How2TypeFast"
 excerpt: ⌨️ How to type?
 cover: "./preview.png"
@@ -22,41 +22,4 @@ What I'm going to share is not about how you can be fast in regular typesetting,
 Before walking through my key remaps one by one, I want to give you the mentality you should have when adapting my settings: Your hands should move **as little as possible**. You might already hear this multiple times, but you should bring this to an **extreme**, i.e., staying your hand on the main row (i.e., right index finger on `f`, left index finger on `j`) is the *bare minimum* you should achieve.
 
 Let me ask you: *How do you typically delete a character?* If you use `delete` (`backspace`) with your right little finger traveling across 2 columns and 2 rows, then you should keep reading.
-
-### Tool matters
-
-First thing first, please get yourself a good keyboard. I use [HHKB](https://happyhackingkb.com/) Professional Hybrid Type-S personally. It's fast, elegant, and customizable. Moreover, the revolutionary layout is awesome.[^2]
-
-<div align="center">
-	<img src="figures/hhkb.png"/>
-</div>
-
-[^2]: If you're interested in learning more about [HHKB](https://happyhackingkb.com/), go to [hhkb.io](https://hhkb.io).
-
-### The Setup
-
-I will use macOS and [Karabiner-Elements](https://karabiner-elements.pqrs.org/) as our working example, but the same concept should be easily ported to other operating systems. The following is a snapshot of my setting.
-
-<div align="center">
-	<img width="80%" src="figures/Karabiner-Elements.png"/>
-</div>
-
-You can easily import these settings [at the end](#import-settings), which can be used as your own setting's starting point. Now, let's walk through them one by one.
-
-## Use `right cmd`
-
-Have you ever used your right `cmd`?
-
-### Arrow Keys
-
-I hope you use [Vim](https://www.vim.org/), or at least heard about it. If you're introducing [Vim](https://www.vim.org/) to others, the first thing you might say is that instead of using `←`/`↓`/`↑`/`→`, we now use `h`/`j`/`k`/`l` (in normal mode).
-
-Now the question is, ***WHY***? Well, imagine you're editing texts, and want to change something 3 characters before the cursor, what should you do? Using arrow keys would be a natural choice if you're not in [Vim](https://www.vim.org/). But remember that your arrow keys are *far away* from the ***main row*** of your keyboard.
-
-To address this, we simply adapt [Vim](https://www.vim.org/)'s solution, i.e., using `h`/`j`/`k`/`l` as arrow keys. However, unlike in [Vim](https://www.vim.org/) where we have *normal mode* and *insert mode*, using `h`/`j`/`k`/`l` as arrow keys in *normal mode* would not be a problem. Contrarily, we now need to maintain the ability to insert alphabets `h`/`j`/`k`/`l`. The solution is also simple: *use a modifier*. I use `right cmd`+`h`/`j`/`k`/`l` as `←`/`↓`/`↑`/`→`.
-
-You might notice that I use the `right cmd` instead of just `cmd`. This is because `cmd`+`h`/`j`/`k`/`l` might be your other shortcuts, and entirely overloading them to arrow keys is not ideal. Hence, by specifying only `right cmd`+`h`/`j`/`k`/`l` as arrow keys, it
-
-- preserve the potential shortcuts; and
-- `right cmd`+`h`/`j`/`k`/`l` only uses your right hand which is very natural (you just need to press the `right cmd` with your right thumb, and you can use arrow keys just like you're in [Vim](https://www.vim.org/) **wherever you are**).
 
