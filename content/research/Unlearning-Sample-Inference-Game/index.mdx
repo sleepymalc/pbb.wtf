@@ -30,9 +30,9 @@ Despite the fast-paced development of the *machine unlearning* community, the ev
 
 The idea is simple: we split the data into three parts called *retain* set, *forget* set, and *test* set, and request the defender to learn on the retain set plus the forget set, and then unlearn the forget set at the end. On the other hand, we throw a bunch of data to the adversary from either only the forget set or the test set, and let the adversary guess which set we're using. Intuitively, if the forget set's information is left in the unlearned model, then the adversary can just feed the data we throw to it to the unlearned model, and infer something non-trivial.
 
-<div align="center">
+<p align="center">
 	<img src="./figures/flow.png"/>
-</div>
+</p>
 
 It turns out that using the idea of **advantage**, we can formalize a natural metric called *Unlearning Quality* $\mathcal{Q}$ that measures the quality of the unlearning algorithm. We then prove that
 

@@ -15,9 +15,9 @@ I use $\LaTeX$ heavily for both academic work and professional work, and I think
 
 If you still don't know what to expect, please check out my [Notes](../Notes) taken in this setup. Also, due to the VS Code recent update (1.76.1), we have the [profile](https://code.visualstudio.com/docs/editor/profiles) functionality available. Specifically, this is [my current minimal profile](https://vscode.dev/profile/github/70b175ba903a4f1cc5dcd271ce8fcb51) for $\LaTeX$ I'm currently using, but since some configurations are not included in the [profile](https://code.visualstudio.com/docs/editor/profiles), you should still read through everything.
 
-<div align="center">
+<p align="center">
 	<img width="80%" src="./figures/note.png"/>
-</div>
+</p>
 
 ## Disclaimer
 
@@ -53,9 +53,9 @@ Now, we go through things one by one following Gilles Castel's blog post.
 
 To achieve a similar result as in Gilles Castel's setup, there is an extension called [vsc-conceal](https://github.com/Pancaek/vsc-conceal) for VS Code. All the setup is in the `setting.json`, and since this setup is quite straightforward, I'll just give a snapshot to show how it looks in practice.
 
-<div align="center">
+<p align="center">
 	<img width="80%" src="./figures/conceal.png"/>
-</div>
+</p>
 
 Note that I set the `"conceal.revealOn"` to `"active-line"`, which is why you will see the source code in line 51. There are other options you can choose, see the original repo for details.
 
@@ -75,43 +75,43 @@ After doing this, you're all set. But a big question is, what exactly is a snipp
 
 A snippet is a short reusable piece of text that can be triggered by some other text. For example, when I type `dm` (stands for display math), the word `dm` will be expanded to a display math environment:
 
-<div align="center">
-	<img width="80%" src="./gifs/dm.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/dm.gif"/>
+</p>
 
 If you are a math guy, you may need to type some inline math like `\(\)`, which is kind of painful. But with snippets, you can have
 
-<div align="center">
-	<img width="80%" src="./gifs/fm.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/fm.gif"/>
+</p>
 
 See? You just type `fm` (not the best choice here, but since `im` is a common prefix, so can't really use that as our snippet 🥲), and then your snippet not only automatically types `\(\)` for you, but it also sends your cursor between `\(\)`! With this, you can type something **really** fast:
 
-<div align="center">
-	<img width="80%" src="./gifs/fast.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/fast.gif"/>
+</p>
 
 Note that in the above demo, I use a very common snippet, `qs` for `^{2}`.
 
 As you can imagine, this can be quite complex. For example, you can even have something like this:
 
-<div align="center">
-	<img width="80%" src="./gifs/table.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/table.gif"/>
+</p>
 
 or this:
 
-<div align="center">
-	<img width="80%" src="./gifs/pmatrix.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/pmatrix.gif"/>
+</p>
 
 For the first snippet, I type `table2 5`, and then it generates a table with 2 rows and 5 columns. For the second one, I type `pmat` for matrix, and then type `2 5` to indicate that I want a 2 by 5 matrix, then boom! My snippets do that for me in an instant!
 
 My snippet file includes commonly used snippets as suggested in the original posts, you can look into it to better understand how it works. And maybe you can create your snippets also! Here are some useful snippets for you.
 
-<div align="center">
-	<img width="80%" src="./gifs/useful.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/useful.gif"/>
+</p>
 
 #### Math Environment
 
@@ -180,15 +180,15 @@ So, since the nested environment is ordered in the scope, this will always retur
 
 Unlike Gilles Castel's approach, there is an available extension out there for you to simplify your math calculation already! Please go check out [Latex SYMPY Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). It works like follows:
 
-<div align="center">
-	<img width="80%" src="./gifs/integral.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/integral.gif"/>
+</p>
 
 Magic right? Let's set it up! First, please look at the installation document provided by [Latex Sympy Calculator](https://marketplace.visualstudio.com/items?itemName=OrangeX4.latex-sympy-calculator). After your installation, you can set up the keybinding for calculating the math expression. I use `shift`+`e`, where `e` stands for evaluating, to calculate so that it will append an equal sign and the answer right after your formula, just like above. If you want to avoid showing the intermediate steps of your calculation, you can use `shift`+`r`, where `r` stands for replacing, to directly replace the whole formula and give me the answer only. See the demo below:
 
-<div align="center">
-	<img width="80%" src="./gifs/integral2.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/integral2.gif"/>
+</p>
 
 > This plugin is indeed more powerful than just this, see the documentation for detail.
 
@@ -208,9 +208,9 @@ Although my typing speed is quite high, I have typos all the time. So this is a 
 
 Here is a quick demo of how it works when typing:
 
-<div align="center">
-	<img width="80%" src="./gifs/spell.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/spell.gif"/>
+</p>
 
 Additionally, if you also want to correct your grammar error, I use the shortcut `cmd`+`k` to trigger a quick-fix for a general error.
 
@@ -276,9 +276,9 @@ Now, the first part is over. Let's go to the next truly beautiful, elegant, and 
 
 ## Drawing Like a Pro - With Inkscape
 
-<div align="center">
+<p align="center">
 	<img width="80%" src="./figures/inkscape_example.png"/>
-</div>
+</p>
 
 For more examples, check out the original blog. Or for more figures I draw, you can check out [Note](../Notes).
 
@@ -543,9 +543,9 @@ Same as above, we also use `ctrl`+`f` to trigger `inkscape-figures create` comma
 
 </details>
 
-<div align="center">
-	<img width="80%" src="./gifs/demo-create-inkscape.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/demo-create-inkscape.gif"/>
+</p>
 
 Let me break it down for you. Firstly, I changed into `INSERT` mode in VS Code Vim and typed my new figure's name `figure-test`. Then, I press `ctrl`+`f` to trigger the keybinding, which will automatically create an Inkscape figure named `figure-test` for me and open it.
 
@@ -606,9 +606,9 @@ Again, we also use `ctrl`+`f` to trigger `inkscape-figures edit` command, but th
 
 In the following demo, I create another figure named `figure-test2`, then modify it a little, and compile it again.
 
-<div align="center">
-	<img width="80%" src="./gifs/demo-edit-inkscape.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/demo-edit-inkscape.gif"/>
+</p>
 
 ### Inkscape Shortcut Manager
 
@@ -626,21 +626,21 @@ Please download the above two apps.
 We'll need [Karabiner Elements](https://karabiner-elements.pqrs.org)' [Complex Modifications](https://karabiner-elements.pqrs.org/docs/json/root-data-structure/#custom-json-file-in-configkarabinerassetscomplex_modifications) to help us. The steps are the following (adapted from [️⌨ How to type?](../How2TypeFast#import-settings)).
 
 1. Open [Karabiner-Elements](https://karabiner-elements.pqrs.org/), go to *Misc* and click on *Export & Import*.
-    <div align="center">
-		<img width="80%" src="figures/sourcecode-1.png"/>
-	</div>
+    <p align="center">
+		<img width="80%" src="./Figures/sourcecode-1.png"/>
+	</p>
 2. Copy [`Inkscape.json`](../How2TypeFast/Inkscape.json) into `.config/karabiner/assets/complex_modifications`.
-    <div align="center">
-		<img width="80%" src="figures/sourcecode-2.png"/>
-	</div>
+    <p align="center">
+		<img width="80%" src="./Figures/sourcecode-2.png"/>
+	</p>
 3. Again open [Karabiner-Elements](https://karabiner-elements.pqrs.org/), go to *Complex Modifications* and click on *Add rule*.
-	<div align="center">
-		<img width="80%" src="figures/sourcecode-3.png"/>
-	</div>
+	<p align="center">
+		<img width="80%" src="./Figures/sourcecode-3.png"/>
+	</p>
 4. Enable it.
-	<div align="center">
-		<img width="80%" src="figures/sourcecode-4.png"/>
-	</div>
+	<p align="center">
+		<img width="80%" src="./Figures/sourcecode-4.png"/>
+	</p>
 
 If you're interested in how [`Inkscape.json`](../How2TypeFast/Inkscape.json) is created, see the following.
 
@@ -666,9 +666,9 @@ Firstly, open the [Hammerspoon](https://www.hammerspoon.org/) console and run `h
 
 As a reference for the key chords, I added the original picture from [the original blog](https://castel.dev/post/lecture-notes-2/) but with the key chords included in the picture.
 
-<div align="center">
+<p align="center">
 	<img width="80%" src="./figures/inkscape_shortcut.png"/>
-</div>
+</p>
 
 #### Missing Key Chords
 
@@ -724,9 +724,9 @@ Notice that you'll need to build it first if you want to use it offline! Please 
 
 This is what the workflow looks like.
 
-<div align="center">
-	<img width="80%" src="./gifs/quiver.gif"/>
-</div>
+<p align="center">
+	<img width="80%" src="./Figures/quiver.gif"/>
+</p>
 
 To use the package `tikz-cd`, you need to include the following in your header:
 
