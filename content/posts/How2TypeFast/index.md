@@ -17,7 +17,7 @@ Do you think typing fast, i.e., achieving a high wpm (high word-per-minutes), is
 
 What I'm going to share is not about how you can be fast in regular typesetting, e.g., achieving wpm 150 in [monkeytype](https://monkeytype.com). Rather, it's about some of the most fundamental editing-related key remaps I have done.
 
-<!-- >If you have read the post about [VSCode-LaTeX-Inkscape](../VSCode-LaTeX-Inkscape) and are still wondering how I can typeset these [notes](../Notes) in class, here it is: this is my only secret left.
+>If you have read the post about [VSCode-LaTeX-Inkscape](../VSCode-LaTeX-Inkscape) and are still wondering how I can typeset these [notes](../Notes) in class, here it is: this is my only secret left.
 
 Before walking through my key remaps one by one, I want to give you the mentality you should have when adapting my settings: Your hands should move **as little as possible**. You might already hear this multiple times, but you should bring this to an **extreme**, i.e., staying your hand on the main row (i.e., right index finger on `f`, left index finger on `j`) is the *bare minimum* you should achieve.
 
@@ -55,7 +55,7 @@ Have you ever used your right `cmd`?
 
 I hope you use [Vim](https://www.vim.org/), or at least heard about it. If you're introducing [Vim](https://www.vim.org/) to others, the first thing you might say is that
 
-<p style="text-align: center;">instead of using <code>←</code>/<code>↓</code>/<code>↑</code>/<code>→</code>, we now use <code>h</code>/<code>j</code>/<code>k</code>/<code>l</code> (in normal mode)!</p>
+<p style="text-align: center;">instead of using <code>←</code>/<code>↓</code>/<code>↑</code>/<code>→</code>, we now use <code>h</code>/<code>j</code>/<code>k</code>/<code>l</code> (in normal mode).</p>
 
 Now the question is, ***WHY***? Well, imagine you're editing texts, and want to change something 3 characters before the cursor, what should you do? Using arrow keys would be a natural choice if you're not in [Vim](https://www.vim.org/). But remember that your arrow keys are *far away* from the ***main row*** of your keyboard.
 
@@ -166,4 +166,4 @@ Finally, you can also set up your *Parameters* as mine:
 
 <div align="center">
 	<img width="80%" src="figures/parameter.png"/>
-</div> -->
+</div>
