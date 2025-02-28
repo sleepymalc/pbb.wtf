@@ -22,9 +22,11 @@ One of the most important notions in this line of work originates from Blum's *p
 ## Known Results
 
 Assuming that for a $3$-colorable graph with minimum degree $\Delta_{\min} = n^{1 - \Omega(1)}$, a series of bounds from past literature for progress follows a sequence of the form:
-$$
+
+```math
 \widetilde{O}\left(\left(n/\Delta_{\min}\right)^{i/(2i-1)}\right),
-$$
+```
+
 including $\widetilde{O}(n/\Delta_{\min})$ by Wigderson \[[Wig83](https://dl.acm.org/doi/10.1145/2157.2158)\] for $i=1$, $\widetilde{O}((n/\Delta_{\min})^{2/3})$ and $\widetilde{O}((n/\Delta_{\min})^{3/5})$ for $i = 2$ and $3$ by Blum \[[Blu94](https://dl.acm.org/doi/10.1145/176584.176586)\], and finally $\widetilde{O}((n/\Delta_{\min})^{4/7})$ for $i = 4$ by Kawarabayashi and Thorup \[[KT12](https://arxiv.org/abs/1205.1254)\].
 
 ### Combinatorial Bounds for High Minimum Degree
