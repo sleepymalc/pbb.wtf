@@ -13,9 +13,9 @@ I've been working with probability intensively for the past few months, and I wa
 
 In modern mathematics, there are essentially two ways of building everything from the ground up: one is set theory (e.g., [ZF-set theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory)), and another is type theory (e.g., [HoTT](https://en.wikipedia.org/wiki/Homotopy_type_theory)). But these two are just subfields of *Mathematical logic*, and people have a clear idea that given $A, B$,[^1] either
 
-$$
+```math
 A\implies B\text{ or } A\;\not\!\!\!\!\implies B
-$$
+```
 
 is true, and one of them must be true, but not both.
 
@@ -31,21 +31,21 @@ But something gets a bit sloppy here. In classical probability theory, the numbe
 
 Consider the experiment of *tossing coins*. If we know nothing about the coin and how others are going to toss that coin, then the probability should just be
 
-$$
+```math
 p_{\text{head}}=p_{\text{tail}}=\frac{1}{2}.
-$$
+```
 
 But if we have some information about that coin, say, the coin is made in a way such that two sides are both heads (we don't know this, but the people tossing it knows), then for us,
 
-$$
+```math
 p_{\text{head}}^{\text{us}}=p_{\text{tail}}^{\text{us}}=\frac{1}{2},
-$$
+```
 
 while for the person (call him $c$ for cheating 😡) tossing that weird coin,
 
-$$
+```math
 p_{\text{head}}^{c}=1,\quad p_{\text{tail}}^{c}=0
-$$
+```
 
 in this case.
 
@@ -84,9 +84,9 @@ Observe that if the other chord endpoint lies on the arc between the endpoints o
 
 The length of the arc is one-third of the circumference of the circle. Therefore the probability that a random chord is longer than a side of the inscribed triangle is
 
-$$
-	p_{\text{endpoint}}=\frac{1}{3}.
-$$
+```math
+p_{\text{endpoint}}=\frac{1}{3}.
+```
 
 ### Second Attempt: Random Midpoints
 
@@ -101,9 +101,9 @@ Hence, **choosing a random point in the circle** corresponds to determining a ra
 
 In this viewpoint, we see that the probability that a random chord is longer than a side of the inscribed triangle is equal to the ratio between the area of the inscribed circle and the area of the original circle, which is
 
-$$
-	p_{\text{midpoint}}=\left(\frac{1}{2}\right)^2=\frac{1}{4}.
-$$
+```math
+p_{\text{midpoint}}=\left(\frac{1}{2}\right)^2=\frac{1}{4}.
+```
 
 ### Third Attempt: Random Radial Points
 
@@ -116,9 +116,9 @@ This is similar to the [random midpoints method](#second-attempt-random-midpoint
 
 But we see that the calculation is different. The probability that a random chord is longer than a side of the inscribed triangle is equal to simply
 
-$$
-	p_{\text{radial-point}}=\frac{1}{2},
-$$
+```math
+p_{\text{radial-point}}=\frac{1}{2},
+```
 
 since we choose that random point on the radius uniformly, and from elementary geometry, the edge of the triangle split the radius in half exactly.
 
