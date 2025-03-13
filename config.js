@@ -254,6 +254,14 @@ module.exports = {
 			position: 'right',
 			data: [
 				{
+					title: 'Applied Scientist Intern',
+					date: 'May 2025 - Aug. 2025',
+					location: 'Amazon AWS AI',
+					description:
+						'**Data Curation**: ' +
+						'TBA.'
+				},
+				{
 					title: 'Research Intern',
 					date: 'May 2024 - Aug. 2024',
 					location: 'National Institute of Informatics',
