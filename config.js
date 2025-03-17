@@ -28,7 +28,7 @@ module.exports = {
 		'My current research focus is on **trustworthy ML** and **data-centric AI**, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*. Previously I have worked on *graph neural networks* and *fast graph algorithms*. Generally speaking, I hold a strong interest in theoretical stuffs that involves *geometry*.',
 		'\>My (crappy) research statement can be found [here](./research-statement.pdf/).',
 		'### 🗞️ News',
-		'* 🚀 Incoming intern @*Amazon AWS Team*, come hanging out in New York 🗽 (*Mar. 7, 2025*)!',
+		'* 🚀 Incoming intern @*Amazon AWS AI*, come hanging out in New York 🗽 (*Mar. 7, 2025*)!',
 		'* 🍻 One paper 📝 accepted by *ICLR 2025* (*Jan. 22, 2025*).',
 		'* 🏆 Received the **Graduate Conference Travel Award** from UIUC (*Nov. 13, 2024*)!',
 		'* 🏆 Received the **NeurIPS 2024 Scholar Award**, see you in Vancouver (*Oct. 11, 2024*)!',
