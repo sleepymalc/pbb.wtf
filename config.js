@@ -256,7 +256,7 @@ module.exports = {
 				{
 					title: 'Applied Scientist Intern',
 					date: 'May 2025 - Aug. 2025',
-					location: 'Amazon AWS AI',
+					location: 'Amazon AWS AI Lab',
 					description:
 						'**Data Curation**: ' +
 						'TBA.'
