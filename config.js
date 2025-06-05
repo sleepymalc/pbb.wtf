@@ -55,12 +55,12 @@ module.exports = {
 		}, {
 			date: 'Sep. 2021 - Apr. 2023',
 			icon: 'university',
-			title: 'B.Sc. in Computer Science | minor in Mathematics',
+			title: 'B.S. in Computer Science | minor in Mathematics',
 			location: 'University of Michigan',
 		}, {
 			date: 'Sep. 2019 - Aug. 2023',
 			icon: 'university',
-			title: 'B.Eng. in Electrical and Computer Engineering | minor in Computer Science',
+			title: 'B.E. in Electrical and Computer Engineering | minor in Computer Science',
 			location: 'Shanghai Jiao Tong University',
 		}
 	],
