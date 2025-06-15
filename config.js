@@ -29,6 +29,7 @@ module.exports = {
 		'\>My (crappy) research statement can be found [here](./research-statement.pdf/).',
 		'### 🗞️ News',
 		// '* 🎓 Got my Applied Mathematics Master degree!',
+		'* 🤖 Attending the first [AI Startup School](https://events.ycombinator.com/ai-sus) held by [*Y Combinator*](https://www.ycombinator.com/), see you in San Francisco 🌉 (*Jun. 14, 2025*)!',
 		'* 🚀 Interning @[*Amazon AWS AI*](https://aws.amazon.com/ai/) Deep Engine Science team, come hanging out in New York 🗽 (*Mar. 19, 2025*)!',
 		'* 🍻 One paper 📝 accepted by *ICLR 2025* (*Jan. 22, 2025*).',
 		'* 🏆 Received the **Graduate Conference Travel Award** from UIUC (*Nov. 13, 2024*)!',
