@@ -28,6 +28,7 @@ module.exports = {
 		'My current research focus is on **trustworthy ML** and **data-centric AI**, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*. Previously I have worked on *graph neural networks* and *fast graph algorithms*. Generally speaking, I hold a strong interest in theoretical stuffs that involves *geometry*.',
 		'\>My (crappy) research statement can be found [here](./research-statement.pdf/).',
 		'### 🗞️ News',
+		'* 🎙️ Giving a talk on [Data Attribution](./else/Intro-to-DA.pdf) at the *Guided Generation Group (GGG)* (*Jul. 25, 2025*)!',
 		'* 🤖 Attending the first [AI Startup School](https://events.ycombinator.com/ai-sus) held by [*Y Combinator*](https://www.ycombinator.com/), see you in San Francisco 🌉 (*Jun. 14, 2025*)!',
 		'* 🚀 Interning @[*Amazon AWS AI*](https://aws.amazon.com/ai/) Deep Engine Science team, come hanging out in New York 🗽 (*Mar. 19, 2025*)!',
 		'* 🍻 One paper 📝 accepted by *ICLR 2025* (*Jan. 22, 2025*).',
