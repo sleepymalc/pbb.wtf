@@ -28,7 +28,7 @@ module.exports = {
 		'My current research focus is on **trustworthy ML** and **data-centric AI**, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*. Previously I have worked on *graph neural networks* and *fast graph algorithms*. Generally speaking, I hold a strong interest in theoretical stuffs that involves *geometry*.',
 		'\>My (crappy) research statement can be found [here](./research-statement.pdf/).',
 		'### 🗞️ News',
-		'* 🎓 Got my M.S. Applied Math Degree (*Aug. 11, 2025*)!',
+		'* 🎓 Get my M.S. Applied Math Degree at UIUC (*Aug. 11, 2025*)!',
 		'* 📚 We are organizing the [3rd Workshop on Regulatable Machine Learning](https://regulatableml.github.io/) in conjunction with *NeurIPS 2025* (*Jul. 31, 2025*)!',
 		'* 🎙️ Giving a talk on [Data Attribution](./else/Intro-to-DA.pdf) at the [*Guided Generation Group (GGG)*](https://github.com/GuidedGenerationGroup) (*Jul. 25, 2025*)!',
 		'* 🤖 Attending the first [AI Startup School](https://events.ycombinator.com/ai-sus) held by [*Y Combinator*](https://www.ycombinator.com/), see you in San Francisco 🌉 (*Jun. 14, 2025*)!',
@@ -51,7 +51,7 @@ module.exports = {
 			title: 'Ph.D. in Information Science',
 			location: 'University of Illinois Urbana-Champaign',
 		}, {
-			date: 'Aug. 2023 - May 2025',
+			date: 'Aug. 2023 - Aug. 2025',
 			icon: 'university',
 			title: 'M.S. in Mathematics',
 			location: 'University of Illinois Urbana-Champaign',
