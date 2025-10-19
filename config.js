@@ -25,6 +25,7 @@ module.exports = {
 	],
 	introduction: [
 		'I\'m a third-year Ph.D. candidate at [*University of Illinois Urbana-Champaign* (UIUC)](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). During my PhD, I\'ve had the immense delight of interning at [*Amazon AWS AI Lab*](https://aws.amazon.com/ai/) 🗽 and [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵. Previously, I obtained my Master degree from [UIUC](https://illinois.edu/) 🌽 and [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
+		// 'I\'m interested in making sense of data and improving its use in generative AI, especially large language models(LLMs).Data powers modern AI; to extract the most value from it, I think about the following questions:\nHow can we quantify the value of data in a principled way ?\nWhen data is user - contributed and privacy - sensitive, how can we fully leverage it without compromising privacy ?\nAs web - scale corpora plateau, can synthetic data close the access gap, and under what guarantees ?\nTo address these questions, I work at the intersection of data attribution, (differential) privacy, and synthetic data.',
 		'My current research focus is on **trustworthy ML** and **data-centric AI**, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*. Previously I have worked on *graph neural networks* and *fast graph algorithms*. Generally speaking, I hold a strong interest in theoretical stuffs that involves *geometry*.',
 		'### 🗞️ News',
 		'* 🚀 Incoming intern @[*SIG*](https://sig.com/) Deep Learning team, come hanging out in Philly 🦅 (incoming, *June. 1, 2026*)!',
@@ -196,22 +197,40 @@ module.exports = {
 			],
 		},
 		{
-			title: 'Professional Service',
+			title: 'Reading Group',
 			position: 'left',
 			data: [
 				{
-					title: 'Conference Reviewer',
-					date: 'NA',
-					location: 'Virtual',
+					title: 'Organizer',
+					date: 'June 2024 - Present',
+					location: 'University of Illinois Urbana-Champaign',
 					description:
-						'ICLR *2026*, NeurIPS *2025*, ICLR *2025*, ICML *2024*, IEEE BigData *2023*',
+						`**Data Attribution Reading Group**: ` +
+						`Focus on the recent advances of data attribution methods in the era of Generative AI. Please see the [official website](https://trais-lab.github.io/dattri-reading-group/).`,
 				},
 				{
-					title: 'Program Committee',
-					date: 'NA',
+					title: 'Organizer',
+					date: 'Jan. 2024 - Present',
+					location: 'University of Illinois Urbana-Champaign',
+					description:
+						`**Statistical Learning Theory**: ` +
+						`A thorough reading on [Roman Vershynin](https://www.math.uci.edu/~rvershyn/)'s [High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html), focusing on statistical learning theory. [Solution](../else/HDP_solution.pdf) is available.`,
+				},
+				{
+					title: 'Presenter',
+					date: 'Oct. 2023 - Jul. 2024',
 					location: 'Virtual',
 					description:
-						'AAAI *2025*',
+						`**[VIDA Reading Group](https://wanghh7.github.io/VIDY-paper-reading-group/)**: ` +
+						`A reading group focuses on recent advances in graph machine learning, and also the foundational theory for statistical learning.`,
+				},
+				{
+					title: 'Organizer',
+					date: 'May 2023 - Dec. 2023',
+					location: 'University of Illinois Urbana-Champaign',
+					description:
+						`**Sparse Graph Limit Theory**: ` +
+						`A thorough reading on [László Lovász](https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lov%C3%A1sz)'s [Large networks and graph limits](https://lovasz.web.elte.hu//bookxx/hombook-almost.final.pdf), focusing on Chapter 18 and onwards.`,
 				},
 			],
 		},
@@ -262,40 +281,22 @@ module.exports = {
 			],
 		},
 		{
-			title: 'Reading Group',
+			title: 'Professional Service',
 			position: 'right',
 			data: [
 				{
-					title: 'Organizer',
-					date: 'June 2024 - Present',
-					location: 'University of Illinois Urbana-Champaign',
-					description:
-						`**Data Attribution Reading Group**: ` +
-						`Focus on the recent advances of data attribution methods in the era of Generative AI. Please see the [official website](https://trais-lab.github.io/dattri-reading-group/).`,
-				},
-				{
-					title: 'Organizer',
-					date: 'Jan. 2024 - Present',
-					location: 'University of Illinois Urbana-Champaign',
-					description:
-						`**Statistical Learning Theory**: ` +
-						`A thorough reading on [Roman Vershynin](https://www.math.uci.edu/~rvershyn/)'s [High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html), focusing on statistical learning theory. [Solution](../else/HDP_solution.pdf) is available.`,
-				},
-				{
-					title: 'Presenter',
-					date: 'Oct. 2023 - Jul. 2024',
+					title: 'Conference Reviewer',
+					date: 'NA',
 					location: 'Virtual',
 					description:
-						`**[VIDA Reading Group](https://wanghh7.github.io/VIDY-paper-reading-group/)**: ` +
-						`A reading group focuses on recent advances in graph machine learning, and also the foundational theory for statistical learning.`,
+						'ICLR *2026*, NeurIPS *2025*, ICLR *2025*, ICML *2024*, IEEE BigData *2023*',
 				},
 				{
-					title: 'Organizer',
-					date: 'May 2023 - Dec. 2023',
-					location: 'University of Illinois Urbana-Champaign',
+					title: 'Program Committee',
+					date: 'NA',
+					location: 'Virtual',
 					description:
-						`**Sparse Graph Limit Theory**: ` +
-						`A thorough reading on [László Lovász](https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lov%C3%A1sz)'s [Large networks and graph limits](https://lovasz.web.elte.hu//bookxx/hombook-almost.final.pdf), focusing on Chapter 18 and onwards.`,
+						'AAAI *2025*',
 				},
 			],
 		},
