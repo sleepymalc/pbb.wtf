@@ -87,7 +87,7 @@ module.exports = {
 			icon: ['fab', 'twitter'],
 		}, {
 			url: "mailto:pbb@illinois.edu",
-			icon: ['fab', 'envelope'],
+			icon: ['fa', 'envelope'],
 		},
 	],
 	awards: [
