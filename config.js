@@ -159,14 +159,14 @@ module.exports = {
 			data: [
 				{
 					title: 'Machine Learning Ph.D. Intern',
-					date: 'June 2026 - Aug. 2026',
+					date: 'Jun. 2026 - Aug. 2026',
 					location: 'SIG Deep Learning Team',
 					description:
 						'TBA'
 				},
 				{
 					title: 'AI Safety Research Fellow',
-					date: 'Nov. 2025 - May. 2026',
+					date: 'Nov. 2025 - May 2026',
 					location: 'Anthropic Alignment Science Team',
 					description:
 						'TBA'
@@ -212,7 +212,7 @@ module.exports = {
 			data: [
 				{
 					title: 'Organizer',
-					date: 'June 2024 - Present',
+					date: 'Jun. 2024 - Present',
 					location: 'University of Illinois Urbana-Champaign',
 					description:
 						`**Data Attribution Reading Group**: ` +
@@ -316,7 +316,7 @@ module.exports = {
 			data: [
 				{
 					title: 'Backend Developer',
-					date: 'Oct. 2020 - June 2021',
+					date: 'Oct. 2020 - Jun. 2021',
 					location: 'Virtual',
 					description:
 						'**foodall**: ' +
