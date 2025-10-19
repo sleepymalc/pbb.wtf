@@ -28,7 +28,7 @@ module.exports = {
 		'My current research focus is on **trustworthy ML** and **data-centric AI**, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*. Previously I have worked on *graph neural networks* and *fast graph algorithms*. Generally speaking, I hold a strong interest in theoretical stuffs that involves *geometry*.',
 		'\>My (crappy) research statement can be found [here](./research-statement.pdf/).',
 		'### 🗞️ News',
-		'* 🚀 Incoming intern @[*SIG*](https://sig.com/) Deep Learning team, come hanging out in Philly 🦅 (incoming, *June. , 2026*)!',
+		'* 🚀 Incoming intern @[*SIG*](https://sig.com/) Deep Learning team, come hanging out in Philly 🦅 (incoming, *June. 1, 2026*)!',
 		'* 👨‍🎓 Incoming fellow @[*Anthropic*](https://www.anthropic.com/) Alignment Science team, come hanging out in San Francisco 🌉 (incoming, *Nov. 3, 2025*)!',
 		'* 🍻 Two papers 📝 accepted by *NeurIPS 2025* with one first-authored and one co-first-authored (*Sep. 19, 2025*)!',
 		'* 🎓 Get my M.S. Applied Math Degree at UIUC (*Aug. 11, 2025*)!',
