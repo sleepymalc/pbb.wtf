@@ -28,6 +28,7 @@ module.exports = {
 		'My current research focus is on **trustworthy ML** and **data-centric AI**, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*. Previously I have worked on *graph neural networks* and *fast graph algorithms*. Generally speaking, I hold a strong interest in theoretical stuffs that involves *geometry*.',
 		'\>My (crappy) research statement can be found [here](./research-statement.pdf/).',
 		'### 🗞️ News',
+		'* 🍻 Two papers 📝 accepted by *NeurIPS 2025* (*Sep. 18, 2025*).',
 		'* 🎓 Get my M.S. Applied Math Degree at UIUC (*Aug. 11, 2025*)!',
 		'* 📚 We are organizing the [3rd Workshop on Regulatable Machine Learning](https://regulatableml.github.io/) in conjunction with *NeurIPS 2025* (*Jul. 31, 2025*)!',
 		'* 🎙️ Giving a talk on [Data Attribution](./else/Intro-to-DA.pdf) at the [*Guided Generation Group (GGG)*](https://github.com/GuidedGenerationGroup) (*Jul. 25, 2025*)!',
@@ -38,9 +39,9 @@ module.exports = {
 		'* 🏆 Received the **NeurIPS 2024 Scholar Award**, see you in Vancouver (*Oct. 11, 2024*)!',
 		'* 🍻 Two papers 📝 accepted by *NeurIPS 2024* with one ***Spotlight*** (*Sep. 26, 2024*).',
 		'* 📚 We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/) (*June 23, 2024*).',
-		// '* 🚀 Interning @[*National Institute of Informatics*](https://www.nii.ac.jp/en/), come hanging out in Tokyo 🇯🇵 (*May 12, 2024*)!',
-		// '* 📚 I initiated the ongoing *Statistical Learning Theory* Reading Group (*Jan. 12, 2024*).',
-		'\>Only the latest news from the past year is listed. For more, please visit the [Experience](./experience/) and [Research](./research/).',
+		'* 🚀 Interning @[*National Institute of Informatics*](https://www.nii.ac.jp/en/), come hanging out in Tokyo 🇯🇵 (*May 12, 2024*)!',
+		'* 📚 I initiated the ongoing *Statistical Learning Theory* Reading Group (*Jan. 12, 2024*).',
+		// '\>Only the latest news from the past year is listed. For more, please visit the [Experience](./experience/) and [Research](./research/).',
 		'### 🔖 Misc',
 		'I\'m from Taiwan 🇹🇼! In my spare time, I enjoy [*street photography*](https://street.pbb.wtf/) 📷 and playing drums 🥁.',
 	],
@@ -195,7 +196,7 @@ module.exports = {
 					date: 'NA',
 					location: 'Virtual',
 					description:
-						'IEEE BigData *2023*, ICML *2024*, ICLR *2025*, NeurIPS *2025*',
+						'ICLR *2026*, NeurIPS *2025*, ICLR *2025*, ICML *2024*, IEEE BigData *2023*',
 				},
 				{
 					title: 'Program Committee',
@@ -268,7 +269,7 @@ module.exports = {
 					location: 'Amazon AWS AI Lab',
 					description:
 						'**Data Curation**: ' +
-						'TBA.'
+						'Investigate data attribution with synthetic data generation to curate high-quality dataset.'
 				},
 				{
 					title: 'Research Intern',
