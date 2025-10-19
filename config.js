@@ -33,7 +33,7 @@ module.exports = {
 		'Previously I have worked on *graph neural networks* and *fast graph algorithms*. Generally speaking, I hold a strong interest in theoretical stuffs that involves *geometry*.',
 		'### 🗞️ News',
 		'- [Jun 2026] 🚀 Incoming intern @[*SIG*](https://sig.com/) Deep Learning team, come hanging out in Philly 🦅!',
-		'- [Nov 2025] 👨‍🎓 Incoming fellow @[*Anthropic*](https://www.anthropic.com/) Alignment Science team, come hanging out in San Francisco 🌉!',
+		'- [Jan 2026] 👨‍🎓 Incoming fellow @[*Anthropic*](https://www.anthropic.com/) Alignment Science team, come hanging out in San Francisco 🌉!',
 		'- [Oct 2025] 📚 We are organizing the *Symposium on Information Retrieval and Language Models* at UIUC!',
 		'- [Oct 2025] 🎙️ Giving a [tutorial](https://trais-lab.github.io/dattri-reading-group/recording/2025/13/) on recent tricks in computing gradient-based data attribution, including [GraSS](./research/GraSS/)!',
 		'- [Sep 2025] 🍻 Please check out our new [survey paper 📝 on data attribution](./research/Data-Attribution-Survey/)!',
