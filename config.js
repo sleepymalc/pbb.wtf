@@ -119,6 +119,9 @@ module.exports = {
 	],
 	interests: [
 		{
+			icon: `hands-usd`,
+			title: `Data Valuation`,
+		}, {
 			icon: 'chart-line',
 			title: 'Mathematical Statistics',
 		}, {
@@ -130,9 +133,6 @@ module.exports = {
 		}, {
 			icon: `laptop-code`,
 			title: `Algorithmic Design`,
-		}, {
-			icon: `hands-usd`,
-			title: `Game Theory`,
 		}, {
 			icon: 'shapes',
 			title: 'Geometry \& Topology',
@@ -264,6 +264,20 @@ module.exports = {
 			title: 'Research and Industry Experience',
 			position: 'right',
 			data: [
+				{
+					title: 'Machine Learning Ph.D. Intern',
+					date: 'June 2026 - Aug. 2026',
+					location: 'SIG Deep Learning Team',
+					description:
+						'TBA'
+				},
+				{
+					title: 'AI Safety Research Fellow',
+					date: 'Nov. 2025 - May. 2026',
+					location: 'Anthropic Alignment Science Team',
+					description:
+						'TBA'
+				},
 				{
 					title: 'Applied Scientist Intern',
 					date: 'May 2025 - Aug. 2025',
