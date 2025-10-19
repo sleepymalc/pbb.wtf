@@ -122,8 +122,14 @@ module.exports = {
 			icon: `hands-usd`,
 			title: `Data Valuation`,
 		}, {
+			icon: `laptop-code`,
+			title: `Algorithmic Design`,
+		}, {
 			icon: 'chart-line',
 			title: 'Mathematical Statistics',
+		}, {
+			icon: 'function',
+			title: 'Mathematical Analysis',
 		}, {
 			icon: 'brain',
 			title: 'Learning Theory',
@@ -131,15 +137,9 @@ module.exports = {
 			icon: 'chart-network',
 			title: 'Graph Theory',
 		}, {
-			icon: `laptop-code`,
-			title: `Algorithmic Design`,
-		}, {
 			icon: 'shapes',
 			title: 'Geometry \& Topology',
-		}, {
-			icon: 'function',
-			title: 'Mathematical Analysis',
-		}
+		},
 	],
 	experience: [
 		{
