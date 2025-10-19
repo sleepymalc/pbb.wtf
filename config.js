@@ -25,7 +25,7 @@ module.exports = {
 	],
 	introduction: [
 		'I\'m a third-year Ph.D. candidate at [*University of Illinois Urbana-Champaign* (UIUC)](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). During my PhD, I\'ve had the immense delight of interning at [*Amazon AWS AI Lab*](https://aws.amazon.com/ai/) 🗽 and [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵. Previously, I obtained my Master degree from [UIUC](https://illinois.edu/) 🌽 and [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
-		'My current research focus is on **trustworthy ML** and **data-centric AI**, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*.',
+		'I\'m interested in the broad area of machine learning and artificial intelligence, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*.',
 
 		'Recently, my research focuses on *understanding data*, including the following three aspects:',
 		'1. **Data Attribution**: Understanding how training data influences AI models.',
