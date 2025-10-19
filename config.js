@@ -28,10 +28,10 @@ module.exports = {
 		// 'I\'m interested in making sense of data and improving its use in generative AI, especially large language models(LLMs).Data powers modern AI; to extract the most value from it, I think about the following questions:\nHow can we quantify the value of data in a principled way ?\nWhen data is user - contributed and privacy - sensitive, how can we fully leverage it without compromising privacy ?\nAs web - scale corpora plateau, can synthetic data close the access gap, and under what guarantees ?\nTo address these questions, I work at the intersection of data attribution, (differential) privacy, and synthetic data.',
 		'My current research focus is on **trustworthy ML** and **data-centric AI**, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*.',
 
-		'Recently, my research focuses on the data foundations of AI, including three complementary aspects:',
-		'1. understanding how training data impact AI models (data attribution);',
-		'2. developing data-centric algorithms that improve the quality and safety of training data (data curation and synthetic data generation);',
-		'3. studying how data mediate the societal impact of AI (data compensation and machine unlearning).',
+		'Recently, my research focuses on *understanding data*, including the following three aspects:',
+		'1. **Data Attribution**: Understanding how training data influences AI models.',
+		'2. **Data Curation**: How to curate/generate/augment (synthetic) data that further helps model generalization?',
+		'3. **Data-Centric Privacy**: Can above be done without compromising privacy when safety-critical or sensitive data is involved? This includes (differential) privacy, machine unlearning, etc.',
 
 		'Previously I have worked on *graph neural networks* and *fast graph algorithms*. Generally speaking, I hold a strong interest in theoretical stuffs that involves *geometry*.',
 		'### 🗞️ News',
