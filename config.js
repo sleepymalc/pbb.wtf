@@ -11,7 +11,7 @@ module.exports = {
 	authorAlternative: '胡平邦',
 	// birthday: 'Nov. 10, 2000',
 	location: 'Illinois, United States',
-	email: 'pbb@illinois.edu',
+	// email: 'pbb@illinois.edu',
 	pages: {
 		home: '/',
 		posts: 'posts',
@@ -85,6 +85,9 @@ module.exports = {
 		}, {
 			url: 'https://X.com/PingbangHu',
 			icon: ['fab', 'twitter'],
+		}, {
+			url: "mailto:pbb@illinois.edu",
+			icon: ['fab', 'envelope'],
 		},
 	],
 	awards: [
