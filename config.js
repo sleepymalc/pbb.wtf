@@ -34,6 +34,7 @@ module.exports = {
 		'### 🗞️ News',
 		'* 🚀 Incoming intern @[*SIG*](https://sig.com/) Deep Learning team, come hanging out in Philly 🦅 (*June, 2026*)!',
 		'* 👨‍🎓 Incoming fellow @[*Anthropic*](https://www.anthropic.com/) Alignment Science team, come hanging out in San Francisco 🌉 (*Nov. 2025*)!',
+		'* 📚 We are organizing the *Symposium on Information Retrieval and Language Models* at UIUC (*Oct. 2025*)!',
 		'* 🎙️ Giving a [tutorial](https://trais-lab.github.io/dattri-reading-group/recording/2025/13/) on recent tricks in computing gradient-based data attribution, including [GraSS](./research/GraSS/) (*Oct. 2025*)!',
 		'* 📝 Please check out our new [survey paper on data attribution](./research/Data-Attribution-Survey/) (*Sep. 2025*)!',
 		'* 🍻 Two papers 📝 accepted by *NeurIPS 2025* with one first-authored and one co-first-authored (*Sep. 2025*)!',
