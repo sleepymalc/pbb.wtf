@@ -34,7 +34,7 @@ module.exports = {
 		'### 🗞️ News',
 		'* 🚀 Incoming intern @[*SIG*](https://sig.com/) Deep Learning team, come hanging out in Philly 🦅 (*June, 2026*)!',
 		'* 👨‍🎓 Incoming fellow @[*Anthropic*](https://www.anthropic.com/) Alignment Science team, come hanging out in San Francisco 🌉 (*Nov. 2025*)!',
-		'* 🎙️ Please check out my [tutorial](https://www.youtube.com/watch?v=LgTFvJTTau4) on recent advances in computational tricks for gradient-based data attribution at the [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/), including my new work [GraSS](./research/GraSS/) (*Oct. 2025*)!',
+		'* 🎙️ Giving a [tutorial](https://www.youtube.com/watch?v=LgTFvJTTau4) on recent advances in computational tricks for gradient-based data attribution at the [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/), including my new work [GraSS](./research/GraSS/) (*Oct. 2025*)!',
 		'* 📝 Please check out our new [survey paper on data attribution](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5451054) (*Sep. 2025*)!',
 		'* 🍻 Two papers 📝 accepted by *NeurIPS 2025* with one first-authored and one co-first-authored (*Sep. 2025*)!',
 		'* 🎓 Get my M.S. Applied Math Degree at UIUC (*Aug. 2025*)!',
