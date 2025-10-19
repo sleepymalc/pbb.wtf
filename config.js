@@ -30,6 +30,7 @@ module.exports = {
 		'### 🗞️ News',
 		'* 🚀 Incoming intern @[*SIG*](https://sig.com/) Deep Learning team, come hanging out in Philly 🦅 (incoming, *June. 1, 2026*)!',
 		'* 👨‍🎓 Incoming fellow @[*Anthropic*](https://www.anthropic.com/) Alignment Science team, come hanging out in San Francisco 🌉 (incoming, *Nov. 3, 2025*)!',
+		'* 📝 Please check out our new [survey paper on data attribution](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5451054)!',
 		'* 🍻 Two papers 📝 accepted by *NeurIPS 2025* with one first-authored and one co-first-authored (*Sep. 19, 2025*)!',
 		'* 🎓 Get my M.S. Applied Math Degree at UIUC (*Aug. 11, 2025*)!',
 		'* 📚 We are organizing the [3rd Workshop on Regulatable Machine Learning](https://regulatableml.github.io/) in conjunction with *NeurIPS 2025* (*Jul. 31, 2025*)!',
