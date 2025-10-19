@@ -44,7 +44,7 @@ module.exports = {
 		'* 🤖 [*Jun 2025*] Attending the first [AI Startup School](https://events.ycombinator.com/ai-sus) held by [*Y Combinator*](https://www.ycombinator.com/), see you in San Francisco 🌉!',
 		'* 🚀 [*Mar 2025*] Interning @[*Amazon AWS AI*](https://aws.amazon.com/ai/) Deep Engine Science team, come hanging out in New York 🗽!',
 		'* 🍻 [*Jan 2025*] One paper 📝 accepted by *ICLR 2025*.',
-		'* 🏆 [*No. 2024*] Received the **Graduate Conference Travel Award** from UIUC!',
+		'* 🏆 [*Nov 2024*] Received the **Graduate Conference Travel Award** from UIUC!',
 		'* 🏆 [*Oct 2024*] Received the **NeurIPS 2024 Scholar Award**, see you in Vancouver!',
 		'* 🍻 [*Sep 2024*] Two papers 📝 accepted by *NeurIPS 2024* with one ***Spotlight***.',
 		'* 📚 [*Jun 2024*] We launched the ongoing [*Data Attribution Reading Group*](https://trais-lab.github.io/dattri-reading-group/).',
