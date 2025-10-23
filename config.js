@@ -68,7 +68,7 @@ module.exports = {
 			title: 'M.S. in Mathematics',
 			location: 'University of Illinois Urbana-Champaign',
 		}, {
-			date: 'Sep. 2021 - Apr. 2023',
+			date: 'Sep. 2021 - May 2023',
 			icon: 'university',
 			title: 'B.S. in Computer Science | minor in Mathematics',
 			location: 'University of Michigan',
