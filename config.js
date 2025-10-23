@@ -172,7 +172,7 @@ module.exports = {
 				},
 				{
 					title: 'AI Safety Research Fellow',
-					date: 'Nov. 2025 - May 2026',
+					date: 'Jan. 2026 - May 2026',
 					location: 'Anthropic Alignment Science Team',
 					description:
 						'TBA'
