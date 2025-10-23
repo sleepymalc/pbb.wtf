@@ -52,7 +52,7 @@ module.exports = {
 		// '- [Jan. 2024] 📚 I initiated the *Statistical Learning Theory* Reading Group.',
 		'',
 		'### 🔖 Misc',
-		'I\'m from Taiwan 🇹🇼! In my spare time, I enjoy [*street photography*](https://street.pbb.wtf/) 📷 and playing drums 🥁.',
+		'I\'m from Taiwan 🇹🇼! In my spare time, I enjoy [*street photography*](https://www.instagram.com/streetmalc/) 📷 and playing drums 🥁.',
 	],
 	education: [
 		{
