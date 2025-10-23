@@ -102,6 +102,10 @@ module.exports = {
 	],
 	awards: [
 		{
+			date: 'Oct. 2025',
+			title: 'Anthropic AI Safety Research Fellowship',
+		},
+		{
 			date: 'Nov. 2024',
 			title: 'Graduate Conference Travel Award',
 		},
