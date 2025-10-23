@@ -24,13 +24,15 @@ module.exports = {
 		'I speak TeX'
 	],
 	introduction: [
-		'I\'m a third-year Ph.D. candidate at [*University of Illinois Urbana-Champaign* (UIUC)](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). During my PhD, I\'ve had the immense delight of interning at [*Amazon AWS AI Lab*](https://aws.amazon.com/ai/) 🗽 and [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵. Previously, I obtained my Master degree from [UIUC](https://illinois.edu/) 🌽 and [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
+		'I\'m a third-year Ph.D. candidate at [*University of Illinois Urbana-Champaign* (UIUC)](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). Previously, I obtained my Master degree from [UIUC](https://illinois.edu/) 🌽 and [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
 		'I\'m interested in the broad area of machine learning and artificial intelligence, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*. Recently, my research focuses on *understanding data*, including the following three aspects:',
 		'1. **Data Attribution**: Understanding how training data *influences* AI models.',
 		'2. **Data Curation**: How to curate/generate/augment (synthetic) data that further helps models *generalize*?',
 		'3. **Data-Centric Privacy**: Can above be done *without* compromising privacy when safety-critical or sensitive data is involved? This includes (differential) privacy, machine unlearning, etc.',
+		'Previously I have worked on *graph neural networks* and *fast graph algorithms*. Generally speaking, I held (actually *hold*) a strong interest in theoretical stuffs that involves *geometry*.',
 
-		'Previously I have worked on *graph neural networks* and *fast graph algorithms*. Generally speaking, I hold a strong interest in theoretical stuffs that involves *geometry*.',
+		'I\'m honored to be selected as an [*Anthropic*](https://www.anthropic.com/) AI Safety Research Fellow (32 out of 2000+ applicants worldwide). During my PhD, I\'ve had the immense delight of interning at [*Susquehanna International Group*](https://sig.com/) 🦅, [*Amazon AWS AI Lab*](https://aws.amazon.com/ai/) 🗽, and [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵.',
+
 		'### 🗞️ News',
 		'- [Jun. 2026] 🚀 Incoming intern @[*SIG*](https://sig.com/) Deep Learning team, come hanging out in Philly 🦅!',
 		'- [Jan. 2026] 👨‍🎓 Incoming fellow @[*Anthropic*](https://www.anthropic.com/) Alignment Science team, come hanging out in San Francisco 🌉!',
