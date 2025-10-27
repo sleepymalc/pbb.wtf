@@ -38,7 +38,7 @@ module.exports = {
 		'- [Jan. 2026] 👨‍🎓 Incoming fellow @[*Anthropic*](https://www.anthropic.com/) Alignment Science team, come hanging out in San Francisco 🌉!',
 		'- [Oct. 2025] 📚 We are organizing the *Symposium on Information Retrieval and Language Models* at UIUC!',
 		'- [Oct. 2025] 🎙️ Giving a [tutorial](https://trais-lab.github.io/dattri-reading-group/recording/2025/13/) on recent tricks in computing gradient-based data attribution, including [GraSS](./research/GraSS/)!',
-		'- [Sep. 2025] 🍻 Please check out our new [survey paper 📝 on data attribution](./research/Data-Attribution-Survey/)!',
+		'- [Sep. 2025] 🍻 Please check out our new [survey paper 📝](./research/Data-Attribution-Survey/) on data attribution!',
 		'- [Sep. 2025] 🍻 Two papers 📝 accepted by *NeurIPS 2025* with one first-authored and one co-first-authored!',
 		'- [Aug. 2025] 🎓 Get my M.S. Applied Math Degree at UIUC!',
 		'- [Jul. 2025] 📚 We are organizing the [3rd Workshop on Regulatable Machine Learning](https://regulatableml.github.io/) in conjunction with *NeurIPS 2025*!',
