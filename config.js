@@ -308,6 +308,13 @@ module.exports = {
 						'ICLR *2026*, NeurIPS *2025*, ICLR *2025*, ICML *2024*, IEEE BigData *2023*',
 				},
 				{
+					title: 'Journal Reviewer',
+					date: 'NA',
+					location: 'Virtual',
+					description:
+						'TMLR',
+				},
+				{
 					title: 'Program Committee',
 					date: 'NA',
 					location: 'Virtual',
