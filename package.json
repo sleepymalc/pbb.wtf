@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"gatsby": "5.16.0",
-		"gatsby-theme-academic": "*",
+		"gatsby-theme-academic": "2.3.2",
 		"react": "18.2.0",
 		"react-dom": "18.2.0"
 	}
