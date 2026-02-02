@@ -31,7 +31,7 @@ module.exports = {
 		'3. **Data-Centric Privacy**: Can above be done *without* compromising privacy when safety-critical or sensitive data is involved? This includes (differential) privacy, machine unlearning, etc.',
 		'Previously I have worked on *graph neural networks* with [Jiaqi Ma](https://jiaqima.github.io/) and *fast graph algorithms* with [Thatchaphol Saranurak](https://sites.google.com/site/thsaranurak/). Generally speaking, I held (actually *hold*) a strong interest in theoretical stuffs that involves *geometry*.',
 
-		'Currently, I\'m an [*Anthropic*](https://www.anthropic.com/) AI Safety Research Fellow. During my PhD, I\'ve had the immense delight of interning at [*Susquehanna International Group*](https://sig.com/) 🦅, [*Amazon AWS AI Lab*](https://aws.amazon.com/ai/) 🗽, and [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵.',
+		'Currently, I\'m an [*Anthropic*](https://www.anthropic.com/) AI Safety Research Fellow and an incoming Ph.D. ML intern at [*Susquehanna International Group*](https://sig.com/) 🦅. Previously, I\'ve had the immense delight of interning at [*Amazon AWS AI Lab*](https://aws.amazon.com/ai/) 🗽 and [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵.',
 
 		'### 🗞️ News',
 		'- [Jun. 2026] 🚀 Incoming intern @[*SIG*](https://sig.com/) Deep Learning team, come hanging out in Philly 🦅!',
