@@ -24,7 +24,7 @@ module.exports = {
 		'I speak TeX'
 	],
 	introduction: [
-		'I\'m a third-year Ph.D. candidate at [*University of Illinois Urbana-Champaign* (UIUC)](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/). I\'m also an [*Anthropic*](https://www.anthropic.com/) AI Safety Research Fellow and an incoming Ph.D. ML intern at [*Susquehanna International Group*](https://sig.com/) 🦅.',
+		'I\'m a third-year Ph.D. candidate at [*University of Illinois Urbana-Champaign* (UIUC)](https://illinois.edu/) 🌽 advised by [Jiaqi Ma](https://jiaqima.github.io/), and I also work closely with [Han Zhao](https://hanzhaoml.github.io/). Currently, I\'m also an [*Anthropic*](https://www.anthropic.com/) AI Safety Research Fellow and an incoming Ph.D. ML intern at [*Susquehanna International Group*](https://sig.com/) 🦅.',
 		'Previously, I\'ve spent time at [*Amazon AWS AI Lab*](https://aws.amazon.com/ai/) 🗽 as an Applied Scientist intern, and [*National Institute of Informatics*](https://www.nii.ac.jp/en/) 🇯🇵 as a research intern. I obtained my Master degree from [UIUC](https://illinois.edu/) and [dual Bachelor degree](https://www.ji.sjtu.edu.cn/academics/ipo/study-abroad/degree-programs/) from [*University of Michigan*](https://umich.edu/) 〽️ and [*Shanghai Jiao Tong University*](https://www.sjtu.edu.cn/) 🇨🇳.',
 
 		'Research-wise, I\'m interested in the broad area of ML and AI, with the goal being to draw theoretical insights from practical problems and develop algorithms with provable guarantees and desirable properties such as *efficiency*, *robustness*, and *fairness*. Recently, my research focuses on *understanding data*, including the following three aspects:',
