@@ -28,9 +28,17 @@ authors:
 
 ## Brief Summary
 
+Influence functions and related data attribution scores take the form of inverse-sensitive bilinear functionals $g^{\top}F^{-1}g^{\prime}$, where $F\succeq 0$ is a curvature operator and $g,g^{\prime}$ are training and test gradients. In modern overparameterized models, forming or inverting $F\in\mathbb{R}^{d\times d}$ is prohibitive, motivating scalable influence computation via *random projection* with a sketch $P \in \mathbb{R}^{m\times d}$. This practice is commonly justified via the Johnson-Lindenstrauss (JL) lemma, which ensures approximate preservation of Euclidean geometry for a fixed dataset. However, preserving pairwise distances does not address how sketching behaves under inversion. Furthermore, there is no existing theory that explains how sketching interacts with other widely-used techniques, such as ridge regularization (replacing $F^{-1}$ with $(F+\lambda I)^{-1}$) and structured curvature approximations.
 
+We develop a unified theory characterizing when projection provably preserves influence functions, with a focus on the required sketch size $m$. When $g,g^{\prime}\in\range(F)$, we show that:
 
-> This paper also appears in the ATTRIB 2024 workshop @NeurIPS.
+1. **Unregularized projection**: exact preservation holds if and only if $P$ is injective on $\range(F)$, which necessitates $m\geq \rank(F)$;
+2. **Regularized projection**: ridge regularization fundamentally alters the sketching barrier, with approximation guarantees governed by the *effective dimension* of $F$ at the regularization scale $\lambda$. This dependence is both sufficient and worst-case necessary, and can be substantially smaller than $\rank(F)$;
+3. **Factorized influence**: for Kronecker-factored curvatures $F=A\otimes E$, the guarantees continue to hold for decoupled sketches $P=P_A\otimes P_E$, even though such sketches exhibit structured row correlations that violate canonical i.i.d. assumptions; the analysis further reveals an explicit computational–statistical trade-off inherent to factorized sketches.
+
+Beyond this range-restricted setting, we analyze **out-of-range test gradients** and quantify a sketch-induced *leakage* term that arises when test gradients have components in $\ker(F)$. This yields guarantees for influence queries on general, unseen test points.
+
+Overall, this work develops a novel theory that characterizes when projection provably preserves influence and provides principled, instance-adaptive guidance for choosing the sketch size in practice.
 
 ## Citation
 
