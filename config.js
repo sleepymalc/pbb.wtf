@@ -257,7 +257,7 @@ module.exports = {
 			data: [
 				{
 					title: 'Graduate Teaching Assistant',
-					date: 'Jan. 2025 - May 2025',
+					date: 'Jan. 2025 - May 2025, Jan. 2026 - May 2026',
 					location: 'University of Illinois Urbana-Champaign',
 					description:
 						'**[IS527 Network Analysis](https://ischool.illinois.edu/degrees-programs/courses/is527)** (Graduate): ' +
